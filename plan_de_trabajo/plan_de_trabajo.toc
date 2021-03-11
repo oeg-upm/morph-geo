@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Descripción general del trabajo, con una lista de objetivos}{2}{}%
+\contentsline {section}{\numberline {2}Lista de tareas}{2}{}%
+\contentsline {section}{\numberline {3}Diagrama de Gantt}{2}{}%
+\contentsline {section}{\numberline {4}Copia de la propuesta de trabajo escrito por el tutor}{2}{}%
