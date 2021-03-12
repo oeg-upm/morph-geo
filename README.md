@@ -15,11 +15,12 @@ Recientemente, el Open Geospatial Consortium ha publicado el formato GeoPackage,
 ### Tutor
 OSCAR CORCHO GARCíA - ocorcho@fi.upm.es
 
-### Documentación inicial
-- https://github.com/oeg-upm/geo.linkeddata.es-TripleGeoKettle  
-- https://github.com/oeg-upm/docker-geokettle-x3geo  
-- https://github.com/oeg-upm/website-geo  
-- http://datos.ign.es/  
-- https://dl.acm.org/doi/abs/10.1145/1839707.1839753  
-- https://link.springer.com/article/10.1186/s40965-019-0060-4  
-- https://mappinggis.com/2018/08/di-no-al-shapefile-y-si-al-geopackage/  
+### Materiales para el desarrollo
+- [Source GeoKettle](https://github.com/oeg-upm/geo.linkeddata.es-TripleGeoKettle)  
+- [Imagen docker para desplegar GeoKettle](https://github.com/oeg-upm/docker-geokettle-x3geo)  
+- [Source de la pagina que implementa Map4RDF](https://github.com/oeg-upm/website-geo)  
+- [Datos IGN: Base Topográfica Nacional 1:100.000 (BTN100)](http://datos.ign.es/)  
+### Documentación
+- [Geographical Linked Data: a Spanish Use Case](http://oa.upm.es/6167/1/Geographical_Linked_Data_A_Spanish_Use_Case.pdf)  
+- [A sustainable process and toolbox for geographical linked data generation and publication: a case study with BTN100](https://link.springer.com/article/10.1186/s40965-019-0060-4)  
+- [Di no al Shapefile y sí al GeoPackage](https://mappinggis.com/2018/08/di-no-al-shapefile-y-si-al-geopackage/)  
