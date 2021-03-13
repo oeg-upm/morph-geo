@@ -2,48 +2,46 @@
 %%---------------------------------------------------------
 La introducción del TFG debe servir para que los profesores que evalúan el Trabajo puedan comprender el contexto en el que se realiza el mismo, y los objetivos que se plantean.
 
-Esta plantilla muestra la estructura básica de la memoria final de TFG, así como algunas instrucciones de formato.
+\section{Objetivos}
+El objetivo principal del trabajo es introducir soporte al formato GeoPackage en herramientas de Linked Data
+Geográfico desarrolladas por el Grupo de Ingeniería Ontológica.
+En el OEG se ha venido tradicionalmente trabajando con el Instituto Geográfico Nacional para la exportación de algunos de sus datos geográficos a formato Linked Data. Un ejemplo se puede encontrar en https://datos.ign.es/
 
-El esquema básico de una memoria final de TFG es el siguiente:
+Recientemente, el Open Geospatial Consortium ha publicado el formato GeoPackage, que tiene el objetivo de convertirse en un estándar para la representación de datos geográficos. El objetivo de este trabajo es el de dar soporte GeoPackage para las herramientas normalmente utilizadas para este tipo de tareas.
+
 \begin{itemize}
-\item[•] Resumen en español e inglés (máximo 2 páginas cada uno)
-\item[•] Tabla de contenidos
-\item[•] Introducción (con los objetivos del TFG)
-\item[•] Desarrollo
-\item[•] Resultados y conclusiones
-\item[•] Análisis de impacto
-\item[•] Bibliografía (publicaciones utilizadas en el estudio y desarrollo del trabajo)
-\item[•] Anexos (opcional)
+    \item Dar soporte GeoPackage a la herramienta Map4RDF.
+    \item Dar soporte GeoPackage a la herramienta GeoKettle y su plugin para transformar a RDF.
+    \item Realizar un procesado completo de todos los datos del IGN para generar este tipo de formato.
 \end{itemize}
 
-En cualquier caso, es el tutor del TFG quien indicará a su estudiante la estructura de memoria final que mejor se ajuste al trabajo desarrollado.
+\section{Estado del Arte}
 
-Con respecto al formato, se seguirán las siguientes pautas, que se muestran en esta plantilla:
-\begin{itemize}
-\item[•] \textit{Formato:} un único fichero PDF (recomendable que su tamaño no supere los $20$ Megas, no pudiendo ser superior a $50$ Megas), y opcionalmente un fichero comprimido para presentar código, ficheros de multimedia, etc. (de tamaño inferior a $10$ Megas)
-\item[•] \textit{Tamaño de papel:} DIN A4 a doble cara
-\item[•] \textit{Portada:} tal y como se recoge en las plantillas.
-\item[•] \textit{Tipo de letra para texto.} Preferiblemente «Bookman Old Style» $11$ puntos o equivalente, en negro.
-\item[•] \textit{Tipo de letra para código fuente:} «Consolas» o «Roboto mono».
-\item[•] \textit{Márgenes:} superior e inferior $3.5$ cm, izquierdo y derecho $3.0$ cm.
-\item[•] \textit{Superficie del texto:} $22.5$ cm de alto (aproximadamente $40$ líneas) y $15$ cm de ancho.
-\item[•] \textit{Cabecera y pies:} fuera de la superficie del texto.
-\item[•] \textit{Secciones y subsecciones:} reseñadas con numeración decimal a continuación del número del capítulo. Ej.: subsecciones 2.3.1.
-\item[•] \textit{Números de página:} siempre centrado en margen inferior, página 1 comienza en capítulo 1, todas las secciones anteriores al capítulo 1 en número romano en minúscula (i, ii, iii…).
-\item[•] \textit{Bibliografía:} según recomendaciones de la IEEE 
-\href{https://www.etsiinf.upm.es/docs/estudios/grado/1475_ieeecitationref.pdf}{(ver enlace)}.
-\end{itemize}
+\subsection{Datos Geoespaciales}
+Explicar lo que son en general, GIS, formatos...
+Qué es el OGC y por qué importan sus estándares
+\subsubsection{Shapefile}
+El formato ESRI Shapefile (SHP) es un formato de archivo de datos espaciales desarrollado por la compañía ESRI.
+A pesar de ser propietario, la especificación es abierta, y se considera un estandar de facto.
+\subsubsection{GeoPackage}
+Explicar las ventajas que tiene frente al shapefile para aclarar
+por qué merece la pena añadir el soporte a las herramientas.
 
-\vspace*{1.5cm}
-Para elaborar la memoria final del TFG con esta plantilla, seguir los siguientes pasos:
-\begin{enumerate}
-\item Descargar e instalar MiKTeX:  \url{https://miktex.org/}
-\item Descargar e instalar un editor de \LaTeX~ , por ejemplo Texmaker:
-\url{https://www.xm1math.net/texmaker/} o TeXstudio: \url{https://www.texstudio.org/}
+\subsection{Datos enlazados}
+Explicar qué son los datos enlazados y en específico RDF
 
-\item Editar el archivo «\textbf{\_DatosTFG.tex}», que hay en la carpeta «\textbf{secciones}» de esta plantilla. Cumplimentar todos los datos pedidos en dicho archivo. Guardar y cerrar.
-\item Compilar el archivo «\textbf{plantilla\_TFG.tex}» (puede ser renombrado). Se generará como resultado un archivo \textbf{pdf}.
-\item Para escribir la memoria final del TFG se pueden añadir y/o modificar los archivos de la carpeta «\textbf{secciones}» como sea necesario. El resultado se obtiene al compilar el archivo «\textbf{plantilla\_TFG.tex}». 
-\end{enumerate}
+\subsection{Portales de Datos abiertos}
+Poner ejemplo del IGN.
+
+\subsection{Map4RDF}
+
+\subsection{GeoKettle}
+Explicar qué es GeoPackage y su plugin.
+
+\section{Herramientas de desarrollo}
+Docker
+
+La imagen de docker de GeoKettle
+
 
 %%---------------------------------------------------------
