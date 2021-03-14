@@ -1,45 +1,56 @@
 \chapter{Introducción}
 %%---------------------------------------------------------
-La introducción del TFG debe servir para que los profesores que evalúan el Trabajo puedan comprender el contexto en el que se realiza el mismo, y los objetivos que se plantean.
+La introducción del TFG debe servir para que los profesores que evalúan el Trabajo puedan comprender el contexto
+en el que se realiza el mismo, y los objetivos que se plantean.
 
-\section{Objetivos}
-El objetivo principal del trabajo es introducir soporte al formato GeoPackage en herramientas de Linked Data
-Geográfico desarrolladas por el Grupo de Ingeniería Ontológica.
-En el OEG se ha venido tradicionalmente trabajando con el Instituto Geográfico Nacional para la exportación de algunos de sus datos geográficos a formato Linked Data. Un ejemplo se puede encontrar en https://datos.ign.es/
+\section{Objetivos} El objetivo principal del trabajo es introducir soporte al formato GeoPackage en herramientas
+de Linked Data Geográfico desarrolladas por el Grupo de Ingeniería Ontológica. En el OEG se ha venido
+tradicionalmente trabajando con el Instituto Geográfico Nacional para la exportación de algunos de sus datos
+geográficos a formato Linked Data. Un ejemplo se puede encontrar en la web del Instituto Geográfico Nacional.
+\cite{ign}
 
-Recientemente, el Open Geospatial Consortium ha publicado el formato GeoPackage, que tiene el objetivo de convertirse en un estándar para la representación de datos geográficos. El objetivo de este trabajo es el de dar soporte GeoPackage para las herramientas normalmente utilizadas para este tipo de tareas.
+Recientemente, el Open Geospatial Consortium ha publicado el formato GeoPackage, que tiene el objetivo de
+convertirse en un estándar para la representación de datos geográficos. El objetivo de este trabajo es el de dar
+soporte GeoPackage para las herramientas normalmente utilizadas para este tipo de tareas.
 
-\begin{itemize}
-    \item Dar soporte GeoPackage a la herramienta Map4RDF.
-    \item Dar soporte GeoPackage a la herramienta GeoKettle y su plugin para transformar a RDF.
-    \item Realizar un procesado completo de todos los datos del IGN para generar este tipo de formato.
-\end{itemize}
+\begin{itemize} \item Dar soporte GeoPackage a la herramienta Map4RDF. \item Dar soporte GeoPackage a la
+herramienta GeoKettle y su plugin para transformar a RDF. \item Realizar un procesado completo de todos los
+datos del IGN para generar este tipo de formato. \end{itemize}
 
 \section{Estado del Arte}
 
-\subsection{Datos Geoespaciales}
-Explicar lo que son en general, GIS, formatos...
-Qué es el OGC y por qué importan sus estándares
-\subsubsection{Shapefile}
-El formato ESRI Shapefile (SHP) es un formato de archivo de datos espaciales desarrollado por la compañía ESRI.
-A pesar de ser propietario, la especificación es abierta, y se considera un estandar de facto.
-\subsubsection{GeoPackage}
-Explicar las ventajas que tiene frente al shapefile para aclarar
+\subsection{GIS} Los sistemas de información geográfica son herramientas que permiten almacenar y analizar datos
+geoespaciales. Los sistemas digitales actuales permiten realizar consultas interactivas, añadir entradas a las
+bases de datos y visualizarlos de manera intuitiva. La información geográfica se puede aplicar a todo tipo de
+áreas, entre las que se encuentran la ingeniería, transporte, telecomunicación, economía, sociologia... Debido a
+la gran importancia tanto en el sector público como el privado\cite{gis-standards}, los estándares abiertos
+cobran importancia por estar disponibles al público, no tener que pagar licencias y ser consensuados por
+organizaciones de estándares internacionales. Entre ellas se encuentra el Open Geospatial Consortium que se creó
+en 1994 y agrupa a 521 (en marzo de 2021) miembros de organizaciones públicas y privadas.\cite{ogc-members}
+El OGC trabaja junto con las principales organizaciones de estándares de su ámbito (ISO/TC 211, W3C,
+IETF...) \cite{ogc-whitepaper}
+
+Existen diversos formatos de fichero GIS, divididos en \textbf{raster} y \textbf{vector}. La diferencia es
+equivalente a la que existe entre imágenes con resolución limitada por el número de píxeles (raster) y las 
+imágenes vectoriales formadas por puntos, líneas y polígonos, con resoluciones infinitas. Cada tipo de formato
+tiene sus ventajas y desventajas y la elección dependerá del caso de uso. \#TODO ventajas vs desventajas?
+
+\subsubsection{Shapefile} El formato ESRI Shapefile (SHP) es un formato de archivo de datos espaciales
+desarrollado por la compañía ESRI. A pesar de ser propietario, la especificación es abierta, y se considera un
+estandar de facto.
+
+\subsubsection{GeoPackage} Explicar las ventajas que tiene frente al shapefile para aclarar
 por qué merece la pena añadir el soporte a las herramientas.
 
-\subsection{Datos enlazados}
-Explicar qué son los datos enlazados y en específico RDF
+\subsection{Datos enlazados} Explicar qué son los datos enlazados y en específico RDF
 
-\subsection{Portales de Datos abiertos}
-Poner ejemplo del IGN.
+\subsection{Portales de Datos abiertos} Poner ejemplo del IGN.
 
 \subsection{Map4RDF}
 
-\subsection{GeoKettle}
-Explicar qué es GeoPackage y su plugin.
+\subsection{GeoKettle} Explicar qué es GeoPackage y su plugin.
 
-\section{Herramientas de desarrollo}
-Docker
+\section{Herramientas de desarrollo} Docker
 
 La imagen de docker de GeoKettle
 
