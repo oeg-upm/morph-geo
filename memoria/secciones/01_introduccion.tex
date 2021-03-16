@@ -27,7 +27,7 @@ bases de datos y visualizarlos de manera intuitiva. La información geográfica 
 áreas, entre las que se encuentran la ingeniería, transporte, telecomunicación, economía, sociologia... Debido a
 la gran importancia tanto en el sector público como el privado\cite{gis-standards}, los estándares abiertos
 cobran importancia por estar disponibles al público, no tener que pagar licencias y ser consensuados por
-organizaciones de estándares internacionales. Entre ellas se encuentra el Open Geospatial Consortium que se creó
+organizaciones de estándares internacionales. Entre ellas se encuentra el Open Geospatial Consortium(OEG) que se creó
 en 1994 y agrupa a 521 (en marzo de 2021) miembros de organizaciones públicas y privadas.\cite{ogc-members}
 El OGC trabaja junto con las principales organizaciones de estándares de su ámbito (ISO/TC 211, W3C,
 IETF...) \cite{ogc-whitepaper}
@@ -35,38 +35,53 @@ IETF...) \cite{ogc-whitepaper}
 Existen diversos formatos de fichero GIS, divididos en \textbf{raster} y \textbf{vector}. La diferencia es
 equivalente a la que existe entre imágenes con resolución limitada por el número de píxeles (raster) y las 
 imágenes vectoriales formadas por puntos, líneas y polígonos; con resoluciones infinitas. Cada tipo de formato
-tiene sus ventajas y desventajas y la elección dependerá del caso de uso. 
+tiene sus ventajas y desventajas y la elección dependerá del caso de uso. Existen varios formatos vectoriales
+pero para este trabajo sólo se se considerarán el formato \textit{shapefile} y el \textit{GeoPackage} para cumplir
+los objetivos.
 
-\subsubsection{Shapefile} El formato ESRI Shapefile (SHP) es un formato de archivo de datos espaciales
-desarrollado por la compañía ESRI. A pesar de ser propietario, la especificación es abierta, y se considera un
-estandar de facto. Debido a su popularidad, goza de grán compatibilidad con sig. Gracias al fichero índice, se
-obtiene una velocidad de lectura alta, y su eficiencia de tamaño produce archivos relativamente pequeños.
+\subsubsection{Shapefile} El formato ESRI Shapefile (SHP) es un formato de archivo de datos espaciales vectorial
+desarrollado por la compañía ESRI a principios de la década de 1990. A pesar de ser propietario, la
+especificación es abierta, y se considera un estandar de facto. Debido a su popularidad, goza de grán
+compatibilidad con sig. Gracias al uso de un fichero índice, se obtiene una velocidad de lectura alta, y su
+eficiencia de tamaño produce archivos relativamente pequeños.
 
 Sin embargo, tiene varias desventajas, algunas derivadas del uso del estándar dBase \cite{shapefile-specs}
 \cite{shapefile-no}: 
 
 \begin{enumerate} 
-    \item No tiene definición de sistema de referencia de coordenadas
-            \footnote{Un sistema de coordenadas es un sistema de referencia que se utiliza para
-            representar la ubicación de entidades geográficas, imágenes y observaciones (como las localizaciones GPS)
-            dentro de un marco geográfico común. Los sistemas de coordenadas permiten a los datasets geográficos
-            utilizar ubicaciones comunes para la integración de datasets. \cite{coordenadas}}
+    \item No tiene definición de sistema de referencia de coordenadas \footnote{Un sistema de
+            coordenadas es un sistema de referencia que se utiliza para representar la ubicación de entidades
+            geográficas, imágenes y observaciones (como las localizaciones GPS) dentro de un marco geográfico
+            común. Los sistemas de coordenadas permiten a los datasets geográficos utilizar ubicaciones comunes
+            para la integración de datasets. \cite{coordenadas}} 
         , se puede usar uno pero no es parte estándar de la especificación.     
-    \item Se reparte en múltiples ficheros: es incómodo y lleva a errores al compartirlos.  
-    \item Los nombres de atributos están limitados a 10 caracteres ASCII
-    \item El número máximo de campos de atributo es 255.
-    \item Solo admite float, integer, date y text con un máximo de 254 caracteres.
-    \item No se puede especificar conjunto de caracteres de la BBDD.
-    \item El tamaño está limitado a 4GB.
-    \item No admite valores NULL
-    \item No hay forma de describir las relaciones topológicas en el formato.
-    \item Solamente puede almacenar una geometría por archivo.
-    \item Utiliza una estructura de datos de tabla plana, sin jerarquías, relaciones ni estructura en árbol.
-    \item El soporte 3D es muy limitado.
+    \item Se reparte en múltiples ficheros: es incómodo y lleva a errores al compartirlos.
+    \item Los nombres de atributos están limitados a 10 caracteres ASCII 
+    \item El número máximo de campos de atributo es 255.  
+    \item Solo admite float, integer, date y text con un máximo de 254 caracteres.  
+    \item No se puede especificar conjunto de caracteres de la BBDD.  
+    \item El tamaño está limitado a 4GB.  
+    \item No admite valores NULL 
+    \item No hay forma de describir las relaciones topológicas en el formato.  
+    \item Solamente puede almacenar una geometría por archivo.  
+    \item Utiliza una estructura de datos de tabla plana, sin jerarquías, relaciones ni estructura en árbol.  
+    \item El soporte 3D es muy limitado.  
 \end{enumerate}
 
-\subsubsection{GeoPackage} Explicar las ventajas que tiene frente al shapefile para aclarar
-por qué merece la pena añadir el soporte a las herramientas.
+\subsubsection{GeoPackage}
+GeoPackage es un formato GIS abierto, no propietario, basado en estándares, independiente de plataformas,
+portable y compacto basado en SQLite; publicado por el OEG en 2014. \cite{geopackage-spec}
+    
+El formato geopackage tiene las siguientes ventajas \cite{shapefile-no}:
+\begin{itemize}
+
+    \item Dispone de índices espaciales basados en R-trees \cite{rtree} que incrementan la velocidad de búsquedas
+        espaciales y su visualización en los SIG de escritorio.
+       
+    \item Todo el contenido se almacena en un único archivo .gpkg.
+
+\end{itemize}
+
 
 \subsection{Datos enlazados} Explicar qué son los datos enlazados y en específico RDF
 
