@@ -69,17 +69,28 @@ Sin embargo, tiene varias desventajas, algunas derivadas del uso del estándar d
 \end{enumerate}
 
 \subsubsection{GeoPackage}
-GeoPackage es un formato GIS abierto, no propietario, basado en estándares, independiente de plataformas,
-portable y compacto basado en SQLite; publicado por el OEG en 2014. \cite{geopackage-spec}
+GeoPackage es un formato GIS implementado en SQLite publicado por el OEG en 2014. \cite{geopackage-spec}
     
 El formato geopackage tiene las siguientes ventajas \cite{shapefile-no}:
 \begin{itemize}
 
+    \item Es abierto, no propietario, basado en estándares, independiente de plataformas,
+        portable y compacto.
+
+    \item Gracias a SQLite puede almacenar datos grandes (hasta 140TB)\cite{sqlite-limits} y los atributos de
+        las geometrías pueden contentener nombres muy largos.
+
     \item Dispone de índices espaciales basados en R-trees \cite{rtree} que incrementan la velocidad de búsquedas
         espaciales y su visualización en los SIG de escritorio.
        
-    \item Todo el contenido se almacena en un único archivo .gpkg.
+    \item Todo el contenido se almacena en un único archivo .gpkg que puede almacenar multitud de tipos de
+        geometrías
 
+    \item Soporta el uso directo, para acceder a los datos de GeoPackage de forma «nativa» sin traducciones de
+        formato intermedio.
+
+    \item GeoPackage es soportado por GDAL\cite{gdal}, la librería de conversión de datos utilizada por multitud
+        de programas GIS (incluído GeoKettle), y los principales programas GIS.
 \end{itemize}
 
 
