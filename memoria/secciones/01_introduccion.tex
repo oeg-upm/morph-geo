@@ -13,11 +13,11 @@ Recientemente, el Open Geospatial Consortium ha publicado el formato GeoPackage,
 convertirse en un estándar para la representación de datos geográficos. El objetivo de este trabajo es el de dar
 soporte GeoPackage para las herramientas normalmente utilizadas para este tipo de tareas.
 
-\begin{itemize} 
+\begin{enumerate} 
     \item Dar soporte GeoPackage a la herramienta Map4RDF. 
     \item Dar soporte GeoPackage a la herramienta GeoKettle y su plugin para transformar a RDF. 
     \item Realizar un procesado completo de todos los datos del IGN para generar este tipo de formato. 
-\end{itemize}
+\end{enumerate}
 
 \section{Estado del Arte}
 
@@ -94,11 +94,73 @@ El formato geopackage tiene las siguientes ventajas \cite{shapefile-no}:
 \end{itemize}
 
 
-\subsection{Datos enlazados} Explicar qué son los datos enlazados y en específico RDF
+\subsection{Datos enlazados}
+El objetivo de los datos enlazados es utilizar la web como una única base de datos global. Tim Berners Lee,
+creador de la World Wide Web, quien acuñó el término linked data\cite{berners-lee}, definió sus 4 principios
+fundamentales:
 
-\subsection{Portales de Datos abiertos} Poner ejemplo del IGN.
+\begin{enumerate}
+    \item Utilizar URIs para identificar los recursos publicados en la Web.
+    \item Utilizar URIs HTTP para que las personas puedan consultar esos recursos.
+    \item Cuando alguien acceda a una URI, proporcionar información útil mediante estándares (RDF*, SPARQL).
+    \item Incluir enlaces a otras URIs para facilitar el descubrimiento de más información relacionada.
+\end{enumerate}
+
+Los datos enlazados posibilitan la web semántica, extensión de la web tradicional en la que la información tiene
+significado bien definido\cite{semantic-web} y fundamentada en:
+\begin{itemize}
+    \item URIs: cadena de caracteres que identifica los recursos de una red de forma unívoca.
+    \item RDF: método para la descripción conceptual o modelado de la información.
+    \item HTTP: protocolo de comunicación.
+\end{itemize}
+
+RDF modela información mediante triples o tripletas de sujeto-predicado-objeto. El sujeto hace referencia al
+recurso y el predicado a sus rasgos o aspectos y relación entre el sujeto y el objeto. SPARQL es el lenguaje para
+la consulta de grafos RDF.
+
+\subsection{Portales de Datos abiertos}
+
+Los datos abiertos parten de la idea de que los datos deberían estar disponibles de forma libre para todo el
+mundo, libre de derechos de autor, patentes o de otros mecanismos de control. Los portales de datos abiertos
+proporcionan una manera sencilla de buscar y obtener estos datos. Los datos pueden tener cualquier procedencia,
+pero han cobrado especial importancia los datos ligados a las políticas de Gobierno abierto, que persigue que los
+datos y la información, especialmente las que poseen las administraciones públicas, se publiquen de forma
+abierta. \cite{datos-madrid}
+
+El tercer objetivo de este trabajo se centra en realizar un procesado completo de todos los datos del IGN.
+\textit{datos.ign.es} es una iniciativa del Instituto Geográfico Nacional (IGN) para la generación de la información
+semántica de sus recursos\cite{datos-ign}. Actualmente el dataset disponible es la Base Topográfica Nacional
+1:100.000 (BTN100), un catálogo de datos geográficos agrupados por temáticas.
 
 \subsection{Map4RDF}
+
+Map4rdf es una herramienta para la navegación y visualización de datasets RDF con información geoespacial
+mediante facetas\cite{map4rdf-paper}. Algunos ejemplos de las facetas y sus contenidos que permiten clasificar los elementos del
+BTN100:
+
+\begin{itemize}
+    \item Altimetria: Cerro, Cordillera, Montaña...
+    \item Hidrografía: Bahía, Cabo, Playa...
+    \item Transporte: Aeropuerto, Calle, Faro...
+    \item ...
+\end{itemize}
+
+El funcionamiento de Map4rdf es el siguiente:
+\begin{enumerate}
+
+    \item El componente \textit{DAO} \footnote{Data Acces Object: propociona una interfaz abstracta a una base de
+        datos.} se conecta a una \textit{triplestore} \footnote{Triplestore: base de datos de tripletas} mediante
+        el \textit{endpoint SPARQL} \footnote{SPARQL endpoint: url capaz de recibir y procesar peticiones del
+        protocolo SPARQL} para responder a las consultas de facetas. 
+
+    \item La interfaz de navegación facetada obtiene la lista de facetas y las visualiza. 
+
+    \item El usuario selecciona una faceta y el componente DAO realiza una consulta en el
+        triplestore mediante el endpoint SPARQL para recuperarlas la información pedida.
+
+    \item La interfaz recibe toda esta información y la visualiza en el mapa.
+
+\end{enumerate}
 
 
 \subsection{GeoKettle} Explicar qué es GeoKettle y su plugin.
