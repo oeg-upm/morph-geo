@@ -39,6 +39,13 @@ tiene sus ventajas y desventajas y la elección dependerá del caso de uso. Exis
 pero para este trabajo sólo se se considerarán el formato \textit{shapefile} y el \textit{GeoPackage} para cumplir
 los objetivos.
 
+\begin{figure}[h]
+    \includegraphics[width=0.4\textwidth]{images/vector-raster.jpg}
+    \centering
+    \caption{Representación del terreno mediante vectores y raster}
+    \label{fig:vector-raster}
+\end{figure}
+
 \subsubsection{Shapefile} El formato ESRI Shapefile (SHP) es un formato de archivo de datos espaciales vectorial
 desarrollado por la compañía ESRI a principios de la década de 1990. A pesar de ser propietario, la
 especificación es abierta, y se considera un estandar de facto. Debido a su popularidad, goza de grán
@@ -162,12 +169,30 @@ El funcionamiento de Map4rdf es el siguiente:
 
 \end{enumerate}
 
+\begin{figure}[h]
+    \includegraphics[width=\textwidth]{images/map4rdf.png}
+    \centering
+    \caption{http://certidatos.ign.es/map/ que implementa Map4Rdf}
+    \label{fig:map4rdf}
+\end{figure}
 
-\subsection{GeoKettle} Explicar qué es GeoKettle y su plugin.
 
-\section{Herramientas de desarrollo} Docker
+\subsection{GeoKettle}
 
-La imagen de docker de GeoKettle
+GeoKettle es una versión de Pentaho Data Integration (Kettle)\cite{pentaho} con capacidad de tratamiento de datos
+espaciales. Es una potente herramienta ETL: extracción, transformación y carga orientada al uso de metadatos y
+con funcionalidades espaciales dedicada a la integración de diversos orígenes de datos para la construcción y/o
+actualización de bases de datos espaciales y almacenes de datos espaciales. \cite{geokettle-osg}
+
+TripleGeo es un plugin para GeoKettle que transforma datos geoespaciales en tripletas RDF siguiendo el standar
+GeoSPARQL \cite{triplegeo}
+
+\begin{figure}[h]
+    \includegraphics[width=\textwidth]{images/kettle.png}
+    \centering
+    \caption{TripleGeoKettle en funcionamiento, TripleGeoKettle wiki}
+    \label{fig:kettle}
+\end{figure}
 
 
 %%---------------------------------------------------------
