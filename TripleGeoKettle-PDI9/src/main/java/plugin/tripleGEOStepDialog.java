@@ -66,7 +66,7 @@ import org.pentaho.di.ui.trans.step.BaseStepDialog;
  */
 public class tripleGEOStepDialog extends BaseStepDialog implements StepDialogInterface {
 
-	private static String PKG = tripleGEOStepDialog.class.getPackage().getName();
+	private static final Class<?> PKG =tripleGEOStepMeta.class;
 
 	private tripleGEOStepMeta input;
 

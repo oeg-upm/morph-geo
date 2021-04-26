@@ -159,7 +159,7 @@ public class tripleGEOStep extends BaseStep implements StepInterface {
 			try {	
 				this.shpToRDF.getModelFromConfiguration(); // Init RDF	    		
 			} catch (Throwable t) {
-				System.out.println(t.toString() + t.getCause().getMessage());
+				System.out.println(t.toString() + t.getCause().getMessage() + "oof");
 				t.printStackTrace();
 			}
 

@@ -62,14 +62,14 @@ import org.w3c.dom.Node;
 
 @Step(
 		  id = "TripleGeoKettle",
-		  name = "DemoStep.Name",
-		  description = "DemoStep.TooltipDesc",
-		  image = "tripleGeoKettle/resources/tripleGeoKettle.svg",
+		  name = "tripleGEOStep.Name",
+		  description = "tripleGEOStep.TooltipDesc",
+		  image = "plugin/resources/tripleGeoKettle.svg",
 		  categoryDescription = "i18n:org.pentaho.di.trans.step:BaseStep.Category.Transform",
 		  i18nPackageName = "tripleGeoKettle",
-		  documentationUrl = "DemoStep.DocumentationURL",
-		  casesUrl = "DemoStep.CasesURL",
-		  forumUrl = "DemoStep.ForumURL"
+		  documentationUrl = "tripleGEOStep.DocumentationURL",
+		  casesUrl = "tripleGEOStep.CasesURL",
+		  forumUrl = "tripleGEOStep.ForumURL"
 		  )
 @InjectionSupported( localizationPrefix = "DemoStepMeta.Injection." )
 public class tripleGEOStepMeta extends BaseStepMeta implements StepMetaInterface {
