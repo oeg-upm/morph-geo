@@ -1,20 +1,27 @@
 \chapter{Introducción}
 %%---------------------------------------------------------
-La introducción del TFG debe servir para que los profesores que evalúan el Trabajo puedan comprender el contexto
-en el que se realiza el mismo, y los objetivos que se plantean.
 
-\section{Objetivos} El objetivo principal del trabajo es introducir soporte al formato GeoPackage en herramientas
+\section{Objetivos} El objetivo principal del trabajo es modernizar las herramientas
 de Linked Data Geográfico desarrolladas por el Grupo de Ingeniería Ontológica. En el OEG se ha venido
 tradicionalmente trabajando con el Instituto Geográfico Nacional para la exportación de algunos de sus datos
 geográficos a formato Linked Data. Un ejemplo se puede encontrar en la web del Instituto Geográfico Nacional.
 \cite{ign}
 
-Recientemente, el Open Geospatial Consortium ha publicado el formato GeoPackage, que tiene el objetivo de
-convertirse en un estándar para la representación de datos geográficos. El objetivo de este trabajo es el de dar
-soporte GeoPackage para las herramientas normalmente utilizadas para este tipo de tareas.
+Desde que se publicó ``A sustainable process and toolbox for geographical linked data generation and publication:
+a case study with BTN100'' en 2019\cite{toolbox}, GeoKettle ha dejado de estar soportado. La pagina oficial y de documentación
+ya no están disponibles. Algunas funcionalidades de GeoKettle se integraron en PDI directamente y otras
+desaparecieron. Actualmente, el soporte GIS de Pentaho está dentro de PDI Spoon y además hay algunas
+funcionalidades más en el plugin llamado pentaho-gis-plugins\cite{gis-plugins}. 
 
+Por otro lado, recientemente, el Open Geospatial Consortium ha publicado el formato GeoPackage, que tiene el
+objetivo de convertirse en un estándar para la representación de datos geográficos. El siguiente objetivo de este
+trabajo es el de dar soporte GeoPackage para las herramientas normalmente utilizadas para este tipo de tareas.
+Ya que el 3 de abril de 2021 pentaho-gis-plugins añadió soporte geopackage a su plugin, parte del trabajo está
+hecho.
+
+En resumen:
 \begin{enumerate} 
-    \item Dar soporte GeoPackage a la herramienta Map4RDF. 
+    \item Replicar la funcionalidad y las transformaciones de GeoKettle + TripleGeo en la nueva suite PDI. 
     \item Dar soporte GeoPackage a la herramienta GeoKettle y su plugin para transformar a RDF. 
     \item Realizar un procesado completo de todos los datos del IGN para generar este tipo de formato. 
 \end{enumerate}
@@ -39,7 +46,7 @@ tiene sus ventajas y desventajas y la elección dependerá del caso de uso. Exis
 pero para este trabajo sólo se se considerarán el formato \textit{shapefile} y el \textit{GeoPackage} para cumplir
 los objetivos.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \includegraphics[width=0.4\textwidth]{images/vector-raster.jpg}
     \centering
     \caption{Representación del terreno mediante vectores y raster}
@@ -169,7 +176,7 @@ El funcionamiento de Map4rdf es el siguiente:
 
 \end{enumerate}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \includegraphics[width=\textwidth]{images/map4rdf.png}
     \centering
     \caption{http://certidatos.ign.es/map/ que implementa Map4Rdf}
@@ -179,7 +186,7 @@ El funcionamiento de Map4rdf es el siguiente:
 
 \subsection{GeoKettle}
 
-GeoKettle es una versión de Pentaho Data Integration (Kettle)\cite{pentaho} con capacidad de tratamiento de datos
+GeoKettle es una (antigua) versión de Pentaho Data Integration (Kettle)\cite{pentaho} con capacidad de tratamiento de datos
 espaciales. Es una potente herramienta ETL: extracción, transformación y carga orientada al uso de metadatos y
 con funcionalidades espaciales dedicada a la integración de diversos orígenes de datos para la construcción y/o
 actualización de bases de datos espaciales y almacenes de datos espaciales. \cite{geokettle-osg}
@@ -187,12 +194,46 @@ actualización de bases de datos espaciales y almacenes de datos espaciales. \ci
 TripleGeo es un plugin para GeoKettle que transforma datos geoespaciales en tripletas RDF siguiendo el standar
 GeoSPARQL \cite{triplegeo}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \includegraphics[width=\textwidth]{images/kettle.png}
     \centering
     \caption{TripleGeoKettle en funcionamiento, TripleGeoKettle wiki}
     \label{fig:kettle}
 \end{figure}
 
+\section{Pentaho Data Integration Spoon}
+
+PDI Spoon\cite{pdi-spoon} es la herramienta que reemplaza a GEOKettle. La GUI, el funcionamiento y el SDK para desarrollar
+plugins es parecido. Sin embargo, en cuanto al desarrollo de plugins, cambia la manera de gestionar las
+dependencias, las cabeceras de algunas interfaces que se deben implementar, los iconos, metadatos, estructura de
+carpetas...
+
+\subsection{Pentaho GIS Plugins}
+
+Es un plugin desarrollado por Atol Conseils et Développements\cite{atol} para PDI9. Proporciona parte de la funcionalidad
+GIS que tenia GEOKettle. fig.\ref{fig:gis-plugins} 
+
+\begin{figure}[H]
+    \includegraphics[width=0.6\textwidth]{images/gis-plugins.png}
+    \centering
+    \caption{Steps incluidos en gis-plugins}
+    \label{fig:gis-plugins}
+\end{figure}
+
+
+\subsection{Apache Ant}
+
+Apache Ant\cite{apache-ant} es una libreria Java y herramienta de línea de comandos para construir aplicaciones java (compilar,
+ensamblar y ejecutarlas). Los scripts de configuración se escriben en formato XML y son muy flexibles.
+
+\subsection{Apache Maven}
+
+Apache Maven \cite{apache-maven} es una herramienta de gestión de proyectos y dependencias. Está basado en el
+concepto Project Object Model (POM). Maven es capaz de construir las aplicaciones, descargar las dependencias y
+gestionarlas, ejecutar tests, crear documentación...
+
+El fichero principal, pom.xml detalla la configuración. Se pueden incluir repositorios externos y dependencias.
+Maven se encarga de descargar las dependencias y sus subdependencias desde los repositorios para no tener que
+hacerlo a mano.
 
 %%---------------------------------------------------------
