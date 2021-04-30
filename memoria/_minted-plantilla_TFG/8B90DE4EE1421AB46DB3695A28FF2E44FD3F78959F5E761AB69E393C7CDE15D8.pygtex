@@ -1,0 +1,94 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZlt{}?xml version=\PYGZdq{}1.0\PYGZdq{}?\PYGZgt{}}
+\PYG{n+nt}{\PYGZlt{}project} \PYG{n+na}{xsi:schemaLocation=}\PYG{l+s}{\PYGZdq{}http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven\PYGZhy{}4.0.0.xsd\PYGZdq{}} \PYG{n+na}{xmlns=}\PYG{l+s}{\PYGZdq{}http://maven.apache.org/POM/4.0.0\PYGZdq{}}
+        \PYG{n+na}{xmlns:xsi=}\PYG{l+s}{\PYGZdq{}http://www.w3.org/2001/XMLSchema\PYGZhy{}instance\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}modelVersion\PYGZgt{}}4.0.0\PYG{n+nt}{\PYGZlt{}/modelVersion\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}groupId\PYGZgt{}}oeg\PYGZhy{}upm\PYG{n+nt}{\PYGZlt{}/groupId\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}artifactId\PYGZgt{}}tripleGeoKettle\PYGZhy{}oeg\PYG{n+nt}{\PYGZlt{}/artifactId\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}version\PYGZgt{}}1\PYG{n+nt}{\PYGZlt{}/version\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}name\PYGZgt{}}tripleGeoKettle\PYG{n+nt}{\PYGZlt{}/name\PYGZgt{}}
+
+    \PYG{n+nt}{\PYGZlt{}properties\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}pentaho\PYGZhy{}metadata.version\PYGZgt{}}9.1.0.0\PYGZhy{}324\PYG{n+nt}{\PYGZlt{}/pentaho\PYGZhy{}metadata.version\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}pdi.version\PYGZgt{}}9.1.0.0\PYGZhy{}324\PYG{n+nt}{\PYGZlt{}/pdi.version\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}/properties\PYGZgt{}}
+
+    \PYG{n+nt}{\PYGZlt{}repositories\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}repository\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}id\PYGZgt{}}pentaho\PYGZhy{}releases\PYG{n+nt}{\PYGZlt{}/id\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}url\PYGZgt{}}https://nexus.pentaho.org/content/groups/omni\PYG{n+nt}{\PYGZlt{}/url\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/repository\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}repository\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}id\PYGZgt{}}osgeo\PYG{n+nt}{\PYGZlt{}/id\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}url\PYGZgt{}}https://repo.osgeo.org/repository/release/\PYG{n+nt}{\PYGZlt{}/url\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/repository\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}/repositories\PYGZgt{}}
+
+    \PYG{n+nt}{\PYGZlt{}dependencies\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}dependency\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}groupId\PYGZgt{}}org.pentaho\PYG{n+nt}{\PYGZlt{}/groupId\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}artifactId\PYGZgt{}}pentaho\PYGZhy{}metadata\PYG{n+nt}{\PYGZlt{}/artifactId\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}version\PYGZgt{}}\PYGZdl{}\PYGZob{}pentaho\PYGZhy{}metadata.version\PYGZcb{}\PYG{n+nt}{\PYGZlt{}/version\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}scope\PYGZgt{}}provided\PYG{n+nt}{\PYGZlt{}/scope\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/dependency\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}dependency\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}groupId\PYGZgt{}}pentaho\PYGZhy{}kettle\PYG{n+nt}{\PYGZlt{}/groupId\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}artifactId\PYGZgt{}}kettle\PYGZhy{}core\PYG{n+nt}{\PYGZlt{}/artifactId\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}version\PYGZgt{}}\PYGZdl{}\PYGZob{}pdi.version\PYGZcb{}\PYG{n+nt}{\PYGZlt{}/version\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}scope\PYGZgt{}}provided\PYG{n+nt}{\PYGZlt{}/scope\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/dependency\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}dependency\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}groupId\PYGZgt{}}pentaho\PYGZhy{}kettle\PYG{n+nt}{\PYGZlt{}/groupId\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}artifactId\PYGZgt{}}kettle\PYGZhy{}engine\PYG{n+nt}{\PYGZlt{}/artifactId\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}version\PYGZgt{}}\PYGZdl{}\PYGZob{}pdi.version\PYGZcb{}\PYG{n+nt}{\PYGZlt{}/version\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}scope\PYGZgt{}}provided\PYG{n+nt}{\PYGZlt{}/scope\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/dependency\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}dependency\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}groupId\PYGZgt{}}pentaho\PYGZhy{}kettle\PYG{n+nt}{\PYGZlt{}/groupId\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}artifactId\PYGZgt{}}kettle\PYGZhy{}ui\PYGZhy{}swt\PYG{n+nt}{\PYGZlt{}/artifactId\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}version\PYGZgt{}}\PYGZdl{}\PYGZob{}pdi.version\PYGZcb{}\PYG{n+nt}{\PYGZlt{}/version\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}scope\PYGZgt{}}provided\PYG{n+nt}{\PYGZlt{}/scope\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/dependency\PYGZgt{}}
+
+        \PYG{n+nt}{\PYGZlt{}dependency\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}groupId\PYGZgt{}}org.apache.jena\PYG{n+nt}{\PYGZlt{}/groupId\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}artifactId\PYGZgt{}}jena\PYGZhy{}arq\PYG{n+nt}{\PYGZlt{}/artifactId\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}version\PYGZgt{}}3.0.0\PYG{n+nt}{\PYGZlt{}/version\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/dependency\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}dependency\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}groupId\PYGZgt{}}com.vividsolutions\PYG{n+nt}{\PYGZlt{}/groupId\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}artifactId\PYGZgt{}}jts\PYG{n+nt}{\PYGZlt{}/artifactId\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}version\PYGZgt{}}1.11\PYG{n+nt}{\PYGZlt{}/version\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/dependency\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}dependency\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}groupId\PYGZgt{}}org.geotools\PYG{n+nt}{\PYGZlt{}/groupId\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}artifactId\PYGZgt{}}gt\PYGZhy{}geometry\PYG{n+nt}{\PYGZlt{}/artifactId\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}version\PYGZgt{}}2.7\PYGZhy{}M0\PYG{n+nt}{\PYGZlt{}/version\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/dependency\PYGZgt{}}
+
+    \PYG{n+nt}{\PYGZlt{}/dependencies\PYGZgt{}}
+
+    \PYG{n+nt}{\PYGZlt{}build\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}plugins\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}plugin\PYGZgt{}}
+                \PYG{n+nt}{\PYGZlt{}artifactId\PYGZgt{}}maven\PYGZhy{}assembly\PYGZhy{}plugin\PYG{n+nt}{\PYGZlt{}/artifactId\PYGZgt{}}
+                \PYG{n+nt}{\PYGZlt{}executions\PYGZgt{}}
+                    \PYG{n+nt}{\PYGZlt{}execution\PYGZgt{}}
+                        \PYG{n+nt}{\PYGZlt{}id\PYGZgt{}}distro\PYGZhy{}assembly\PYG{n+nt}{\PYGZlt{}/id\PYGZgt{}}
+                        \PYG{n+nt}{\PYGZlt{}phase\PYGZgt{}}package\PYG{n+nt}{\PYGZlt{}/phase\PYGZgt{}}
+                        \PYG{n+nt}{\PYGZlt{}goals\PYGZgt{}}
+                            \PYG{n+nt}{\PYGZlt{}goal\PYGZgt{}}single\PYG{n+nt}{\PYGZlt{}/goal\PYGZgt{}}
+                        \PYG{n+nt}{\PYGZlt{}/goals\PYGZgt{}}
+                        \PYG{n+nt}{\PYGZlt{}configuration\PYGZgt{}}
+                            \PYG{n+nt}{\PYGZlt{}appendAssemblyId\PYGZgt{}}false\PYG{n+nt}{\PYGZlt{}/appendAssemblyId\PYGZgt{}}
+                            \PYG{n+nt}{\PYGZlt{}descriptors\PYGZgt{}}
+                                \PYG{n+nt}{\PYGZlt{}descriptor\PYGZgt{}}src/main/assembly/assembly.xml\PYG{n+nt}{\PYGZlt{}/descriptor\PYGZgt{}}
+                            \PYG{n+nt}{\PYGZlt{}/descriptors\PYGZgt{}}
+                        \PYG{n+nt}{\PYGZlt{}/configuration\PYGZgt{}}
+                    \PYG{n+nt}{\PYGZlt{}/execution\PYGZgt{}}
+                \PYG{n+nt}{\PYGZlt{}/executions\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}/plugin\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/plugins\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}/build\PYGZgt{}}
+\PYG{n+nt}{\PYGZlt{}/project\PYGZgt{}}
+\end{Verbatim}
