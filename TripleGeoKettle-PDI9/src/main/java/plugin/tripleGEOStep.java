@@ -78,7 +78,8 @@ public class tripleGEOStep extends BaseStep implements StepInterface {
 				this.meta = null; // Helps the garbage collector		        
 
 				Object[] result = new Object[1];
-				result[0] = this.shpToRDF.getModel_rdf();
+				// TODO remove comment
+				//result[0] = this.shpToRDF.getModel_rdf();
 
 				putRow(this.data.outputRowMeta, result);
 
@@ -159,7 +160,7 @@ public class tripleGEOStep extends BaseStep implements StepInterface {
 			try {	
 				this.shpToRDF.getModelFromConfiguration(); // Init RDF	    		
 			} catch (Throwable t) {
-				System.out.println(t.toString() + t.getCause().getMessage() + "oof");
+				System.out.println(t.toString() + t.getCause().getMessage());
 				t.printStackTrace();
 			}
 
@@ -220,16 +221,18 @@ public class tripleGEOStep extends BaseStep implements StepInterface {
 
 			logBasic("tripleGEO step initialized successfully.");		
 		}
-
+//TODO remove comment
+/*
 		// Process Row 
-		try {	    	
+		try {    	
 			this.shpToRDF.writeRdfModel(row,this.data.outputRowMeta);	    	
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
+	*/
 		return true;
 	}
+
 
 	/**
 	 * Initialize and do work where other steps need to wait for...
