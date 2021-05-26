@@ -34,8 +34,14 @@ import org.eclipse.rdf4j.model.util.Values;
 import org.eclipse.rdf4j.model.vocabulary.XSD;
 import org.eclipse.rdf4j.model.Namespace;
 import org.eclipse.rdf4j.model.Resource;
+import org.eclipse.rdf4j.model.vocabulary.RDF;
+import org.eclipse.rdf4j.model.vocabulary.RDFS;
+import org.eclipse.rdf4j.rio.RDFFormat;
+import org.eclipse.rdf4j.rio.Rio;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.io.StringWriter;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -78,6 +84,7 @@ public class ShpToRDF {
 	private Boolean flag_csv;
 	private ClassesCSV[] classes;
 	private CSV csv;		
+	private SimpleValueFactory vfact;
 
 	private boolean uuidsActive = false;
 	private FieldDefinition[] fields;
@@ -114,6 +121,7 @@ public class ShpToRDF {
 		setUuidsActive(smi.isUuidsActive());
 		setFields(smi.getFields());
 		setColumns(smi.getColumns());
+		vfact = SimpleValueFactory.getInstance();
 	}
 	
 	
@@ -402,7 +410,6 @@ public class ShpToRDF {
 	 * @param valueMeta - Meta-information of the given column
 	 */	
 	private void addColumns(String encodingResource, String column, Object object, String propertyNS, ValueMetaInterface valueMeta){
-		SimpleValueFactory vfact = SimpleValueFactory.getInstance();
 		Resource resource = vfact.createIRI(this.resourceNS.replace(Constants.space,Constants.empty) + encodingResource);		
 		IRI property = vfact.createIRI(propertyNS + column);
 		ModelBuilder builder = new ModelBuilder(this.model_rdf);
@@ -410,35 +417,35 @@ public class ShpToRDF {
 
 		if (object.toString().matches(".*\\d.*")) { // Object is a number
 			if (object.toString().matches("-?\\d+(\\.\\d+)?")){
-				builder.add(property, Values.literal(object.toString()));
+				builder.add(property, vfact.createLiteral(object.toString()));
 			} else {
 				if (object.getClass().getName().equalsIgnoreCase("java.util.Date")){
-					builder.add(property, Values.literal(LocalDate.parse(object.toString())));
+					builder.add(property, vfact.createLiteral(LocalDate.parse(object.toString())));
 				} else {
 					if (this.language.equalsIgnoreCase(Constants.null_)){
-						builder.add(property, Values.literal(object.toString()));
+						builder.add(property, vfact.createLiteral(object.toString()));
 					} else {
-						builder.add(property, Values.literal(object.toString(), this.language));
+						builder.add(property, vfact.createLiteral(object.toString(), this.language));
 
 					}
 				}
 			}						
 		} else if(object.toString().matches("^<http(.*)>$")){ // Object is an url resource
-			builder.add(property, Values.literal(object.toString().replace(">", "").replace("<", "")));
+			builder.add(property, vfact.createLiteral(object.toString().replace(">", "").replace("<", "")));
 		} else if (object.toString().equals(Constants.empty)) {
-			builder.add(property, Values.literal(object.toString()));
+			builder.add(property, vfact.createLiteral(object.toString()));
 		} else {
 			if (this.language.equalsIgnoreCase(Constants.null_)){
 				if (object.getClass().getName().equalsIgnoreCase("java.util.Date")){
-					builder.add(property, Values.literal(LocalDate.parse(object.toString())));
+					builder.add(property, vfact.createLiteral(LocalDate.parse(object.toString())));
 				} else {
-					builder.add(property, Values.literal(object.toString(),""));
+					builder.add(property, vfact.createLiteral(object.toString(),""));
 				}
 			} else {
 				if (object.getClass().getName().equalsIgnoreCase("java.util.Date")){
-					builder.add(property, Values.literal(LocalDate.parse(object.toString())));
+					builder.add(property, vfact.createLiteral(LocalDate.parse(object.toString())));
 				} else {
-					builder.add(property, Values.literal(object.toString(), this.language));
+					builder.add(property, vfact.createLiteral(object.toString(), this.language));
 				}
 			}
 		}
@@ -451,14 +458,11 @@ public class ShpToRDF {
 	 * @param geometry - The geometry
 	 */	
 	private void addGeometry(String encodingResource, Geometry geometry){
-		Resource resourceGeometry = this.model_rdf.createResource(
-				this.resourceNS.replace(Constants.space,Constants.empty) + encodingResource
-				);
-		Property property = this.model_rdf.createProperty(Constants.NS_GEO + "hasGeometry");
-		Resource resourceGeometry2 = this.model_rdf.createResource(
-				this.resourceNS.replace(Constants.space,Constants.empty) + encodingResource + Constants.GEOMETRY
-				);
-		resourceGeometry.addProperty(property, resourceGeometry2);									
+		Resource resourceGeometry = vfact.createIRI(this.resourceNS.replace(Constants.space,Constants.empty) + encodingResource);		
+		IRI property = vfact.createIRI(Constants.NS_GEO + "hasGeometry");
+		Resource resourceGeometry2 = vfact.createIRI(this.resourceNS.replace(Constants.space,Constants.empty) + encodingResource + Constants.GEOMETRY);		
+		ModelBuilder builder = new ModelBuilder(this.model_rdf);
+		builder.add(resourceGeometry, property, resourceGeometry2);
 
 		String geo = encodingResource + Constants.GEOMETRY;
 		if (geometry.getGeometryType().equals(Constants.POINT)) {
@@ -554,7 +558,7 @@ public class ShpToRDF {
 	 * @param r2 - Attribute 2
 	 */
 	private void insertResourceTypeResource(String r1, String r2) {
-		this.model_rdf.add(this.model_rdf.createResource(r1), RDF.type, this.model_rdf.createResource(r2));
+		this.model_rdf.add(vfact.createIRI(r1), RDF.TYPE,  vfact.createIRI(r2));
 	}
 
 	/**
@@ -565,14 +569,9 @@ public class ShpToRDF {
 	 * @param x - Literals
 	 */
 	private void insertLiteralTriplet(String s, String p, String o, String x) {
-		Resource resourceGeometry = this.model_rdf.createResource(s);
-		Property property = this.model_rdf.createProperty(p);
-		if (x != null) {
-			Literal literal = this.model_rdf.createTypedLiteral(o, x);
-			resourceGeometry.addLiteral(property, literal);
-		} else {
-			resourceGeometry.addProperty(property, o);
-		}
+		Resource resourceGeometry = vfact.createIRI(s);
+		IRI property = vfact.createIRI(p);
+			this.model_rdf.add(resourceGeometry, property, vfact.createLiteral(o));		
 	}
 
 	/**
@@ -582,7 +581,7 @@ public class ShpToRDF {
 	 * @param lang
 	 */
 	private void insertLabelResource(String resource, String label, String lang) {				
-		Resource resource1 = this.model_rdf.createResource(resource);
+		Resource resource1 = vfact.createIRI(resource);
 		label = label.replaceAll("\\s+$", "");
 		if (this.phrase != null && this.phrase != ""){
 			
@@ -590,14 +589,14 @@ public class ShpToRDF {
 		}
 		
 		if (label.toString().matches(".*\\d.*")){ // label is a number
-			this.model_rdf.add(resource1, RDFS.label, this.model_rdf.createLiteral(label,Constants.empty));									
+			this.model_rdf.add(resource1, RDFS.LABEL, vfact.createLiteral(label,Constants.empty));									
 		} else if (label.toString().equals(Constants.empty)) {
-			this.model_rdf.add(resource1, RDFS.label, this.model_rdf.createLiteral(label,Constants.empty));
+			this.model_rdf.add(resource1, RDFS.LABEL, vfact.createLiteral(label,Constants.empty));
 		} else { 
 			if (this.language.equalsIgnoreCase(Constants.null_)){
-				this.model_rdf.add(resource1, RDFS.label, this.model_rdf.createLiteral(label, Constants.empty));
+				this.model_rdf.add(resource1, RDFS.LABEL, vfact.createLiteral(label, Constants.empty));
 			} else {
-				this.model_rdf.add(resource1, RDFS.label, this.model_rdf.createLiteral(label, lang));
+				this.model_rdf.add(resource1, RDFS.LABEL, vfact.createLiteral(label, lang));
 			}
 		}	
 	}
@@ -672,14 +671,14 @@ public class ShpToRDF {
 	 * @return String with the RDF Model
 	 */
 	private String getRdfModel(Model model) {
-		StringWriter out = new StringWriter();
-		this.model_rdf.write(out,Constants.format);	
+		ByteArrayOutputStream stream = new ByteArrayOutputStream();
+		Rio.write(this.model_rdf, stream, RDFFormat.TURTLE);	
 
 		// Helps the garbage collector
 		this.columns = null; 
 		this.model_rdf = null;
 
-		return out.toString();
+		return new String(stream.toByteArray());
 	}	
 
 	public String getAttributeName() { return this.attributeName; }

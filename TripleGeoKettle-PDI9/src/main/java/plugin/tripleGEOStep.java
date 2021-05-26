@@ -79,7 +79,7 @@ public class tripleGEOStep extends BaseStep implements StepInterface {
 
 				Object[] result = new Object[1];
 				// TODO remove comment
-				//result[0] = this.shpToRDF.getModel_rdf();
+				result[0] = this.shpToRDF.getModel_rdf();
 
 				putRow(this.data.outputRowMeta, result);
 
