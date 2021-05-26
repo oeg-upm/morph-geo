@@ -222,14 +222,12 @@ public class tripleGEOStep extends BaseStep implements StepInterface {
 			logBasic("tripleGEO step initialized successfully.");		
 		}
 //TODO remove comment
-/*
 		// Process Row 
 		try {    	
 			this.shpToRDF.writeRdfModel(row,this.data.outputRowMeta);	    	
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	*/
 		return true;
 	}
 
