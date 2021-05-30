@@ -20,17 +20,6 @@
             <url>https://repo.osgeo.org/repository/release/</url>
         </repository>
     </repositories>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.eclipse.rdf4j</groupId>
-                <artifactId>rdf4j-bom</artifactId>
-                <version>3.6.3</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <dependencies>
         <dependency>
@@ -60,10 +49,22 @@
 
         <dependency>
             <groupId>org.eclipse.rdf4j</groupId>
-            <artifactId>rdf4j-storage</artifactId>
-            <type>pom</type>
+            <artifactId>rdf4j-model</artifactId>
+            <version>3.6.3</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.eclipse.rdf4j</groupId>
+            <artifactId>rdf4j-rio-turtle</artifactId>
+            <version>3.6.3</version>
+            <!--
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>jcl-over-slf4j</artifactId>
+                </exclusion>
+            </exclusions>
+        -->
+        </dependency>
 
 
         <dependency>
@@ -71,6 +72,7 @@
             <artifactId>jts</artifactId>
             <version>1.11</version>
         </dependency>
+
         <dependency>
             <groupId>org.geotools</groupId>
             <artifactId>gt-geometry</artifactId>

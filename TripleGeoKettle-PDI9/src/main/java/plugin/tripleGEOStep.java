@@ -70,7 +70,7 @@ public class tripleGEOStep extends BaseStep implements StepInterface {
 				RowMetaInterface rm = this.data.outputRowMeta;
 
 				while (rm.getValueMetaList().size() > 1) {
-					rm.getValueMetaList().remove(0);
+					rm.removeValueMeta(0);
 				}
 
 				logBasic("Generating RDF.");
