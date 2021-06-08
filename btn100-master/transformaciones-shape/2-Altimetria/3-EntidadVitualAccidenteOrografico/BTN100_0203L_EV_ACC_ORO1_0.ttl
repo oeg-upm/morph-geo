@@ -1,0 +1,753 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/cordillera/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/3542/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.9506729499999995 37.33517649857178, -2.8766609499999993 37.34802247857159, -2.80294374 37.362112598571414, -2.73275433 37.37642273857122, -2.6609020799999996 37.39507231857096, -2.60929023 37.41018921857076)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4844/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.813103779999999 39.444771788547065, -3.6129590900000013 39.34282147854808)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/1740/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.13419849 42.718160388524346, 0.2446188400000001 42.695871568524446, 0.27194939 42.69026246852448)"^^geosparql:wktLiteral .
+
+georec:1740  a                     btn100:Cordillera ;
+        rdfs:label                 "1740" ;
+        dc:created                 "2011-03-03"^^xsd:date ;
+        dc:identifier              "1740" ;
+        dc:title                   "PIRINEOS" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/1740/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:2911  a                     btn100:Cordillera ;
+        rdfs:label                 "2911" ;
+        dc:created                 "2012-09-26"^^xsd:date ;
+        dc:identifier              "2911" ;
+        dc:title                   "CORDILLERA CANTÁBRICA" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/2911/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/2454/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.369749 40.381744008538604, -5.3171381 40.378985858538634, -5.253438 40.376845408538664, -5.18789287 40.37767966853864, -5.1215513800000005 40.379766338538644, -5.05358301 40.3833313285386, -4.98703831 40.38831939853856, -4.85794475 40.403216598538435, -4.79312496 40.41167795853838, -4.728952319999999 40.42434343853828, -4.6684158600000005 40.43883348853815, -4.606760339999999 40.45415749853804, -4.5426745 40.47394380853787, -4.483577689999999 40.494480758537705)"^^geosparql:wktLiteral .
+
+georec:2980  a                     btn100:Cordillera ;
+        rdfs:label                 "2980" ;
+        dc:created                 "2012-09-27"^^xsd:date ;
+        dc:identifier              "2980" ;
+        dc:title                   "Cordillera Cantábrica" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/2980/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/3726/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.68593083 36.71273050858054, -5.530857650000001 36.730503058580275, -5.370686250000001 36.74760104858004, -5.307209470000002 36.75520097857993)"^^geosparql:wktLiteral .
+
+georec:3929  a                     btn100:Cordillera ;
+        rdfs:label                 "3929" ;
+        dc:created                 "2010-10-04"^^xsd:date ;
+        dc:identifier              "3929" ;
+        dc:title                   "Loma de Cantarranas" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/3929/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/no-definido> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:120  a                      btn100:Cordillera ;
+        rdfs:label                 "120" ;
+        dc:created                 "2012-01-19"^^xsd:date ;
+        dc:identifier              "120" ;
+        dc:title                   "SISTEMA IBERICO" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/120/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/1739/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.31202098 42.68203847852452, 0.3655348800000001 42.67105570852454)"^^geosparql:wktLiteral .
+
+georec:4849  a                     btn100:Cordillera ;
+        rdfs:label                 "4849" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4849" ;
+        dc:title                   "MACIZO GALAICO DURIENSE" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4849/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/no-definido> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4917/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.909773919999667 39.64260429854516, -4.83748709999968 39.617122598545386, -4.767421919999694 39.59802964854558, -4.693458819999707 39.58205566854573, -4.61826367999972 39.56915619854587, -4.545842619999732 39.55953441854595, -4.527036009999735 39.55748193854599, -4.521780159999735 39.556908328545966, -4.431272129999752 39.54703060854606, -4.355656509999764 39.54250389854611, -4.2459909699997835 39.53933288854614, -4.176645299999797 39.53956836854614, -4.172145759999799 39.53958364854615, -4.099003859999811 39.542109478546124, -4.03583551999982 39.54492167854609, -4.025867069999822 39.54536545854606, -3.954762989999833 39.55114616854603, -3.8773221899998465 39.55900133854596)"^^geosparql:wktLiteral .
+
+georec:4902  a                     btn100:Cordillera ;
+        rdfs:label                 "4902" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4902" ;
+        dc:title                   "SISTEMA IBÉRICO" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4902/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/secundario> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/3535/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.0698016399999997 36.878746018578134, -3.0461547999999996 36.88128014857809)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4914/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.452759809999381 40.04236623854149, -6.364585879999396 40.05905371854137, -6.274772939999412 40.07725786854118, -6.188548599999428 40.09478140854107, -6.098346569999438 40.11388476854088, -6.009446079999456 40.1333967085407, -5.92186880999947 40.15383208854055, -5.7519175299995 40.19514992854016, -5.663949879999516 40.21821866853997, -5.614154139999525 40.23165799853988, -5.577933339999531 40.241433598539786, -5.495540539999542 40.2647629685396, -5.406492839999558 40.29073482853938, -5.321722409999572 40.316552668539146, -5.238248829999587 40.343052248538925)"^^geosparql:wktLiteral .
+
+georec:3117  a                     btn100:Cordillera ;
+        rdfs:label                 "3117" ;
+        dc:created                 "2012-10-30"^^xsd:date ;
+        dc:identifier              "3117" ;
+        dc:title                   "SIERRA MORENA" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/3117/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4888/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.9559251500000094 42.03245281852753, -2.915495550000017 42.039711768527475, -2.8810296600000234 42.04589996852745, -2.812398010000038 42.05100073852743)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/3632/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.39154156 36.499994758583696, -5.334818219999999 36.52293239858334, -5.279395180000001 36.54527326858301, -5.224599239999999 36.56703170858269, -5.17444163 36.5864993585824, -5.10976698 36.607840258582094, -5.05421425 36.63008015858176, -4.996831720000002 36.64823498858151, -4.939800549999998 36.6679928185812, -4.881717229999999 36.68746757858091, -4.6798778599999995 36.747479688580036, -4.632209060000001 36.768595118579725, -4.56624943 36.79184279857939, -4.500582600000001 36.814777808579066, -4.433179670000001 36.837697778578736, -4.37175495 36.85560241857847, -4.307274390000002 36.875145348578194, -4.244783530000002 36.89381455857793, -4.178144960000001 36.909765288577695, -4.09968535 36.93233366857738)"^^geosparql:wktLiteral .
+
+georec:4897  a                     btn100:Cordillera ;
+        rdfs:label                 "4897" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4897" ;
+        dc:title                   "SISTEMA IBÉRICO" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4897/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:4869  a                     btn100:Cordillera ;
+        rdfs:label                 "4869" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4869" ;
+        dc:title                   "SISTEMA IBÉRICO" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4869/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4854/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.9676234999997813 43.093733558522985, -3.70374145999984 43.12261119852289, -3.546110019999876 43.13986142852283, -3.520028569999883 43.140122878522824, -3.4195341199999043 43.14113027852282, -3.3874522299999126 43.1414518785228, -3.3454122899999224 43.141873298522825, -3.1933874399999556 43.13608133852285, -3.169284059999962 43.13438918852287, -3.064058519999984 43.12700195852287, -2.9649922900000085 43.112869688522906)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4882/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.7155003199992728 41.20910539853244, 0.7468505099992658 41.2162664485324, 0.7794940199992606 41.22337634853235, 0.8074538099992538 41.22965846853234, 0.8343887399992467 41.23596789853226, 0.86244992999924 41.24379083853222, 0.8905173700000035 41.25160661853216, 0.9162967400000019 41.259882838532114, 0.9457814800000026 41.269583758532036, 0.9740102500000022 41.279709838531986, 1.000396590000001 41.289114168531924, 1.0558639700000032 41.309366908531786, 1.0836706800000022 41.32045399853172, 1.1106643300000014 41.330784488531656, 1.136659740000003 41.34153386853156, 1.1642845600000036 41.35338641853151, 1.1911081000000037 41.364677308531434, 1.2182361600000038 41.37653471853136, 1.2695051300000046 41.39761517853122, 1.298749620000004 41.40976386853115, 1.3226894300000018 41.41976837853108, 1.3530112000000023 41.432251788530984, 1.3788650900000023 41.44353462853092, 1.4055151500000027 41.45497565853084, 1.4317374200000028 41.46759504853079, 1.4598570400000044 41.4813027585307, 1.4654324600000055 41.484204918530686, 1.4845638300000024 41.494163338530605)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/3927/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.963407440000002 37.76781614856608, -4.60406375 37.76768059856606, -4.34142757 37.76710277856609)"^^geosparql:wktLiteral .
+
+georec:2317  a                     btn100:Cordillera ;
+        rdfs:label                 "2317" ;
+        dc:created                 "2010-10-20"^^xsd:date ;
+        dc:identifier              "2317" ;
+        dc:title                   "Vegas del Alagón" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/2317/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/no-definido> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4774/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.00027956 43.22875167852254, -4.9836496299999995 43.21788272852258, -4.965239099999998 43.21069789852259)"^^geosparql:wktLiteral .
+
+georec:2910  a                     btn100:Cordillera ;
+        rdfs:label                 "2910" ;
+        dc:created                 "2012-09-26"^^xsd:date ;
+        dc:identifier              "2910" ;
+        dc:title                   "CORDILLERA CANTÁBRICA" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/2910/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/2913/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.391636139999999 43.02785514852321, -6.333017329999998 43.04632533852315)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/1299/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (2.2519038900000004 42.43600188852557, 2.26448655 42.43501675852557)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/3175/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.61395472 38.37236042855866, -3.3519360699999994 38.39382041855839)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/2910/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.97008689 43.202655048522615, -4.886061269999999 43.234670868522535)"^^geosparql:wktLiteral .
+
+georec:4863  a                     btn100:Cordillera ;
+        rdfs:label                 "4863" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4863" ;
+        dc:title                   "MONTES VASCOS / EUSKAL MENDIAK" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4863/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/3117/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.9873563199999995 38.21359239856054, -3.7391640100000005 38.24434577856018, -3.5114734900000006 38.26893538855988, -3.2628613100000003 38.292547758559586)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/942/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.42039423 42.38969862852578, -3.39755629 42.37783822852583, -3.3687864899999997 42.36780972852587)"^^geosparql:wktLiteral .
+
+georec:3231  a                     btn100:Cordillera ;
+        rdfs:label                 "3231" ;
+        dc:created                 "2012-11-03"^^xsd:date ;
+        dc:identifier              "3231" ;
+        dc:title                   "SIERRA MORENA" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/3231/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
+
+georec:92  a                       btn100:Cordillera ;
+        rdfs:label                 "92" ;
+        dc:created                 "2010-11-18"^^xsd:date ;
+        dc:identifier              "92" ;
+        dc:title                   "SISTEMA IBÉRICO" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/92/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/no-definido> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:4914  a                     btn100:Cordillera ;
+        rdfs:label                 "4914" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4914" ;
+        dc:title                   "SISTEMA CENTRAL" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4914/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:851  a                      btn100:Cordillera ;
+        rdfs:label                 "851" ;
+        dc:created                 "2012-06-07"^^xsd:date ;
+        dc:identifier              "851" ;
+        dc:title                   "Cordillera de Valdellin" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/851/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/terciario> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/378/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.65312441 43.03002958852321, -2.6527862 43.02998036852319)"^^geosparql:wktLiteral .
+
+georec:378  a                      btn100:Cordillera ;
+        rdfs:label                 "378" ;
+        dc:created                 "2010-11-23"^^xsd:date ;
+        dc:identifier              "378" ;
+        dc:title                   "MONTES VASCOS / EUSKAL MENDIAK" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/378/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/no-definido> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/92/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.1677673499999999 39.91145263854265, -1.13167978 39.869696948543044, -1.0958859700000005 39.828338598543425, -1.06117499 39.78718919854379, -1.0265335900000003 39.745021318544204, -0.99408766 39.70066059854461, -0.96724073 39.65376474854504, -0.9289947099999999 39.56144191854593, -0.9132122799999999 39.51372069854641, -0.8987880100000004 39.46481052854686, -0.8846547999999997 39.415499928547355, -0.85966638 39.32198016854829, -0.84489916 39.26962441854882)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/3484/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.092071490000001 36.94159807857722, -3.7092988700000005 36.943062008577215, -3.4829355800000013 36.943118838577206, -3.1328532499999997 36.943666638577206, -3.03184432 36.94350542857723)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/851/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.1174006899999998 42.70975743852438, -2.09851762 42.72614612852432, -2.09149158 42.73844887852427)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4861/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.964629479999552 43.26422869852243, -4.734383469999603 43.189705448522666, -4.733201699999604 43.18932294852267)"^^geosparql:wktLiteral .
+
+georec:2608  a                     btn100:Cordillera ;
+        rdfs:label                 "2608" ;
+        dc:created                 "2012-07-18"^^xsd:date ;
+        dc:identifier              "2608" ;
+        dc:title                   "SISTEMAS BÉTICOS" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/2608/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:1299  a                     btn100:Cordillera ;
+        rdfs:label                 "1299" ;
+        dc:created                 "2011-03-24"^^xsd:date ;
+        dc:identifier              "1299" ;
+        dc:title                   "PIRINEOS" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/1299/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:4890  a                     btn100:Cordillera ;
+        rdfs:label                 "4890" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4890" ;
+        dc:title                   "SISTEMA IBÉRICO" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4890/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+georec:3484  a                     btn100:Cordillera ;
+        rdfs:label                 "3484" ;
+        dc:created                 "2012-12-28"^^xsd:date ;
+        dc:identifier              "3484" ;
+        dc:title                   "CORDILLERA PENIBÉTICA" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/3484/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4506/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-7.830435010000001 42.56922945852498, -7.832204340000002 42.74589754852425, -7.833737770000003 42.91033427852362, -7.803365890000001 43.1187100585229, -7.768420130000002 43.33901769852222, -7.64307482 43.576736608521585)"^^geosparql:wktLiteral .
+
+georec:3927  a                     btn100:Cordillera ;
+        rdfs:label                 "3927" ;
+        dc:created                 "2010-10-04"^^xsd:date ;
+        dc:identifier              "3927" ;
+        dc:title                   "La Campiña" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/3927/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/no-definido> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4909/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.479248139999724 40.53483982853737, -4.43935507999973 40.57676906853706, -4.399783729999737 40.622973308536686, -4.387098629999739 40.63574367853658, -4.355337039999745 40.66771875853633, -4.3126159899997525 40.71714935853596, -4.267840269999761 40.765728058535615, -4.219108399999768 40.81776522853522, -3.9656109999998126 41.02599702853371, -3.895825899999825 41.062832638533465, -3.8321876099998375 41.09829394853318, -3.781716969999848 41.12483179853302, -3.713152759999858 41.162406808532765, -3.652696729999871 41.19452964853253, -3.5972804799998834 41.22466303853234)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/3929/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.6401046 37.90345410856435, -4.63633611 37.892923998564484, -4.62988243 37.885232238564555, -4.6254886399999995 37.88186921856462, -4.617507749999999 37.876065348564694, -4.60440512 37.86939708856477, -4.59526989 37.86454115856483)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4881/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (2.0759145900000036 41.63886289852972, 2.2616077500000022 41.701102798529355, 2.2967249800000045 41.7141216385293, 2.4047071100000035 41.75516372852905, 2.4402260900000026 41.769107558528965, 2.470585160000002 41.78190858852891, 2.584210930000003 41.82981934852862)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4903/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.2424276200003455 41.198422998532514, -1.1746433700003565 41.13465684853296, -1.166687990000357 41.12638411853301, -1.1119678000003654 41.06948102853341, -1.0544318600003757 41.00145077853388, -0.9976351700003857 40.93091264853439, -0.9423820000003922 40.85850505853492, -0.891063040000401 40.786350558535446, -0.7081712800004253 40.49504256853771, -0.6631788400004317 40.4197966685383, -0.6158345500004393 40.33700862853898, -0.5783534400004436 40.26956794853957, -0.5540092500004452 40.224642568539906)"^^geosparql:wktLiteral .
+
+georec:4888  a                     btn100:Cordillera ;
+        rdfs:label                 "4888" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4888" ;
+        dc:title                   "PICOS DE URBIÓN" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4888/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/no-definido> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:3535  a                     btn100:Cordillera ;
+        rdfs:label                 "3535" ;
+        dc:created                 "2012-12-28"^^xsd:date ;
+        dc:identifier              "3535" ;
+        dc:title                   "CORDILLERA PENIBÉTICA" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/3535/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4929/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.1324753400002907 38.27881659855975, -1.0768810000003017 38.29756672855952, -1.0247621600003105 38.316176388559306, -0.9998204600003148 38.326136888559176, -0.9734395100003177 38.336672158559075, -0.9200458000003269 38.35969357855879, -0.8665937300003366 38.383550888558524, -0.8139725400003447 38.40774350855825, -0.765108530000355 38.42974327855797, -0.5662112300003909 38.52642398855687, -0.5145576500003999 38.554807458556525, -0.4701943100004068 38.58074039855623, -0.4246467800004142 38.60818088855593, -0.3772898700004204 38.636079468555614, -0.3312079200004314 38.66415970855529, -0.2826151800004386 38.69371371855495)"^^geosparql:wktLiteral .
+
+georec:4882  a                     btn100:Cordillera ;
+        rdfs:label                 "4882" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4882" ;
+        dc:title                   "CORDILLERAS COSTERO-CATALANAS" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4882/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4849/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-7.945624360000003 43.284261788522365, -7.974610070000003 43.19985372852264, -8.020880160000004 43.00096873852328, -8.044153610000004 42.832673598523904, -8.060033310000001 42.71784418852437)"^^geosparql:wktLiteral .
+
+georec:4854  a                     btn100:Cordillera ;
+        rdfs:label                 "4854" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4854" ;
+        dc:title                   "CORDILLERA CANTÁBRICA" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4854/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/no-definido> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/1741/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.3790757100000001 42.809725818524, -0.3211053500000001 42.799721368524054, -0.20510829 42.77992706852411, -0.15003012 42.77045468852413)"^^geosparql:wktLiteral .
+
+georec:3542  a                     btn100:Cordillera ;
+        rdfs:label                 "3542" ;
+        dc:created                 "2012-12-28"^^xsd:date ;
+        dc:identifier              "3542" ;
+        dc:title                   "SISTEMAS BÉTICOS" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/3542/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:942  a                      btn100:Cordillera ;
+        rdfs:label                 "942" ;
+        dc:created                 "2011-02-17"^^xsd:date ;
+        dc:identifier              "942" ;
+        dc:title                   "Montes de Oca" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/942/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/terciario> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+georec:4506  a                     btn100:Cordillera ;
+        rdfs:label                 "4506" ;
+        dc:created                 "2013-01-02"^^xsd:date ;
+        dc:identifier              "4506" ;
+        dc:title                   "MACIZO GALAICO DURIENSE" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4506/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:707  a                      btn100:Cordillera ;
+        rdfs:label                 "707" ;
+        dc:created                 "2013-01-02"^^xsd:date ;
+        dc:identifier              "707" ;
+        dc:title                   "Montes dos Cabaleiros" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/707/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/terciario> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/2317/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.561049119999999 39.93276883854247, -6.460549740000001 39.93274150854248)"^^geosparql:wktLiteral .
+
+georec:4933  a                     btn100:Cordillera ;
+        rdfs:label                 "4933" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4933" ;
+        dc:title                   "CORDILLERA SUBBÉTICA" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4933/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/no-definido> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4869/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.4213531699999074 42.57949074852494, -3.052621159999988 42.43849288852554, -3.0035656099999994 42.41973474852562, -2.8650779400000297 42.35384267852594, -2.598924490000085 42.2179025685266)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4897/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.107730630000182 41.66416058852958, -2.047181260000194 41.64064717852974, -1.9889951600002056 41.61848870852985, -1.9514995400002109 41.60356330852995, -1.931638780000217 41.59572305852998, -1.8712290200002273 41.571532818530144, -1.8106265900002416 41.546137968530275, -1.7524310700002523 41.51956643853044, -1.6471389700002717 41.463538908530786, -1.5956509800002812 41.433063768531, -1.546530380000292 41.40318097853117, -1.4945000800003005 41.36660403853141, -1.4502046900003067 41.33381587853162, -1.4060202700003173 41.29828006853184, -1.3586253600003242 41.25858331853211)"^^geosparql:wktLiteral .
+
+georec:4861  a                     btn100:Cordillera ;
+        rdfs:label                 "4861" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4861" ;
+        dc:title                   "Picos de Europa" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4861/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/no-definido> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/1300/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (1.97816254 42.48650100852533, 1.9915119900000002 42.482695228525365)"^^geosparql:wktLiteral .
+
+georec:4667  a                     btn100:Cordillera ;
+        rdfs:label                 "4667" ;
+        dc:created                 "2013-02-06"^^xsd:date ;
+        dc:identifier              "4667" ;
+        dc:title                   "CORDILLERA CANTÁBRICA" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4667/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/no-definido> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4863/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.9126949000000577 43.06780642852304, -2.6305892000005215 43.02870709852322, -2.5455048700001006 43.02205352852321, -2.531262950000106 43.0211655285232, -2.4142095700001316 43.00418287852329, -2.2204128200001763 42.96874599852341, -2.1880695800001813 42.96413753852341)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4860/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.992092319999555 42.9184038385236, -4.829468309999591 42.9457423085235, -4.807773989999595 42.949370108523475, -4.803005609999595 42.950160988523464, -4.662631689999629 42.973443318523394, -4.480262549999667 43.00309964852328, -4.38665275999969 43.018425138523234, -4.260321459999717 43.03910768852316)"^^geosparql:wktLiteral .
+
+georec:4774  a                     btn100:Cordillera ;
+        rdfs:label                 "4774" ;
+        dc:created                 "2013-02-01"^^xsd:date ;
+        dc:identifier              "4774" ;
+        dc:title                   "Picos de Cornión" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4774/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/no-definido> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/3231/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.15822745 38.321256048559256, -2.9835127199999993 38.31963027855927)"^^geosparql:wktLiteral .
+
+georec:3726  a                     btn100:Cordillera ;
+        rdfs:label                 "3726" ;
+        dc:created                 "2012-11-14"^^xsd:date ;
+        dc:identifier              "3726" ;
+        dc:title                   "SISTEMA BÉTICO" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/3726/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4933/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.813753919999738 37.32922033857184, -4.78570903999974 37.331809638571805, -4.78132810999974 37.33221411857181, -4.759735999999745 37.33420764857177, -4.758947609999743 37.33429245857177, -4.726988859999749 37.33773007857173, -4.706676679999752 37.33991493857168, -4.692862249999753 37.34205840857166, -4.655557689999758 37.34784662857158, -4.605868029999764 37.35649534857148, -4.553355469999773 37.36705646857132, -4.503233019999781 37.379080908571176, -4.452662659999788 37.393365038570984, -4.411360069999792 37.40441421857082, -4.399220819999796 37.40766168857077, -4.354362559999802 37.42449082857057, -4.260811459999816 37.46003545857008, -4.215951179999823 37.48060466856981, -4.167770049999827 37.503465188569514, -4.125266439999834 37.5258729685692, -4.109781109999836 37.534488218569095)"^^geosparql:wktLiteral .
+
+georec:4881  a                     btn100:Cordillera ;
+        rdfs:label                 "4881" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4881" ;
+        dc:title                   "CORDILLERAS COSTERO CATALANAS" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4881/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:2913  a                     btn100:Cordillera ;
+        rdfs:label                 "2913" ;
+        dc:created                 "2012-09-26"^^xsd:date ;
+        dc:identifier              "2913" ;
+        dc:title                   "CORDILLERA CANTÁBRICA" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/2913/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4902/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7741162200004182 40.61147025853677, -0.720347530000429 40.58943927853693, -0.6693371600004352 40.56743910853713, -0.6195082500004446 40.54377900853732, -0.5712774900004538 40.51452223853754, -0.525075950000459 40.483003868537786, -0.4808586000004653 40.45047179853806, -0.3659140300004834 40.350894938538886, -0.3491903000004888 40.32828843853906, -0.336524020000488 40.311166658539186, -0.3113059100004925 40.26965840853952, -0.2899580400004933 40.226989018539896, -0.2731360300004957 40.18691533854024, -0.2578101300004959 40.14375853854063, -0.2428563000004977 40.09853107854102)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/705/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-7.560908779999999 43.655707078521374, -7.54181594 43.641575828521425, -7.534336500000001 43.62066202852147)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/2912/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.078417080000001 43.16137858852276, -5.019403940000001 43.18386403852269)"^^geosparql:wktLiteral .
+
+georec:4932  a                     btn100:Cordillera ;
+        rdfs:label                 "4932" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4932" ;
+        dc:title                   "SISTEMA BÉTICO" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4932/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:3096  a                     btn100:Cordillera ;
+        rdfs:label                 "3096" ;
+        dc:created                 "2012-10-30"^^xsd:date ;
+        dc:identifier              "3096" ;
+        dc:title                   "CORDILLERA SUBBÉTICA" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/3096/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:4917  a                     btn100:Cordillera ;
+        rdfs:label                 "4917" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4917" ;
+        dc:title                   "MONTES DE TOLEDO" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4917/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+georec:4860  a                     btn100:Cordillera ;
+        rdfs:label                 "4860" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4860" ;
+        dc:title                   "CORDILLERA CANTÁBRICA" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4860/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+georec:3605  a                     btn100:Cordillera ;
+        rdfs:label                 "3605" ;
+        dc:created                 "2010-09-28"^^xsd:date ;
+        dc:identifier              "3605" ;
+        dc:title                   "SISTEMA BÉTICO" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/3605/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/no-definido> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4304/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.141340809999999 41.83348119852861, -8.120578219999999 41.92836917852808, -8.112004850000002 41.998580828527714, -8.11042523 42.00697881852768)"^^geosparql:wktLiteral .
+
+georec:3175  a                     btn100:Cordillera ;
+        rdfs:label                 "3175" ;
+        dc:created                 "2012-11-03"^^xsd:date ;
+        dc:identifier              "3175" ;
+        dc:title                   "Sierra Morena" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/3175/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/2608/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.9940906200000001 37.64636900856763, -1.9789827800000004 37.65377537856753, -1.9236893999999995 37.68553052856712, -1.8627347499999998 37.72339609856665, -1.80527539 37.76229685856616)"^^geosparql:wktLiteral .
+
+georec:1741  a                     btn100:Cordillera ;
+        rdfs:label                 "1741" ;
+        dc:created                 "2011-03-03"^^xsd:date ;
+        dc:identifier              "1741" ;
+        dc:title                   "PIRINEOS" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/1741/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4890/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.0381620199999904 42.16449303852685, -2.9595584800000094 42.12732227852703, -2.8834951400000244 42.09334990852721, -2.801506030000042 42.062769828527365, -2.796755750000043 42.061315278527395, -2.743975490000055 42.045153788527465, -2.71467371000006 42.036181488527504, -2.625711590000079 42.01358281852763, -2.5771110300000877 42.002905928527696, -2.5373339500000958 41.994167428527724, -2.274561420000151 41.94812135852796, -2.1882060000001697 41.93494979852805, -2.0951001600001873 41.92084782852814, -2.004983100000207 41.909540008528175, -1.9200092000002231 41.90145988852822, -1.8452235800002394 41.89603690852827, -1.8293207100002427 41.89488373852827, -1.7350675000002636 41.890837288528296)"^^geosparql:wktLiteral .
+
+georec:2912  a                     btn100:Cordillera ;
+        rdfs:label                 "2912" ;
+        dc:created                 "2012-09-26"^^xsd:date ;
+        dc:identifier              "2912" ;
+        dc:title                   "CORDILLERA CANTÁBRICA" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/2912/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:4909  a                     btn100:Cordillera ;
+        rdfs:label                 "4909" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4909" ;
+        dc:title                   "SISTEMA CENTRAL" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4909/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+georec:4852  a                     btn100:Cordillera ;
+        rdfs:label                 "4852" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4852" ;
+        dc:title                   "MACIZO GALAICO DURIENSE" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4852/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/no-definido> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/2980/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.726532290000001 42.91262950852362, -6.69577527 42.908759448523625, -6.6327713799999986 42.90898562852362, -6.580198889999999 42.910991608523624, -6.563421100000002 42.91348907852362)"^^geosparql:wktLiteral .
+
+georec:2454  a                     btn100:Cordillera ;
+        rdfs:label                 "2454" ;
+        dc:created                 "2012-11-06"^^xsd:date ;
+        dc:identifier              "2454" ;
+        dc:title                   "SISTEMA CENTRAL" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/2454/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:705  a                      btn100:Cordillera ;
+        rdfs:label                 "705" ;
+        dc:created                 "2013-01-02"^^xsd:date ;
+        dc:identifier              "705" ;
+        dc:title                   "Montes do Buio" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/705/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/terciario> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/120/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.00554755 39.613904038545435, -0.9094622600000001 39.61337550854543)"^^geosparql:wktLiteral .
+
+georec:1739  a                     btn100:Cordillera ;
+        rdfs:label                 "1739" ;
+        dc:created                 "2011-03-03"^^xsd:date ;
+        dc:identifier              "1739" ;
+        dc:title                   "PIRINEOS" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/1739/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/3605/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.30256788 36.75535339857992, -5.200499509999999 36.76696949857975, -5.116488399999999 36.77826824857959, -5.014662580000001 36.792685808579385)"^^geosparql:wktLiteral .
+
+georec:4903  a                     btn100:Cordillera ;
+        rdfs:label                 "4903" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4903" ;
+        dc:title                   "SISTEMA IBÉRICO" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4903/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4932/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.031901939999848 37.44258968857032, -3.936047439999863 37.44683807857027, -3.8117394399998807 37.45345279857017, -3.8030323399998807 37.45398299857017, -3.6949781499998977 37.46056273857007, -3.555929129999918 37.46933950856997, -3.4198034499999377 37.48062265856981, -3.0969722499999848 37.50947165856943, -2.978369330000003 37.522240788569256, -2.8656149100000188 37.535567658569086, -2.745242220000038 37.55011074856889, -2.6201703000000567 37.56920639856864, -2.486583800000076 37.59282297856832)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4852/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.098168200000003 42.07214244852733, -8.08655416 42.133887708527, -8.076957380000001 42.20414231852666, -8.062848030000003 42.304208988526184, -8.040358110000003 42.41085870852567, -8.015271160000001 42.5436924485251, -8.005337560000006 42.59629021852486, -7.982703770000002 42.73401037852429)"^^geosparql:wktLiteral .
+
+georec:4304  a                     btn100:Cordillera ;
+        rdfs:label                 "4304" ;
+        dc:created                 "2010-09-07"^^xsd:date ;
+        dc:identifier              "4304" ;
+        dc:title                   "MACIZO GALAICO DURIENSE" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4304/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/no-definido> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/707/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-7.489961700000001 43.58789214852154, -7.459460860000001 43.607817698521494, -7.436539190000004 43.642333788521434)"^^geosparql:wktLiteral .
+
+georec:3632  a                     btn100:Cordillera ;
+        rdfs:label                 "3632" ;
+        dc:created                 "2013-01-17"^^xsd:date ;
+        dc:identifier              "3632" ;
+        dc:title                   "CORDILLERA PENIBÉTICA" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/3632/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/secundario> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+
+georec:4929  a                     btn100:Cordillera ;
+        rdfs:label                 "4929" ;
+        dc:created                 "2014-06-17"^^xsd:date ;
+        dc:identifier              "4929" ;
+        dc:title                   "SISTEMAS BÉTICOS" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4929/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/4667/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.541964660000001 42.98349486852337, -6.3953525099999995 43.04483178852314, -6.3521056499999995 43.06289816852309, -6.24261452 43.07481034852306, -5.9682119600000005 43.08286900852302, -5.65060642 43.067078778523076, -5.325956129999999 43.10076139852296, -5.141391170000002 43.16461144852277, -4.935754449999999 43.2404625485225, -4.8477143 43.258729238522456)"^^geosparql:wktLiteral .
+
+georec:4844  a                     btn100:Cordillera ;
+        rdfs:label                 "4844" ;
+        dc:created                 "2012-03-19"^^xsd:date ;
+        dc:identifier              "4844" ;
+        dc:title                   "MONTES DE TOLEDO" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/4844/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cordillera/2911/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.98171274 43.19822530852264, -4.9741585 43.20110365852264)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cordillera/3096/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.06686337 37.54617085856894, -4.000313700000001 37.56049700856875, -3.9372138699999994 37.57659088856854, -3.8798429399999996 37.592608568568345, -3.81901224 37.6104549885681, -3.7564380199999996 37.62965567856786, -3.6967289000000005 37.650638848567574, -3.634696169999999 37.67343686856729, -3.5714826600000005 37.69758239856697, -3.5111208199999986 37.72305609856665, -3.39316045 37.77435970856598, -3.338454089999999 37.80110030856564, -3.285447890000001 37.829643788565285, -3.2266312699999995 37.86092334856488, -3.17469398 37.88895664856452, -3.119258100000001 37.9233840485641, -3.0672402699999997 37.955950838563695, -3.0169139999999994 37.99307525856322, -2.96074579 38.029718008562796)"^^geosparql:wktLiteral .
+
+georec:1300  a                     btn100:Cordillera ;
+        rdfs:label                 "1300" ;
+        dc:created                 "2011-03-24"^^xsd:date ;
+        dc:identifier              "1300" ;
+        dc:title                   "PIRINEOS" ;
+        geosparql:hasGeometry      <https://datos.ign.es/recurso/btn100/cordillera/1300/geometry> ;
+        btn100:categoriaDeInteres  <https://datos.ign.es/kos/accidente-orografico/categoria-interes/principal> ;
+        btn100:productoFuente      <https://datos.ign.es/kos/accidente-orografico/producto-fuente/mp> .
+

@@ -1,0 +1,96 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:58874  a                       btn100:CurvaNivelBatimetrica ;
+        rdfs:label                    "58874" ;
+        dc:created                    "2013-01-07"^^xsd:date ;
+        dc:identifier                 "58874" ;
+        geosparql:hasGeometry         <https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/58874/geometry> ;
+        btn100:categoriaCurvaDeNivel  <https://datos.ign.es/kos/altimetria/categoria-curva-nivel/interpolada> ;
+        btn100:cota                   "10" .
+
+<https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/58872/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.98683838 37.58687844856841, -0.9868351399999999 37.58681826856842)"^^geosparql:wktLiteral .
+
+georec:58872  a                       btn100:CurvaNivelBatimetrica ;
+        rdfs:label                    "58872" ;
+        dc:created                    "2013-01-07"^^xsd:date ;
+        dc:identifier                 "58872" ;
+        geosparql:hasGeometry         <https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/58872/geometry> ;
+        btn100:categoriaCurvaDeNivel  <https://datos.ign.es/kos/altimetria/categoria-curva-nivel/interpolada> ;
+        btn100:cota                   "10" .
+
+<https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/58876/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.96025185 37.55874354856879, -0.9604426999999999 37.558768938568775)"^^geosparql:wktLiteral .
+
+georec:58877  a                       btn100:CurvaNivelBatimetrica ;
+        rdfs:label                    "58877" ;
+        dc:created                    "2013-01-07"^^xsd:date ;
+        dc:identifier                 "58877" ;
+        geosparql:hasGeometry         <https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/58877/geometry> ;
+        btn100:categoriaCurvaDeNivel  <https://datos.ign.es/kos/altimetria/categoria-curva-nivel/interpolada> ;
+        btn100:cota                   "10" .
+
+<https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/58875/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.5009355499999997 37.428962988570504, -1.5010682599999998 37.429061678570505)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/58874/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.5600273400000004 37.408613308570764, -1.5599794500000002 37.40865091857077)"^^geosparql:wktLiteral .
+
+georec:58875  a                       btn100:CurvaNivelBatimetrica ;
+        rdfs:label                    "58875" ;
+        dc:created                    "2013-01-07"^^xsd:date ;
+        dc:identifier                 "58875" ;
+        geosparql:hasGeometry         <https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/58875/geometry> ;
+        btn100:categoriaCurvaDeNivel  <https://datos.ign.es/kos/altimetria/categoria-curva-nivel/interpolada> ;
+        btn100:cota                   "10" .
+
+<https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/58873/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.9628161999999999 37.564725828568704, -0.9627501500000001 37.5648550085687)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/58878/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.04998668 37.58157870856849, -1.0499984099999997 37.58163561856849)"^^geosparql:wktLiteral .
+
+georec:58873  a                       btn100:CurvaNivelBatimetrica ;
+        rdfs:label                    "58873" ;
+        dc:created                    "2013-01-07"^^xsd:date ;
+        dc:identifier                 "58873" ;
+        geosparql:hasGeometry         <https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/58873/geometry> ;
+        btn100:categoriaCurvaDeNivel  <https://datos.ign.es/kos/altimetria/categoria-curva-nivel/interpolada> ;
+        btn100:cota                   "10" .
+
+georec:58878  a                       btn100:CurvaNivelBatimetrica ;
+        rdfs:label                    "58878" ;
+        dc:created                    "2013-01-07"^^xsd:date ;
+        dc:identifier                 "58878" ;
+        geosparql:hasGeometry         <https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/58878/geometry> ;
+        btn100:categoriaCurvaDeNivel  <https://datos.ign.es/kos/altimetria/categoria-curva-nivel/interpolada> ;
+        btn100:cota                   "10" .
+
+<https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/58877/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.57675685 37.40274325857088, -1.5767696700000005 37.40279874857085)"^^geosparql:wktLiteral .
+
+georec:58876  a                       btn100:CurvaNivelBatimetrica ;
+        rdfs:label                    "58876" ;
+        dc:created                    "2013-01-07"^^xsd:date ;
+        dc:identifier                 "58876" ;
+        geosparql:hasGeometry         <https://datos.ign.es/recurso/btn100/curva-nivel-batimetrica/58876/geometry> ;
+        btn100:categoriaCurvaDeNivel  <https://datos.ign.es/kos/altimetria/categoria-curva-nivel/interpolada> ;
+        btn100:cota                   "10" .
+

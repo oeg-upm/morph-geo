@@ -1,0 +1,156 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/golfo/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/btn100/golfo/165/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-7.2469563 37.14197156857442, -7.200037180000001 37.13873902857447, -7.1606666400000005 37.13338220857454, -7.1213669799999995 37.129236488574584, -7.0826045099999995 37.120764848574716, -6.900528859999998 37.08089341857528, -6.860889899999999 37.06930892857543, -6.7019889300000015 36.99769056857645, -6.675515570000001 36.9721321485768, -6.65058674 36.946519768577176, -6.630195030000001 36.91953580857754, -6.609760440000001 36.891322108577945)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/golfo/48/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.72896755 40.800251778535355, 0.8160029100000004 40.80040838853535)"^^geosparql:wktLiteral .
+
+georec:18  a                   btn100:Golfo ;
+        rdfs:label             "18" ;
+        dc:created             "2012-06-05"^^xsd:date ;
+        dc:identifier          "18" ;
+        dc:title               "Golfo de Vizcaya" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/golfo/18/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/golfo/11/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.5626588199999998 38.004534528563084, -0.5632905300000001 38.014409778562964, -0.5625099399999999 38.02349710856285, -0.5622334599999997 38.03183624856274, -0.56141469 38.04206067856261, -0.5599022000000002 38.05871896856242, -0.55717735 38.068524398562296, -0.55525923 38.08289825856212, -0.55303759 38.09195539856203, -0.5508026900000002 38.10139151856189, -0.5486051800000002 38.109690428561805, -0.5463563599999999 38.11950543856165, -0.5396353699999997 38.133778408561504, -0.5359318400000002 38.143941968561386, -0.5313310900000002 38.15218999856128, -0.5276509600000001 38.161595118561166)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/golfo/68/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.3538826200000003 37.48846069856971, -1.1981143499999998 37.488343618569715)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/golfo/231/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-18.058741649999998 27.78050494877771, -18.03294598 27.78612737877754, -18.01406269 27.79746731877721)"^^geosparql:wktLiteral .
+
+georec:11  a                   btn100:Golfo ;
+        rdfs:label             "11" ;
+        dc:created             "2012-02-16"^^xsd:date ;
+        dc:identifier          "11" ;
+        dc:title               "Golfo de Santa Pola" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/golfo/11/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/golfo/329/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-7.274800889999999 43.6549865985214, -7.246311130000001 43.63365871852143, -7.209582600000001 43.61440896852148, -7.12821034 43.59727980852152)"^^geosparql:wktLiteral .
+
+georec:329  a                  btn100:Golfo ;
+        rdfs:label             "329" ;
+        dc:created             "2010-08-25"^^xsd:date ;
+        dc:identifier          "329" ;
+        dc:title               "GOLFO DA MASMA" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/golfo/329/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:20  a                   btn100:Golfo ;
+        rdfs:label             "20" ;
+        dc:created             "2012-04-27"^^xsd:date ;
+        dc:identifier          "20" ;
+        dc:title               "Golfo de Vizcaya" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/golfo/20/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:10  a                   btn100:Golfo ;
+        rdfs:label             "10" ;
+        dc:created             "2012-02-16"^^xsd:date ;
+        dc:identifier          "10" ;
+        dc:title               "Golfo de Alicante" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/golfo/10/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:68  a                   btn100:Golfo ;
+        rdfs:label             "68" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "68" ;
+        dc:title               "GOLFO DE MAZARRÓN" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/golfo/68/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/golfo/32/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.20378259 42.077027368527304, 3.247290340000001 42.07673919852729)"^^geosparql:wktLiteral .
+
+georec:138  a                  btn100:Golfo ;
+        rdfs:label             "138" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "138" ;
+        dc:title               "GOLFO DE ALMERÍA" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/golfo/138/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:231  a                  btn100:Golfo ;
+        rdfs:label             "231" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "231" ;
+        dc:title               "El Golfo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/golfo/231/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:33  a                   btn100:Golfo ;
+        rdfs:label             "33" ;
+        dc:created             "2011-03-25"^^xsd:date ;
+        dc:identifier          "33" ;
+        dc:title               "GOLF DE ROSES" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/golfo/33/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/golfo/20/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.9620468000000006 43.36664827852214, -1.7713245200000005 43.43954642852194, -1.72696497 43.463351128521865, -1.6157245199999999 43.53109239852168)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/golfo/138/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.489805880000001 36.76116547857984, -2.3507345000000006 36.759915458579854)"^^geosparql:wktLiteral .
+
+georec:48  a                   btn100:Golfo ;
+        rdfs:label             "48" ;
+        dc:created             "2011-03-16"^^xsd:date ;
+        dc:identifier          "48" ;
+        dc:title               "GOLF DE SANT JORDI" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/golfo/48/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/golfo/10/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.4224802499999999 38.1922133385608, -0.4058456500000001 38.212309678560565, -0.3890110000000001 38.23173428856031, -0.37433463 38.249432258560105, -0.3570683199999999 38.270151838559855, -0.3251256299999999 38.30338948855945, -0.3065643500000001 38.32367740855923, -0.26944177 38.35562008855885, -0.24872219 38.372023088558656, -0.2284342700000001 38.3858361385585, -0.20944133 38.40051250855832, -0.18742677 38.41648384855814, -0.16541222 38.43116021855797, -0.14382933 38.44626823855777, -0.12224644 38.461807928557604)"^^geosparql:wktLiteral .
+
+georec:165  a                  btn100:Golfo ;
+        rdfs:label             "165" ;
+        dc:created             "2010-09-20"^^xsd:date ;
+        dc:identifier          "165" ;
+        dc:title               "GOLFO DE CÁDIZ" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/golfo/165/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/golfo/18/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.096105060000001 43.47740449852182, -2.8238486000000003 43.478882698521836)"^^geosparql:wktLiteral .
+
+georec:32  a                   btn100:Golfo ;
+        rdfs:label             "32" ;
+        dc:created             "2011-03-25"^^xsd:date ;
+        dc:identifier          "32" ;
+        dc:title               "Golf de la Morisca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/golfo/32/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/golfo/33/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.1526680300000005 42.19322721852672, 3.1903904600000006 42.192577518526704)"^^geosparql:wktLiteral .
+
