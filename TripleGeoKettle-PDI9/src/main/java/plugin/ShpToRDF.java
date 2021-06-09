@@ -18,34 +18,21 @@
  */
 package plugin;
 
-
-
-import org.eclipse.rdf4j.model.IRI;
-
-// RDF4J
-import org.eclipse.rdf4j.model.Model;
-import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
-import org.eclipse.rdf4j.model.util.ModelBuilder;
-import org.eclipse.rdf4j.model.Namespace;
-import org.eclipse.rdf4j.model.Resource;
-import org.eclipse.rdf4j.model.vocabulary.RDF;
-import org.eclipse.rdf4j.model.vocabulary.RDFS;
-import org.eclipse.rdf4j.rio.RDFFormat;
-import org.eclipse.rdf4j.rio.Rio;
-
-
-
-
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
+import java.io.StringWriter;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.util.Set;
 import java.util.UUID;
 
+import org.apache.jena.datatypes.xsd.XSDDatatype;
+import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.vocabulary.RDF;
+import org.apache.jena.vocabulary.RDFS;
 import org.geotools.geometry.jts.JTS;
 import org.opengis.referencing.operation.MathTransform;
 import org.pentaho.di.core.row.RowMetaInterface;
@@ -80,7 +67,6 @@ public class ShpToRDF {
 	private Boolean flag_csv;
 	private ClassesCSV[] classes;
 	private CSV csv;		
-	private SimpleValueFactory vfact;
 
 	private boolean uuidsActive = false;
 	private FieldDefinition[] fields;
@@ -102,7 +88,7 @@ public class ShpToRDF {
 	 * @param attr
 	 * @param phr
 	 */	
-	public ShpToRDF(tripleGEOStepMeta smi, Boolean flag_csv, ClassesCSV[] classes, CSV csv, String phr, String attr){		
+	public ShpToRDF(tripleGEOStepMeta smi, Boolean flag_csv, ClassesCSV[] classes, CSV csv, String phr, String attr){
 		setAttributeName(attr.toUpperCase());
 		setPhrase(phr);
 		setFeature(smi.getFeature());
@@ -117,10 +103,7 @@ public class ShpToRDF {
 		setUuidsActive(smi.isUuidsActive());
 		setFields(smi.getFields());
 		setColumns(smi.getColumns());
-		vfact = SimpleValueFactory.getInstance();
 	}
-
-
 
 	/**
 	 * Check the prefix and uri
@@ -128,42 +111,41 @@ public class ShpToRDF {
 	 * @param fieldPrefix - Prefix
 	 * @param fieldUri - Uri
 	 */	
-	public void checkPrefixUri(Model modelAux, String fieldPrefix, String fieldUri){
-		Set<Namespace> namespaces = modelAux.getNamespaces();
-		boolean uriHasPrefix = false;
-		for (Namespace e: namespaces) {
-			if(e.getName().equals(fieldUri) && e.getPrefix() != null)
-				uriHasPrefix = true;
-		}
+	public void checkPrefixUri(Model modelAux, String fieldPrefix, String fieldUri){	
+		// getNsURIPrefix: Get the URI bound to a specific prefix, null if there isn't one.
 		// if the prefix does not have a URI AND if the URI does not have a prefix, it is new, so set the prefix and URI
-		if (modelAux.getNamespace(fieldPrefix) == null && !uriHasPrefix){ // Different				
-			modelAux.setNamespace(fieldPrefix, fieldUri);
-			// if the prefix has a URI AND the URI does not have a prefix, the URI has changed, so change the URI
-		} else if (modelAux.getNamespace(fieldPrefix) != null && !uriHasPrefix){ // Prefix equal, URI different
-			modelAux.setNamespace(fieldPrefix + "", fieldUri);
+		if (modelAux.getNsPrefixURI(fieldPrefix) == null 
+				&& modelAux.getNsURIPrefix(fieldUri) == null){ // Different				
+			modelAux.setNsPrefix(fieldPrefix, fieldUri);	
+		// if the prefix has a URI AND the URI does not have a prefix, the URI has changed, so change the URI
+		} else if (modelAux.getNsPrefixURI(fieldPrefix) != null 
+				&& modelAux.getNsURIPrefix(fieldUri) == null){ // Prefix equal, URI different
+			modelAux.setNsPrefix(fieldPrefix + "", fieldUri);
 		}
 	}
 
-
 	/**
-	 * Returns a RDF4J RDF model populated with the params from the configuration.
+	 * Returns a Jena RDF model populated with the params from the configuration.
 	 * @throws IOException 
 	 */
 	public void getModelFromConfiguration() throws IOException {	
-		//Model modelAux = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
-		ModelBuilder builder = new ModelBuilder();
-
-		Model modelAux = builder.setNamespace(this.ontologyNSPrefix, this.ontologyNS.replace(Constants.space,Constants.empty))
-				.setNamespace(this.resourceNSPrefix, this.resourceNS.replace(Constants.space,Constants.empty))
-				.setNamespace("geosparql", Constants.NS_GEO)
-				.setNamespace("sf", Constants.NS_SF)
-				.setNamespace("dc", Constants.NS_DC)
-				.setNamespace("xsd", Constants.NS_XSD)	
-				.setNamespace("rdf", Constants.NS_RDF)
-				.setNamespace("foaf", Constants.NS_FOAF)
-				.setNamespace("geo", Constants.NS_WGS84)
-				.setNamespace("owl", Constants.NS_OWL)
-				.setNamespace("rdfs", Constants.NS_RDFS).build();
+		Model modelAux = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
+		// RDFS_MEM - A specification for RDFS ontology models that are	stored in 
+		//			  memory and do no additional entailment reasoning
+		modelAux.removeAll();			
+		modelAux.setNsPrefix(this.ontologyNSPrefix, 
+				this.ontologyNS.replace(Constants.space,Constants.empty));
+		modelAux.setNsPrefix(this.resourceNSPrefix, 
+				this.resourceNS.replace(Constants.space,Constants.empty));
+		modelAux.setNsPrefix("geosparql", Constants.NS_GEO);
+		modelAux.setNsPrefix("sf", Constants.NS_SF);
+		modelAux.setNsPrefix("dc", Constants.NS_DC);
+		modelAux.setNsPrefix("xsd", Constants.NS_XSD);		
+		modelAux.setNsPrefix("rdf", Constants.NS_RDF);
+		modelAux.setNsPrefix("foaf", Constants.NS_FOAF);
+		modelAux.setNsPrefix("geo", Constants.NS_WGS84);	
+		modelAux.setNsPrefix("owl", Constants.NS_OWL);
+		modelAux.setNsPrefix("rdfs", Constants.NS_RDFS);
 
 		// Inserts the column's prefix
 		if (this.columns != null) {
@@ -198,9 +180,7 @@ public class ShpToRDF {
 		// Helps the garbage collector
 		this.fields = null;
 		modelAux = null;
-
-
-	}
+	} 
 
 	/**
 	 * Writes the RDF model into a file
@@ -338,7 +318,7 @@ public class ShpToRDF {
 									col.getUri().replace(Constants.space,Constants.empty),outputRowMeta.getValueMeta(pos));
 					}
 				}
-
+				
 				if (col.getShow().equalsIgnoreCase("YES")
 						&& !col.getColumn_shp().equalsIgnoreCase(this.attributeName)
 						&& !col.getColumn().equalsIgnoreCase(Constants.the_geom)
@@ -396,7 +376,7 @@ public class ShpToRDF {
 
 		geometry = null; // Helps the garbage collector
 	}  
-
+		
 	/**
 	 * Adds columns in the model 
 	 * @param encodingResource - The attribute
@@ -406,49 +386,57 @@ public class ShpToRDF {
 	 * @param valueMeta - Meta-information of the given column
 	 */	
 	private void addColumns(String encodingResource, String column, Object object, String propertyNS, ValueMetaInterface valueMeta){
-		Resource resource = vfact.createIRI(this.resourceNS.replace(Constants.space,Constants.empty) + encodingResource);		
-		IRI property = vfact.createIRI(propertyNS + column);
-		ModelBuilder builder = new ModelBuilder(this.model_rdf);
-		builder.subject(resource);
-
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEE MMM dd hh:mm:ss z yyyy");
-
+		Resource resource = this.model_rdf.createResource(this.resourceNS.replace(Constants.space,Constants.empty) + encodingResource);
+		//Property property = this.model_rdf.createProperty(propertyNS + column.toLowerCase());	
+		Property property = this.model_rdf.createProperty(propertyNS + column);
+		Literal literal;
 
 		if (object.toString().matches(".*\\d.*")) { // Object is a number
 			if (object.toString().matches("-?\\d+(\\.\\d+)?")){
-				builder.add(property, vfact.createLiteral(object.toString()));
+				float number = Float.parseFloat(object.toString());
+				int n = (int)number;
+				float partInt = number - n;
+				if (partInt == 0.0){				
+					literal = this.model_rdf.createTypedLiteral(n);
+				} else {
+					literal = this.model_rdf.createTypedLiteral(number);
+				}
+				//resource.addLiteral(property, literal);
+				resource.addProperty(property, object.toString());
 			} else {
 				if (object.getClass().getName().equalsIgnoreCase("java.util.Date")){
-					builder.add(property, vfact.createLiteral(LocalDate.parse(object.toString(), formatter)));
+					literal = this.model_rdf.createTypedLiteral(valueMeta.getDateFormat().format(object),XSDDatatype.XSDdate);
 				} else {
 					if (this.language.equalsIgnoreCase(Constants.null_)){
-						builder.add(property, vfact.createLiteral(object.toString()));
+						literal = this.model_rdf.createLiteral(object.toString(), "");
 					} else {
-						builder.add(property, vfact.createLiteral(object.toString(), this.language));
-
+						literal = this.model_rdf.createLiteral(object.toString(), this.language);
 					}
 				}
+				resource.addLiteral(property, literal);	
 			}						
 		} else if(object.toString().matches("^<http(.*)>$")){ // Object is an url resource
-			builder.add(property, vfact.createLiteral(object.toString().replace(">", "").replace("<", "")));
+			Resource resource_value = this.model_rdf.createResource(object.toString().replace(">", "").replace("<", ""));
+			resource.addProperty(property, resource_value);
 		} else if (object.toString().equals(Constants.empty)) {
-			builder.add(property, vfact.createLiteral(object.toString()));
+			resource.addProperty(property, object.toString());
 		} else {
 			if (this.language.equalsIgnoreCase(Constants.null_)){
 				if (object.getClass().getName().equalsIgnoreCase("java.util.Date")){
-					builder.add(property, vfact.createLiteral(LocalDate.parse(object.toString(), formatter)));
+					literal = this.model_rdf.createTypedLiteral(valueMeta.getDateFormat().format(object),XSDDatatype.XSDdate);
 				} else {
-					builder.add(property, vfact.createLiteral(object.toString()));
+					literal = this.model_rdf.createLiteral(object.toString(), "");
 				}
+				resource.addLiteral(property, literal);					
 			} else {
 				if (object.getClass().getName().equalsIgnoreCase("java.util.Date")){
-					builder.add(property, vfact.createLiteral(LocalDate.parse(object.toString(), formatter)));
+					literal = this.model_rdf.createTypedLiteral(valueMeta.getDateFormat().format(object),XSDDatatype.XSDdate);
 				} else {
-					builder.add(property, vfact.createLiteral(object.toString(), this.language));
+					literal = this.model_rdf.createLiteral(object.toString(), this.language);
 				}
+				resource.addLiteral(property, literal);	
 			}
-		}
-		builder.build();
+		}		
 	}
 
 	/**
@@ -457,11 +445,14 @@ public class ShpToRDF {
 	 * @param geometry - The geometry
 	 */	
 	private void addGeometry(String encodingResource, Geometry geometry){
-		Resource resourceGeometry = vfact.createIRI(this.resourceNS.replace(Constants.space,Constants.empty) + encodingResource);		
-		IRI property = vfact.createIRI(Constants.NS_GEO + "hasGeometry");
-		Resource resourceGeometry2 = vfact.createIRI(this.resourceNS.replace(Constants.space,Constants.empty) + encodingResource + Constants.GEOMETRY);		
-		ModelBuilder builder = new ModelBuilder(this.model_rdf);
-		builder.add(resourceGeometry, property, resourceGeometry2);
+		Resource resourceGeometry = this.model_rdf.createResource(
+				this.resourceNS.replace(Constants.space,Constants.empty) + encodingResource
+				);
+		Property property = this.model_rdf.createProperty(Constants.NS_GEO + "hasGeometry");
+		Resource resourceGeometry2 = this.model_rdf.createResource(
+				this.resourceNS.replace(Constants.space,Constants.empty) + encodingResource + Constants.GEOMETRY
+				);
+		resourceGeometry.addProperty(property, resourceGeometry2);									
 
 		String geo = encodingResource + Constants.GEOMETRY;
 		if (geometry.getGeometryType().equals(Constants.POINT)) {
@@ -557,7 +548,7 @@ public class ShpToRDF {
 	 * @param r2 - Attribute 2
 	 */
 	private void insertResourceTypeResource(String r1, String r2) {
-		this.model_rdf.add(vfact.createIRI(r1), RDF.TYPE,  vfact.createIRI(r2));
+		this.model_rdf.add(this.model_rdf.createResource(r1), RDF.type, this.model_rdf.createResource(r2));
 	}
 
 	/**
@@ -568,9 +559,14 @@ public class ShpToRDF {
 	 * @param x - Literals
 	 */
 	private void insertLiteralTriplet(String s, String p, String o, String x) {
-		Resource resourceGeometry = vfact.createIRI(s);
-		IRI property = vfact.createIRI(p);
-		this.model_rdf.add(resourceGeometry, property, vfact.createLiteral(o));		
+		Resource resourceGeometry = this.model_rdf.createResource(s);
+		Property property = this.model_rdf.createProperty(p);
+		if (x != null) {
+			Literal literal = this.model_rdf.createTypedLiteral(o, x);
+			resourceGeometry.addLiteral(property, literal);
+		} else {
+			resourceGeometry.addProperty(property, o);
+		}
 	}
 
 	/**
@@ -580,22 +576,22 @@ public class ShpToRDF {
 	 * @param lang
 	 */
 	private void insertLabelResource(String resource, String label, String lang) {				
-		Resource resource1 = vfact.createIRI(resource);
+		Resource resource1 = this.model_rdf.createResource(resource);
 		label = label.replaceAll("\\s+$", "");
 		if (this.phrase != null && this.phrase != ""){
-
+			
 			label = this.phrase + " " + label.replaceAll("\\s+","");
 		}
-
+		
 		if (label.toString().matches(".*\\d.*")){ // label is a number
-			this.model_rdf.add(resource1, RDFS.LABEL, vfact.createLiteral(label));									
+			this.model_rdf.add(resource1, RDFS.label, this.model_rdf.createLiteral(label,Constants.empty));									
 		} else if (label.toString().equals(Constants.empty)) {
-			this.model_rdf.add(resource1, RDFS.LABEL, vfact.createLiteral(label));
+			this.model_rdf.add(resource1, RDFS.label, this.model_rdf.createLiteral(label,Constants.empty));
 		} else { 
 			if (this.language.equalsIgnoreCase(Constants.null_)){
-				this.model_rdf.add(resource1, RDFS.LABEL, vfact.createLiteral(label));
+				this.model_rdf.add(resource1, RDFS.label, this.model_rdf.createLiteral(label, Constants.empty));
 			} else {
-				this.model_rdf.add(resource1, RDFS.LABEL, vfact.createLiteral(label, lang));
+				this.model_rdf.add(resource1, RDFS.label, this.model_rdf.createLiteral(label, lang));
 			}
 		}	
 	}
@@ -670,14 +666,14 @@ public class ShpToRDF {
 	 * @return String with the RDF Model
 	 */
 	private String getRdfModel(Model model) {
-		ByteArrayOutputStream stream = new ByteArrayOutputStream();
-		Rio.write(this.model_rdf, (OutputStream)stream, RDFFormat.TURTLE);	
+		StringWriter out = new StringWriter();
+		this.model_rdf.write(out,Constants.format);	
 
 		// Helps the garbage collector
 		this.columns = null; 
 		this.model_rdf = null;
 
-		return new String(stream.toByteArray());
+		return out.toString();
 	}	
 
 	public String getAttributeName() { return this.attributeName; }
@@ -727,7 +723,7 @@ public class ShpToRDF {
 
 	public ColumnDefinition[] getColumns() { return this.columns; }
 	public void setColumns(ColumnDefinition[] columns) { this.columns = columns; }
-
+	
 	public String getPhrase() { return phrase; }
 	public void setPhrase(String phrase) { this.phrase = phrase; }
 
