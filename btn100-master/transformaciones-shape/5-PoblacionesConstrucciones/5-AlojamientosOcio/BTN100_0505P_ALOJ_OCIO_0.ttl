@@ -1,0 +1,1091 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/parador-nacional/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:5780  a                 btn100:ParadorNacional ;
+        rdfs:label             "5780" ;
+        dc:created             "2012-09-26"^^xsd:date ;
+        dc:identifier          "5780" ;
+        dc:replaces            "60167" ;
+        dc:title               "Parador Nacional de San Marcos de León" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/5780/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/10307/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.023016770000001 39.84873914854324)"^^geosparql:wktLiteral .
+
+georec:1211  a                 btn100:ParadorNacional ;
+        rdfs:label             "1211" ;
+        dc:created             "2012-05-09"^^xsd:date ;
+        dc:identifier          "1211" ;
+        dc:replaces            "46313" ;
+        dc:title               "Parador Nacional Santo Domingo de la Calzada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/1211/geometry> .
+
+georec:6681  a                 btn100:ParadorNacional ;
+        rdfs:label             "6681" ;
+        dc:created             "2008-01-22"^^xsd:date ;
+        dc:identifier          "6681" ;
+        dc:title               "Parador Nacional de Málaga Gibralfaro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/6681/geometry> .
+
+georec:6113  a                 btn100:ParadorNacional ;
+        rdfs:label             "6113" ;
+        dc:created             "2012-10-30"^^xsd:date ;
+        dc:identifier          "6113" ;
+        dc:replaces            "37222" ;
+        dc:title               "Parador Nacional del Condestable Dávalos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/6113/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/5004/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.70156186 40.65801756853643)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/5094/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.82250445 38.96314116855202)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/7430/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.80031035 37.90618824856431)"^^geosparql:wktLiteral .
+
+georec:4361  a                 btn100:ParadorNacional ;
+        rdfs:label             "4361" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "4361" ;
+        dc:replaces            "59015" ;
+        dc:title               "Parador Nacional de la Fatela" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4361/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/7183/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.770165119999997 37.11282558857482)"^^geosparql:wktLiteral .
+
+georec:4866  a                 btn100:ParadorNacional ;
+        rdfs:label             "4866" ;
+        dc:created             "2012-06-14"^^xsd:date ;
+        dc:identifier          "4866" ;
+        dc:title               "Parador Nacional de Ciudad Rodrigo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4866/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/646/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.4230821199999992 40.13938053854066)"^^geosparql:wktLiteral .
+
+georec:2020  a                 btn100:ParadorNacional ;
+        rdfs:label             "2020" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2020" ;
+        dc:title               "Parador de Artiés / Parador de Artíes Don Gaspar de Portolà" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/2020/geometry> .
+
+georec:8270  a                 btn100:ParadorNacional ;
+        rdfs:label             "8270" ;
+        dc:created             "2008-09-23"^^xsd:date ;
+        dc:identifier          "8270" ;
+        dc:title               "Parador Nacional de Turismo de La Gomera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/8270/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4355/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.878361889999999 39.46130238854692)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4550/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.007878429999999 40.90116704853459)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/5523/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8001691499999997 37.57087108856862)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/8270/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.10769278 28.091020998768744)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/1714/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.756206829999998 42.02600517852756)"^^geosparql:wktLiteral .
+
+georec:2717  a                 btn100:ParadorNacional ;
+        rdfs:label             "2717" ;
+        dc:created             "2012-04-18"^^xsd:date ;
+        dc:identifier          "2717" ;
+        dc:replaces            "19039" ;
+        dc:title               "Parador Nacional Castell del Duc de Cardona" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/2717/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/8435/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.645814310000002 42.43441458852557)"^^geosparql:wktLiteral .
+
+georec:10307  a                btn100:ParadorNacional ;
+        rdfs:label             "10307" ;
+        dc:created             "2010-07-20"^^xsd:date ;
+        dc:identifier          "10307" ;
+        dc:title               "Parador Nacional de Turismo Conde de Orgaz" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/10307/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4626/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.52140267 42.871786358523764)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/6115/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9625383799999994 37.90316928856435)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/5000/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.1136149 40.35491721853883)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/7044/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.8071427600000005 36.747963828580026)"^^geosparql:wktLiteral .
+
+georec:9755  a                 btn100:ParadorNacional ;
+        rdfs:label             "9755" ;
+        dc:created             "2006-07-27"^^xsd:date ;
+        dc:identifier          "9755" ;
+        dc:replaces            "53778" ;
+        dc:title               "Parador Nacional de Gijón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/9755/geometry> .
+
+georec:8428  a                 btn100:ParadorNacional ;
+        rdfs:label             "8428" ;
+        dc:created             "2010-03-28"^^xsd:date ;
+        dc:identifier          "8428" ;
+        dc:title               "Parador Nacional de Tui (San Telmo)" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/8428/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/8273/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.774846000000004 28.65117866875295)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/6111/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8004479500000006 37.76779774856607)"^^geosparql:wktLiteral .
+
+georec:4356  a                 btn100:ParadorNacional ;
+        rdfs:label             "4356" ;
+        dc:created             "2010-02-12"^^xsd:date ;
+        dc:identifier          "4356" ;
+        dc:title               "Parador Nacional de Zurbarán" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4356/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/5708/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7135571500000006 38.88625215855284)"^^geosparql:wktLiteral .
+
+georec:9600  a                 btn100:ParadorNacional ;
+        rdfs:label             "9600" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "9600" ;
+        dc:replaces            "29293" ;
+        dc:title               "Parador Nacional Condes de Vilalba" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/9600/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/7040/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.306013199999999 36.53439944858318)"^^geosparql:wktLiteral .
+
+georec:1277  a                 btn100:ParadorNacional ;
+        rdfs:label             "1277" ;
+        dc:created             "2012-06-01"^^xsd:date ;
+        dc:identifier          "1277" ;
+        dc:title               "Parador de Argómaniz -Argomanizko Ostatu" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/1277/geometry> .
+
+georec:2015  a                 btn100:ParadorNacional ;
+        rdfs:label             "2015" ;
+        dc:created             "2006-12-18"^^xsd:date ;
+        dc:identifier          "2015" ;
+        dc:replaces            "24118" ;
+        dc:title               "Parador Nacional de La Seu de Urgell" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/2015/geometry> .
+
+georec:6684  a                 btn100:ParadorNacional ;
+        rdfs:label             "6684" ;
+        dc:created             "2008-02-04"^^xsd:date ;
+        dc:identifier          "6684" ;
+        dc:title               "Parador Málaga Golf" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/6684/geometry> .
+
+georec:4243  a                 btn100:ParadorNacional ;
+        rdfs:label             "4243" ;
+        dc:created             "2010-08-25"^^xsd:date ;
+        dc:identifier          "4243" ;
+        dc:title               "Parador Nacional de Sigüenza" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4243/geometry> .
+
+georec:6471  a                 btn100:ParadorNacional ;
+        rdfs:label             "6471" ;
+        dc:created             "2012-12-28"^^xsd:date ;
+        dc:identifier          "6471" ;
+        dc:replaces            "36606" ;
+        dc:title               "Parador Nacional San Francisco" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/6471/geometry> .
+
+georec:4385  a                 btn100:ParadorNacional ;
+        rdfs:label             "4385" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "4385" ;
+        dc:replaces            "59115" ;
+        dc:title               "Parador Nacional de Jarandilla de la Vera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4385/geometry> .
+
+georec:7927  a                 btn100:ParadorNacional ;
+        rdfs:label             "7927" ;
+        dc:created             "2013-02-13"^^xsd:date ;
+        dc:identifier          "7927" ;
+        dc:replaces            "60167" ;
+        dc:title               "Parador de Verín" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/7927/geometry> .
+
+georec:646  a                  btn100:ParadorNacional ;
+        rdfs:label             "646" ;
+        dc:created             "2006-07-26"^^xsd:date ;
+        dc:identifier          "646" ;
+        dc:replaces            "45266" ;
+        dc:title               "Parador Nacional de Chinchón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/646/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4184/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.13254329 41.048437788533555)"^^geosparql:wktLiteral .
+
+georec:5094  a                 btn100:ParadorNacional ;
+        rdfs:label             "5094" ;
+        dc:created             "2012-01-26"^^xsd:date ;
+        dc:identifier          "5094" ;
+        dc:replaces            "40182" ;
+        dc:title               "Parador Nacional de La Mancha" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/5094/geometry> .
+
+georec:8273  a                 btn100:ParadorNacional ;
+        rdfs:label             "8273" ;
+        dc:created             "2008-02-04"^^xsd:date ;
+        dc:identifier          "8273" ;
+        dc:title               "Parador de La Palma" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/8273/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/1948/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.4578914500000004 41.762742408529014)"^^geosparql:wktLiteral .
+
+georec:7430  a                 btn100:ParadorNacional ;
+        rdfs:label             "7430" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "7430" ;
+        dc:title               "Parador Nacional de la Arruzafa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/7430/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/10298/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.937514260000001 35.29630954860402)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/7817/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.05508646 39.17351354854982)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/3903/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.21504426 42.49937243852527)"^^geosparql:wktLiteral .
+
+georec:1948  a                 btn100:ParadorNacional ;
+        rdfs:label             "1948" ;
+        dc:created             "2012-08-08"^^xsd:date ;
+        dc:identifier          "1948" ;
+        dc:replaces            "48877" ;
+        dc:title               "Parador Nacional Antonio Machado" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/1948/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/6682/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.564055740000001 37.02527062857605)"^^geosparql:wktLiteral .
+
+georec:6111  a                 btn100:ParadorNacional ;
+        rdfs:label             "6111" ;
+        dc:created             "2012-10-30"^^xsd:date ;
+        dc:identifier          "6111" ;
+        dc:replaces            "37345" ;
+        dc:title               "Parador Nacional Castillo de Santa Catalina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/6111/geometry> .
+
+georec:5523  a                 btn100:ParadorNacional ;
+        rdfs:label             "5523" ;
+        dc:created             "2006-07-14"^^xsd:date ;
+        dc:identifier          "5523" ;
+        dc:replaces            "25736" ;
+        dc:title               "Parador Nacional de Puerto Lumbreras" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/5523/geometry> .
+
+georec:1714  a                 btn100:ParadorNacional ;
+        rdfs:label             "1714" ;
+        dc:created             "2012-05-14"^^xsd:date ;
+        dc:identifier          "1714" ;
+        dc:title               "Parador Nacional de Lerma" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/1714/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/437/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.30189159 39.32085716854831)"^^geosparql:wktLiteral .
+
+georec:449  a                  btn100:ParadorNacional ;
+        rdfs:label             "449" ;
+        dc:created             "2012-02-16"^^xsd:date ;
+        dc:identifier          "449" ;
+        dc:replaces            "60167" ;
+        dc:title               "Parador de Jávea / Parador Costa Blanca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/449/geometry> .
+
+georec:4288  a                 btn100:ParadorNacional ;
+        rdfs:label             "4288" ;
+        dc:created             "2010-08-31"^^xsd:date ;
+        dc:identifier          "4288" ;
+        dc:replaces            "44229" ;
+        dc:title               "Parador Nacional del Marqués de Villena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4288/geometry> .
+
+georec:10297  a                btn100:ParadorNacional ;
+        rdfs:label             "10297" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "10297" ;
+        dc:title               "Parador Nacional La Muralla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/10297/geometry> .
+
+georec:4367  a                 btn100:ParadorNacional ;
+        rdfs:label             "4367" ;
+        dc:created             "2010-01-15"^^xsd:date ;
+        dc:identifier          "4367" ;
+        dc:title               "Parador Nacional de Plasencia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4367/geometry> .
+
+georec:7183  a                 btn100:ParadorNacional ;
+        rdfs:label             "7183" ;
+        dc:created             "2013-01-04"^^xsd:date ;
+        dc:identifier          "7183" ;
+        dc:replaces            "39374" ;
+        dc:title               "Parador Nacional de Turismo Cristóbal Colón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/7183/geometry> .
+
+georec:8831  a                 btn100:ParadorNacional ;
+        rdfs:label             "8831" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "8831" ;
+        dc:replaces            "73360" ;
+        dc:title               "Parador Nacional de Santiago de Compostela" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/8831/geometry> .
+
+georec:8063  a                 btn100:ParadorNacional ;
+        rdfs:label             "8063" ;
+        dc:created             "2012-12-27"^^xsd:date ;
+        dc:identifier          "8063" ;
+        dc:title               "Parador Nacional de Fuenteventura" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/8063/geometry> .
+
+georec:7817  a                 btn100:ParadorNacional ;
+        rdfs:label             "7817" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "7817" ;
+        dc:replaces            "57760" ;
+        dc:title               "Parador de Turismo de Herrera del Duque" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/7817/geometry> .
+
+georec:5710  a                 btn100:ParadorNacional ;
+        rdfs:label             "5710" ;
+        dc:created             "2011-03-01"^^xsd:date ;
+        dc:identifier          "5710" ;
+        dc:replaces            "43334" ;
+        dc:title               "Parador Nacional de Manzanares" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/5710/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4166/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.12602305 40.35148662853886)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4361/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.676216570000001 40.18459283854027)"^^geosparql:wktLiteral .
+
+georec:4546  a                 btn100:ParadorNacional ;
+        rdfs:label             "4546" ;
+        dc:created             "2008-01-22"^^xsd:date ;
+        dc:identifier          "4546" ;
+        dc:title               "Parador Nacional de Segovia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4546/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/9601/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.039760150000003 43.533225818521686)"^^geosparql:wktLiteral .
+
+georec:5297  a                 btn100:ParadorNacional ;
+        rdfs:label             "5297" ;
+        dc:created             "2010-07-26"^^xsd:date ;
+        dc:identifier          "5297" ;
+        dc:replaces            "51042" ;
+        dc:title               "Parador Nacional Rey Fernando II de León" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/5297/geometry> .
+
+georec:7704  a                 btn100:ParadorNacional ;
+        rdfs:label             "7704" ;
+        dc:created             "2013-02-15"^^xsd:date ;
+        dc:identifier          "7704" ;
+        dc:replaces            "38582" ;
+        dc:title               "Parador Nacional Alcázar del Rey Don Pedro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/7704/geometry> .
+
+georec:4859  a                 btn100:ParadorNacional ;
+        rdfs:label             "4859" ;
+        dc:created             "2012-06-14"^^xsd:date ;
+        dc:identifier          "4859" ;
+        dc:title               "Parador Nacional de Salamanca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4859/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4385/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.662321839999999 40.129138788540736)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/1444/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7909846299999994 43.36371251852215)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4243/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.6412411199999997 41.06427876853344)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/2717/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.6855384200000003 41.914357358528164)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/647/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.34776725 40.48450307853779)"^^geosparql:wktLiteral .
+
+georec:6682  a                 btn100:ParadorNacional ;
+        rdfs:label             "6682" ;
+        dc:created             "2008-01-21"^^xsd:date ;
+        dc:identifier          "6682" ;
+        dc:title               "Parador Nacional de Antequera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/6682/geometry> .
+
+georec:5000  a                 btn100:ParadorNacional ;
+        rdfs:label             "5000" ;
+        dc:created             "2008-02-26"^^xsd:date ;
+        dc:identifier          "5000" ;
+        dc:replaces            "40568" ;
+        dc:title               "Parador Nacional de Gredos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/5000/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4356/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.326027340000001 39.45233892854699)"^^geosparql:wktLiteral .
+
+georec:6469  a                 btn100:ParadorNacional ;
+        rdfs:label             "6469" ;
+        dc:created             "2007-09-11"^^xsd:date ;
+        dc:identifier          "6469" ;
+        dc:title               "Parador Nacional de los Reyes Católicos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/6469/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/8428/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.646096339999996 42.04095401852749)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/8271/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.626582350000007 28.22467198876494)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/1221/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.96117165 42.30595156852617)"^^geosparql:wktLiteral .
+
+georec:3903  a                 btn100:ParadorNacional ;
+        rdfs:label             "3903" ;
+        dc:created             "2012-03-14"^^xsd:date ;
+        dc:identifier          "3903" ;
+        dc:replaces            "1570" ;
+        dc:title               "Parador Nacional Fernando de Aragón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/3903/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/7179/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.406467830000001 37.22623317857327)"^^geosparql:wktLiteral .
+
+georec:8271  a                 btn100:ParadorNacional ;
+        rdfs:label             "8271" ;
+        dc:created             "2008-02-04"^^xsd:date ;
+        dc:identifier          "8271" ;
+        dc:title               "Parador de Las Cañadas del Teide" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/8271/geometry> .
+
+georec:5960  a                 btn100:ParadorNacional ;
+        rdfs:label             "5960" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "5960" ;
+        dc:replaces            "57489" ;
+        dc:title               "Parador Nacional de Santillana del Mar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/5960/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/6469/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8314820200000004 37.13176982857457)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4352/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.37167351 39.472448118546815)"^^geosparql:wktLiteral .
+
+georec:7044  a                 btn100:ParadorNacional ;
+        rdfs:label             "7044" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "7044" ;
+        dc:replaces            "34395" ;
+        dc:title               "Parador Nacional Casa del Corregidor" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/7044/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/8432/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.813785720000002 42.51637942852522)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/9600/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.68246668 43.29819121852234)"^^geosparql:wktLiteral .
+
+georec:8834  a                 btn100:ParadorNacional ;
+        rdfs:label             "8834" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "8834" ;
+        dc:replaces            "73816" ;
+        dc:title               "Parador Nacional de Ferrol" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/8834/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/1277/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.5412784199999994 42.86765685852378)"^^geosparql:wktLiteral .
+
+georec:5968  a                 btn100:ParadorNacional ;
+        rdfs:label             "5968" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "5968" ;
+        dc:replaces            "57551" ;
+        dc:title               "Parador Nacional de Limpias" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/5968/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/5297/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.68134439 41.9985471185277)"^^geosparql:wktLiteral .
+
+georec:8429  a                 btn100:ParadorNacional ;
+        rdfs:label             "8429" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "8429" ;
+        dc:replaces            "56159" ;
+        dc:title               "Parador Nacional de Baiona Conde de Gondomar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/8429/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/5710/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.3817529299999998 38.98624947855178)"^^geosparql:wktLiteral .
+
+georec:4741  a                 btn100:ParadorNacional ;
+        rdfs:label             "4741" ;
+        dc:created             "2012-08-22"^^xsd:date ;
+        dc:identifier          "4741" ;
+        dc:replaces            "66953" ;
+        dc:title               "Parador Nacional de Tordesillas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4741/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/6684/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.473641980000001 36.65139461858144)"^^geosparql:wktLiteral .
+
+georec:9601  a                 btn100:ParadorNacional ;
+        rdfs:label             "9601" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "9601" ;
+        dc:replaces            "30222" ;
+        dc:title               "Parador Nacional de Ribadeo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/9601/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4866/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.53613441 40.59635825853692)"^^geosparql:wktLiteral .
+
+georec:9593  a                 btn100:ParadorNacional ;
+        rdfs:label             "9593" ;
+        dc:created             "2007-07-04"^^xsd:date ;
+        dc:identifier          "9593" ;
+        dc:title               "Parador Nacional Monforte de Lemos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/9593/geometry> .
+
+georec:5955  a                 btn100:ParadorNacional ;
+        rdfs:label             "5955" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "5955" ;
+        dc:replaces            "57484" ;
+        dc:title               "Parador Nacional de Fuente Dé" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/5955/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/7928/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.685975780000001 42.41710996852565)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/1536/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.6502833099999998 42.48216418852536)"^^geosparql:wktLiteral .
+
+georec:6685  a                 btn100:ParadorNacional ;
+        rdfs:label             "6685" ;
+        dc:created             "2008-02-04"^^xsd:date ;
+        dc:identifier          "6685" ;
+        dc:title               "Parador de Ronda" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/6685/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/3475/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.5247351 40.815403788535235)"^^geosparql:wktLiteral .
+
+georec:7928  a                 btn100:ParadorNacional ;
+        rdfs:label             "7928" ;
+        dc:created             "2013-02-13"^^xsd:date ;
+        dc:identifier          "7928" ;
+        dc:replaces            "60167" ;
+        dc:title               "Parador de Santo Estevo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/7928/geometry> .
+
+georec:647  a                  btn100:ParadorNacional ;
+        rdfs:label             "647" ;
+        dc:created             "2006-07-26"^^xsd:date ;
+        dc:identifier          "647" ;
+        dc:replaces            "45269" ;
+        dc:title               "Parador Nacional Hostería del Estudiante" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/647/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4367/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.094392590000002 40.02953500854161)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/7818/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.345718250000002 38.9187550385525)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/9757/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.151118090000001 43.36647504852213)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/5296/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.630246280000001 42.05557317852742)"^^geosparql:wktLiteral .
+
+georec:3643  a                 btn100:ParadorNacional ;
+        rdfs:label             "3643" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3643" ;
+        dc:replaces            "23346" ;
+        dc:title               "Parador Nacional de Monte Perdido" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/3643/geometry> .
+
+georec:5708  a                 btn100:ParadorNacional ;
+        rdfs:label             "5708" ;
+        dc:created             "2012-02-03"^^xsd:date ;
+        dc:identifier          "5708" ;
+        dc:replaces            "43186" ;
+        dc:title               "Parador Nacional de Almagro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/5708/geometry> .
+
+georec:1536  a                 btn100:ParadorNacional ;
+        rdfs:label             "1536" ;
+        dc:created             "2010-09-06"^^xsd:date ;
+        dc:identifier          "1536" ;
+        dc:title               "Parador Nacional de Olite" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/1536/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/1211/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9536557300000004 42.44060113852554)"^^geosparql:wktLiteral .
+
+georec:4352  a                 btn100:ParadorNacional ;
+        rdfs:label             "4352" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "4352" ;
+        dc:replaces            "59556" ;
+        dc:title               "Parador Nacional de Cáceres" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4352/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/6683/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8706768499999997 36.749921978580005)"^^geosparql:wktLiteral .
+
+georec:1444  a                 btn100:ParadorNacional ;
+        rdfs:label             "1444" ;
+        dc:created             "2012-04-27"^^xsd:date ;
+        dc:identifier          "1444" ;
+        dc:replaces            "22572" ;
+        dc:title               "Hondarribiko Paradorea" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/1444/geometry> .
+
+georec:8432  a                 btn100:ParadorNacional ;
+        rdfs:label             "8432" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "8432" ;
+        dc:replaces            "56231" ;
+        dc:title               "Parador Nacional de Cambados O Albariño" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/8432/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/7927/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.446976069999999 41.944087608528)"^^geosparql:wktLiteral .
+
+georec:2324  a                 btn100:ParadorNacional ;
+        rdfs:label             "2324" ;
+        dc:created             "2012-02-24"^^xsd:date ;
+        dc:identifier          "2324" ;
+        dc:replaces            "21815" ;
+        dc:title               "Parador Nacional Costa Brava" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/2324/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/8062/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.599678479999994 28.006443158771173)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/7704/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.63254783 37.472158418569926)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/5968/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.42352339 43.35733195852217)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/10306/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.174856000000001 39.919485048542604)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/5774/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.813399730000001 42.60369509852483)"^^geosparql:wktLiteral .
+
+georec:2019  a                 btn100:ParadorNacional ;
+        rdfs:label             "2019" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2019" ;
+        dc:title               "Parador de Vielha / Parador de Vielha Valle de Arán" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/2019/geometry> .
+
+georec:10306  a                btn100:ParadorNacional ;
+        rdfs:label             "10306" ;
+        dc:created             "2012-04-03"^^xsd:date ;
+        dc:identifier          "10306" ;
+        dc:title               "Parador Nacional Virrey de Toledo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/10306/geometry> .
+
+georec:10298  a                btn100:ParadorNacional ;
+        rdfs:label             "10298" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "10298" ;
+        dc:title               "Parador de Melilla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/10298/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/7813/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.417233830000002 38.42414835855804)"^^geosparql:wktLiteral .
+
+georec:437  a                  btn100:ParadorNacional ;
+        rdfs:label             "437" ;
+        dc:created             "2012-06-06"^^xsd:date ;
+        dc:identifier          "437" ;
+        dc:title               "Parador de El Saler" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/437/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/3352/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.36224508 41.980309358527805)"^^geosparql:wktLiteral .
+
+georec:5774  a                 btn100:ParadorNacional ;
+        rdfs:label             "5774" ;
+        dc:created             "2012-09-26"^^xsd:date ;
+        dc:identifier          "5774" ;
+        dc:replaces            "60168" ;
+        dc:title               "Parador Nacional de Villafranca de Bierzo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/5774/geometry> .
+
+georec:7818  a                 btn100:ParadorNacional ;
+        rdfs:label             "7818" ;
+        dc:created             "2008-02-04"^^xsd:date ;
+        dc:identifier          "7818" ;
+        dc:title               "Parador de Mérida / Parador Vía de la Plata" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/7818/geometry> .
+
+georec:3475  a                 btn100:ParadorNacional ;
+        rdfs:label             "3475" ;
+        dc:created             "2012-08-21"^^xsd:date ;
+        dc:identifier          "3475" ;
+        dc:replaces            "28448" ;
+        dc:title               "Parador Nacional Castell de la Zuda" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/3475/geometry> .
+
+georec:4184  a                 btn100:ParadorNacional ;
+        rdfs:label             "4184" ;
+        dc:created             "2012-04-02"^^xsd:date ;
+        dc:identifier          "4184" ;
+        dc:replaces            "30110" ;
+        dc:title               "Parador Nacional de Alcañiz - La Concordia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4184/geometry> .
+
+georec:4355  a                 btn100:ParadorNacional ;
+        rdfs:label             "4355" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "4355" ;
+        dc:replaces            "59554" ;
+        dc:title               "Parador Nacional de Trujillo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4355/geometry> .
+
+georec:5298  a                 btn100:ParadorNacional ;
+        rdfs:label             "5298" ;
+        dc:created             "2012-08-19"^^xsd:date ;
+        dc:identifier          "5298" ;
+        dc:title               "Parador de Zamora / Parador de los Condes de Alba y Aliste" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/5298/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/5960/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.10764535 43.39050228852208)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/8429/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.849858160000002 42.12579476852705)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/8272/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.958327319999995 27.717232678779553)"^^geosparql:wktLiteral .
+
+georec:8435  a                 btn100:ParadorNacional ;
+        rdfs:label             "8435" ;
+        dc:created             "2008-03-08"^^xsd:date ;
+        dc:identifier          "8435" ;
+        dc:title               "Parador de Pontevedra/ Parador Casa del Barón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/8435/geometry> .
+
+georec:4626  a                 btn100:ParadorNacional ;
+        rdfs:label             "4626" ;
+        dc:created             "2006-07-27"^^xsd:date ;
+        dc:identifier          "4626" ;
+        dc:replaces            "65143" ;
+        dc:title               "Parador de Cervera de Pisuerga" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4626/geometry> .
+
+georec:6683  a                 btn100:ParadorNacional ;
+        rdfs:label             "6683" ;
+        dc:created             "2013-01-17"^^xsd:date ;
+        dc:identifier          "6683" ;
+        dc:replaces            "37834" ;
+        dc:title               "Parador Nacional de Nerja" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/6683/geometry> .
+
+georec:6115  a                 btn100:ParadorNacional ;
+        rdfs:label             "6115" ;
+        dc:created             "2012-10-30"^^xsd:date ;
+        dc:identifier          "6115" ;
+        dc:replaces            "37321" ;
+        dc:title               "Parador Nacional El Adelantado" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/6115/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/6471/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.587632479999999 37.175761248573956)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/5955/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.814236289999999 43.14456949852283)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/449/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.18997152 38.77571518855406)"^^geosparql:wktLiteral .
+
+georec:7179  a                 btn100:ParadorNacional ;
+        rdfs:label             "7179" ;
+        dc:created             "2013-01-04"^^xsd:date ;
+        dc:identifier          "7179" ;
+        dc:title               "Parador Nacional de Turismo de Ayamonte" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/7179/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/3643/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.08461699 42.67951903852452)"^^geosparql:wktLiteral .
+
+georec:8272  a                 btn100:ParadorNacional ;
+        rdfs:label             "8272" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "8272" ;
+        dc:title               "Parador de El Hierro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/8272/geometry> .
+
+georec:4292  a                 btn100:ParadorNacional ;
+        rdfs:label             "4292" ;
+        dc:created             "2010-08-06"^^xsd:date ;
+        dc:identifier          "4292" ;
+        dc:title               "Parador Nacional de Cuenca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4292/geometry> .
+
+georec:1221  a                 btn100:ParadorNacional ;
+        rdfs:label             "1221" ;
+        dc:created             "2012-05-09"^^xsd:date ;
+        dc:identifier          "1221" ;
+        dc:replaces            "46312" ;
+        dc:title               "Parador Nacional Marco F. Quintiliano" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/1221/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/8831/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.545956459999998 42.88104903852372)"^^geosparql:wktLiteral .
+
+georec:7813  a                 btn100:ParadorNacional ;
+        rdfs:label             "7813" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "7813" ;
+        dc:replaces            "58251" ;
+        dc:title               "Parador de Turismo de Zafra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/7813/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/6113/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.36728335 38.00808844856305)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/5298/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.747910369999998 41.50231371853057)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4288/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.08321273 39.54660722854607)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4859/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.67222059 40.95315810853423)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/6685/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.1664845 36.74113750858013)"^^geosparql:wktLiteral .
+
+georec:9757  a                 btn100:ParadorNacional ;
+        rdfs:label             "9757" ;
+        dc:created             "2006-07-27"^^xsd:date ;
+        dc:identifier          "9757" ;
+        dc:replaces            "53778" ;
+        dc:title               "Parador de Cangas de Onís" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/9757/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/10297/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.31768601 35.88865162859441)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/8834/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.240392129999998 43.480569468521814)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/9755/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.639892810000001 43.53603048852168)"^^geosparql:wktLiteral .
+
+georec:4550  a                 btn100:ParadorNacional ;
+        rdfs:label             "4550" ;
+        dc:created             "2012-08-14"^^xsd:date ;
+        dc:identifier          "4550" ;
+        dc:title               "Parador de La Granja" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4550/geometry> .
+
+georec:4166  a                 btn100:ParadorNacional ;
+        rdfs:label             "4166" ;
+        dc:created             "2010-09-18"^^xsd:date ;
+        dc:identifier          "4166" ;
+        dc:replaces            "30111" ;
+        dc:title               "Parador Nacional de Teruel" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/4166/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4292/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.1266843900000003 40.079287868541186)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/2324/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2179002699999995 41.93362113852805)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/6681/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.410292750000001 36.7226616785804)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/9593/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.51057292 42.52389559852518)"^^geosparql:wktLiteral .
+
+georec:5004  a                 btn100:ParadorNacional ;
+        rdfs:label             "5004" ;
+        dc:created             "2006-07-26"^^xsd:date ;
+        dc:identifier          "5004" ;
+        dc:replaces            "40573" ;
+        dc:title               "Parador Nacional Raimundo de Borgoña" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/5004/geometry> .
+
+georec:7040  a                 btn100:ParadorNacional ;
+        rdfs:label             "7040" ;
+        dc:created             "2008-05-13"^^xsd:date ;
+        dc:identifier          "7040" ;
+        dc:replaces            "34394" ;
+        dc:title               "Parador Nacional Hotel Atlántico" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/7040/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/2019/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.7898836600000001 42.699133358524435)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/2020/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8721007999999999 42.700685678524415)"^^geosparql:wktLiteral .
+
+georec:3352  a                 btn100:ParadorNacional ;
+        rdfs:label             "3352" ;
+        dc:created             "2012-03-23"^^xsd:date ;
+        dc:identifier          "3352" ;
+        dc:title               "Parador de Vic-Sau" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/3352/geometry> .
+
+georec:8062  a                 btn100:ParadorNacional ;
+        rdfs:label             "8062" ;
+        dc:created             "2008-08-18"^^xsd:date ;
+        dc:identifier          "8062" ;
+        dc:title               "Parador Nacional Cruz de Tejeda" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/8062/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/5780/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.582168009999999 42.60192136852483)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/2015/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4620299299999997 42.358548938525914)"^^geosparql:wktLiteral .
+
+georec:5296  a                 btn100:ParadorNacional ;
+        rdfs:label             "5296" ;
+        dc:created             "2010-07-26"^^xsd:date ;
+        dc:identifier          "5296" ;
+        dc:replaces            "51044" ;
+        dc:title               "Parador Nacional Puebla de Sanabria" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/parador-nacional/5296/geometry> .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4741/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.010962320000001 41.49256368853063)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/4546/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.10990115 40.96062508853418)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/parador-nacional/8063/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.86612943 28.473729878757897)"^^geosparql:wktLiteral .
+

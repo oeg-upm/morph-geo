@@ -1,0 +1,461 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/estacion-invernal/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/5777/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.5186083 42.40832173852569)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/1715/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.304440880000001 42.1953479685267)"^^geosparql:wktLiteral .
+
+georec:2011  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2011" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "2011" ;
+        dc:replaces            "24056" ;
+        dc:title               "Estació d'esquí de Portainé" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2011/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/4176/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.6334389 40.379880798538636)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/649/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.970857029999999 40.80422744853532)"^^geosparql:wktLiteral .
+
+georec:2009  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2009" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2009" ;
+        dc:replaces            "24011" ;
+        dc:title               "Estació d'esquí de Llessui" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2009/geometry> .
+
+georec:7926  a                 btn100:EstacionInvernal ;
+        rdfs:label             "7926" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "7926" ;
+        dc:replaces            "55208" ;
+        dc:title               "Estación de Invierno de Cabeza de Manzaneda" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/7926/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/5952/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.41195903 42.99286069852332)"^^geosparql:wktLiteral .
+
+georec:649  a                  btn100:EstacionInvernal ;
+        rdfs:label             "649" ;
+        dc:created             "2012-09-19"^^xsd:date ;
+        dc:identifier          "649" ;
+        dc:replaces            "45216" ;
+        dc:title               "Estación de Invierno de Valdesquí" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/649/geometry> .
+
+georec:1209  a                 btn100:EstacionInvernal ;
+        rdfs:label             "1209" ;
+        dc:created             "2012-05-09"^^xsd:date ;
+        dc:identifier          "1209" ;
+        dc:replaces            "46186" ;
+        dc:title               "Estación de esquí de Valdezcaray" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/1209/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/2013/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8006233200000001 42.68532014852451)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/6475/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.3883937000000017 37.07255518857539)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/2010/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.0807882900000003 42.55040661852507)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/2305/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.9370849800000007 42.336975108526026)"^^geosparql:wktLiteral .
+
+georec:4176  a                 btn100:EstacionInvernal ;
+        rdfs:label             "4176" ;
+        dc:created             "2012-04-02"^^xsd:date ;
+        dc:identifier          "4176" ;
+        dc:title               "Estación Invernal de Valdelinares" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/4176/geometry> .
+
+georec:1715  a                 btn100:EstacionInvernal ;
+        rdfs:label             "1715" ;
+        dc:created             "2012-05-14"^^xsd:date ;
+        dc:identifier          "1715" ;
+        dc:replaces            "55146" ;
+        dc:title               "Estación Invernal Valle del Sol" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/1715/geometry> .
+
+georec:2010  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2010" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2010" ;
+        dc:replaces            "24004" ;
+        dc:title               "Estació d'esquí de Superespot" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2010/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/2009/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.04427964 42.442890588525536)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/9754/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.775762329999998 42.97778818852336)"^^geosparql:wktLiteral .
+
+georec:5953  a                 btn100:EstacionInvernal ;
+        rdfs:label             "5953" ;
+        dc:created             "2006-07-27"^^xsd:date ;
+        dc:identifier          "5953" ;
+        dc:replaces            "57252" ;
+        dc:title               "Estación Invernal Alto Campoo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/5953/geometry> .
+
+georec:3847  a                 btn100:EstacionInvernal ;
+        rdfs:label             "3847" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3847" ;
+        dc:replaces            "23361" ;
+        dc:title               "Estación de esquí del Formigal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/3847/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/3843/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.5411879 42.5879719485249)"^^geosparql:wktLiteral .
+
+georec:650  a                  btn100:EstacionInvernal ;
+        rdfs:label             "650" ;
+        dc:created             "2006-07-26"^^xsd:date ;
+        dc:identifier          "650" ;
+        dc:replaces            "45218" ;
+        dc:title               "Estación Invernal Valcotos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/650/geometry> .
+
+georec:2008  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2008" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2008" ;
+        dc:replaces            "23947" ;
+        dc:title               "Estació d'esquí de Boí-Taüll" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2008/geometry> .
+
+georec:648  a                  btn100:EstacionInvernal ;
+        rdfs:label             "648" ;
+        dc:created             "2008-03-19"^^xsd:date ;
+        dc:identifier          "648" ;
+        dc:title               "Estación Invernal de Navacerrada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/648/geometry> .
+
+georec:6475  a                 btn100:EstacionInvernal ;
+        rdfs:label             "6475" ;
+        dc:created             "2012-12-28"^^xsd:date ;
+        dc:identifier          "6475" ;
+        dc:replaces            "36426" ;
+        dc:title               "Estación Invernal Pradollano" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/6475/geometry> .
+
+georec:1942  a                 btn100:EstacionInvernal ;
+        rdfs:label             "1942" ;
+        dc:created             "2012-05-31"^^xsd:date ;
+        dc:identifier          "1942" ;
+        dc:title               "Estación de esquí de Lunada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/1942/geometry> .
+
+georec:6667  a                 btn100:EstacionInvernal ;
+        rdfs:label             "6667" ;
+        dc:created             "2012-12-05"^^xsd:date ;
+        dc:identifier          "6667" ;
+        dc:title               "Estación Invernal de Sierra Nevada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/6667/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/648/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.007418900000002 40.78777559853545)"^^geosparql:wktLiteral .
+
+georec:5779  a                 btn100:EstacionInvernal ;
+        rdfs:label             "5779" ;
+        dc:created             "2010-07-24"^^xsd:date ;
+        dc:identifier          "5779" ;
+        dc:title               "Estación Invernal de Leitariegos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/5779/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/2311/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.84477249 42.45846442852547)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/3641/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.5698290599999999 42.55937435852501)"^^geosparql:wktLiteral .
+
+georec:3641  a                 btn100:EstacionInvernal ;
+        rdfs:label             "3641" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3641" ;
+        dc:replaces            "23360" ;
+        dc:title               "Estación de esquí de Cerler" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/3641/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/2018/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.66852728 42.431234018525586)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/2012/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.28704963 42.41762844852564)"^^geosparql:wktLiteral .
+
+georec:5952  a                 btn100:EstacionInvernal ;
+        rdfs:label             "5952" ;
+        dc:created             "2013-05-12"^^xsd:date ;
+        dc:identifier          "5952" ;
+        dc:title               "Estación Invernal de Leitariegos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/5952/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/5947/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.388526540000001 43.03526833852319)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/2304/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.9160871700000002 42.34602941852599)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/2008/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8706497300000002 42.47812746852538)"^^geosparql:wktLiteral .
+
+georec:2014  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2014" ;
+        dc:created             "2010-10-30"^^xsd:date ;
+        dc:identifier          "2014" ;
+        dc:replaces            "23979" ;
+        dc:title               "Estació d'esquí de Vaquèira-Beret" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2014/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/5779/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.40508666 43.00604054852329)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/1209/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9687945600000005 42.254730598526415)"^^geosparql:wktLiteral .
+
+georec:4159  a                 btn100:EstacionInvernal ;
+        rdfs:label             "4159" ;
+        dc:created             "2012-04-02"^^xsd:date ;
+        dc:identifier          "4159" ;
+        dc:replaces            "30109" ;
+        dc:title               "Estación de Esquí Javalambre" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/4159/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/5953/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.357310810000001 43.03427858852319)"^^geosparql:wktLiteral .
+
+georec:3632  a                 btn100:EstacionInvernal ;
+        rdfs:label             "3632" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3632" ;
+        dc:replaces            "23363" ;
+        dc:title               "Estación de esquí de Panticosa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/3632/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/2011/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2118584399999999 42.4283308685256)"^^geosparql:wktLiteral .
+
+georec:2320  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2320" ;
+        dc:created             "2006-07-14"^^xsd:date ;
+        dc:identifier          "2320" ;
+        dc:replaces            "20916" ;
+        dc:title               "Estació d´esquí Vall de Núria" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2320/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/1942/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6551498100000015 43.165219558522736)"^^geosparql:wktLiteral .
+
+georec:2305  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2305" ;
+        dc:created             "2012-02-24"^^xsd:date ;
+        dc:identifier          "2305" ;
+        dc:replaces            "20895" ;
+        dc:title               "Estació d´esquí de la Molina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2305/geometry> .
+
+georec:5777  a                 btn100:EstacionInvernal ;
+        rdfs:label             "5777" ;
+        dc:created             "2006-07-27"^^xsd:date ;
+        dc:identifier          "5777" ;
+        dc:replaces            "60927" ;
+        dc:title               "Estación Invernal del Morredero" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/5777/geometry> .
+
+georec:2013  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2013" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2013" ;
+        dc:replaces            "23923" ;
+        dc:title               "Estació d'esquí dera Tuca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2013/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/3630/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.50651312 42.810190978524)"^^geosparql:wktLiteral .
+
+georec:4851  a                 btn100:EstacionInvernal ;
+        rdfs:label             "4851" ;
+        dc:created             "2006-07-26"^^xsd:date ;
+        dc:identifier          "4851" ;
+        dc:replaces            "48263" ;
+        dc:title               "Estación de Esquí La Covatilla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/4851/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/7926/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.2981130400000005 42.25922715852638)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/3629/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.530846 42.78840089852408)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/2320/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1538582999999996 42.39749684852573)"^^geosparql:wktLiteral .
+
+georec:2018  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2018" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2018" ;
+        dc:replaces            "24148" ;
+        dc:title               "Estació d'esquí nòrdic de Lles" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2018/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/4549/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.4737009799999994 41.19196639853256)"^^geosparql:wktLiteral .
+
+georec:3629  a                 btn100:EstacionInvernal ;
+        rdfs:label             "3629" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3629" ;
+        dc:replaces            "23364" ;
+        dc:title               "Estación de esquí de Candanchú" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/3629/geometry> .
+
+georec:2304  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2304" ;
+        dc:created             "2012-02-24"^^xsd:date ;
+        dc:identifier          "2304" ;
+        dc:replaces            "20892" ;
+        dc:title               "Estació d´esquí de Masella" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2304/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/6667/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.40023892 37.09493889857508)"^^geosparql:wktLiteral .
+
+georec:2012  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2012" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2012" ;
+        dc:replaces            "24081" ;
+        dc:title               "Estació d'esquí nòrdic de Sant Joan de l'Erm" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2012/geometry> .
+
+georec:4549  a                 btn100:EstacionInvernal ;
+        rdfs:label             "4549" ;
+        dc:created             "2010-07-04"^^xsd:date ;
+        dc:identifier          "4549" ;
+        dc:replaces            "48323" ;
+        dc:title               "Estación Invernal de la Pinilla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/4549/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/2017/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.56198056 42.17280987852682)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/2014/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.9343395300000003 42.69930920852444)"^^geosparql:wktLiteral .
+
+georec:3843  a                 btn100:EstacionInvernal ;
+        rdfs:label             "3843" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3843" ;
+        dc:replaces            "23360" ;
+        dc:title               "Estación de esquí de Cerler" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/3843/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/3632/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.2766812599999999 42.712267518524385)"^^geosparql:wktLiteral .
+
+georec:2311  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2311" ;
+        dc:created             "2012-02-24"^^xsd:date ;
+        dc:identifier          "2311" ;
+        dc:replaces            "21782" ;
+        dc:title               "Estació d´esquí Nórdic de Guils" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2311/geometry> .
+
+georec:9754  a                 btn100:EstacionInvernal ;
+        rdfs:label             "9754" ;
+        dc:created             "2006-07-27"^^xsd:date ;
+        dc:identifier          "9754" ;
+        dc:replaces            "53320" ;
+        dc:title               "Estación invernal de Valgrande" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/9754/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/4851/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.690025079999998 40.35417514853884)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/3847/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.38412112 42.76246200852418)"^^geosparql:wktLiteral .
+
+georec:5947  a                 btn100:EstacionInvernal ;
+        rdfs:label             "5947" ;
+        dc:created             "2012-09-29"^^xsd:date ;
+        dc:identifier          "5947" ;
+        dc:title               "Estación invernal de San Isidro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/5947/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/4159/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.0178941200000005 40.11530589854086)"^^geosparql:wktLiteral .
+
+georec:3630  a                 btn100:EstacionInvernal ;
+        rdfs:label             "3630" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3630" ;
+        dc:replaces            "23362" ;
+        dc:title               "Estación de esquí de Astún" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/3630/geometry> .
+
+georec:2017  a                 btn100:EstacionInvernal ;
+        rdfs:label             "2017" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "2017" ;
+        dc:replaces            "24127" ;
+        dc:title               "Estació d'esquí del Port del Comte" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-invernal/2017/geometry> .
+
+<https://datos.ign.es/recurso/btn100/estacion-invernal/650/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.9611877199999994 40.82491538853518)"^^geosparql:wktLiteral .
+

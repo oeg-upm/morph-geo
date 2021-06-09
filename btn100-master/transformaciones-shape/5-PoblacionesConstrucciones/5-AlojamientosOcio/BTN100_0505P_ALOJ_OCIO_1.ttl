@@ -1,0 +1,1466 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/balneario/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:8431  a                 btn100:Balneario ;
+        rdfs:label             "8431" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "8431" ;
+        dc:replaces            "56186" ;
+        dc:title               "Balneario da Illa da Toxa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/8431/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/5959/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.9659069700000016 43.30345187852232)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/5712/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.8350828999999997 39.31434679854837)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/4844/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.67997464 41.28893329853193)"^^geosparql:wktLiteral .
+
+georec:6679  a                 btn100:Balneario ;
+        rdfs:label             "6679" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "6679" ;
+        dc:replaces            "37795" ;
+        dc:title               "Balneario de Fuente Amargosa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/6679/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/5525/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.9109524400000009 37.7192628385667)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/1716/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8770692900000006 43.0310105085232)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/3647/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.58515144 42.66155287852458)"^^geosparql:wktLiteral .
+
+georec:7922  a                 btn100:Balneario ;
+        rdfs:label             "7922" ;
+        dc:created             "2007-04-01"^^xsd:date ;
+        dc:identifier          "7922" ;
+        dc:title               "Vila Termal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/7922/geometry> .
+
+georec:4359  a                 btn100:Balneario ;
+        rdfs:label             "4359" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "4359" ;
+        dc:replaces            "59186" ;
+        dc:title               "Balneario de las Cañas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/4359/geometry> .
+
+georec:3900  a                 btn100:Balneario ;
+        rdfs:label             "3900" ;
+        dc:created             "2012-03-14"^^xsd:date ;
+        dc:identifier          "3900" ;
+        dc:replaces            "1484" ;
+        dc:title               "Balneario de Alhama de Aragón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/3900/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/7922/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.15363565 42.25882460852638)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/5092/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.8151995499999996 38.93350723855233)"^^geosparql:wktLiteral .
+
+georec:5089  a                 btn100:Balneario ;
+        rdfs:label             "5089" ;
+        dc:created             "2012-01-26"^^xsd:date ;
+        dc:identifier          "5089" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5089/geometry> .
+
+georec:9595  a                 btn100:Balneario ;
+        rdfs:label             "9595" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "9595" ;
+        dc:replaces            "28974" ;
+        dc:title               "Balneario de Pardiñas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/9595/geometry> .
+
+georec:444  a                  btn100:Balneario ;
+        rdfs:label             "444" ;
+        dc:created             "2006-07-14"^^xsd:date ;
+        dc:identifier          "444" ;
+        dc:replaces            "17945" ;
+        dc:title               "Balneari de Busot" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/444/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/5707/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8315047199999994 38.83197712855344)"^^geosparql:wktLiteral .
+
+georec:5957  a                 btn100:Balneario ;
+        rdfs:label             "5957" ;
+        dc:created             "2010-02-25"^^xsd:date ;
+        dc:identifier          "5957" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5957/geometry> .
+
+georec:5531  a                 btn100:Balneario ;
+        rdfs:label             "5531" ;
+        dc:created             "2006-07-14"^^xsd:date ;
+        dc:identifier          "5531" ;
+        dc:replaces            "25389" ;
+        dc:title               "Balneario de Alhama de Murcia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5531/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/8433/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.466070650000002 42.22634881852656)"^^geosparql:wktLiteral .
+
+georec:1317  a                 btn100:Balneario ;
+        rdfs:label             "1317" ;
+        dc:created             "2006-07-14"^^xsd:date ;
+        dc:identifier          "1317" ;
+        dc:replaces            "31724" ;
+        dc:title               "Urberuagako Bainuetxea" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1317/geometry> .
+
+georec:5097  a                 btn100:Balneario ;
+        rdfs:label             "5097" ;
+        dc:created             "2006-07-26"^^xsd:date ;
+        dc:identifier          "5097" ;
+        dc:replaces            "40355" ;
+        dc:title               "Baños de la Concepción" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5097/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/5703/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.30399342 38.39985845855833)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/5711/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.747549330000001 38.635232858555625)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/5958/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.07309356 43.30512268852231)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/3481/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.0918352800000002 41.377161138531356)"^^geosparql:wktLiteral .
+
+georec:7049  a                 btn100:Balneario ;
+        rdfs:label             "7049" ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "7049" ;
+        dc:replaces            "34569" ;
+        dc:title               "Balneario de Pozo Amargo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/7049/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/6108/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.9450657299999996 37.686946018567106)"^^geosparql:wktLiteral .
+
+georec:4354  a                 btn100:Balneario ;
+        rdfs:label             "4354" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "4354" ;
+        dc:replaces            "59409" ;
+        dc:title               "Balneario Fuentes del Trampal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/4354/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/9597/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.3927701500000005 42.833733848523906)"^^geosparql:wktLiteral .
+
+georec:1275  a                 btn100:Balneario ;
+        rdfs:label             "1275" ;
+        dc:created             "2006-07-14"^^xsd:date ;
+        dc:identifier          "1275" ;
+        dc:title               "Sobrongo Bainuak" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1275/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/5946/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.853106529999999 42.93289369852353)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/5706/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8768254999999994 38.85019319855324)"^^geosparql:wktLiteral .
+
+georec:8434  a                 btn100:Balneario ;
+        rdfs:label             "8434" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "8434" ;
+        dc:replaces            "56520" ;
+        dc:title               "Balneario de Cuntis" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/8434/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/6470/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.57248596 36.960042428576976)"^^geosparql:wktLiteral .
+
+georec:6114  a                 btn100:Balneario ;
+        rdfs:label             "6114" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "6114" ;
+        dc:replaces            "37219" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/6114/geometry> .
+
+georec:7925  a                 btn100:Balneario ;
+        rdfs:label             "7925" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "7925" ;
+        dc:replaces            "55011" ;
+        dc:title               "Balneario de Baños de Molgas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/7925/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/121/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.87178389 39.625436998545325)"^^geosparql:wktLiteral .
+
+georec:5092  a                 btn100:Balneario ;
+        rdfs:label             "5092" ;
+        dc:created             "2012-01-26"^^xsd:date ;
+        dc:identifier          "5092" ;
+        dc:title               "Baño de Mulas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5092/geometry> .
+
+georec:8826  a                 btn100:Balneario ;
+        rdfs:label             "8826" ;
+        dc:created             "2013-05-26"^^xsd:date ;
+        dc:identifier          "8826" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/8826/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/6112/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.5800545599999993 38.33062642855915)"^^geosparql:wktLiteral .
+
+georec:447  a                  btn100:Balneario ;
+        rdfs:label             "447" ;
+        dc:created             "2012-02-16"^^xsd:date ;
+        dc:identifier          "447" ;
+        dc:replaces            "17938" ;
+        dc:title               "Balneari de Benimarfull" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/447/geometry> .
+
+georec:9598  a                 btn100:Balneario ;
+        rdfs:label             "9598" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "9598" ;
+        dc:replaces            "30537" ;
+        dc:title               "Balneario de Lugo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/9598/geometry> .
+
+georec:4291  a                 btn100:Balneario ;
+        rdfs:label             "4291" ;
+        dc:created             "2012-02-17"^^xsd:date ;
+        dc:identifier          "4291" ;
+        dc:replaces            "43960" ;
+        dc:title               "Balneario de Alcantud" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/4291/geometry> .
+
+georec:1220  a                 btn100:Balneario ;
+        rdfs:label             "1220" ;
+        dc:created             "2012-05-09"^^xsd:date ;
+        dc:identifier          "1220" ;
+        dc:replaces            "46666" ;
+        dc:title               "Balneario Albotea" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1220/geometry> .
+
+georec:7812  a                 btn100:Balneario ;
+        rdfs:label             "7812" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "7812" ;
+        dc:replaces            "58404" ;
+        dc:title               "Balneario de El Raposo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/7812/geometry> .
+
+georec:5705  a                 btn100:Balneario ;
+        rdfs:label             "5705" ;
+        dc:created             "2012-02-03"^^xsd:date ;
+        dc:identifier          "5705" ;
+        dc:replaces            "43321" ;
+        dc:title               "Balneario Baños de Chirivi" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5705/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/10477/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.712813031100187 38.508049589452334)"^^geosparql:wktLiteral .
+
+georec:10476  a                btn100:Balneario ;
+        rdfs:label             "10476" ;
+        dc:created             "2015-06-30"^^xsd:date ;
+        dc:identifier          "10476" ;
+        dc:title               "Baños de la Higuerilla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/10476/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/1317/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.47589712 43.3050316285223)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/8825/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.642732900000004 42.60260549852483)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/4858/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.899910779999999 41.06986016853341)"^^geosparql:wktLiteral .
+
+georec:121  a                  btn100:Balneario ;
+        rdfs:label             "121" ;
+        dc:created             "2012-02-22"^^xsd:date ;
+        dc:identifier          "121" ;
+        dc:replaces            "30644" ;
+        dc:title               "Balneari de Fuencaliente" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/121/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/6107/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8629718700000004 37.46269076857006)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/5532/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.3041898700000003 38.12863753856157)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/7815/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.24461882 38.78391580855397)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/3901/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.64224066 41.316517008531754)"^^geosparql:wktLiteral .
+
+georec:6109  a                 btn100:Balneario ;
+        rdfs:label             "6109" ;
+        dc:created             "2012-10-30"^^xsd:date ;
+        dc:identifier          "6109" ;
+        dc:replaces            "37211" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/6109/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/6679/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.907338190000002 36.681933078581004)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/4359/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.80812321 39.84035653854331)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/6680/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.818329620000001 36.851950178578534)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/1718/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.2550336599999996 42.770071038524165)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/7811/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.759018230000001 38.512779648557014)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/9749/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.604616829999997 42.51305414852521)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/9750/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.935453099999999 42.86039792852381)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/7924/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.421732300000001 41.9263566985281)"^^geosparql:wktLiteral .
+
+georec:1720  a                 btn100:Balneario ;
+        rdfs:label             "1720" ;
+        dc:created             "2010-07-19"^^xsd:date ;
+        dc:identifier          "1720" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1720/geometry> .
+
+georec:6472  a                 btn100:Balneario ;
+        rdfs:label             "6472" ;
+        dc:created             "2012-12-28"^^xsd:date ;
+        dc:identifier          "6472" ;
+        dc:replaces            "36424" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/6472/geometry> .
+
+georec:1315  a                 btn100:Balneario ;
+        rdfs:label             "1315" ;
+        dc:created             "2012-05-22"^^xsd:date ;
+        dc:identifier          "1315" ;
+        dc:replaces            "31773" ;
+        dc:title               "Gezalako Bainuetxea" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1315/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/5531/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.4208305199999998 37.8593661985649)"^^geosparql:wktLiteral .
+
+georec:3898  a                 btn100:Balneario ;
+        rdfs:label             "3898" ;
+        dc:created             "2012-03-14"^^xsd:date ;
+        dc:identifier          "3898" ;
+        dc:replaces            "1470" ;
+        dc:title               "Balneario de la Virgen" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/3898/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/5089/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.57376825 38.61432926855585)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/5090/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.4193305599999997 38.36957038855868)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/5097/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.33341507 39.324621928548254)"^^geosparql:wktLiteral .
+
+georec:7815  a                 btn100:Balneario ;
+        rdfs:label             "7815" ;
+        dc:created             "2012-10-25"^^xsd:date ;
+        dc:identifier          "7815" ;
+        dc:title               "Baño de Alange" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/7815/geometry> .
+
+georec:7431  a                 btn100:Balneario ;
+        rdfs:label             "7431" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "7431" ;
+        dc:title               "Balneario de Fuente Agria" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/7431/geometry> .
+
+georec:6480  a                 btn100:Balneario ;
+        rdfs:label             "6480" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "6480" ;
+        dc:replaces            "36578" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/6480/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/4740/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.93273994 41.26972436853205)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/6476/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.220232540000001 36.90750199857774)"^^geosparql:wktLiteral .
+
+georec:10479  a                btn100:Balneario ;
+        rdfs:label             "10479" ;
+        dc:created             "2015-07-01"^^xsd:date ;
+        dc:identifier          "10479" ;
+        dc:title               "Baños sulfurosos de la Hedionda" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/10479/geometry> .
+
+georec:4181  a                 btn100:Balneario ;
+        rdfs:label             "4181" ;
+        dc:created             "2006-07-14"^^xsd:date ;
+        dc:identifier          "4181" ;
+        dc:replaces            "30107" ;
+        dc:title               "Balneario de Baños del Segura" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/4181/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/5961/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7456977799999995 43.346853488522186)"^^geosparql:wktLiteral .
+
+georec:4160  a                 btn100:Balneario ;
+        rdfs:label             "4160" ;
+        dc:created             "2012-04-02"^^xsd:date ;
+        dc:identifier          "4160" ;
+        dc:title               "Balneario El Paraiso" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/4160/geometry> .
+
+georec:5295  a                 btn100:Balneario ;
+        rdfs:label             "5295" ;
+        dc:created             "2012-08-19"^^xsd:date ;
+        dc:identifier          "5295" ;
+        dc:replaces            "51037" ;
+        dc:title               "Balneario de Calabor" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5295/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/8431/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.84510164 42.485136938525336)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/1276/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.88751112 42.87080307852375)"^^geosparql:wktLiteral .
+
+georec:6680  a                 btn100:Balneario ;
+        rdfs:label             "6680" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "6680" ;
+        dc:replaces            "37796" ;
+        dc:title               "Balneario de Carratraca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/6680/geometry> .
+
+georec:5524  a                 btn100:Balneario ;
+        rdfs:label             "5524" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "5524" ;
+        dc:title               "Balneario del Cantalar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5524/geometry> .
+
+georec:6112  a                 btn100:Balneario ;
+        rdfs:label             "6112" ;
+        dc:created             "2012-10-30"^^xsd:date ;
+        dc:identifier          "6112" ;
+        dc:replaces            "37317" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/6112/geometry> .
+
+georec:4381  a                 btn100:Balneario ;
+        rdfs:label             "4381" ;
+        dc:created             "2010-02-01"^^xsd:date ;
+        dc:identifier          "4381" ;
+        dc:title               "Balneario de Montemayor" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/4381/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/6472/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.4821666299999996 36.923818148577496)"^^geosparql:wktLiteral .
+
+georec:10303  a                btn100:Balneario ;
+        rdfs:label             "10303" ;
+        dc:created             "2010-07-30"^^xsd:date ;
+        dc:identifier          "10303" ;
+        dc:title               "Balneario del Robledillo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/10303/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/1218/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.2414651900000004 42.20657864852665)"^^geosparql:wktLiteral .
+
+georec:7923  a                 btn100:Balneario ;
+        rdfs:label             "7923" ;
+        dc:created             "2007-04-01"^^xsd:date ;
+        dc:identifier          "7923" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/7923/geometry> .
+
+georec:3901  a                 btn100:Balneario ;
+        rdfs:label             "3901" ;
+        dc:created             "2012-03-14"^^xsd:date ;
+        dc:identifier          "3901" ;
+        dc:replaces            "1707" ;
+        dc:title               "Balneario de Paracuellos de Jiloca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/3901/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/4354/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.312851319999999 39.16482446854988)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/6480/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.7902593299999996 37.61970213856798)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/4160/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.8680893500000002 40.03950604854153)"^^geosparql:wktLiteral .
+
+georec:4844  a                 btn100:Balneario ;
+        rdfs:label             "4844" ;
+        dc:created             "2012-12-27"^^xsd:date ;
+        dc:identifier          "4844" ;
+        dc:title               "Balneario Villa de Olmedo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/4844/geometry> .
+
+georec:4865  a                 btn100:Balneario ;
+        rdfs:label             "4865" ;
+        dc:created             "2006-07-26"^^xsd:date ;
+        dc:identifier          "4865" ;
+        dc:replaces            "47553" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/4865/geometry> .
+
+georec:5090  a                 btn100:Balneario ;
+        rdfs:label             "5090" ;
+        dc:created             "2010-08-08"^^xsd:date ;
+        dc:identifier          "5090" ;
+        dc:title               "Balneario de Tus" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5090/geometry> .
+
+georec:8824  a                 btn100:Balneario ;
+        rdfs:label             "8824" ;
+        dc:created             "2013-05-26"^^xsd:date ;
+        dc:identifier          "8824" ;
+        dc:title               "Balneario Caldelas de Tui" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/8824/geometry> .
+
+georec:9596  a                 btn100:Balneario ;
+        rdfs:label             "9596" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "9596" ;
+        dc:replaces            "29026" ;
+        dc:title               "Balneario de Guitiriz" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/9596/geometry> .
+
+georec:8269  a                 btn100:Balneario ;
+        rdfs:label             "8269" ;
+        dc:created             "2008-02-15"^^xsd:date ;
+        dc:identifier          "8269" ;
+        dc:title               "Balneario de Pozo de Sabinosa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/8269/geometry> .
+
+georec:5958  a                 btn100:Balneario ;
+        rdfs:label             "5958" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "5958" ;
+        dc:replaces            "57492" ;
+        dc:title               "Balneario de las Caldas de Besaya" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5958/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/4865/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.4575457100000015 40.99449520853394)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/6114/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.033802280000001 38.05847442856241)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/1437/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.50164695 43.0287319285232)"^^geosparql:wktLiteral .
+
+georec:1218  a                 btn100:Balneario ;
+        rdfs:label             "1218" ;
+        dc:created             "2006-07-26"^^xsd:date ;
+        dc:identifier          "1218" ;
+        dc:replaces            "46207" ;
+        dc:title               "Balneario Los Baños de Arnedillo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1218/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/5704/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.136432769999998 38.49782500855719)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/2695/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8090255300000004 41.821475218528676)"^^geosparql:wktLiteral .
+
+georec:5532  a                 btn100:Balneario ;
+        rdfs:label             "5532" ;
+        dc:created             "2006-07-14"^^xsd:date ;
+        dc:identifier          "5532" ;
+        dc:replaces            "26074" ;
+        dc:title               "Balneario de los Baños de Archena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5532/geometry> .
+
+georec:5703  a                 btn100:Balneario ;
+        rdfs:label             "5703" ;
+        dc:created             "2012-02-03"^^xsd:date ;
+        dc:identifier          "5703" ;
+        dc:replaces            "43192" ;
+        dc:title               "Balneario de Fuencaliente" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5703/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/7043/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.8331155400000005 36.5533609385829)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/447/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.3977987 38.77934199855401)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/3639/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.5306067700000001 42.39948927852572)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/4155/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8993146199999993 41.29615097853188)"^^geosparql:wktLiteral .
+
+georec:119  a                  btn100:Balneario ;
+        rdfs:label             "119" ;
+        dc:created             "2012-02-22"^^xsd:date ;
+        dc:identifier          "119" ;
+        dc:replaces            "30647" ;
+        dc:title               "Balneari de San Antonio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/119/geometry> .
+
+georec:4155  a                 btn100:Balneario ;
+        rdfs:label             "4155" ;
+        dc:created             "2012-03-14"^^xsd:date ;
+        dc:identifier          "4155" ;
+        dc:replaces            "1484" ;
+        dc:title               "Termas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/4155/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/6109/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.184106440000001 38.057389498562436)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/1275/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.09631729 42.76848518852416)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/9598/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.560701779999999 43.001796308523296)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/6110/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.81615461 37.742983908566394)"^^geosparql:wktLiteral .
+
+georec:5711  a                 btn100:Balneario ;
+        rdfs:label             "5711" ;
+        dc:created             "2012-02-03"^^xsd:date ;
+        dc:identifier          "5711" ;
+        dc:replaces            "43323" ;
+        dc:title               "Balneario el Cristo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5711/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/5295/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.732758329999999 41.965537568527886)"^^geosparql:wktLiteral .
+
+georec:2695  a                 btn100:Balneario ;
+        rdfs:label             "2695" ;
+        dc:created             "2012-03-18"^^xsd:date ;
+        dc:identifier          "2695" ;
+        dc:title               "Balneari" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/2695/geometry> .
+
+georec:6107  a                 btn100:Balneario ;
+        rdfs:label             "6107" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "6107" ;
+        dc:replaces            "37212" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/6107/geometry> .
+
+georec:1539  a                 btn100:Balneario ;
+        rdfs:label             "1539" ;
+        dc:created             "2006-07-14"^^xsd:date ;
+        dc:identifier          "1539" ;
+        dc:replaces            "26465" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1539/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/4293/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7256840500000001 39.75494168854411)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/2325/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7563177899999998 42.11653910852709)"^^geosparql:wktLiteral .
+
+georec:1276  a                 btn100:Balneario ;
+        rdfs:label             "1276" ;
+        dc:created             "2012-06-01"^^xsd:date ;
+        dc:identifier          "1276" ;
+        dc:title               "Zuazoko Bainuetxea" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1276/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/9594/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.798432970000004 42.65883210852459)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/1534/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.9069627000000005 42.060008768527396)"^^geosparql:wktLiteral .
+
+georec:6470  a                 btn100:Balneario ;
+        rdfs:label             "6470" ;
+        dc:created             "2008-07-11"^^xsd:date ;
+        dc:identifier          "6470" ;
+        dc:title               "Balneario de San Nicolás" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/6470/geometry> .
+
+georec:1718  a                 btn100:Balneario ;
+        rdfs:label             "1718" ;
+        dc:created             "2006-07-27"^^xsd:date ;
+        dc:identifier          "1718" ;
+        dc:replaces            "55178" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1718/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/10478/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.5517362585922636 37.79534566385043)"^^geosparql:wktLiteral .
+
+georec:8827  a                 btn100:Balneario ;
+        rdfs:label             "8827" ;
+        dc:created             "2013-05-26"^^xsd:date ;
+        dc:identifier          "8827" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/8827/geometry> .
+
+georec:9599  a                 btn100:Balneario ;
+        rdfs:label             "9599" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "9599" ;
+        dc:replaces            "29897" ;
+        dc:title               "Balneario do Incio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/9599/geometry> .
+
+georec:5961  a                 btn100:Balneario ;
+        rdfs:label             "5961" ;
+        dc:created             "2006-07-27"^^xsd:date ;
+        dc:identifier          "5961" ;
+        dc:replaces            "57523" ;
+        dc:title               "Balneario de Lierganes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5961/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/8826/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.89368465 42.10159339852718)"^^geosparql:wktLiteral .
+
+georec:9749  a                 btn100:Balneario ;
+        rdfs:label             "9749" ;
+        dc:created             "2013-05-15"^^xsd:date ;
+        dc:identifier          "9749" ;
+        dc:title               "Balneario das Augas Santas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/9749/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/5533/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.11132288 38.2077442985606)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/7816/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.223813259999998 39.25967428854892)"^^geosparql:wktLiteral .
+
+georec:5706  a                 btn100:Balneario ;
+        rdfs:label             "5706" ;
+        dc:created             "2006-07-26"^^xsd:date ;
+        dc:identifier          "5706" ;
+        dc:replaces            "43319" ;
+        dc:title               "Balneario Hervideros de la Fuensanta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5706/geometry> .
+
+georec:1534  a                 btn100:Balneario ;
+        rdfs:label             "1534" ;
+        dc:created             "2010-10-05"^^xsd:date ;
+        dc:identifier          "1534" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1534/geometry> .
+
+georec:7045  a                 btn100:Balneario ;
+        rdfs:label             "7045" ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "7045" ;
+        dc:replaces            "35305" ;
+        dc:title               "Balneario de Getares" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/7045/geometry> .
+
+georec:10477  a                btn100:Balneario ;
+        rdfs:label             "10477" ;
+        dc:created             "2015-06-30"^^xsd:date ;
+        dc:identifier          "10477" ;
+        dc:title               "Baños del Moral" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/10477/geometry> .
+
+georec:4855  a                 btn100:Balneario ;
+        rdfs:label             "4855" ;
+        dc:created             "2010-07-17"^^xsd:date ;
+        dc:identifier          "4855" ;
+        dc:title               "Balneario de Retortillo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/4855/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/4855/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.413895399999999 40.797020058535374)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/1719/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9313891000000005 42.666025188524564)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/7812/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.321360910000002 38.379673058558566)"^^geosparql:wktLiteral .
+
+georec:3841  a                 btn100:Balneario ;
+        rdfs:label             "3841" ;
+        dc:created             "2012-03-15"^^xsd:date ;
+        dc:identifier          "3841" ;
+        dc:title               "Baños de Panticosa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/3841/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/1720/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.7717838499999994 42.72719238852433)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/3898/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8890594200000002 41.18278252853263)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/10303/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.360817020000001 39.506745538546454)"^^geosparql:wktLiteral .
+
+georec:6110  a                 btn100:Balneario ;
+        rdfs:label             "6110" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "6110" ;
+        dc:replaces            "37318" ;
+        dc:title               "Balneario de Jabalcuz" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/6110/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/7925/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.670587289999998 42.24293372852646)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/7431/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.899679479999999 38.121957718561646)"^^geosparql:wktLiteral .
+
+georec:7032  a                 btn100:Balneario ;
+        rdfs:label             "7032" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "7032" ;
+        dc:replaces            "34386" ;
+        dc:title               "Balneario de Fuente Amarga" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/7032/geometry> .
+
+georec:7921  a                 btn100:Balneario ;
+        rdfs:label             "7921" ;
+        dc:created             "2007-04-01"^^xsd:date ;
+        dc:identifier          "7921" ;
+        dc:title               "Balneario del Monte" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/7921/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/2312/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6723244000000004 41.84657059852854)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/7049/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.427626400000001 37.02002161857613)"^^geosparql:wktLiteral .
+
+georec:9594  a                 btn100:Balneario ;
+        rdfs:label             "9594" ;
+        dc:created             "2007-07-30"^^xsd:date ;
+        dc:identifier          "9594" ;
+        dc:title               "Balneario de Mouriscados" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/9594/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/5524/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.1649716700000003 38.14428032856138)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/3841/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.233 42.76010899852418)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/4169/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.0429704500000003 40.133755148540715)"^^geosparql:wktLiteral .
+
+georec:1721  a                 btn100:Balneario ;
+        rdfs:label             "1721" ;
+        dc:created             "2012-05-14"^^xsd:date ;
+        dc:identifier          "1721" ;
+        dc:replaces            "55211" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1721/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/7921/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.173256069999999 42.20034919852668)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/4381/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.857837589999999 40.317256428539146)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/1440/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.260530239999999 43.238197138522516)"^^geosparql:wktLiteral .
+
+georec:1316  a                 btn100:Balneario ;
+        rdfs:label             "1316" ;
+        dc:created             "2012-05-22"^^xsd:date ;
+        dc:identifier          "1316" ;
+        dc:replaces            "31771" ;
+        dc:title               "Terlekiz Bainuetxea" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1316/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/7045/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.44421942 36.09019144859127)"^^geosparql:wktLiteral .
+
+georec:3899  a                 btn100:Balneario ;
+        rdfs:label             "3899" ;
+        dc:created             "2012-03-14"^^xsd:date ;
+        dc:identifier          "3899" ;
+        dc:replaces            "1705" ;
+        dc:title               "Balneario de Serón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/3899/geometry> .
+
+georec:4295  a                 btn100:Balneario ;
+        rdfs:label             "4295" ;
+        dc:created             "2012-02-17"^^xsd:date ;
+        dc:identifier          "4295" ;
+        dc:replaces            "44046" ;
+        dc:title               "Balneario de Solán de Cabras" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/4295/geometry> .
+
+georec:1437  a                 btn100:Balneario ;
+        rdfs:label             "1437" ;
+        dc:created             "2012-04-27"^^xsd:date ;
+        dc:identifier          "1437" ;
+        dc:replaces            "22241" ;
+        dc:title               "Aretxabaletako Bainuetxea" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1437/geometry> .
+
+georec:7816  a                 btn100:Balneario ;
+        rdfs:label             "7816" ;
+        dc:created             "2012-10-25"^^xsd:date ;
+        dc:identifier          "7816" ;
+        dc:replaces            "57518" ;
+        dc:title               "Balneario de Baños de Valdefernando" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/7816/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/3897/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8883674900000003 41.186889328532615)"^^geosparql:wktLiteral .
+
+georec:7432  a                 btn100:Balneario ;
+        rdfs:label             "7432" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "7432" ;
+        dc:title               "Baños del Arenosillo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/7432/geometry> .
+
+georec:5709  a                 btn100:Balneario ;
+        rdfs:label             "5709" ;
+        dc:created             "2012-02-03"^^xsd:date ;
+        dc:identifier          "5709" ;
+        dc:replaces            "43329" ;
+        dc:title               "Balneario Cervantes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5709/geometry> .
+
+georec:2317  a                 btn100:Balneario ;
+        rdfs:label             "2317" ;
+        dc:created             "2012-02-24"^^xsd:date ;
+        dc:identifier          "2317" ;
+        dc:replaces            "20921" ;
+        dc:title               "Balneari Montagut (El)" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/2317/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/1435/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.0044525699999993 43.00954649852327)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/5499/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.110865159999999 41.26445919853208)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/5709/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.4410714599999994 38.65774204855537)"^^geosparql:wktLiteral .
+
+georec:4858  a                 btn100:Balneario ;
+        rdfs:label             "4858" ;
+        dc:created             "2012-06-14"^^xsd:date ;
+        dc:identifier          "4858" ;
+        dc:replaces            "47130" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/4858/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/5957/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.410870600000001 43.24470791852251)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/4295/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.1279603699999994 40.51034881853757)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/8269/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-18.10493518 27.756189518778406)"^^geosparql:wktLiteral .
+
+georec:8433  a                 btn100:Balneario ;
+        rdfs:label             "8433" ;
+        dc:created             "2010-03-31"^^xsd:date ;
+        dc:identifier          "8433" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/8433/geometry> .
+
+georec:3481  a                 btn100:Balneario ;
+        rdfs:label             "3481" ;
+        dc:created             "2010-09-02"^^xsd:date ;
+        dc:identifier          "3481" ;
+        dc:title               "Balneari Les Masies" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/3481/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/1220/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.9512446600000002 42.00635497852767)"^^geosparql:wktLiteral .
+
+georec:2325  a                 btn100:Balneario ;
+        rdfs:label             "2325" ;
+        dc:created             "2012-02-24"^^xsd:date ;
+        dc:identifier          "2325" ;
+        dc:replaces            "21118" ;
+        dc:title               "Balneari" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/2325/geometry> .
+
+georec:5525  a                 btn100:Balneario ;
+        rdfs:label             "5525" ;
+        dc:created             "2007-09-06"^^xsd:date ;
+        dc:identifier          "5525" ;
+        dc:replaces            "25240" ;
+        dc:title               "Balneario de la Fuensanta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5525/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/9596/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.88237917 43.17465549852272)"^^geosparql:wktLiteral .
+
+georec:1716  a                 btn100:Balneario ;
+        rdfs:label             "1716" ;
+        dc:created             "2012-05-14"^^xsd:date ;
+        dc:identifier          "1716" ;
+        dc:title               "Balneario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1716/geometry> .
+
+georec:6468  a                 btn100:Balneario ;
+        rdfs:label             "6468" ;
+        dc:created             "2008-04-10"^^xsd:date ;
+        dc:identifier          "6468" ;
+        dc:title               "Baños de Sierra Alhamilla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/6468/geometry> .
+
+georec:10304  a                btn100:Balneario ;
+        rdfs:label             "10304" ;
+        dc:created             "2012-04-03"^^xsd:date ;
+        dc:identifier          "10304" ;
+        dc:title               "Balneario Baños del Sagrario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/10304/geometry> .
+
+georec:7924  a                 btn100:Balneario ;
+        rdfs:label             "7924" ;
+        dc:created             "2013-02-13"^^xsd:date ;
+        dc:identifier          "7924" ;
+        dc:replaces            "55128" ;
+        dc:title               "Balneario de Cabreiroa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/7924/geometry> .
+
+georec:4169  a                 btn100:Balneario ;
+        rdfs:label             "4169" ;
+        dc:created             "2012-04-02"^^xsd:date ;
+        dc:identifier          "4169" ;
+        dc:title               "Balneario de Camarena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/4169/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/5705/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.3040764799999995 38.63018934855569)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/6468/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.39668592 36.96060270857696)"^^geosparql:wktLiteral .
+
+georec:8825  a                 btn100:Balneario ;
+        rdfs:label             "8825" ;
+        dc:created             "2013-05-26"^^xsd:date ;
+        dc:identifier          "8825" ;
+        dc:title               "Balneario Acuña" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/8825/geometry> .
+
+georec:9597  a                 btn100:Balneario ;
+        rdfs:label             "9597" ;
+        dc:created             "2006-08-10"^^xsd:date ;
+        dc:identifier          "9597" ;
+        dc:replaces            "29775" ;
+        dc:title               "Balneario de Céltigos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/9597/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/4291/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.3161685200000006 40.50994399853759)"^^geosparql:wktLiteral .
+
+georec:5959  a                 btn100:Balneario ;
+        rdfs:label             "5959" ;
+        dc:created             "2006-07-27"^^xsd:date ;
+        dc:identifier          "5959" ;
+        dc:replaces            "57521" ;
+        dc:title               "Balneario de Puente Viesgo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5959/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/119/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.0512867100000003 39.04661873855114)"^^geosparql:wktLiteral .
+
+georec:7811  a                 btn100:Balneario ;
+        rdfs:label             "7811" ;
+        dc:created             "2007-08-09"^^xsd:date ;
+        dc:identifier          "7811" ;
+        dc:replaces            "58111" ;
+        dc:title               "Balneario de la Herrería" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/7811/geometry> .
+
+georec:5704  a                 btn100:Balneario ;
+        rdfs:label             "5704" ;
+        dc:created             "2012-02-03"^^xsd:date ;
+        dc:identifier          "5704" ;
+        dc:replaces            "43191" ;
+        dc:title               "Baños de la Tiñosa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5704/geometry> .
+
+georec:3639  a                 btn100:Balneario ;
+        rdfs:label             "3639" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3639" ;
+        dc:title               "Balneario de Villas de Turbón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/3639/geometry> .
+
+georec:2312  a                 btn100:Balneario ;
+        rdfs:label             "2312" ;
+        dc:created             "2012-02-24"^^xsd:date ;
+        dc:identifier          "2312" ;
+        dc:replaces            "21089" ;
+        dc:title               "Balneari Termes Orión" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/2312/geometry> .
+
+georec:5533  a                 btn100:Balneario ;
+        rdfs:label             "5533" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "5533" ;
+        dc:replaces            "25542" ;
+        dc:title               "Balneario de Fortuna" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5533/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/120/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.08892122 39.23556877854917)"^^geosparql:wktLiteral .
+
+georec:6476  a                 btn100:Balneario ;
+        rdfs:label             "6476" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "6476" ;
+        dc:replaces            "36493" ;
+        dc:title               "Baños de Panjiula" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/6476/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/9599/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.307239290000003 42.634054228524704)"^^geosparql:wktLiteral .
+
+georec:7043  a                 btn100:Balneario ;
+        rdfs:label             "7043" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "7043" ;
+        dc:replaces            "34356" ;
+        dc:title               "Balneario Gigonza" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/7043/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/7032/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.14678814 36.40290392858515)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/1539/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.6914958999999998 43.148369588522804)"^^geosparql:wktLiteral .
+
+georec:120  a                  btn100:Balneario ;
+        rdfs:label             "120" ;
+        dc:created             "2012-02-22"^^xsd:date ;
+        dc:identifier          "120" ;
+        dc:replaces            "30646" ;
+        dc:title               "Balneari de Los Hervideros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/120/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/4181/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.9470280200000003 40.956979298534215)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/444/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.36965049 38.506431578557084)"^^geosparql:wktLiteral .
+
+georec:1440  a                 btn100:Balneario ;
+        rdfs:label             "1440" ;
+        dc:created             "2012-04-27"^^xsd:date ;
+        dc:identifier          "1440" ;
+        dc:replaces            "22342" ;
+        dc:title               "Zestoako Bainuetxea" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1440/geometry> .
+
+georec:5946  a                 btn100:Balneario ;
+        rdfs:label             "5946" ;
+        dc:created             "2012-09-29"^^xsd:date ;
+        dc:identifier          "5946" ;
+        dc:title               "Balneario de Caldas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5946/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/10476/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.0320356292966593 38.32432759999059)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/1316/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.6491707800000004 43.33774573852223)"^^geosparql:wktLiteral .
+
+georec:3647  a                 btn100:Balneario ;
+        rdfs:label             "3647" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "3647" ;
+        dc:replaces            "23347" ;
+        dc:title               "Baños de Benasque" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/3647/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/8824/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.56724091 42.05529213852741)"^^geosparql:wktLiteral .
+
+georec:5712  a                 btn100:Balneario ;
+        rdfs:label             "5712" ;
+        dc:created             "2012-02-03"^^xsd:date ;
+        dc:identifier          "5712" ;
+        dc:replaces            "43324" ;
+        dc:title               "Balneario la Hijosa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5712/geometry> .
+
+georec:6108  a                 btn100:Balneario ;
+        rdfs:label             "6108" ;
+        dc:created             "2006-07-24"^^xsd:date ;
+        dc:identifier          "6108" ;
+        dc:replaces            "37319" ;
+        dc:title               "Baños de Agua Hedionda" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/6108/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/3900/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8978007800000007 41.2939762785319)"^^geosparql:wktLiteral .
+
+georec:4740  a                 btn100:Balneario ;
+        rdfs:label             "4740" ;
+        dc:created             "2012-08-22"^^xsd:date ;
+        dc:identifier          "4740" ;
+        dc:title               "Balneario de la Salinas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/4740/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/9595/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.923261439999997 43.190310418522664)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/10479/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.269876036804394 36.405943604726446)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/8827/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.25076639 42.7594820785242)"^^geosparql:wktLiteral .
+
+georec:1719  a                 btn100:Balneario ;
+        rdfs:label             "1719" ;
+        dc:created             "2012-05-14"^^xsd:date ;
+        dc:identifier          "1719" ;
+        dc:title               "Balneario Baños de Fuencaliente" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1719/geometry> .
+
+georec:5499  a                 btn100:Balneario ;
+        rdfs:label             "5499" ;
+        dc:created             "2012-06-18"^^xsd:date ;
+        dc:identifier          "5499" ;
+        dc:title               "Balneario Hervideros de San Vicente" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5499/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/7923/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.0294837 42.326084158526086)"^^geosparql:wktLiteral .
+
+georec:3897  a                 btn100:Balneario ;
+        rdfs:label             "3897" ;
+        dc:created             "2012-03-14"^^xsd:date ;
+        dc:identifier          "3897" ;
+        dc:replaces            "1471" ;
+        dc:title               "Balneario de Sicilia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/3897/geometry> .
+
+georec:4293  a                 btn100:Balneario ;
+        rdfs:label             "4293" ;
+        dc:created             "2010-08-27"^^xsd:date ;
+        dc:identifier          "4293" ;
+        dc:replaces            "44148" ;
+        dc:title               "Balneario de Yémeda (ruinas)" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/4293/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/2317/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1597733500000005 42.27594188852631)"^^geosparql:wktLiteral .
+
+georec:9750  a                 btn100:Balneario ;
+        rdfs:label             "9750" ;
+        dc:created             "2013-05-15"^^xsd:date ;
+        dc:identifier          "9750" ;
+        dc:title               "Balneario Do Rio Pombra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/9750/geometry> .
+
+georec:1435  a                 btn100:Balneario ;
+        rdfs:label             "1435" ;
+        dc:created             "2012-05-22"^^xsd:date ;
+        dc:identifier          "1435" ;
+        dc:replaces            "31772" ;
+        dc:title               "Muelako Bainuetxea" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/1435/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/6479/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.1072971500000004 37.509129788569446)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/1315/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.8361659399999994 43.13560155852283)"^^geosparql:wktLiteral .
+
+georec:5707  a                 btn100:Balneario ;
+        rdfs:label             "5707" ;
+        dc:created             "2012-02-03"^^xsd:date ;
+        dc:identifier          "5707" ;
+        dc:replaces            "43320" ;
+        dc:title               "Balneario de la Nava" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/5707/geometry> .
+
+georec:6479  a                 btn100:Balneario ;
+        rdfs:label             "6479" ;
+        dc:created             "2012-12-28"^^xsd:date ;
+        dc:identifier          "6479" ;
+        dc:replaces            "36541" ;
+        dc:title               "Balneario Alicún de las Torres" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/6479/geometry> .
+
+georec:10478  a                btn100:Balneario ;
+        rdfs:label             "10478" ;
+        dc:created             "2015-07-01"^^xsd:date ;
+        dc:identifier          "10478" ;
+        dc:title               "Balneario de Fuencaliente" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/balneario/10478/geometry> .
+
+<https://datos.ign.es/recurso/btn100/balneario/8434/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.564303239999997 42.63346756852472)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/1721/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.7491939700000003 42.72595161852433)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/3899/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8812735800000002 41.18791541853259)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/10304/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.35383748 39.53036249854624)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/balneario/7432/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.4071969000000015 38.058260138562424)"^^geosparql:wktLiteral .
+

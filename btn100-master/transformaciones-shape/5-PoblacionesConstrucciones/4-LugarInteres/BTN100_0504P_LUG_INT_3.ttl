@@ -1,0 +1,1692 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/universidad/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:32134  a                btn100:Universidad ;
+        rdfs:label             "32134" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "32134" ;
+        dc:title               "Universidad Campus Isla de la Cartuja" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/32134/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:10388  a                btn100:Universidad ;
+        rdfs:label             "10388" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "10388" ;
+        dc:title               "Campus Girona Centre" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/10388/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/1281/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.4072321500000001 39.51692126854637)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/17932/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.1438275500000006 40.07809093854118)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/5166/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.4965945399999994 43.061827938523095)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/12468/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.0710572800000007 41.46985794853077)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/21585/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.7607764999999995 40.38489744853859)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/12026/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1120610000000006 41.38887749853127)"^^geosparql:wktLiteral .
+
+georec:12027  a                btn100:Universidad ;
+        rdfs:label             "12027" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12027" ;
+        dc:title               "Universitat Ramón Llull" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12027/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:3004  a                 btn100:Universidad ;
+        rdfs:label             "3004" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3004" ;
+        dc:title               "Universidad CEU San Pablo Campus Monteprincipe" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3004/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/9088/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.5969153799999999 41.6281997985298)"^^geosparql:wktLiteral .
+
+georec:31070  a                btn100:Universidad ;
+        rdfs:label             "31070" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31070" ;
+        dc:title               "Universidad de Les IIIes Balears" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/31070/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:35363  a                btn100:Universidad ;
+        rdfs:label             "35363" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "35363" ;
+        dc:title               "Universidad de Vigo Campus Pontevedra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/35363/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/32133/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.992631839999998 37.39261870857099)"^^geosparql:wktLiteral .
+
+georec:13220  a                btn100:Universidad ;
+        rdfs:label             "13220" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "13220" ;
+        dc:title               "Universitat Rovira i Virgili" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/13220/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/31071/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.289912 39.882674998542925)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/30061/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.303163219999999 36.534468898583185)"^^geosparql:wktLiteral .
+
+georec:3012  a                 btn100:Universidad ;
+        rdfs:label             "3012" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3012" ;
+        dc:title               "Universidad Carlos III Campus Colmenarejo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3012/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/18856/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.610429530000002 39.983718058542024)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/12022/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1862410800000003 41.39141620853126)"^^geosparql:wktLiteral .
+
+georec:1281  a                 btn100:Universidad ;
+        rdfs:label             "1281" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "1281" ;
+        dc:title               "Universitat Católica San Vicente Mártir" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/1281/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/12030/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4545634999999995 41.55217249853026)"^^geosparql:wktLiteral .
+
+georec:21586  a                btn100:Universidad ;
+        rdfs:label             "21586" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "21586" ;
+        dc:title               "Universidad Pontifícia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/21586/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/3397/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7075 40.42500999853826)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/35362/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.625289060000002 42.44254595852553)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/23341/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.735024280000001 41.51232345853051)"^^geosparql:wktLiteral .
+
+georec:39877  a                btn100:Universidad ;
+        rdfs:label             "39877" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "39877" ;
+        dc:title               "Universidad de Oviedo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/39877/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/3015/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.35987144 40.49800956853766)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/41508/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.0413598 39.8641595685431)"^^geosparql:wktLiteral .
+
+georec:12469  a                btn100:Universidad ;
+        rdfs:label             "12469" ;
+        dc:created             "2012-04-13"^^xsd:date ;
+        dc:identifier          "12469" ;
+        dc:title               "Universitat de Vic" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12469/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/36148/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.55796344 42.876077968523745)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/3563/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.9489661899999997 40.600823228536875)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/17931/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.1465569799999997 40.0774534685412)"^^geosparql:wktLiteral .
+
+georec:12022  a                btn100:Universidad ;
+        rdfs:label             "12022" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12022" ;
+        dc:title               "Campus Autónoma de la Ciutadella" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12022/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/5165/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.415235000000001 43.03398799852319)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/12025/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1616595000000003 41.40397899853118)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/29623/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.451613300000001 36.71004100858058)"^^geosparql:wktLiteral .
+
+georec:24418  a                btn100:Universidad ;
+        rdfs:label             "24418" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "24418" ;
+        dc:title               "Universidad Nacional de Educación a Distancia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/24418/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:32500  a                btn100:Universidad ;
+        rdfs:label             "32500" ;
+        dc:created             "2013-04-23"^^xsd:date ;
+        dc:identifier          "32500" ;
+        dc:title               "Campus Ramón y Cajal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/32500/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/3011/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8197460700000003 40.28297032853944)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/30546/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.9233218800000005 37.27115907857264)"^^geosparql:wktLiteral .
+
+georec:28853  a                btn100:Universidad ;
+        rdfs:label             "28853" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "28853" ;
+        dc:title               "Universidad de Granada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/28853/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:32997  a                btn100:Universidad ;
+        rdfs:label             "32997" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "32997" ;
+        dc:title               "Universidad Ciudad de Badajoz" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/32997/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/3522/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.718291660000002 40.448676318538084)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/30060/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.211819939999999 36.52998050858324)"^^geosparql:wktLiteral .
+
+georec:12030  a                btn100:Universidad ;
+        rdfs:label             "12030" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12030" ;
+        dc:title               "Campus Politècnic Mataró" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12030/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/9869/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2740000000000005 41.67064999852955)"^^geosparql:wktLiteral .
+
+georec:3007  a                 btn100:Universidad ;
+        rdfs:label             "3007" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3007" ;
+        dc:title               "Universidad Privada Esic" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3007/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/32501/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.97796861 37.3773603285712)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/12021/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1766061300000006 41.37814693853135)"^^geosparql:wktLiteral .
+
+georec:31073  a                btn100:Universidad ;
+        rdfs:label             "31073" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31073" ;
+        dc:title               "Universidad IIIes Balears" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/31073/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/3006/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.720154509999998 40.443508448538104)"^^geosparql:wktLiteral .
+
+georec:39872  a                btn100:Universidad ;
+        rdfs:label             "39872" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "39872" ;
+        dc:title               "Universidad de Oviedo Campus de Gijón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/39872/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/35361/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.678725500000004 42.16985299852682)"^^geosparql:wktLiteral .
+
+georec:36630  a                btn100:Universidad ;
+        rdfs:label             "36630" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "36630" ;
+        dc:title               "UNED La Coruña" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/36630/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/39875/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.85616803 43.35827667852216)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/24418/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.97724646 37.6105215085681)"^^geosparql:wktLiteral .
+
+georec:5164  a                 btn100:Universidad ;
+        rdfs:label             "5164" ;
+        dc:created             "2012-04-20"^^xsd:date ;
+        dc:identifier          "5164" ;
+        dc:title               "Euskal Herriko Unibertsitatea / Universidad del País Vasco" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/5164/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/27817/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6280000700000015 38.092912928561994)"^^geosparql:wktLiteral .
+
+georec:29620  a                btn100:Universidad ;
+        rdfs:label             "29620" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "29620" ;
+        dc:title               "Universidad Internacional Campus Campanillas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/29620/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:357  a                  btn100:Universidad ;
+        rdfs:label             "357" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "357" ;
+        dc:title               "Universitat Nacional a Distància" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/357/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:3015  a                 btn100:Universidad ;
+        rdfs:label             "3015" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3015" ;
+        dc:title               "Universidad Cardenal Cisneros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3015/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:23341  a                btn100:Universidad ;
+        rdfs:label             "23341" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "23341" ;
+        dc:title               "Campus Universitario Zamora" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/23341/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:8718  a                 btn100:Universidad ;
+        rdfs:label             "8718" ;
+        dc:created             "2012-08-07"^^xsd:date ;
+        dc:identifier          "8718" ;
+        dc:title               "Universidad Nacional de Educación a Distancia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/8718/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:40962  a                btn100:Universidad ;
+        rdfs:label             "40962" ;
+        dc:created             "2013-04-26"^^xsd:date ;
+        dc:identifier          "40962" ;
+        dc:title               "Universidad de Oviedo Campus de los Catalanaes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/40962/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/38402/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.552802500000004 42.99370449852333)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/10386/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8617757000000004 42.03601753852751)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/28852/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.59598694 37.19152793857373)"^^geosparql:wktLiteral .
+
+georec:41508  a                btn100:Universidad ;
+        rdfs:label             "41508" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "41508" ;
+        dc:title               "Universidad de Castilla La Mancha" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/41508/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/36629/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.544443530000002 42.8896008385237)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/24414/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.6960376400000001 37.67848811856722)"^^geosparql:wktLiteral .
+
+georec:31544  a                btn100:Universidad ;
+        rdfs:label             "31544" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31544" ;
+        dc:title               "Universidad de Córdoba Campus Rabanales" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/31544/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/36630/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.422997890000001 43.37257882852212)"^^geosparql:wktLiteral .
+
+georec:10386  a                btn100:Universidad ;
+        rdfs:label             "10386" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "10386" ;
+        dc:title               "Campus Barri Vell" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/10386/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:17094  a                btn100:Universidad ;
+        rdfs:label             "17094" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "17094" ;
+        dc:title               "Universidad Castilla La Mancha" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/17094/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:33388  a                btn100:Universidad ;
+        rdfs:label             "33388" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "33388" ;
+        dc:title               "Universidad de Vigo Campus Ourense" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/33388/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/3468/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.3629999999999995 40.4828499985378)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/12904/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.127513089999999 41.40955344853115)"^^geosparql:wktLiteral .
+
+georec:12025  a                btn100:Universidad ;
+        rdfs:label             "12025" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12025" ;
+        dc:title               "Campus Autónoma de la Diagonal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12025/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:31068  a                btn100:Universidad ;
+        rdfs:label             "31068" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31068" ;
+        dc:title               "Universidad Nacional de Educación a Distancia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/31068/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:22356  a                btn100:Universidad ;
+        rdfs:label             "22356" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "22356" ;
+        dc:title               "Universidad Salamanca Campus Ávila" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/22356/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/7054/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7267371800000006 42.339206788526006)"^^geosparql:wktLiteral .
+
+georec:35361  a                btn100:Universidad ;
+        rdfs:label             "35361" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "35361" ;
+        dc:title               "Universidad de Vigo Campus Lagoas-Marcosende" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/35361/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/31543/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.207764270000001 38.267314848559906)"^^geosparql:wktLiteral .
+
+georec:32503  a                btn100:Universidad ;
+        rdfs:label             "32503" ;
+        dc:created             "2013-04-23"^^xsd:date ;
+        dc:identifier          "32503" ;
+        dc:title               "Campus Universitario Macarena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/32503/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:7053  a                 btn100:Universidad ;
+        rdfs:label             "7053" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "7053" ;
+        dc:title               "Escuela Politécnica Superior de Burgos - Campus Rio Vena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/7053/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:3010  a                 btn100:Universidad ;
+        rdfs:label             "3010" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3010" ;
+        dc:title               "Universidad Pontificia de Salamanca, (Campus de Madrid)" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3010/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:12033  a                btn100:Universidad ;
+        rdfs:label             "12033" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12033" ;
+        dc:title               "Campus Politècnic Igualada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12033/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:9869  a                 btn100:Universidad ;
+        rdfs:label             "9869" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "9869" ;
+        dc:title               "Universitat de Cervera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/9869/geometry> ;
+        btn100:codigoBIC       "RI-51-0001209-00000" .
+
+<https://datos.ign.es/recurso/btn100/universidad/31073/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.144992499999998 39.936263998542444)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/25550/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.558136899999999 42.61262914852479)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/18858/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.083783660000002 40.03551260854156)"^^geosparql:wktLiteral .
+
+georec:39875  a                btn100:Universidad ;
+        rdfs:label             "39875" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "39875" ;
+        dc:title               "Universidad de Oviedo Campus de Llamaquique" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/39875/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:30062  a                btn100:Universidad ;
+        rdfs:label             "30062" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "30062" ;
+        dc:title               "Universidad de Cádiz Campus Jerez de la Frontera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/30062/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/12032/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.7244499999999998 41.21674449853241)"^^geosparql:wktLiteral .
+
+georec:39662  a                btn100:Universidad ;
+        rdfs:label             "39662" ;
+        dc:created             "2013-05-15"^^xsd:date ;
+        dc:identifier          "39662" ;
+        dc:title               "Universidad" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/39662/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:21137  a                btn100:Universidad ;
+        rdfs:label             "21137" ;
+        dc:created             "2012-06-14"^^xsd:date ;
+        dc:identifier          "21137" ;
+        dc:title               "Universidad de Valladolid" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/21137/geometry> ;
+        btn100:codigoBIC       "RI-51-0009172-00000" .
+
+<https://datos.ign.es/recurso/btn100/universidad/33388/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.851373959999999 42.34400980852599)"^^geosparql:wktLiteral .
+
+georec:29623  a                btn100:Universidad ;
+        rdfs:label             "29623" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "29623" ;
+        dc:title               "Universidad de Málaga" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/29623/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:30546  a                btn100:Universidad ;
+        rdfs:label             "30546" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "30546" ;
+        dc:title               "Universidad de Huelva Campus El Carmen" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/30546/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/31068/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4393315 38.922592498552454)"^^geosparql:wktLiteral .
+
+georec:12020  a                btn100:Universidad ;
+        rdfs:label             "12020" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12020" ;
+        dc:title               "Campus del Mar Pompeu Fabra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12020/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/20163/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.516767969999999 41.98629167852777)"^^geosparql:wktLiteral .
+
+georec:18858  a                btn100:Universidad ;
+        rdfs:label             "18858" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "18858" ;
+        dc:title               "Campus Ciudad de Plasencia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/18858/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/12469/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.24735717 41.93371199852807)"^^geosparql:wktLiteral .
+
+georec:9088  a                 btn100:Universidad ;
+        rdfs:label             "9088" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "9088" ;
+        dc:title               "Campus de Rectorat" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/9088/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:24416  a                btn100:Universidad ;
+        rdfs:label             "24416" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "24416" ;
+        dc:title               "Universidad Católica San Antonio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/24416/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:25551  a                btn100:Universidad ;
+        rdfs:label             "25551" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "25551" ;
+        dc:title               "Universidad de León Campus Ponferrada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/25551/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:2004  a                 btn100:Universidad ;
+        rdfs:label             "2004" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "2004" ;
+        dc:title               "Universitat Miguel Hernandez" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/2004/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/17094/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.1708178199999995 40.629211618536644)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/12027/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.13043839 41.411659988531135)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/3013/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.84470032 40.34858825853889)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/13219/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.52145236 40.81884503853521)"^^geosparql:wktLiteral .
+
+georec:12028  a                btn100:Universidad ;
+        rdfs:label             "12028" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12028" ;
+        dc:title               "Universitat Oberta Campus Sant Cugat" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12028/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:3005  a                 btn100:Universidad ;
+        rdfs:label             "3005" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3005" ;
+        dc:title               "Universidad CEU San Pablo Campus Argüelles" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3005/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/13220/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2603766899999995 41.11975870853306)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/31072/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.26641901 39.88885584854286)"^^geosparql:wktLiteral .
+
+georec:31071  a                btn100:Universidad ;
+        rdfs:label             "31071" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31071" ;
+        dc:title               "Universidad Nacional de Educación a Distancia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/31071/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/30062/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.139224 36.70264499858068)"^^geosparql:wktLiteral .
+
+georec:27816  a                btn100:Universidad ;
+        rdfs:label             "27816" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "27816" ;
+        dc:title               "Universidad Internacional de Andalucía" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/27816/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/12023/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.179722349999999 41.37901339853133)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/18857/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.088224779999999 40.03173303854158)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/32503/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.992836569999999 37.40544249857082)"^^geosparql:wktLiteral .
+
+georec:35364  a                btn100:Universidad ;
+        rdfs:label             "35364" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "35364" ;
+        dc:title               "Universidad de Vigo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/35364/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/32998/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.33864839 38.90680830855263)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/29621/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.473816499999999 36.71758949858048)"^^geosparql:wktLiteral .
+
+georec:30420  a                btn100:Universidad ;
+        rdfs:label             "30420" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "30420" ;
+        dc:title               "Universidad Internacional Campus La Rábida" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/30420/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/26927/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.82038119 43.458069168521895)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/3008/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.719074019999998 40.45332260853803)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/35363/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.63712455 42.440691068525545)"^^geosparql:wktLiteral .
+
+georec:8232  a                 btn100:Universidad ;
+        rdfs:label             "8232" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "8232" ;
+        dc:title               "Universidad Santa Catalina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/8232/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/39877/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.870971840000002 43.35563626852217)"^^geosparql:wktLiteral .
+
+georec:17931  a                btn100:Universidad ;
+        rdfs:label             "17931" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "17931" ;
+        dc:title               "UNED Centro Asociado Cuenca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/17931/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/31067/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4294575000000003 38.91677399855251)"^^geosparql:wktLiteral .
+
+georec:3013  a                 btn100:Universidad ;
+        rdfs:label             "3013" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3013" ;
+        dc:title               "Universidad Rey Juan Carlos Campus Alcorcón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3013/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:12904  a                btn100:Universidad ;
+        rdfs:label             "12904" ;
+        dc:created             "2012-09-20"^^xsd:date ;
+        dc:identifier          "12904" ;
+        dc:title               "Universitat Abat Oliba" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12904/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/12018/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.05878503 41.55691230853022)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/22356/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.6845533 40.652467688536454)"^^geosparql:wktLiteral .
+
+georec:3468  a                 btn100:Universidad ;
+        rdfs:label             "3468" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3468" ;
+        dc:title               "Fachada y primera crujía de la universidad" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3468/geometry> ;
+        btn100:codigoBIC       "RI-51-0000132-00000" .
+
+<https://datos.ign.es/recurso/btn100/universidad/27446/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.2989 43.3863309985221)"^^geosparql:wktLiteral .
+
+georec:41840  a                btn100:Universidad ;
+        rdfs:label             "41840" ;
+        dc:created             "2011-11-03"^^xsd:date ;
+        dc:identifier          "41840" ;
+        dc:title               "Universidad del Cardenal Lorenzana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/41840/geometry> ;
+        btn100:codigoBIC       "RI-51-0009533-00000" .
+
+<https://datos.ign.es/recurso/btn100/universidad/39662/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.54548636 42.999029808523304)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/10388/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.82663098 41.985031708527785)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/20831/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.715886989999999 41.62600793852981)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/3004/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8361188 40.399435588538466)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/39873/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.840419 43.35564199852215)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/3012/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.0136990500000005 40.54432223853731)"^^geosparql:wktLiteral .
+
+georec:3397  a                 btn100:Universidad ;
+        rdfs:label             "3397" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3397" ;
+        dc:title               "Paraninfo de la Universidad Complutense" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3397/geometry> ;
+        btn100:codigoBIC       "RI-51-0004437-00000" .
+
+georec:12023  a                btn100:Universidad ;
+        rdfs:label             "12023" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12023" ;
+        dc:title               "Universitat Pompeu Fabra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12023/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:24419  a                btn100:Universidad ;
+        rdfs:label             "24419" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "24419" ;
+        dc:title               "Universidad Politécnica de Cartagena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/24419/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:32501  a                btn100:Universidad ;
+        rdfs:label             "32501" ;
+        dc:created             "2013-04-23"^^xsd:date ;
+        dc:identifier          "32501" ;
+        dc:title               "Campus Pirotecnia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/32501/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/8718/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.4640718600000002 41.76224278852901)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/29620/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.55418846 36.7353476485802)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/26926/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.05031626 43.33712919852223)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/32997/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.998719499999999 38.88563749855285)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/40962/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.851431000000001 43.35434851852217)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/3007/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8012228599999998 40.436794738538175)"^^geosparql:wktLiteral .
+
+georec:32998  a                btn100:Universidad ;
+        rdfs:label             "32998" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "32998" ;
+        dc:title               "Universidad Ciudad de Mérida" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/32998/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/8232/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.0652804699999994 41.587928918530025)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/39876/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.86805349 43.35441515852218)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/24419/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.97944273 37.604067058568184)"^^geosparql:wktLiteral .
+
+georec:12031  a                btn100:Universidad ;
+        rdfs:label             "12031" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12031" ;
+        dc:title               "Universitat Oberta de Catalunya" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12031/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:3008  a                 btn100:Universidad ;
+        rdfs:label             "3008" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3008" ;
+        dc:title               "Universidad Nebrija" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3008/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/24420/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.1260403900000002 37.988034368563305)"^^geosparql:wktLiteral .
+
+georec:20831  a                btn100:Universidad ;
+        rdfs:label             "20831" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "20831" ;
+        dc:title               "Universidad Europea Miguel de Cervantes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/20831/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:19578  a                btn100:Universidad ;
+        rdfs:label             "19578" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "19578" ;
+        dc:title               "Campus Universitario Santa Cruz la Real" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/19578/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:39873  a                btn100:Universidad ;
+        rdfs:label             "39873" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "39873" ;
+        dc:title               "Universidad de Oviedo Campus de Humanidades" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/39873/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:5165  a                 btn100:Universidad ;
+        rdfs:label             "5165" ;
+        dc:created             "2012-03-30"^^xsd:date ;
+        dc:identifier          "5165" ;
+        dc:title               "Sancti Spiritus Unibertsitatea (Gaur egun Institutua)" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/5165/geometry> ;
+        btn100:codigoBIC       "RI-51-0000617-00000" .
+
+georec:30060  a                btn100:Universidad ;
+        rdfs:label             "30060" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "30060" ;
+        dc:title               "Universidad de Cádiz Campus Puerto Real" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/30060/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/19578/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.1187971700000015 40.952652668534235)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/28853/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6094445100000003 37.18019691857391)"^^geosparql:wktLiteral .
+
+georec:36631  a                btn100:Universidad ;
+        rdfs:label             "36631" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "36631" ;
+        dc:title               "Universidad de La Coruña" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/36631/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/10387/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8205971100000005 41.95940592852792)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/3003/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7339090699999997 40.43594209853818)"^^geosparql:wktLiteral .
+
+georec:17592  a                btn100:Universidad ;
+        rdfs:label             "17592" ;
+        dc:created             "2012-06-20"^^xsd:date ;
+        dc:identifier          "17592" ;
+        dc:title               "Universidad" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/17592/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:29621  a                btn100:Universidad ;
+        rdfs:label             "29621" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "29621" ;
+        dc:title               "Universidad de Málaga Campus Teatinos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/29621/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:3563  a                 btn100:Universidad ;
+        rdfs:label             "3563" ;
+        dc:created             "2012-12-12"^^xsd:date ;
+        dc:identifier          "3563" ;
+        dc:title               "Universidad Antonio de Nebrija (Campus de la Berzosa)\r\n" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3563/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:20163  a                btn100:Universidad ;
+        rdfs:label             "20163" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "20163" ;
+        dc:title               "Universidad de Valladolid Campus de Palencia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/20163/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/36631/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.419842759999998 43.370927358522124)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/39872/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.6441145 43.533981498521676)"^^geosparql:wktLiteral .
+
+georec:26926  a                btn100:Universidad ;
+        rdfs:label             "26926" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "26926" ;
+        dc:title               "Universidad de Cantabria Campus Torrelavega" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/26926/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/24415/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.9759405 37.599580498568244)"^^geosparql:wktLiteral .
+
+georec:12018  a                btn100:Universidad ;
+        rdfs:label             "12018" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12018" ;
+        dc:title               "Campus Politècnic Terrasa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12018/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:18856  a                btn100:Universidad ;
+        rdfs:label             "18856" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "18856" ;
+        dc:title               "Universidad Popular" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/18856/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/27567/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8343886300000003 43.46047370852189)"^^geosparql:wktLiteral .
+
+georec:24414  a                btn100:Universidad ;
+        rdfs:label             "24414" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "24414" ;
+        dc:title               "Universidad Popular" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/24414/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:32133  a                btn100:Universidad ;
+        rdfs:label             "32133" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "32133" ;
+        dc:title               "Facultad de Bellas Artes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/32133/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:10387  a                btn100:Universidad ;
+        rdfs:label             "10387" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "10387" ;
+        dc:title               "Campus Montilivi" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/10387/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/30421/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.94303681 37.259008348572806)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/12029/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.0820054999999993 41.47400499853073)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/31544/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.7884153099999995 37.86812698856479)"^^geosparql:wktLiteral .
+
+georec:12026  a                btn100:Universidad ;
+        rdfs:label             "12026" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12026" ;
+        dc:title               "Universitat Pol. Catalunya Campus Nord" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12026/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:3003  a                 btn100:Universidad ;
+        rdfs:label             "3003" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3003" ;
+        dc:title               "Universidad Nacional de Educación a Distancia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3003/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:31069  a                btn100:Universidad ;
+        rdfs:label             "31069" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31069" ;
+        dc:title               "Universidad Nacional de Educación a Distancia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/31069/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:22357  a                btn100:Universidad ;
+        rdfs:label             "22357" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "22357" ;
+        dc:title               "Universidad Católica Ávila" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/22357/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:35362  a                btn100:Universidad ;
+        rdfs:label             "35362" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "35362" ;
+        dc:title               "Universidad Nacional de Educación a Distancia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/35362/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:13219  a                btn100:Universidad ;
+        rdfs:label             "13219" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "13219" ;
+        dc:title               "Universitat de L'Ebre Uni. Rovira i Virgili" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/13219/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:7054  a                 btn100:Universidad ;
+        rdfs:label             "7054" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "7054" ;
+        dc:title               "Universidad Pública de Burgos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/7054/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/25551/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.581460409999999 42.55180962852505)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/18859/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.377715529999999 39.472244508546794)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/9087/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.61929799 41.61497012852988)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/12033/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.609984 41.58544549853005)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/22071/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.668100000000001 40.961459998534174)"^^geosparql:wktLiteral .
+
+georec:3011  a                 btn100:Universidad ;
+        rdfs:label             "3011" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3011" ;
+        dc:title               "Universidad Rey Juan Carlos Campus Fuenlabrada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3011/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/357/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.10410942 39.934867698542455)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/31069/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.65614 39.5945414985456)"^^geosparql:wktLiteral .
+
+georec:21585  a                btn100:Universidad ;
+        rdfs:label             "21585" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "21585" ;
+        dc:title               "Campus Universitario Bejar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/21585/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/21137/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.721667 41.65199999852966)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/31070/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6463795 39.6386714985452)"^^geosparql:wktLiteral .
+
+georec:39876  a                btn100:Universidad ;
+        rdfs:label             "39876" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "39876" ;
+        dc:title               "Universidad Campus del Cristo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/39876/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:30063  a                btn100:Universidad ;
+        rdfs:label             "30063" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "30063" ;
+        dc:title               "Universidad de Cádiz Campus de Algeciras" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/30063/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:12468  a                btn100:Universidad ;
+        rdfs:label             "12468" ;
+        dc:created             "2012-04-13"^^xsd:date ;
+        dc:identifier          "12468" ;
+        dc:title               "Universitat Politècnica de Catalunya" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12468/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:39663  a                btn100:Universidad ;
+        rdfs:label             "39663" ;
+        dc:created             "2013-05-15"^^xsd:date ;
+        dc:identifier          "39663" ;
+        dc:title               "Universidad de Magisterio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/39663/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/30420/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.9220635900000005 37.2024632185736)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/12028/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.0762215 41.47609199853073)"^^geosparql:wktLiteral .
+
+georec:12021  a                btn100:Universidad ;
+        rdfs:label             "12021" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12021" ;
+        dc:title               "Campus Comunicación Poblenou Pompeu Fabra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12021/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:18859  a                btn100:Universidad ;
+        rdfs:label             "18859" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "18859" ;
+        dc:title               "Universidad de Extremadura" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/18859/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/3014/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7113062400000008 40.429673988538234)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/2004/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.4350217000000001 38.38894274855846)"^^geosparql:wktLiteral .
+
+georec:24417  a                btn100:Universidad ;
+        rdfs:label             "24417" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "24417" ;
+        dc:title               "Campus Muralla del Mar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/24417/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:27446  a                btn100:Universidad ;
+        rdfs:label             "27446" ;
+        dc:created             "2012-09-07"^^xsd:date ;
+        dc:identifier          "27446" ;
+        dc:title               "Universidad Pontificia de Comillas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/27446/geometry> ;
+        btn100:codigoBIC       "RI-51-0005057-00000" .
+
+<https://datos.ign.es/recurso/btn100/universidad/30063/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.453515780000002 36.13631663859056)"^^geosparql:wktLiteral .
+
+georec:27567  a                btn100:Universidad ;
+        rdfs:label             "27567" ;
+        dc:created             "2013-01-22"^^xsd:date ;
+        dc:identifier          "27567" ;
+        dc:title               "Facultad de Medicina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/27567/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/5164/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.010000849999999 43.3079033885223)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/12024/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.12354384 41.40565989853117)"^^geosparql:wktLiteral .
+
+georec:28852  a                btn100:Universidad ;
+        rdfs:label             "28852" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "28852" ;
+        dc:title               "Campus Centro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/28852/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/29622/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.461420469999999 36.71109404858058)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/3009/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7189065 40.4221734985383)"^^geosparql:wktLiteral .
+
+georec:12029  a                btn100:Universidad ;
+        rdfs:label             "12029" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12029" ;
+        dc:title               "Campus Politècnic San Cugat del Vallés" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12029/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:3006  a                 btn100:Universidad ;
+        rdfs:label             "3006" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3006" ;
+        dc:title               "Universidad Internacional Menendez Pelayo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3006/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/35364/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.734609859999999 42.22725853852654)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/41840/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.025655999999999 39.859389998543136)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/3010/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7203253699999994 40.44519276853809)"^^geosparql:wktLiteral .
+
+georec:31072  a                btn100:Universidad ;
+        rdfs:label             "31072" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31072" ;
+        dc:title               "Universidad Internacional Uimir" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/31072/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:27817  a                btn100:Universidad ;
+        rdfs:label             "27817" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "27817" ;
+        dc:title               "Universidad de Jaén Campus de Linares" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/27817/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:38402  a                btn100:Universidad ;
+        rdfs:label             "38402" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "38402" ;
+        dc:title               "Universidad Pública Campus Lugo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/38402/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:30421  a                btn100:Universidad ;
+        rdfs:label             "30421" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "30421" ;
+        dc:title               "I.C.E Universidad Sevilla-Huelva" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/30421/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/12019/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.97662404 41.280058528531974)"^^geosparql:wktLiteral .
+
+georec:36629  a                btn100:Universidad ;
+        rdfs:label             "36629" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "36629" ;
+        dc:title               "Universidad Santiago de Compostela" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/36629/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/22357/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.704999739999998 40.66705879853634)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/32500/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.975988900000001 37.37868232857118)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/12020/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.19194958 41.38185878853132)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/39663/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.555962230000001 43.00562764852327)"^^geosparql:wktLiteral .
+
+georec:17932  a                btn100:Universidad ;
+        rdfs:label             "17932" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "17932" ;
+        dc:title               "Universidad Castilla La Mancha" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/17932/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:3014  a                 btn100:Universidad ;
+        rdfs:label             "3014" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3014" ;
+        dc:title               "Universidad Pontifícia de Comillas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3014/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/3005/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7168664299999996 40.44301064853812)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/39874/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.8503695 43.35677199852216)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/24417/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.9796394300000001 37.59969287856825)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/27816/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.468020809999999 37.99193727856325)"^^geosparql:wktLiteral .
+
+georec:31543  a                btn100:Universidad ;
+        rdfs:label             "31543" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31543" ;
+        dc:title               "Universidad de Córdoba Campus Belmez" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/31543/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:10385  a                btn100:Universidad ;
+        rdfs:label             "10385" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "10385" ;
+        dc:title               "Universitat de Girona" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/10385/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/10385/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.827760090000001 41.98539531852779)"^^geosparql:wktLiteral .
+
+georec:12024  a                btn100:Universidad ;
+        rdfs:label             "12024" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12024" ;
+        dc:title               "Universitat Internacional de Catalunya" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12024/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:31067  a                btn100:Universidad ;
+        rdfs:label             "31067" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "31067" ;
+        dc:title               "Universidad Les IIIes Balears" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/31067/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:24420  a                btn100:Universidad ;
+        rdfs:label             "24420" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "24420" ;
+        dc:title               "Universidad de Murcia Campus La Merced" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/24420/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:22071  a                btn100:Universidad ;
+        rdfs:label             "22071" ;
+        dc:created             "2012-05-03"^^xsd:date ;
+        dc:identifier          "22071" ;
+        dc:title               "Instituto (Las Escuelas Menores)" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/22071/geometry> ;
+        btn100:codigoBIC       "RI-51-0000841-00000" .
+
+<https://datos.ign.es/recurso/btn100/universidad/21586/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.667074370000001 40.96256984853417)"^^geosparql:wktLiteral .
+
+georec:12032  a                btn100:Universidad ;
+        rdfs:label             "12032" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12032" ;
+        dc:title               "Campus Politècnic Vilanova i La Geltrú" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12032/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/19579/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.11395122 40.942956878534304)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/7053/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.688525709999999 42.351853868525936)"^^geosparql:wktLiteral .
+
+georec:3009  a                 btn100:Universidad ;
+        rdfs:label             "3009" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3009" ;
+        dc:title               "Universidad para Mayores 25 años" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3009/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/36632/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.22293151 43.48281190852181)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/universidad/24416/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.18475939 37.99103208856325)"^^geosparql:wktLiteral .
+
+georec:36148  a                btn100:Universidad ;
+        rdfs:label             "36148" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "36148" ;
+        dc:title               "Universidad Santiago de Compostela" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/36148/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:19579  a                btn100:Universidad ;
+        rdfs:label             "19579" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "19579" ;
+        dc:title               "Universidad Privada Segovia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/19579/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:39874  a                btn100:Universidad ;
+        rdfs:label             "39874" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "39874" ;
+        dc:title               "Universidad para Mayores Oviedo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/39874/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/32134/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.000636150000002 37.41140429857074)"^^geosparql:wktLiteral .
+
+georec:30061  a                btn100:Universidad ;
+        rdfs:label             "30061" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "30061" ;
+        dc:title               "Universidad de Cádiz" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/30061/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:5166  a                 btn100:Universidad ;
+        rdfs:label             "5166" ;
+        dc:created             "2012-04-20"^^xsd:date ;
+        dc:identifier          "5166" ;
+        dc:title               "Mondragon Unibertsitatea / Universidad de Mondragón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/5166/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:36632  a                btn100:Universidad ;
+        rdfs:label             "36632" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "36632" ;
+        dc:title               "Universidad UNED de Ferrol" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/36632/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:29622  a                btn100:Universidad ;
+        rdfs:label             "29622" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "29622" ;
+        dc:title               "Universidad Nacional de Educación a Distancia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/29622/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:26927  a                btn100:Universidad ;
+        rdfs:label             "26927" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "26927" ;
+        dc:title               "UNED Santander" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/26927/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:12019  a                btn100:Universidad ;
+        rdfs:label             "12019" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "12019" ;
+        dc:title               "Campus Baix Llobregat" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/12019/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/17592/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.17328663 40.629997778536634)"^^geosparql:wktLiteral .
+
+georec:18857  a                btn100:Universidad ;
+        rdfs:label             "18857" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "18857" ;
+        dc:title               "Universidad a Distancia para Mayores" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/18857/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:3522  a                 btn100:Universidad ;
+        rdfs:label             "3522" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "3522" ;
+        dc:title               "Universidad Politécnica de Madrid" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/3522/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/universidad/12031/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.13295455 41.41480448853111)"^^geosparql:wktLiteral .
+
+georec:25550  a                btn100:Universidad ;
+        rdfs:label             "25550" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "25550" ;
+        dc:title               "Universidad de León" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/25550/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:24415  a                btn100:Universidad ;
+        rdfs:label             "24415" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "24415" ;
+        dc:title               "Campus Paseo Alfonso XIII" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/24415/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:9087  a                 btn100:Universidad ;
+        rdfs:label             "9087" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "9087" ;
+        dc:title               "Universitat de Lleida" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/universidad/9087/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
