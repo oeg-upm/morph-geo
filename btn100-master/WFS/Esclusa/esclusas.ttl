@@ -1,0 +1,148 @@
+rdf_output
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/esclusa/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:5  a                    btn100:Esclusa ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "5" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/5/geometry> .
+
+georec:12  a                   btn100:Esclusa ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "12" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/12/geometry> .
+
+georec:18  a                   btn100:Esclusa ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "18" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/18/geometry> .
+
+<https://datos.ign.es/recurso/esclusa/17/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.312688 42.626466)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/esclusa/7/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.416142 42.25102)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/esclusa/15/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.314719 42.605208)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/esclusa/5/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.524692 41.921597)"^^geosparql:wktLiteral .
+
+georec:4  a                    btn100:Esclusa ;
+        dc:created             "2013-03-06"^^xsd:date ;
+        dc:identifier          "4" ;
+        dc:title               "Esclusa de Sevilla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/4/geometry> .
+
+georec:11  a                   btn100:Esclusa ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "11" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/11/geometry> .
+
+georec:17  a                   btn100:Esclusa ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "17" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/17/geometry> .
+
+<https://datos.ign.es/recurso/esclusa/10/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.283788 42.528993)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/esclusa/18/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.306708 42.638832)"^^geosparql:wktLiteral .
+
+georec:9  a                    btn100:Esclusa ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "9" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/9/geometry> .
+
+georec:10  a                   btn100:Esclusa ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "10" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/10/geometry> .
+
+georec:16  a                   btn100:Esclusa ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "16" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/16/geometry> .
+
+<https://datos.ign.es/recurso/esclusa/8/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.358162 42.269706)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/esclusa/16/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.314018 42.619999)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/esclusa/6/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.531293 42.16548)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/esclusa/13/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.311861 42.586356)"^^geosparql:wktLiteral .
+
+georec:8  a                    btn100:Esclusa ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "8" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/8/geometry> .
+
+georec:15  a                   btn100:Esclusa ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "15" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/15/geometry> .
+
+<https://datos.ign.es/recurso/esclusa/11/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.297873 42.542779)"^^geosparql:wktLiteral .
+
+georec:7  a                    btn100:Esclusa ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "7" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/7/geometry> .
+
+<https://datos.ign.es/recurso/esclusa/9/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.272585 42.511332)"^^geosparql:wktLiteral .
+
+georec:14  a                   btn100:Esclusa ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "14" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/14/geometry> .
+
+<https://datos.ign.es/recurso/esclusa/4/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.005622 37.319051)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/esclusa/14/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.313826 42.594066)"^^geosparql:wktLiteral .
+
+georec:6  a                    btn100:Esclusa ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "6" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/6/geometry> .
+
+georec:13  a                   btn100:Esclusa ;
+        dc:created             "2013-07-03"^^xsd:date ;
+        dc:identifier          "13" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/esclusa/13/geometry> .
+
+<https://datos.ign.es/recurso/esclusa/12/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.313895 42.564144)"^^geosparql:wktLiteral .

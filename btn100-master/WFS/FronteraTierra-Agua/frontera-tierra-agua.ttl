@@ -1,0 +1,39 @@
+rdf_output
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/frontera-tierra-agua/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/frontera-tierra-agua/8/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.092834 38.959626, -0.042113 38.958553)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/frontera-tierra-agua/239/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-17.854864 28.834636, -17.832079 28.862018)"^^geosparql:wktLiteral .
+
+georec:8  a                    btn100:FronteraTierraAgua ;
+        dc:created             "2012-01-18"^^xsd:date ;
+        dc:identifier          "8" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/frontera-tierra-agua/8/geometry> .
+
+georec:239  a                  btn100:FronteraTierraAgua ;
+        dc:created             "2013-03-07"^^xsd:date ;
+        dc:identifier          "239" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/frontera-tierra-agua/239/geometry> .
+
+georec:171  a                  btn100:FronteraTierraAgua ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "171" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/frontera-tierra-agua/171/geometry> .
+
+<https://datos.ign.es/recurso/frontera-tierra-agua/171/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (4.270854 39.807822, 4.276548 39.808253, 4.279614 39.808822)"^^geosparql:wktLiteral .

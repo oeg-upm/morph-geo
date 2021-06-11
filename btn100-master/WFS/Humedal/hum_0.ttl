@@ -1,0 +1,22 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/lago/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/lago/1515/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.287812 39.280253, -0.28601 39.279928, -0.285576 39.280911, -0.284844 39.280977, -0.282122 39.280319, -0.281988 39.280269, -0.28186 39.280222, -0.281585 39.280122, -0.281206 39.279982, -0.280606 39.279762, -0.280399 39.279686, -0.280035 39.279553, -0.279248 39.279264, -0.279358 39.278265, -0.279745 39.277233, -0.279774 39.276483, -0.279846 39.274612, -0.280299 39.274507, -0.28023 39.276812, -0.280226 39.276967, -0.280201 39.277801, -0.281016 39.277435, -0.281688 39.277133, -0.283149 39.276477, -0.283898 39.276425, -0.284207 39.276488, -0.285676 39.276791, -0.286617 39.276354, -0.286771 39.276283, -0.287949 39.277453, -0.288641 39.278903, -0.288588 39.279505, -0.287812 39.280253))"^^geosparql:wktLiteral .
+
+georec:1515  a                 btn100:Lago ;
+        dc:created             "2013-07-08"^^xsd:date ;
+        dc:identifier          "1515" ;
+        dc:title               "Lago de la Plana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/lago/1515/geometry> .
+

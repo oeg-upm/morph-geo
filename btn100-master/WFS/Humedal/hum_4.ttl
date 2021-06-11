@@ -1,0 +1,22 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/laguna/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:1201  a                 btn100:Laguna ;
+        dc:created             "2013-07-08"^^xsd:date ;
+        dc:identifier          "1201" ;
+        dc:title               "Lagunilla de la Sal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/laguna/1201/geometry> .
+
+<https://datos.ign.es/recurso/laguna/1201/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.335847 39.440146, -3.330427 39.44266, -3.33042 39.441233, -3.329625 39.439741, -3.329311 39.438213, -3.329042 39.436821, -3.329824 39.435494, -3.33122 39.434267, -3.332882 39.433787, -3.334463 39.434631, -3.335393 39.436701, -3.335055 39.439249, -3.335847 39.440146))"^^geosparql:wktLiteral .
+
