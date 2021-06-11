@@ -1,0 +1,1158 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/central-hidraulica/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:86  a                   btn100:CentralHidraulica ;
+        rdfs:label             "86" ;
+        dc:created             "2012-01-10"^^xsd:date ;
+        dc:identifier          "86" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/86/geometry> .
+
+georec:2482  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2482" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "2482" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2482/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/135/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.0958430100000003 43.10973449852294, -2.0958979300000005 43.10983125852294, -2.0959872899999996 43.10998869852292, -2.09590273 43.11028874852292, -2.0956278600000005 43.11078260852293, -2.0953286800000006 43.11087191852294, -2.09492161 43.11080058852291, -2.0943556199999995 43.11065395852293, -2.0944312199999997 43.11052848852292, -2.094999120000001 43.10952445852293, -2.0955007000000005 43.10968151852294, -2.0958430100000003 43.10973449852294))"^^geosparql:wktLiteral .
+
+georec:2544  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2544" ;
+        dc:created             "2012-03-14"^^xsd:date ;
+        dc:identifier          "2544" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2544/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/51/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.14995102 39.96913872854214, -0.14879474 39.96863168854216, -0.14785059 39.968153538542175, -0.14756021 39.968007688542166, -0.14781701 39.967702358542155, -0.1479966 39.96762329854216, -0.14830992 39.967589278542164, -0.1490450699999999 39.96784737854215, -0.1501624 39.96869921854215, -0.15018343 39.96884581854214, -0.14995102 39.96913872854214))"^^geosparql:wktLiteral .
+
+georec:508  a                  btn100:CentralHidraulica ;
+        rdfs:label             "508" ;
+        dc:created             "2012-05-24"^^xsd:date ;
+        dc:identifier          "508" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/508/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/735/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.4611532700000002 41.468567908530765, 0.4620914600000001 41.467310058530785, 0.4618104500000001 41.46719914853078, 0.46150921 41.46760216853077, 0.46114955 41.46745281853079, 0.4605252900000001 41.46832325853077, 0.4611532700000002 41.468567908530765))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1111/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.1780763300000006 40.55186294853725, -2.17764226 40.551223788537264, -2.1783929199999994 40.55106998853725, -2.1787973799999993 40.55104604853726, -2.1795614999999997 40.551788698537244, -2.1797467700000004 40.552446808537255, -2.17961903 40.55283461853726, -2.17928669 40.55313035853725, -2.17873297 40.55260440853725, -2.17792509 40.55216288853725, -2.1780763300000006 40.55186294853725))"^^geosparql:wktLiteral .
+
+georec:1113  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1113" ;
+        dc:created             "2012-02-06"^^xsd:date ;
+        dc:identifier          "1113" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1113/geometry> .
+
+georec:792  a                  btn100:CentralHidraulica ;
+        rdfs:label             "792" ;
+        dc:created             "2012-03-14"^^xsd:date ;
+        dc:identifier          "792" ;
+        dc:title               "Central Eléctrica de Menuza" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/792/geometry> .
+
+georec:1781  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1781" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1781" ;
+        dc:title               "Central Hidroeléctrica" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1781/geometry> .
+
+georec:2177  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2177" ;
+        dc:created             "2013-02-13"^^xsd:date ;
+        dc:identifier          "2177" ;
+        dc:title               "Subestación Eléctrica de Trives" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2177/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1135/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.26841563 39.88425279854291, -2.2662000000000004 39.88589201854289, -2.26445708 39.886484628542895, -2.2644368500000005 39.88629817854289, -2.264417790000001 39.88612226854289, -2.2644225400000004 39.88594048854291, -2.26446515 39.885783718542896, -2.26461845 39.88541420854289, -2.26445436 39.8852937885429, -2.26441003 39.88526124854291, -2.2643463700000006 39.8851754285429, -2.2643671599999995 39.88511658854291, -2.2644390700000003 39.88507177854291, -2.26535794 39.8849219985429, -2.265482369999999 39.88488935854291, -2.2658033700000004 39.88480498854291, -2.2670407999999997 39.88428177854291, -2.26767348 39.88416644854292, -2.26841563 39.88425279854291))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1188/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.9649258700000005 41.42824698853102, -3.9647539000000003 41.428059948531036, -3.96502712 41.427968658531015, -3.965569680000001 41.428246888531014, -3.9654204300000004 41.42919365853103, -3.9648179899999993 41.42917307853102, -3.96470661 41.428613648531034, -3.96474461 41.42837758853102, -3.9649258700000005 41.42824698853102))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/46/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.8007911599999997 42.56643074852498, -2.8006968399999996 42.56660723852499, -2.8002529 42.566520398525, -2.800649209999999 42.56628497852498, -2.8007684200000003 42.566214158524986, -2.8009109900000007 42.566129468525, -2.8010108000000002 42.566070178524974, -2.8011255799999994 42.566001998524975, -2.801286170000001 42.566140318525, -2.8011558099999996 42.56631526852499, -2.8009200200000004 42.56635204852497, -2.8007911599999997 42.56643074852498))"^^geosparql:wktLiteral .
+
+georec:708  a                  btn100:CentralHidraulica ;
+        rdfs:label             "708" ;
+        dc:created             "2012-07-27"^^xsd:date ;
+        dc:identifier          "708" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/708/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2470/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.220095949999999 43.317167018522284, -6.220053659999999 43.31701291852229, -6.21971327 43.316905588522275, -6.219865590000001 43.316540128522284, -6.22023759 43.31649514852228, -6.220844859999999 43.31669899852227, -6.2210711000000005 43.31687557852228, -6.22070446 43.317343888522274, -6.220464690000001 43.31773423852227, -6.220167419999999 43.317763028522286, -6.219855770000001 43.31756635852228, -6.220095949999999 43.317167018522284))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/402/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.7749384900000003 41.673966118529535, -3.774548160000001 41.67395162852953, -3.7733557500000003 41.673629358529524, -3.7735914000000004 41.67319812852953, -3.7742241599999993 41.67338303852953, -3.774506540000001 41.67331557852953, -3.7751865199999997 41.67337578852952, -3.7749384900000003 41.673966118529535))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/792/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.37354657 41.28529692853195, -0.37268928 41.28567617853195, -0.36894818 41.286181528531955, -0.3687702400000001 41.28649409853195, -0.3685023100000001 41.28661855853194, -0.36791288 41.28677708853194, -0.36722526 41.28617164853195, -0.36766291 41.28588937853194, -0.36826446 41.285673928531935, -0.36804763 41.28520079853195, -0.3701493800000001 41.284554608531955, -0.37116201 41.28518337853195, -0.37265663 41.28453803853194, -0.3735476799999999 41.283805048531946, -0.3743213599999999 41.28355682853196, -0.3745763200000002 41.284035328531964, -0.3733105800000001 41.28483362853194, -0.37354657 41.28529692853195))"^^geosparql:wktLiteral .
+
+georec:2185  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2185" ;
+        dc:created             "2013-05-09"^^xsd:date ;
+        dc:identifier          "2185" ;
+        dc:title               "Central Hidroeléctrica de Prada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2185/geometry> .
+
+georec:403  a                  btn100:CentralHidraulica ;
+        rdfs:label             "403" ;
+        dc:created             "2012-08-30"^^xsd:date ;
+        dc:identifier          "403" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/403/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1131/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.13218021 40.09681387854103, -2.12951462 40.09730408854103, -2.128106990000001 40.09791845854103, -2.1277372600000004 40.09827488854102, -2.12729639 40.09830180854102, -2.1262931000000003 40.09776040854103, -2.1260536200000004 40.09753466854102, -2.12621696 40.09693810854102, -2.12553502 40.096682378541026, -2.1247529500000004 40.09682495854102, -2.124687480000001 40.09656003854102, -2.12510638 40.09611366854103, -2.1260744299999996 40.09580366854103, -2.1285535900000014 40.09579589854103, -2.129933400000001 40.09559473854105, -2.1307300400000004 40.095834128541036, -2.13176527 40.09594395854104, -2.1320519599999996 40.096184258541044, -2.13218021 40.09681387854103))"^^geosparql:wktLiteral .
+
+georec:1747  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1747" ;
+        dc:created             "2012-09-26"^^xsd:date ;
+        dc:identifier          "1747" ;
+        dc:title               "Central Hidroeléctrica la Remolina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1747/geometry> .
+
+georec:60  a                   btn100:CentralHidraulica ;
+        rdfs:label             "60" ;
+        dc:created             "2012-01-12"^^xsd:date ;
+        dc:identifier          "60" ;
+        dc:title               "Central Hidroeléctrica" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/60/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2023/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.629906689999999 37.9549939785637, -4.629935369999999 37.9553174485637, -4.62994103 37.9553813285637, -4.629977670000001 37.955794638563695, -4.629288420000001 37.955951858563694, -4.62862216 37.956020228563695, -4.628470149999999 37.955612218563694, -4.628447659999999 37.9555518385637, -4.6283265700000005 37.9552268185637, -4.629906689999999 37.9549939785637))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1807/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.4618626299999993 38.221320968560455, -2.4615967700000008 38.221325198560436, -2.46127963 38.22123584856045, -2.461243810000001 38.22120659856046, -2.46108272 38.220906258560454, -2.46079968 38.22031930856045, -2.46077347 38.22007643856045, -2.460627099999999 38.21990918856046, -2.4605578499999994 38.219501628560465, -2.46110851 38.21982261856047, -2.461272390000001 38.22008217856045, -2.4618626299999993 38.221320968560455))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/787/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.6725952 42.10399539852715, -0.6723362300000001 42.10449560852717, -0.6722291099999997 42.10487294852716, -0.6716441799999998 42.10474578852717, -0.6705796000000003 42.104571458527154, -0.6688931499999999 42.10441438852716, -0.66891043 42.104286828527165, -0.6689831399999999 42.10374997852717, -0.66913301 42.103775568527176, -0.6697164400000001 42.10387517852716, -0.6705727700000002 42.10386894852716, -0.6715232799999998 42.103691288527166, -0.6725952 42.10399539852715))"^^geosparql:wktLiteral .
+
+georec:979  a                  btn100:CentralHidraulica ;
+        rdfs:label             "979" ;
+        dc:created             "2012-07-05"^^xsd:date ;
+        dc:identifier          "979" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/979/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/405/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.7002303300000006 41.87574024852838, -2.701376190000001 41.875700188528384, -2.701554690000001 41.876161958528385, -2.7014980900000003 41.87654091852836, -2.7009353099999998 41.87697010852836, -2.7001170300000004 41.87711700852836, -2.6999294000000003 41.87610842852839, -2.7002303300000006 41.87574024852838))"^^geosparql:wktLiteral .
+
+georec:787  a                  btn100:CentralHidraulica ;
+        rdfs:label             "787" ;
+        dc:created             "2012-05-05"^^xsd:date ;
+        dc:identifier          "787" ;
+        dc:title               "Central Hidroeléctrica Sotonera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/787/geometry> .
+
+georec:2172  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2172" ;
+        dc:created             "2013-02-13"^^xsd:date ;
+        dc:identifier          "2172" ;
+        dc:title               "Central Eléctrica de Santo Estevo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2172/geometry> .
+
+georec:1229  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1229" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "1229" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1229/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2189/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.089928509999999 42.391924988525766, -7.08982117 42.39274301852575, -7.089090089999998 42.39390562852576, -7.08873254 42.39385380852575, -7.08808464 42.393457228525754, -7.087996850000001 42.39334439852575, -7.088261499999998 42.393110198525775, -7.089322470000002 42.39225708852577, -7.089784559999999 42.39189474852577, -7.089928509999999 42.391924988525766))"^^geosparql:wktLiteral .
+
+georec:2547  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2547" ;
+        dc:created             "2012-03-15"^^xsd:date ;
+        dc:identifier          "2547" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2547/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1780/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.30870886 43.31917960852227, -3.3086845000000005 43.31946687852227, -3.3085940099999998 43.31953818852228, -3.3081850599999987 43.31951560852227, -3.30808719 43.319411628522275, -3.3081147 43.31916331852228, -3.3081554600000005 43.31879548852227, -3.308258909999999 43.31871939852227, -3.3086743100000002 43.31873722852229, -3.3087591999999986 43.31884123852225, -3.30870886 43.31917960852227))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2161/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.348653059999999 42.31955311852611, -7.3487417699999975 42.31978384852611, -7.348432399999999 42.32004770852609, -7.347913309999998 42.32008543852609, -7.347362259999998 42.32018741852608, -7.346820190000001 42.32024401852609, -7.3466216200000005 42.3201795285261, -7.346579129999998 42.32009110852609, -7.346507469999998 42.3199317585261, -7.346501280000002 42.31984195852609, -7.34664965 42.31969637852609, -7.346739920000001 42.319607798526086, -7.347053919999999 42.31958686852611, -7.347105929999999 42.3195935285261, -7.347433370000004 42.3196354785261, -7.347795560000002 42.319538878526096, -7.3483387700000025 42.31939398852611, -7.348628240000004 42.31954505852611, -7.348653059999999 42.31955311852611))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/783/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.19434653 41.967946918527865, 0.19539608 41.96756102852788, 0.1968796600000001 41.96699922852789, 0.19808052 41.96685756852787, 0.19833114 41.96680675852788, 0.1979551800000001 41.96608089852789, 0.1977222300000001 41.96573968852789, 0.19591671 41.96603782852789, 0.19469151 41.96587978852787, 0.1943729 41.966938148527866, 0.19434653 41.967946918527865))"^^geosparql:wktLiteral .
+
+georec:2038  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2038" ;
+        dc:created             "2013-01-09"^^xsd:date ;
+        dc:identifier          "2038" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2038/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/401/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.9713986499999994 42.69515724852446, -2.97166845 42.695163078524445, -2.9718862400000003 42.695398328524455, -2.97075702 42.695925048524444, -2.97035149 42.695502038524445, -2.9709298799999995 42.69534498852445, -2.9710563800000003 42.69529431852445, -2.9713986499999994 42.69515724852446))"^^geosparql:wktLiteral .
+
+georec:774  a                  btn100:CentralHidraulica ;
+        rdfs:label             "774" ;
+        dc:created             "2012-04-01"^^xsd:date ;
+        dc:identifier          "774" ;
+        dc:title               "Central Hidroeléctrica de Ip" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/774/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1227/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.54541941 41.86098051852846, -4.545139260000001 41.861000248528434, -4.545043800000001 41.860453678528465, -4.54497354 41.86024773852846, -4.54492519 41.860050788528476, -4.5448350600000005 41.859875028528464, -4.544711109999999 41.85973229852846, -4.544761140000001 41.85965221852846, -4.545143310000001 41.85951197852846, -4.545244240000001 41.85954298852847, -4.545302699999999 41.85962691852846, -4.545458929999999 41.860111168528455, -4.545465650000001 41.86039028852844, -4.54547865 41.86093050852845, -4.54541941 41.86098051852846))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2185/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.037240280000001 42.329429068526046, -7.037685830000003 42.32921090852606, -7.0381820799999995 42.32918264852605, -7.038374190000001 42.32914917852605, -7.038546720000001 42.32933409852606, -7.038494399999999 42.329401168526054, -7.03854901 42.329790768526045, -7.037793560000003 42.32984286852605, -7.037514869999999 42.32986127852605, -7.03717699 42.329809328526046, -7.037149859999999 42.329606058526046, -7.037240280000001 42.329429068526046))"^^geosparql:wktLiteral .
+
+georec:2159  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2159" ;
+        dc:created             "2013-02-13"^^xsd:date ;
+        dc:identifier          "2159" ;
+        dc:title               "Central Hidroeléctrica Las Conchas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2159/geometry> .
+
+georec:1358  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1358" ;
+        dc:created             "2013-01-25"^^xsd:date ;
+        dc:identifier          "1358" ;
+        dc:title               "Central Eléctrica de Puente Nuevo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1358/geometry> .
+
+georec:2472  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2472" ;
+        dc:created             "2013-01-25"^^xsd:date ;
+        dc:identifier          "2472" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2472/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/86/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.9323175600000005 39.24415774854909, -0.9319855900000003 39.244249488549094, -0.9312647900000003 39.244463698549076, -0.9308726099999999 39.2436018085491, -0.93130495 39.2434928985491, -0.9320363299999999 39.2433086585491, -0.9323175600000005 39.24415774854909))"^^geosparql:wktLiteral .
+
+georec:1145  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1145" ;
+        dc:created             "2012-02-06"^^xsd:date ;
+        dc:identifier          "1145" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1145/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1146/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.250152450000002 40.09861733854101, -6.250019629999999 40.09809359854102, -6.2499405800000005 40.09775110854101, -6.2509976100000015 40.09755582854102, -6.25119406 40.09848637854101, -6.250152450000002 40.09861733854101))"^^geosparql:wktLiteral .
+
+georec:135  a                  btn100:CentralHidraulica ;
+        rdfs:label             "135" ;
+        dc:created             "2012-04-27"^^xsd:date ;
+        dc:identifier          "135" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/135/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1746/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.401798360000002 42.37827826852585, -6.401632029999998 42.37839449852583, -6.4005240799999985 42.378861398525814, -6.400205490000002 42.37879851852583, -6.4000917799999995 42.37832379852583, -6.400642930000001 42.377971728525836, -6.400987940000001 42.37788414852582, -6.401357160000001 42.37775166852584, -6.401799659999999 42.37767571852583, -6.401946680000002 42.37796784852584, -6.401798360000002 42.37827826852585))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/57/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.17694793 39.981851748542034, -0.17678739 39.98150405854203, -0.17682076 39.980775728542035, -0.17676205 39.98027893854205, -0.17691766 39.98019493854205, -0.17738964 39.98027959854205, -0.17759261 39.98043085854205, -0.1777667 39.98128369854205, -0.17760508 39.981513848542036, -0.17694793 39.981851748542034))"^^geosparql:wktLiteral .
+
+georec:1629  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1629" ;
+        dc:created             "2012-06-18"^^xsd:date ;
+        dc:identifier          "1629" ;
+        dc:title               "\r\nCentral del Bosque" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1629/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1117/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.786852409999999 40.39896399853847, -2.7870687099999993 40.39961928853847, -2.78685178 40.39983144853847, -2.7858013800000005 40.39984131853847, -2.7854457800000008 40.39994694853847, -2.78455063 40.399709098538466, -2.7841380200000003 40.39958203853848, -2.7841939400000006 40.399359088538475, -2.7855879899999993 40.39925145853848, -2.786852409999999 40.39896399853847))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1312/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.489818779999999 41.25320205853215, -6.49031815 41.25374482853217, -6.4897779600000005 41.25452851853215, -6.48871379 41.25643102853214, -6.48844335 41.25640119853213, -6.48815428 41.256967898532146, -6.48688652 41.256511828532155, -6.48676917 41.25683238853213, -6.48620611 41.25667193853214, -6.48646771 41.25622019853214, -6.484671160000002 41.255615288532155, -6.4851964 41.254749778532144, -6.487190870000001 41.25528527853215, -6.4873524 41.25453223853216, -6.4874583 41.253996478532144, -6.488684640000002 41.25360613853215, -6.489818779999999 41.25320205853215))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2038/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.93128723 37.916766658564185, -5.930908979999999 37.91687508856417, -5.930607869999999 37.91694693856418, -5.93018324 37.9160066885642, -5.929911299999999 37.91631076856419, -5.9298025600000015 37.916169428564196, -5.930119919999999 37.91548386856421, -5.930463329999999 37.9154216985642, -5.930646189999999 37.9155716985642, -5.9309914 37.91631602856419, -5.93121312 37.916414048564185, -5.93128723 37.916766658564185))"^^geosparql:wktLiteral .
+
+georec:2188  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2188" ;
+        dc:created             "2013-05-09"^^xsd:date ;
+        dc:identifier          "2188" ;
+        dc:title               "Central Hidroeléctrica de San Pedro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2188/geometry> .
+
+georec:84  a                   btn100:CentralHidraulica ;
+        rdfs:label             "84" ;
+        dc:created             "2011-12-28"^^xsd:date ;
+        dc:identifier          "84" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/84/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1823/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.7528902000000004 37.88942085856452, -2.7532004 37.889528168564524, -2.75301259 37.88997078856452, -2.75315873 37.890380718564515, -2.75322633 37.8905703385645, -2.75288722 37.890725398564506, -2.75277809 37.89041334856452, -2.75233863 37.89028933856452, -2.752019090000001 37.889878458564525, -2.7519267000000003 37.88964854856453, -2.75221727 37.88943585856453, -2.7528902000000004 37.88942085856452))"^^geosparql:wktLiteral .
+
+georec:185  a                  btn100:CentralHidraulica ;
+        rdfs:label             "185" ;
+        dc:created             "2012-06-02"^^xsd:date ;
+        dc:identifier          "185" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/185/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/82/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.9477911999999998 39.70409004854458, -0.9483874199999998 39.70417202854458, -0.9484584000000004 39.70455152854457, -0.9482886299999997 39.704783698544574, -0.9476222300000003 39.70458115854456, -0.9475142400000003 39.704583378544584, -0.9471088799999997 39.704590468544566, -0.9471651800000004 39.70413475854457, -0.9477911999999998 39.70409004854458))"^^geosparql:wktLiteral .
+
+georec:2521  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2521" ;
+        dc:created             "2012-02-16"^^xsd:date ;
+        dc:identifier          "2521" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2521/geometry> .
+
+georec:1111  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1111" ;
+        dc:created             "2012-02-06"^^xsd:date ;
+        dc:identifier          "1111" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1111/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/774/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.5168579700000001 42.74369783852428, -0.5161776300000003 42.74375493852424, -0.5161013499999999 42.74347340852426, -0.51614137 42.742622188524265, -0.51675393 42.74257253852427, -0.5168579700000001 42.74369783852428))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1113/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.1533710299999997 40.52960218853742, -2.1529162299999993 40.5298599885374, -2.151006980000001 40.53012605853742, -2.15080821 40.53003410853743, -2.1502142000000006 40.529721418537434, -2.15006498 40.529202778537424, -2.1500117700000008 40.52853703853745, -2.15023687 40.52759967853744, -2.150897750000001 40.527654448537454, -2.1516457 40.52783272853744, -2.152127280000001 40.52828559853744, -2.1524535400000007 40.52896214853744, -2.1533710299999997 40.52960218853742))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2476/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.84762092 43.23669393852253, -6.847817869999999 43.23753723852252, -6.847559000000001 43.237513428522504, -6.8472534499999975 43.23713414852251, -6.846936769999999 43.23706132852253, -6.84647692 43.237132468522525, -6.845346369999999 43.23743210852252, -6.845122239999999 43.23737843852254, -6.845035519999997 43.23722980852253, -6.845204269999996 43.23715803852251, -6.84762092 43.23669393852253))"^^geosparql:wktLiteral .
+
+georec:1758  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1758" ;
+        dc:created             "2012-09-06"^^xsd:date ;
+        dc:identifier          "1758" ;
+        dc:title               "Central eléctrica de Sorriba" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1758/geometry> .
+
+georec:1737  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1737" ;
+        dc:created             "2012-02-03"^^xsd:date ;
+        dc:identifier          "1737" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1737/geometry> .
+
+georec:1353  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1353" ;
+        dc:created             "2012-11-06"^^xsd:date ;
+        dc:identifier          "1353" ;
+        dc:title               "Central del Chorro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1353/geometry> .
+
+georec:1161  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1161" ;
+        dc:created             "2012-08-20"^^xsd:date ;
+        dc:identifier          "1161" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1161/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1737/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.126381639999999 38.64898687855547, -4.12578334 38.648938568555465, -4.12579243 38.64878528855546, -4.124964330000001 38.64873917855547, -4.12504935 38.64829679855547, -4.12379502 38.64818268855547, -4.12405186 38.6462337385555, -4.125259780000001 38.64632125855551, -4.125105609999999 38.64748521855548, -4.12555426 38.64751695855547, -4.12607199 38.64755702855548, -4.125990930000003 38.64825169855547, -4.12642837 38.648301548555466, -4.126381639999999 38.64898687855547))"^^geosparql:wktLiteral .
+
+georec:401  a                  btn100:CentralHidraulica ;
+        rdfs:label             "401" ;
+        dc:created             "2012-08-30"^^xsd:date ;
+        dc:identifier          "401" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/401/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/741/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.8864445800000005 41.883449588528336, 1.8860390100000004 41.883634968528355, 1.88611841 41.884117718528316, 1.8860644300000005 41.88445043852833, 1.8860285999999995 41.88512558852831, 1.8860408699999995 41.88521915852833, 1.8860498899999998 41.88528790852832, 1.8860747800000004 41.88537704852833, 1.8867629199999998 41.885284568528334, 1.8869135700000006 41.88519136852832, 1.8869893099999993 41.88469097852832, 1.8870596400000004 41.884073608528354, 1.8869995499999996 41.88367212852833, 1.8868461899999995 41.88349245852835, 1.88667591 41.88342955852834, 1.8864445800000005 41.883449588528336))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2172/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.654294160000001 42.41445646852564, -7.652725249999998 42.41438067852566, -7.652547730000003 42.41437228852566, -7.652559179999999 42.414038568525655, -7.6525102 42.41386948852568, -7.652795619999999 42.413785848525656, -7.652978140000002 42.41362536852565, -7.653427009999999 42.41361610852566, -7.653413280000002 42.41392278852568, -7.653945619999998 42.41389212852567, -7.65397125 42.41390912852568, -7.654324990000004 42.41409276852567, -7.654303869999999 42.414341908525664, -7.654294160000001 42.41445646852564))"^^geosparql:wktLiteral .
+
+georec:2183  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2183" ;
+        dc:created             "2013-02-13"^^xsd:date ;
+        dc:identifier          "2183" ;
+        dc:title               "Central Eléctrica de Castrelo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2183/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2472/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.72908919 43.47909555852181, -6.72888935 43.47904171852182, -6.72876245 43.478773118521836, -6.729098770000001 43.47857763852183, -6.729686500000001 43.47831846852184, -6.73035988 43.47826455852182, -6.730635380000002 43.47827158852183, -6.731101990000001 43.47834447852183, -6.732450159999998 43.47826034852183, -6.73264176 43.47833420852183, -6.732716020000001 43.47846799852182, -6.73273883 43.47865954852182, -6.732551039999998 43.47882592852182, -6.730519450000001 43.47916700852183, -6.730141680000002 43.47913904852183, -6.72964951 43.479208888521825, -6.72940214 43.47920213852183, -6.729231509999999 43.47911871852184, -6.72908919 43.47909555852181))"^^geosparql:wktLiteral .
+
+georec:2162  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2162" ;
+        dc:created             "2009-02-05"^^xsd:date ;
+        dc:identifier          "2162" ;
+        dc:title               "Subestación Eléctrica de Puente Bibei" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2162/geometry> .
+
+georec:1745  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1745" ;
+        dc:created             "2012-09-26"^^xsd:date ;
+        dc:identifier          "1745" ;
+        dc:title               "Central Hidroeléctrica de la Boca del Casar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1745/geometry> .
+
+georec:735  a                  btn100:CentralHidraulica ;
+        rdfs:label             "735" ;
+        dc:created             "2012-08-23"^^xsd:date ;
+        dc:identifier          "735" ;
+        dc:title               "Central Hidroeléctrica de Seròs" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/735/geometry> .
+
+georec:58  a                   btn100:CentralHidraulica ;
+        rdfs:label             "58" ;
+        dc:created             "2012-01-11"^^xsd:date ;
+        dc:identifier          "58" ;
+        dc:title               "Central Hidroeléctrica del Júcar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/58/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/712/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.8770632699999998 42.70014965852443, 0.8772548699999998 42.69990106852444, 0.8762854200000002 42.69945412852444, 0.8761947800000001 42.69961043852443, 0.87608768 42.699868448524434, 0.8764711100000003 42.70068798852443, 0.87702204 42.701261748524416, 0.8773835700000001 42.70109638852442, 0.87742924 42.700516648524435, 0.8775561499999999 42.700374918524425, 0.8770632699999998 42.70014965852443))"^^geosparql:wktLiteral .
+
+georec:1824  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1824" ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "1824" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1824/geometry> .
+
+georec:2191  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2191" ;
+        dc:created             "2013-05-09"^^xsd:date ;
+        dc:identifier          "2191" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2191/geometry> .
+
+georec:1227  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1227" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "1227" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1227/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1757/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.076510010000001 43.10831160852294, -5.07656531 43.10860894852292, -5.07569616 43.108863408522936, -5.07493352 43.10905624852293, -5.07490849 43.10885117852292, -5.075278009999998 43.10853949852293, -5.07597944 43.10814222852294, -5.076510010000001 43.10831160852294))"^^geosparql:wktLiteral .
+
+georec:87  a                   btn100:CentralHidraulica ;
+        rdfs:label             "87" ;
+        dc:created             "2012-01-11"^^xsd:date ;
+        dc:identifier          "87" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/87/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1765/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.83997548 42.82285924852395, -5.83949982 42.82302279852395, -5.83897402 42.82304585852395, -5.83823033 42.82302038852394, -5.838454440000001 42.82253748852395, -5.838807790000001 42.82228899852395, -5.839326340000002 42.82195011852395, -5.83956932 42.82213585852395, -5.839585549999999 42.822490248523955, -5.83997548 42.82285924852395))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2544/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.4176662599999994 40.03943625854153, -3.4175774000000008 40.04035123854152, -3.4168246 40.04080402854151, -3.416145129999999 40.04089357854152, -3.41567896 40.04142790854151, -3.415543550000001 40.04137884854151, -3.4152354199999997 40.041284628541526, -3.4157834199999995 40.040430288541536, -3.41574194 40.039820658541515, -3.414890460000001 40.03957689854153, -3.41499878 40.03874895854154, -3.417361660000001 40.03904535854153, -3.4176662599999994 40.03943625854153))"^^geosparql:wktLiteral .
+
+georec:509  a                  btn100:CentralHidraulica ;
+        rdfs:label             "509" ;
+        dc:created             "2012-05-24"^^xsd:date ;
+        dc:identifier          "509" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/509/geometry> .
+
+georec:1135  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1135" ;
+        dc:created             "2012-02-24"^^xsd:date ;
+        dc:identifier          "1135" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1135/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/979/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.2743418899999999 41.3695131385314, 0.2746437400000001 41.36977717853139, 0.27653178 41.369252788531405, 0.2772188 41.36910495853139, 0.27862559 41.36813880853141, 0.2794510000000001 41.367386958531405, 0.2790605900000001 41.367063088531424, 0.2785414999999999 41.36689566853141, 0.27808829 41.36696933853142, 0.27767334 41.36728912853143, 0.27731867 41.36740003853142, 0.27635878 41.367929018531406, 0.27530816 41.3689795585314, 0.2743418899999999 41.3695131385314))"^^geosparql:wktLiteral .
+
+georec:1782  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1782" ;
+        dc:created             "2012-10-30"^^xsd:date ;
+        dc:identifier          "1782" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1782/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1161/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.98618011 39.83436131854335, -5.98641337 39.834412318543365, -5.98717657 39.83457917854336, -5.9888413499999995 39.83499055854336, -5.9901278200000005 39.83538837854336, -5.990964989999998 39.835529868543354, -5.990857690000001 39.83580898854335, -5.990090320000001 39.83608969854335, -5.9898437699999985 39.83608023854335, -5.98957563 39.83595436854336, -5.9886353 39.83565686854336, -5.98788877 39.83555097854336, -5.987400869999998 39.835527808543354, -5.9869221999999995 39.83518263854336, -5.98645895 39.83465832854337, -5.98618011 39.83436131854335))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/403/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.5686619399999993 41.63971918852972, -3.56720543 41.64000829852972, -3.56700829 41.639530888529734, -3.5674257099999993 41.63934561852974, -3.5675565199999992 41.63928464852973, -3.5684461900000004 41.63917267852973, -3.568549960000001 41.639435528529745, -3.5686619399999993 41.63971918852972))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/508/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.21233461 40.916805818534506, -0.21203197 40.9168136685345, -0.21178285 40.917009938534484, -0.21147658 40.91713304853449, -0.21145939 40.917132628534496, -0.21109314 40.917045458534496, -0.21069306 40.91694440853449, -0.21023969 40.9166789385345, -0.21040635 40.9161935385345, -0.21105747 40.9160526885345, -0.21216846 40.916431958534496, -0.21233461 40.916805818534506))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2187/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.509984470000001 42.384965328525794, -7.50918702 42.38513866852579, -7.50881171 42.3849890785258, -7.508470210000001 42.384753578525796, -7.508352809999997 42.38462602852581, -7.508364239999999 42.384442388525784, -7.50843741 42.38434356852579, -7.508841940000002 42.3842092385258, -7.509226280000001 42.3843761785258, -7.5095157 42.384572888525796, -7.509984470000001 42.384965328525794))"^^geosparql:wktLiteral .
+
+georec:2470  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2470" ;
+        dc:created             "2009-02-05"^^xsd:date ;
+        dc:identifier          "2470" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2470/geometry> .
+
+georec:1335  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1335" ;
+        dc:created             "2012-11-06"^^xsd:date ;
+        dc:identifier          "1335" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1335/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2547/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.3446454799999996 40.04519800854148, -3.3444832400000006 40.04527211854148, -3.34419601 40.04540332854148, -3.3444473699999993 40.045618538541476, -3.3443575100000005 40.04567520854148, -3.3441983400000006 40.04574919854147, -3.343951440000001 40.045863988541484, -3.3435168500000003 40.046021058541484, -3.343365599999999 40.04607573854146, -3.34298518 40.045546338541484, -3.3442099499999998 40.04503029854147, -3.3445069800000007 40.0449373485415, -3.3446454799999996 40.04519800854148))"^^geosparql:wktLiteral .
+
+georec:2023  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2023" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "2023" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2023/geometry> .
+
+georec:2186  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2186" ;
+        dc:created             "2013-05-09"^^xsd:date ;
+        dc:identifier          "2186" ;
+        dc:title               "Estación Eléctrica de Celanova" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2186/geometry> .
+
+georec:404  a                  btn100:CentralHidraulica ;
+        rdfs:label             "404" ;
+        dc:created             "2012-08-30"^^xsd:date ;
+        dc:identifier          "404" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/404/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1756/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.058130140000001 43.14705406852281, -5.058455809999999 43.1473295785228, -5.058097360000001 43.14755529852281, -5.057662239999999 43.14788646852281, -5.05718113 43.14804450852281, -5.056929979999999 43.1478444685228, -5.0569670800000015 43.1475625485228, -5.0572317 43.147123118522806, -5.05776901 43.1468321885228, -5.058130140000001 43.14705406852281))"^^geosparql:wktLiteral .
+
+georec:82  a                   btn100:CentralHidraulica ;
+        rdfs:label             "82" ;
+        dc:created             "2011-12-27"^^xsd:date ;
+        dc:identifier          "82" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/82/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/67/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.56061435 40.0877532785411, -0.5612521600000002 40.08818081854109, -0.56205818 40.08842675854109, -0.56276632 40.08892732854109, -0.56227241 40.08961538854108, -0.5617988999999999 40.089566098541084, -0.56027009 40.0889691285411, -0.55948611 40.08866257854109, -0.55832505 40.088897588541094, -0.5575086699999999 40.08894142854108, -0.55705848 40.08874875854111, -0.55690888 40.0884861085411, -0.55664833 40.088076298541104, -0.5572732100000002 40.087745858541105, -0.5581711 40.08770882854109, -0.5583605399999999 40.088065798541095, -0.55868815 40.08815742854109, -0.55900268 40.088100518541104, -0.55944054 40.087679128541104, -0.5597460300000001 40.08736082854112, -0.5600866000000002 40.08734682854111, -0.56061435 40.0877532785411))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1120/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.50655285 39.533582608546205, -1.5057907400000001 39.53357280854621, -1.50468804 39.533646078546205, -1.5041108100000005 39.5338603585462, -1.5040450500000004 39.533571508546196, -1.5039599499999996 39.5334809385462, -1.50323204 39.5334523885462, -1.5030072999999995 39.5333001085462, -1.5030631200000002 39.533151428546205, -1.5037853700000001 39.53300454854621, -1.5049697900000005 39.5329790485462, -1.5059318000000004 39.5326926285462, -1.50607032 39.532775898546205, -1.50612398 39.533136488546205, -1.50655285 39.533582608546205))"^^geosparql:wktLiteral .
+
+georec:2478  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2478" ;
+        dc:created             "2013-02-04"^^xsd:date ;
+        dc:identifier          "2478" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2478/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/160/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.9414292999999996 42.70402919852442, -1.9419587400000002 42.704125518524414, -1.9419831800000005 42.70422193852442, -1.9418550100000003 42.70477944852441, -1.9417785199999995 42.70500888852441, -1.9418019799999995 42.705163018524416, -1.9418049099999999 42.705502948524405, -1.94198346 42.70574189852441, -1.94206724 42.705928648524406, -1.9420621999999996 42.70602008852441, -1.9416269300000004 42.705889308524426, -1.9411934299999998 42.7056548385244, -1.94105694 42.70541157852439, -1.94116377 42.70483962852441, -1.9411772599999997 42.70476738852442, -1.9414292999999996 42.70402919852442))"^^geosparql:wktLiteral .
+
+georec:1130  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1130" ;
+        dc:created             "2012-02-22"^^xsd:date ;
+        dc:identifier          "1130" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1130/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2191/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-8.158317670000002 42.398362688525744, -8.156671379999997 42.39813847852574, -8.155959740000002 42.397993228525735, -8.155641250000002 42.397672188525746, -8.15604507 42.39749978852573, -8.156332550000004 42.39747310852574, -8.15749063 42.39767849852573, -8.158420519999998 42.39802803852574, -8.158486160000002 42.398269138525734, -8.158317670000002 42.398362688525744))"^^geosparql:wktLiteral .
+
+georec:1109  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1109" ;
+        dc:created             "2012-02-06"^^xsd:date ;
+        dc:identifier          "1109" ;
+        dc:title               "Central Hidroeléctrica de los Toriles" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1109/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1781/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.6359296500000005 43.26499749852244, -4.636241889999999 43.26505817852242, -4.636351699999999 43.265184698522425, -4.636001299999999 43.26582495852243, -4.635852269999999 43.265885808522434, -4.6352172000000005 43.26579947852243, -4.63476678 43.265857298522434, -4.633675329999999 43.266357318522424, -4.632855 43.26666639852243, -4.6326483000000005 43.26676839852242, -4.6320651999999995 43.26708289852243, -4.631883300000001 43.267652798522434, -4.63176204 43.26789242852242, -4.631597580000001 43.26781655852243, -4.631559659999999 43.26775155852243, -4.631466019999999 43.26736794852241, -4.631289009999999 43.26706940852242, -4.63135845 43.266885608522436, -4.63155089 43.266727678522436, -4.63193951 43.26662666852243, -4.63322631 43.26609215852243, -4.6352296399999995 43.26513870852243, -4.6359296500000005 43.26499749852244))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2162/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.2242178799999985 42.31460644852612, -7.224000450000001 42.31516371852614, -7.223755329999998 42.315307818526115, -7.223072809999998 42.315260978526126, -7.22266502 42.31514996852612, -7.222616010000002 42.31514276852612, -7.2219704 42.31510355852612, -7.221605539999999 42.31508999852612, -7.221451970000003 42.314789528526134, -7.221527949999998 42.313931348526125, -7.221600040000002 42.31373960852613, -7.222003 42.313778768526134, -7.2232373 42.31391331852612, -7.2234926800000006 42.313921908526126, -7.2238327 42.313927358526115, -7.224297980000003 42.31399122852615, -7.224319640000001 42.31431456852613, -7.22424208 42.314605558526125, -7.2242178799999985 42.31460644852612))"^^geosparql:wktLiteral .
+
+georec:1230  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1230" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "1230" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1230/geometry> .
+
+georec:1756  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1756" ;
+        dc:created             "2012-09-02"^^xsd:date ;
+        dc:identifier          "1756" ;
+        dc:title               "Central Hidroeléctrica de San Pedro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1756/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2478/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.390382040000001 43.29402399852234, -6.389847239999999 43.292915998522346, -6.390806849999999 43.29240630852234, -6.39208065 43.291824148522345, -6.393970409999999 43.291150148522355, -6.3946882 43.29101780852236, -6.395971870000001 43.291146918522365, -6.398084779999998 43.29183400852236, -6.3979466999999985 43.29244940852233, -6.39628282 43.29272696852235, -6.395333889999998 43.292911108522354, -6.39200837 43.29355632852236, -6.390382040000001 43.29402399852234))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1228/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.286980129999997 42.79549725852406, -4.28668117 42.795945168524064, -4.286627319999999 42.795999618524064, -4.28557074 42.79582645852406, -4.285374580000001 42.79563983852405, -4.28551725 42.79510008852407, -4.28599588 42.79468874852406, -4.286746279999999 42.795020198524064, -4.286980129999997 42.79549725852406))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2186/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.98554521 42.12563288852705, -6.985579789999999 42.12616503852705, -6.985602229999998 42.126510218527045, -6.9853192900000005 42.126757308527054, -6.9848174300000005 42.12674656852705, -6.984597279999998 42.126613338527044, -6.984545809999999 42.12623434852705, -6.984603589999998 42.12574700852704, -6.9850258000000025 42.12533433852706, -6.9852577899999995 42.12535941852706, -6.98554521 42.12563288852705))"^^geosparql:wktLiteral .
+
+georec:128  a                  btn100:CentralHidraulica ;
+        rdfs:label             "128" ;
+        dc:created             "2012-05-22"^^xsd:date ;
+        dc:identifier          "128" ;
+        dc:title               "Subestación de Güeñes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/128/geometry> .
+
+georec:1117  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1117" ;
+        dc:created             "2012-02-09"^^xsd:date ;
+        dc:identifier          "1117" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1117/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/126/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.5623532400000006 42.29670314852621, -2.56259334 42.29551871852621, -2.5635709 42.29564212852622, -2.563580269999999 42.2967118785262, -2.5630601200000007 42.29682183852621, -2.5623532400000006 42.29670314852621))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/87/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.0946225699999999 39.24855830854904, -1.09398509 39.248644368549044, -1.0935137 39.247348808549035, -1.09349103 39.24716652854905, -1.0934877599999997 39.24699897854906, -1.0934726500000003 39.24687231854906, -1.0933786499999998 39.24665508854906, -1.0933062299999998 39.24662488854905, -1.0932441299999998 39.24652096854906, -1.0939489400000004 39.24644060854907, -1.09437227 39.24714273854906, -1.09491116 39.24780805854905, -1.0958479 39.248305098549054, -1.0954427000000002 39.24828939854905, -1.0952156099999997 39.24856704854904, -1.0946225699999999 39.24855830854904))"^^geosparql:wktLiteral .
+
+georec:1977  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1977" ;
+        dc:created             "2012-11-27"^^xsd:date ;
+        dc:identifier          "1977" ;
+        dc:title               "Estación Transformadora Dehesa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1977/geometry> .
+
+georec:775  a                  btn100:CentralHidraulica ;
+        rdfs:label             "775" ;
+        dc:created             "2012-04-08"^^xsd:date ;
+        dc:identifier          "775" ;
+        dc:title               "Central Hidroeléctrica de La Sarra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/775/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1747/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.08669892 42.93132794852355, -5.086962099999999 42.931499858523544, -5.08722891 42.93185094852356, -5.087237130000001 42.93209433852354, -5.086529930000001 42.932669258523546, -5.085936210000001 42.932829958523534, -5.085488100000001 42.93277255852354, -5.08541273 42.932703398523536, -5.0852248100000015 42.932530958523564, -5.08508889 42.93240623852354, -5.08502767 42.93235005852355, -5.085138330000001 42.931851588523564, -5.085344719999999 42.93194034852354, -5.085474660000001 42.931994038523534, -5.08561135 42.93203824852353, -5.085827659999998 42.93201919852353, -5.086185610000002 42.931532758523545, -5.086329169999999 42.93147547852355, -5.08656233 42.93138244852354, -5.08669892 42.93132794852355))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/58/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.2366340699999999 40.00978600854179, -0.23694094 40.01008435854178, -0.23706537 40.0104933885418, -0.23679974 40.01105386854178, -0.23627333 40.011452408541764, -0.23580652 40.01157830854176, -0.23490316 40.01148198854177, -0.23364594 40.011087698541786, -0.23318724 40.010907768541784, -0.23297559 40.010719888541786, -0.23611658 40.009918108541804, -0.2366340699999999 40.00978600854179))"^^geosparql:wktLiteral .
+
+georec:2160  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2160" ;
+        dc:created             "2013-02-13"^^xsd:date ;
+        dc:identifier          "2160" ;
+        dc:title               "Central Eléctrica de Ponte Nova" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2160/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1358/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.44277623 40.41256952853836, -4.442251069999999 40.41318531853836, -4.44146616 40.41287000853837, -4.4406867100000005 40.41281530853837, -4.44014199 40.41219889853837, -4.44128731 40.41166890853838, -4.44277623 40.41256952853836))"^^geosparql:wktLiteral .
+
+georec:712  a                  btn100:CentralHidraulica ;
+        rdfs:label             "712" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "712" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/712/geometry> .
+
+georec:1188  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1188" ;
+        dc:created             "2012-08-15"^^xsd:date ;
+        dc:identifier          "1188" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1188/geometry> .
+
+georec:56  a                   btn100:CentralHidraulica ;
+        rdfs:label             "56" ;
+        dc:created             "2012-01-11"^^xsd:date ;
+        dc:identifier          "56" ;
+        dc:title               "Central Hidroeléctrica" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/56/geometry> .
+
+georec:2473  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2473" ;
+        dc:created             "2013-01-28"^^xsd:date ;
+        dc:identifier          "2473" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2473/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2182/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-8.059037689999998 42.25683616852639, -8.058630200000001 42.2572363885264, -8.05734704 42.2577522485264, -8.056244610000002 42.2572343285264, -8.05565099 42.2558608185264, -8.05760191 42.2549118185264, -8.059044469999998 42.25638001852639, -8.059037689999998 42.25683616852639))"^^geosparql:wktLiteral .
+
+georec:1146  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1146" ;
+        dc:created             "2012-11-03"^^xsd:date ;
+        dc:identifier          "1146" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1146/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2482/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.25212955 43.11610836852292, -6.252478830000001 43.11623871852291, -6.25201318 43.1171076385229, -6.251790010000001 43.117049758522924, -6.25166023 43.11676745852291, -6.25212955 43.11610836852292))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1824/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.9561882 37.56041336856875, -2.9562824 37.56060147856876, -2.9549817600000003 37.560928348568766, -2.9548932800000003 37.56076374856876, -2.954743029999999 37.56036575856875, -2.95595516 37.56005092856877, -2.9562996299999997 37.559905548568764, -2.956418600000001 37.56038576856876, -2.9561882 37.56041336856875))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1629/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.34353446 39.2044026985495, -1.3436982300000002 39.20490595854949, -1.34316128 39.205338538549476, -1.34228252 39.20537156854948, -1.34184736 39.204878078549484, -1.3418907799999997 39.20460700854949, -1.34299513 39.20410661854948, -1.34353446 39.2044026985495))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1630/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.47294406 39.18937126854964, -1.4723730500000005 39.18888536854965, -1.47269424 39.188630978549654, -1.4733233199999995 39.18917617854964, -1.47294406 39.18937126854964))"^^geosparql:wktLiteral .
+
+georec:1630  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1630" ;
+        dc:created             "2012-08-09"^^xsd:date ;
+        dc:identifier          "1630" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1630/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/775/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.3278116600000001 42.79282636852407, -0.32766772 42.793198048524054, -0.3272559299999999 42.79316677852405, -0.32712681 42.79280688852407, -0.32678064 42.79252072852406, -0.3262303400000001 42.79191640852408, -0.3264817799999999 42.79185651852407, -0.32679496 42.79190611852407, -0.32716363 42.79225326852408, -0.3274010300000001 42.79247680852406, -0.32748591 42.79254906852407, -0.3278116600000001 42.79282636852407))"^^geosparql:wktLiteral .
+
+georec:783  a                  btn100:CentralHidraulica ;
+        rdfs:label             "783" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "783" ;
+        dc:title               "Central Hidroeléctrica de Ariéstolas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/783/geometry> .
+
+georec:2189  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2189" ;
+        dc:created             "2013-05-09"^^xsd:date ;
+        dc:identifier          "2189" ;
+        dc:title               "Central Hidroeléctrica de Santiago" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2189/geometry> .
+
+georec:1225  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1225" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "1225" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1225/geometry> .
+
+georec:1033  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1033" ;
+        dc:created             "2012-02-17"^^xsd:date ;
+        dc:identifier          "1033" ;
+        dc:title               "Central Hidroeléctrica el Picazo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1033/geometry> .
+
+georec:741  a                  btn100:CentralHidraulica ;
+        rdfs:label             "741" ;
+        dc:created             "2012-04-18"^^xsd:date ;
+        dc:identifier          "741" ;
+        dc:title               "Central Hidroeléctrica de Balsareny" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/741/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1901/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.5473110999999995 37.069688948575426, -3.5469583099999995 37.06972541857542, -3.546298259999999 37.06931170857543, -3.5466080599999996 37.06907698857543, -3.5467797599999993 37.068946908575434, -3.5470704900000003 37.068688588575434, -3.5472963900000014 37.06880312857543, -3.54731873 37.06889041857544, -3.5477278400000007 37.06905734857544, -3.5477441799999996 37.069245418575434, -3.5473110999999995 37.069688948575426))"^^geosparql:wktLiteral .
+
+georec:1901  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1901" ;
+        dc:created             "2013-03-13"^^xsd:date ;
+        dc:identifier          "1901" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1901/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2177/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.279402570000004 42.34477486852598, -7.279479460000001 42.34453734852599, -7.280060720000002 42.344458858526, -7.28065738 42.34235536852599, -7.282209360000002 42.342675708526, -7.282054380000003 42.343022058525996, -7.282419510000002 42.34314083852599, -7.282221350000001 42.34360232852599, -7.283108099999997 42.34389077852599, -7.282037129999999 42.346144468525964, -7.281885450000003 42.34622600852598, -7.279781510000004 42.34560448852599, -7.279238089999999 42.34511396852598, -7.27915961 42.34505803852598, -7.279402570000004 42.34477486852598))"^^geosparql:wktLiteral .
+
+georec:1112  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1112" ;
+        dc:created             "2012-02-06"^^xsd:date ;
+        dc:identifier          "1112" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1112/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1033/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.0684900899999996 39.483553598546685, -2.06861647 39.4831853285467, -2.06920046 39.4831193885467, -2.0697088799999994 39.48306358854669, -2.07050706 39.4827962985467, -2.0705679600000004 39.48275730854671, -2.0708632600000008 39.4825682385467, -2.07101965 39.48286909854671, -2.07113422 39.48325644854669, -2.07149917 39.48449014854668, -2.07150665 39.48481375854668, -2.0714646700000006 39.48619780854666, -2.07119154 39.48635088854666, -2.0704958299999996 39.486372728546655, -2.07009755 39.48618687854666, -2.06993937 39.485941148546665, -2.0700794700000005 39.48517712854668, -2.0698782700000002 39.48495212854668, -2.0692192599999997 39.484873788546686, -2.0687976699999995 39.484669478546685, -2.0684900899999996 39.483553598546685))"^^geosparql:wktLiteral .
+
+georec:1780  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1780" ;
+        dc:created             "2013-03-20"^^xsd:date ;
+        dc:identifier          "1780" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1780/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1109/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.2843452599999994 40.5329542185374, -2.2839637000000006 40.533113988537394, -2.28333027 40.533197808537395, -2.2828323400000006 40.53315815853741, -2.2825759299999993 40.532937188537396, -2.2822767600000002 40.5322333485374, -2.28240415 40.53197089853742, -2.28294717 40.531679488537414, -2.282905360000001 40.532005118537406, -2.2838030500000004 40.53270520853741, -2.2843452599999994 40.5329542185374))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1357/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.64846416 40.3100034885392, -5.64863372 40.31030494853922, -5.648370820000001 40.310476838539216, -5.64760613 40.31074498853922, -5.6470978800000005 40.3109224985392, -5.646629000000001 40.3107833285392, -5.64674633 40.31055089853921, -5.647712760000001 40.31002380853919, -5.6481090599999995 40.309815698539225, -5.64837377 40.309813318539234, -5.64846416 40.3100034885392))"^^geosparql:wktLiteral .
+
+georec:51  a                   btn100:CentralHidraulica ;
+        rdfs:label             "51" ;
+        dc:created             "2011-12-29"^^xsd:date ;
+        dc:identifier          "51" ;
+        dc:title               "Central Hidroeléctrica de Vila-Real" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/51/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2473/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.823583590000001 43.38890439852208, -6.824013410000002 43.388570898522076, -6.824130999999998 43.38870010852206, -6.824081650000001 43.38888756852207, -6.823888169999999 43.389213638522065, -6.82368628 43.38940620852207, -6.823347039999998 43.38952161852207, -6.82215306 43.38965820852207, -6.821893209999999 43.389577718522055, -6.821652209999999 43.389310788522074, -6.821661820000001 43.38913951852207, -6.8216891 43.38892913852208, -6.82202716 43.389033858522076, -6.82266955 43.38912839852207, -6.82301174 43.389087928522066, -6.823583590000001 43.38890439852208))"^^geosparql:wktLiteral .
+
+georec:1312  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1312" ;
+        dc:created             "2008-05-29"^^xsd:date ;
+        dc:identifier          "1312" ;
+        dc:title               "Central Hidroeléctrica de Villarino" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1312/geometry> .
+
+georec:1120  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1120" ;
+        dc:created             "2012-02-18"^^xsd:date ;
+        dc:identifier          "1120" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1120/geometry> .
+
+georec:2184  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2184" ;
+        dc:created             "2013-02-28"^^xsd:date ;
+        dc:identifier          "2184" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2184/geometry> .
+
+georec:402  a                  btn100:CentralHidraulica ;
+        rdfs:label             "402" ;
+        dc:created             "2012-08-30"^^xsd:date ;
+        dc:identifier          "402" ;
+        dc:title               "Estación hidroeléctrica de la Recorba" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/402/geometry> .
+
+georec:1746  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1746" ;
+        dc:created             "2010-08-11"^^xsd:date ;
+        dc:identifier          "1746" ;
+        dc:title               "Central Hidroeléctrica del Cabrito" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1746/geometry> .
+
+georec:80  a                   btn100:CentralHidraulica ;
+        rdfs:label             "80" ;
+        dc:created             "2011-12-27"^^xsd:date ;
+        dc:identifier          "80" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/80/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2521/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.149911070000001 40.04860483854145, -5.148839950000001 40.04865704854146, -5.14878877 40.04836701854145, -5.14801647 40.048332068541455, -5.14783708 40.04750933854145, -5.148446509999999 40.04751765854146, -5.149919599999999 40.04753774854145, -5.149911070000001 40.04860483854145))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1353/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.67192022 40.30686154853924, -5.672096829999999 40.30726917853922, -5.672076509999999 40.30739239853923, -5.672060480000002 40.30748241853924, -5.672029789999999 40.307654748539235, -5.67202484 40.30768255853923, -5.67205543 40.307847768539226, -5.67192274 40.30794300853923, -5.67153853 40.30797032853922, -5.671265040000001 40.307991768539225, -5.67106693 40.307969698539225, -5.67099827 40.307846928539234, -5.6710115100000005 40.307780908539236, -5.671036519999999 40.307656238539224, -5.670933989999999 40.307498838539246, -5.67082811 40.30743644853923, -5.670658870000001 40.30733671853924, -5.670804479999999 40.30719853853923, -5.67102728 40.30716535853924, -5.671728239999998 40.30687827853923, -5.67192022 40.30686154853924))"^^geosparql:wktLiteral .
+
+georec:59  a                   btn100:CentralHidraulica ;
+        rdfs:label             "59" ;
+        dc:created             "2012-01-11"^^xsd:date ;
+        dc:identifier          "59" ;
+        dc:title               "Central Hidroeléctrica" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/59/geometry> .
+
+georec:160  a                  btn100:CentralHidraulica ;
+        rdfs:label             "160" ;
+        dc:created             "2012-05-04"^^xsd:date ;
+        dc:identifier          "160" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/160/geometry> .
+
+georec:2476  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2476" ;
+        dc:created             "2013-01-28"^^xsd:date ;
+        dc:identifier          "2476" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2476/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1758/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.36611995 42.72319264852435, -5.366113440000001 42.72334008852434, -5.36610856 42.723450748524336, -5.36570209 42.72363105852435, -5.365413359999998 42.72350162852434, -5.365335500000001 42.72346672852435, -5.365138009999998 42.72327200852435, -5.36501609 42.72315178852434, -5.36494575 42.723082438524344, -5.36442819 42.722572128524334, -5.36478265 42.72211271852436, -5.36529622 42.722527448524346, -5.365380109999999 42.72259518852434, -5.3655918300000005 42.722766168524345, -5.36611995 42.72319264852435))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/708/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.026930100000001 41.512791658530496, -3.02710031 41.512880168530494, -3.0274114199999995 41.513391728530486, -3.0271320100000003 41.51373538853049, -3.02703635 41.51376576853049, -3.0269498199999996 41.51379325853048, -3.02668829 41.513672308530495, -3.02631096 41.5135369485305, -3.02600227 41.51318362853049, -3.0259320700000005 41.51303293853049, -3.02595821 41.51292962853049, -3.02613498 41.51282259853049, -3.0264540999999996 41.51293686853049, -3.02651062 41.51292117853049, -3.0266156699999995 41.51289201853049, -3.026930100000001 41.512791658530496))"^^geosparql:wktLiteral .
+
+georec:1825  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1825" ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "1825" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1825/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1130/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.12072717 40.155578098540516, -2.1212254699999997 40.1561363385405, -2.12130638 40.15650971854051, -2.1212731 40.15687490854051, -2.1209940500000006 40.157092058540506, -2.11923185 40.1585623885405, -2.11859971 40.1590689685405, -2.1179998700000007 40.15901403854049, -2.117637399999999 40.15884260854048, -2.11758625 40.15855463854049, -2.1179023700000004 40.15835413854049, -2.1188580199999993 40.15774800854049, -2.1191743400000007 40.15736810854051, -2.11935166 40.156987318540494, -2.11964603 40.156614638540496, -2.1203938100000004 40.15592257854052, -2.12072717 40.155578098540516))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1977/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.580194100000003 37.72150559856667, -6.579855519999998 37.721940988566665, -6.579319860000001 37.72193070856666, -6.578930979999999 37.721842898566656, -6.578916920000001 37.72155106856666, -6.57818183 37.721459558566664, -6.578426619999999 37.72114224856667, -6.57861491 37.72083625856668, -6.57895445 37.720420768566676, -6.579348160000001 37.72043536856666, -6.579262620000002 37.72091619856667, -6.57936533 37.72113890856668, -6.579899029999999 37.72128209856666, -6.580194100000003 37.72150559856667))"^^geosparql:wktLiteral .
+
+georec:1228  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1228" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "1228" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1228/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1783/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.754107990000001 37.82450852856535, -3.75400738 37.824671398565336, -3.753521380000001 37.824926878565336, -3.7532758300000006 37.82424346856536, -3.753334680000001 37.82414640856535, -3.753577560000001 37.82374582856536, -3.7539880499999994 37.823887408565355, -3.7542183099999997 37.82418335856536, -3.754107990000001 37.82450852856535))"^^geosparql:wktLiteral .
+
+georec:67  a                   btn100:CentralHidraulica ;
+        rdfs:label             "67" ;
+        dc:created             "2012-05-09"^^xsd:date ;
+        dc:identifier          "67" ;
+        dc:title               "Central Hidroeléctrica" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/67/geometry> .
+
+georec:46  a                   btn100:CentralHidraulica ;
+        rdfs:label             "46" ;
+        dc:created             "2012-04-24"^^xsd:date ;
+        dc:identifier          "46" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/46/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/404/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.3968938599999996 42.79528022852405, -3.3956132499999994 42.79650692852406, -3.39508947 42.796223258524066, -3.3963675000000006 42.79496819852405, -3.3968938599999996 42.79528022852405))"^^geosparql:wktLiteral .
+
+georec:126  a                  btn100:CentralHidraulica ;
+        rdfs:label             "126" ;
+        dc:created             "2010-11-14"^^xsd:date ;
+        dc:identifier          "126" ;
+        dc:title               "Central Eléctrica Recajo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/126/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/509/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.31703772 40.77235705853555, -0.31629357 40.77276409853557, -0.31606525 40.772465118535564, -0.316177 40.77182165853556, -0.3171312000000001 40.77174348853556, -0.3173561 40.771942658535565, -0.31703772 40.77235705853555))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2188/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.712471469999998 42.45081958852549, -7.712736560000003 42.450764298525506, -7.713082640000001 42.4510747585255, -7.713688360000002 42.45181898852548, -7.713979790000003 42.45206667852549, -7.714179020000002 42.4521724885255, -7.714182360000001 42.4522754185255, -7.713920679999998 42.45226638852549, -7.713619919999999 42.45220243852548, -7.713322729999999 42.45207494852549, -7.712928759999999 42.45152397852551, -7.712639790000001 42.45120666852549, -7.712471469999998 42.45081958852549))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/36/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.0491551499999994 42.75626285852421, -3.0490064900000005 42.756651088524194, -3.0489857800000006 42.75672071852423, -3.04888782 42.757050068524194, -3.047879810000001 42.7569190185242, -3.0479025599999994 42.756162588524205, -3.0473786100000004 42.75614759852421, -3.047430340000001 42.755968138524196, -3.04748714 42.75577103852421, -3.0476480399999994 42.75521277852421, -3.0478235200000006 42.755462678524225, -3.048388369999999 42.7554784585242, -3.0484425099999997 42.755254298524214, -3.0490074399999996 42.7553661285242, -3.0492900300000003 42.75558212852422, -3.0495662100000005 42.75552184852422, -3.04954497 42.75557853852422, -3.04937975 42.75572224852421, -3.049287980000001 42.75588942852422, -3.0491551499999994 42.75626285852421))"^^geosparql:wktLiteral .
+
+georec:1783  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1783" ;
+        dc:created             "2012-10-30"^^xsd:date ;
+        dc:identifier          "1783" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1783/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/128/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.03049383 43.217786658522584, -3.031082389999999 43.21806398852258, -3.0324029499999994 43.21889921852257, -3.0325085800000005 43.218962788522575, -3.032821710000001 43.21915122852258, -3.0324278900000006 43.21951152852257, -3.0321933400000005 43.219718828522566, -3.03203407 43.21986281852257, -3.0308989000000004 43.219182718522575, -3.02999238 43.218677728522586, -3.0294224400000007 43.21915559852257, -3.0286516000000003 43.21978854852258, -3.02782694 43.21934144852257, -3.02745128 43.21901618852257, -3.0284530800000002 43.21828302852259, -3.0296721200000003 43.21754146852258, -3.0300507399999996 43.21761036852258, -3.03049383 43.217786658522584))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2159/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-8.056208430000002 41.94046842852802, -8.056159780000002 41.94076766852804, -8.05584897 41.941258558528034, -8.05564475 41.941420628528036, -8.05543631 41.94149275852803, -8.0552334 41.94155582852801, -8.054981119999999 41.941720018527995, -8.054757 41.94163087852801, -8.054930089999997 41.941380148528005, -8.05473 41.94128994852801, -8.05485922 41.94094213852802, -8.054981339999998 41.94050459852803, -8.05543428 41.940133478528026, -8.05570375 41.94018462852802, -8.055801170000004 41.940198308528025, -8.056206999999997 41.940450478528014, -8.056208430000002 41.94046842852802))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2160/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.234172220000003 42.37517184852585, -7.23401626 42.375134728525836, -7.233763539999999 42.37458437852583, -7.233808270000002 42.374281378525836, -7.233928490000002 42.37422095852586, -7.23423273 42.37435238852584, -7.23458426 42.37439264852585, -7.234723530000002 42.374322208525854, -7.2351555099999985 42.37410374852584, -7.235470100000001 42.374598278525845, -7.23572733 42.37500263852584, -7.235571249999999 42.37503549852584, -7.235534910000002 42.37503684852584, -7.2354587399999994 42.37505042852585, -7.235341019999999 42.375071408525834, -7.234917809999997 42.375146848525844, -7.234505450000002 42.375188508525845, -7.234172220000003 42.37517184852585))"^^geosparql:wktLiteral .
+
+georec:1357  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1357" ;
+        dc:created             "2012-11-19"^^xsd:date ;
+        dc:identifier          "1357" ;
+        dc:title               "Central del Zaburdón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1357/geometry> .
+
+georec:2471  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2471" ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "2471" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2471/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/400/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.2619083000000004 42.785298088524094, -3.26215538 42.78560929852409, -3.2614806699999983 42.78589053852407, -3.2612284000000002 42.78596340852409, -3.2610085499999997 42.7856320285241, -3.2612955500000003 42.78553442852408, -3.2619083000000004 42.785298088524094))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1226/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.45945658 42.44238453852554, -4.459066199999999 42.44256273852554, -4.45889108 42.44245496852553, -4.45871596 42.442023898525534, -4.458810249999998 42.441808358525535, -4.45903895 42.44167840852553, -4.459306369999998 42.44167500852553, -4.45951635 42.44181641852554, -4.459812880000001 42.44201977852555, -4.45986338 42.44210018852553, -4.45970933 42.442273248525545, -4.459637030000001 42.44230118852554, -4.45945658 42.44238453852554))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2184/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.849173080000004 42.35866094852593, -7.847745700000003 42.35856292852593, -7.847495260000001 42.35844298852592, -7.84764551 42.35779272852593, -7.847902259999998 42.35736909852593, -7.847953760000001 42.35732181852592, -7.848683979999998 42.357243178525934, -7.849260939999998 42.357369808525924, -7.849306140000001 42.35740601852592, -7.849608860000001 42.35764852852592, -7.849219679999999 42.35850632852593, -7.849173080000004 42.35866094852593))"^^geosparql:wktLiteral .
+
+georec:2187  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2187" ;
+        dc:created             "2013-05-09"^^xsd:date ;
+        dc:identifier          "2187" ;
+        dc:title               "Central Hidroeléctrica de Regueiro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2187/geometry> .
+
+georec:405  a                  btn100:CentralHidraulica ;
+        rdfs:label             "405" ;
+        dc:created             "2012-08-08"^^xsd:date ;
+        dc:identifier          "405" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/405/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1145/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.3799071299999994 40.47827724853783, -2.3800580200000003 40.47847397853783, -2.3800209599999995 40.47872479853784, -2.3785908299999994 40.478816338537825, -2.3781421800000007 40.47893519853785, -2.37776357 40.47928593853782, -2.3774883599999996 40.47938367853783, -2.3771850900000002 40.47939306853784, -2.37674316 40.47924043853782, -2.37717696 40.47886325853783, -2.3771533999999996 40.47846425853785, -2.3772778700000003 40.47837053853783, -2.3776876700000003 40.478331458537845, -2.3792308600000003 40.478385488537846, -2.3795906099999997 40.47834519853784, -2.3799071299999994 40.47827724853783))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1782/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.8080695199999997 37.66780242856735, -3.8080044500000008 37.668012578567364, -3.80794809 37.66813680856736, -3.80756041 37.66809995856736, -3.8065364499999994 37.667614708567356, -3.8067140899999994 37.66734620856735, -3.8074744499999995 37.66753133856735, -3.8080695199999997 37.66780242856735))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1745/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.488580619999999 42.33791319852602, -6.488275070000003 42.33793008852603, -6.48789204 42.337843538526016, -6.48744741 42.337743068526024, -6.4872832700000025 42.33736150852602, -6.487572080000002 42.33704194852603, -6.488331030000001 42.33682707852601, -6.488662390000002 42.33717548852602, -6.48875164 42.33768060852601, -6.488580619999999 42.33791319852602))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/185/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.5557559 42.02460326852756, -1.5561192900000003 42.02447286852757, -1.55675602 42.02494547852757, -1.5570179799999997 42.02514634852756, -1.5576191699999997 42.02560731852756, -1.5578144099999998 42.02593350852757, -1.55761705 42.02634108852756, -1.5566423999999999 42.02626119852757, -1.55577586 42.02571256852758, -1.55531565 42.025135448527564, -1.5557559 42.02460326852756))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/56/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.2314439599999999 39.998804858541895, -0.2309322499999999 39.99872631854189, -0.2306861600000001 39.998686208541876, -0.23043718 39.998650708541895, -0.2301719199999999 39.99860959854189, -0.2299218299999999 39.99857262854188, -0.2296601500000001 39.998538438541885, -0.2293985999999999 39.99850966854188, -0.22945479 39.99832348854189, -0.22959194 39.998224368541884, -0.2303698 39.99767683854189, -0.23092025 39.9976378285419, -0.2311228 39.9976616485419, -0.2315257300000001 39.998373258541896, -0.23157607 39.99854486854189, -0.2314439599999999 39.998804858541895))"^^geosparql:wktLiteral .
+
+georec:1131  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1131" ;
+        dc:created             "2012-02-22"^^xsd:date ;
+        dc:identifier          "1131" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1131/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1229/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.423146049999999 42.85677711852381, -4.4225879400000006 42.85690636852382, -4.42145282 42.85709739852382, -4.421029300000001 42.85668974852381, -4.420977720000001 42.85653428852382, -4.42123264 42.856543278523816, -4.422229949999999 42.85650612852382, -4.422464409999998 42.856445138523824, -4.422896070000001 42.85629175852383, -4.4231712000000005 42.856188328523835, -4.4231524 42.856601228523836, -4.423146049999999 42.85677711852381))"^^geosparql:wktLiteral .
+
+georec:1807  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1807" ;
+        dc:created             "2012-11-01"^^xsd:date ;
+        dc:identifier          "1807" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1807/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1230/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.827718980000001 42.70119967852443, -4.827922870000001 42.700812768524436, -4.82812197 42.700828818524414, -4.82832108 42.70084486852443, -4.8286913799999995 42.70132967852441, -4.8289544100000015 42.70173559852444, -4.8289417299999995 42.70196390852443, -4.828563409999999 42.70246946852442, -4.82827849 42.70254016852443, -4.828023609999999 42.70241193852442, -4.827528540000001 42.70158637852443, -4.8276106 42.70147922852442, -4.827718980000001 42.70119967852443))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1335/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.52662266 40.42641165853825, -4.52675271 40.426659198538246, -4.526195389999998 40.427008088538244, -4.524523349999999 40.42688952853826, -4.524268009999999 40.42664176853825, -4.524324639999999 40.426256988538256, -4.524543980000001 40.426169538538254, -4.524774950000001 40.42612207853826, -4.52552102 40.42639108853827, -4.526297770000001 40.42640486853826, -4.5263848499999995 40.42637437853825, -4.52662266 40.42641165853825))"^^geosparql:wktLiteral .
+
+georec:1757  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1757" ;
+        dc:created             "2012-09-02"^^xsd:date ;
+        dc:identifier          "1757" ;
+        dc:title               "Central Hidroeléctrica de Pío" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1757/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/59/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.6107252400000001 40.11991338854083, -0.6086096 40.11906624854084, -0.6081587699999998 40.118577928540844, -0.6079948799999999 40.11811735854084, -0.60849833 40.11813070854084, -0.6090022600000001 40.11807501854085, -0.60952715 40.11793162854085, -0.60973387 40.11782996854084, -0.6100207000000001 40.11814499854085, -0.6107252400000001 40.11991338854083))"^^geosparql:wktLiteral .
+
+georec:1139  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1139" ;
+        dc:created             "2012-02-24"^^xsd:date ;
+        dc:identifier          "1139" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1139/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1112/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.1329461200000006 40.546284428537305, -2.1333100600000003 40.546972008537296, -2.13331837 40.5476385485373, -2.13280053 40.54803190853728, -2.1321458 40.54778841853729, -2.1317931099999994 40.54757502853728, -2.13175624 40.54721884853729, -2.1322628 40.5470064685373, -2.1329461200000006 40.546284428537305))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/60/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.2792734099999999 40.017480408541715, -0.2788186300000001 40.01808693854173, -0.2783439 40.01790239854171, -0.27797059 40.0177504985417, -0.2775423900000002 40.017618788541725, -0.2776355200000001 40.01742208854172, -0.27725042 40.01720649854173, -0.2776150600000001 40.01680899854173, -0.2779330100000001 40.01676178854172, -0.2788579 40.01726858854171, -0.2792734099999999 40.017480408541715))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1225/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.818947750000001 42.62064167852476, -4.818603340000001 42.620539078524764, -4.818672010000001 42.62038489852476, -4.81821582 42.62021202852476, -4.81818857 42.620113398524765, -4.8183251700000005 42.61994004852476, -4.818415860000001 42.61973169852476, -4.818585799999999 42.619656168524756, -4.819019579999998 42.61975800852475, -4.819193350000001 42.61986330852477, -4.819211560000002 42.62007014852476, -4.819171829999999 42.62015474852476, -4.819085620000001 42.620351318524754, -4.818947750000001 42.62064167852476))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2183/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-8.11323722 42.29100556852625, -8.11374422 42.29112694852624, -8.114290370000003 42.291282578526236, -8.114589790000002 42.291386218526235, -8.11478936 42.291305268526244, -8.115032450000001 42.29131239852625, -8.115336680000004 42.29132580852624, -8.11521862 42.291664188526234, -8.115245419999999 42.29167510852622, -8.115557219999998 42.29180208852622, -8.115866539999999 42.29187828852623, -8.116013700000002 42.291898698526246, -8.11587367 42.29226508852622, -8.115834509999997 42.292230828526236, -8.115777099999999 42.29235196852624, -8.114934620000001 42.29219905852624, -8.114568940000002 42.29277359852623, -8.11440688 42.29280052852623, -8.11430604 42.29282136852623, -8.113946210000002 42.29272041852623, -8.11408698 42.29236300852624, -8.113501660000003 42.292173118526236, -8.113385 42.29213816852623, -8.11271985 42.29193890852623, -8.112666500000001 42.29134008852623, -8.112569800000001 42.291162908526225, -8.11323722 42.29100556852625))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1825/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.690133949999999 36.812850368579085, -3.68970648 36.81327783857908, -3.6889209599999995 36.81294865857909, -3.68927244 36.81247424857908, -3.6900440900000007 36.81237854857908, -3.690133949999999 36.812850368579085))"^^geosparql:wktLiteral .
+
+georec:400  a                  btn100:CentralHidraulica ;
+        rdfs:label             "400" ;
+        dc:created             "2012-08-30"^^xsd:date ;
+        dc:identifier          "400" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/400/geometry> .
+
+georec:2182  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2182" ;
+        dc:created             "2013-02-26"^^xsd:date ;
+        dc:identifier          "2182" ;
+        dc:title               "Subestación Eléctrica de Cartelle" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2182/geometry> .
+
+georec:1765  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1765" ;
+        dc:created             "2012-09-16"^^xsd:date ;
+        dc:identifier          "1765" ;
+        dc:title               "Central Hidraúlica Mora de Luna" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1765/geometry> .
+
+georec:2161  a                 btn100:CentralHidraulica ;
+        rdfs:label             "2161" ;
+        dc:created             "2013-02-13"^^xsd:date ;
+        dc:identifier          "2161" ;
+        dc:title               "Central Eléctrica de San Cristovo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/2161/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/84/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.8504365799999998 39.60000299854556, -0.8509670300000001 39.59998267854557, -0.8511096000000001 39.60033250854556, -0.8514075300000001 39.60043469854555, -0.8512881299999999 39.60062146854556, -0.8508268800000002 39.60065687854556, -0.85084475 39.60044625854556, -0.8505838500000001 39.600432638545556, -0.8503731000000001 39.600450718545545, -0.8503772300000001 39.60086828854556, -0.84975727 39.60089196854555, -0.8494733100000001 39.60028310854556, -0.8499586100000001 39.600141988545566, -0.8504365799999998 39.60000299854556))"^^geosparql:wktLiteral .
+
+georec:57  a                   btn100:CentralHidraulica ;
+        rdfs:label             "57" ;
+        dc:created             "2012-01-11"^^xsd:date ;
+        dc:identifier          "57" ;
+        dc:title               "Central Hidroeléctrica" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/57/geometry> .
+
+georec:36  a                   btn100:CentralHidraulica ;
+        rdfs:label             "36" ;
+        dc:created             "2012-04-22"^^xsd:date ;
+        dc:identifier          "36" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/36/geometry> .
+
+georec:1823  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1823" ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "1823" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1823/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/2471/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.20278536 43.331340378522235, -6.20270737 43.33115838852225, -6.202871329999998 43.330811238522244, -6.2036493 43.33025401852224, -6.204045970000002 43.33047981852225, -6.20434444 43.330757198522235, -6.204373529999999 43.331136128522225, -6.20405843 43.331551608522226, -6.20381443 43.331761738522246, -6.2034015400000015 43.33161763852224, -6.203230890000001 43.33157638852224, -6.20302101 43.331465208522225, -6.20278536 43.331340378522235))"^^geosparql:wktLiteral .
+
+georec:1226  a                 btn100:CentralHidraulica ;
+        rdfs:label             "1226" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "1226" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-hidraulica/1226/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/1139/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.62628702 39.70590255854456, -1.62561191 39.70606836854454, -1.6246597300000003 39.706100968544554, -1.6243007699999998 39.70486811854456, -1.62307838 39.704206418544565, -1.6234258900000003 39.70387048854458, -1.62432782 39.704221238544584, -1.62443964 39.70420197854457, -1.6256388400000001 39.70399542854459, -1.6269350499999995 39.70549986854456, -1.62628702 39.70590255854456))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-hidraulica/80/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.0964400199999995 39.725728998544376, -1.0951879800000002 39.72451738854438, -1.09532732 39.72440803854439, -1.0954786700000003 39.72428925854439, -1.0961410499999995 39.72456217854438, -1.0973217700000002 39.725048668544375, -1.0971688199999998 39.72516667854439, -1.09693348 39.725348258544365, -1.0964400199999995 39.725728998544376))"^^geosparql:wktLiteral .
+

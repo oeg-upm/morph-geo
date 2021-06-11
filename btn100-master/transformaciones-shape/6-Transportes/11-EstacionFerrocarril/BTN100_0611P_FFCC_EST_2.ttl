@@ -1,0 +1,1277 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/847/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.115418459192981 41.35486803692871)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/405/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.5146171499999994 42.84895128852385)"^^geosparql:wktLiteral .
+
+georec:2432  a                 btn100:InstalacionFerroviaria ;
+        rdfs:label             "2432" ;
+        dc:created             "2013-05-30"^^xsd:date ;
+        dc:identifier          "2432" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/2432/geometry> ;
+        btn100:rutaTEN-T       <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico   <https://datos.ign.es/kos/transportes/tipo-de-trafico/mercancias> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/795/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.28860761561603 41.68489502921819)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1575/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.7053267503648 42.98440033942903)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/511/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.3201054078361176 43.086785546808535)"^^geosparql:wktLiteral .
+
+georec:823  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "823" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "823" ;
+        dc:replaces              "19854" ;
+        dc:title                 "Apartador de Els Monjos" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/823/geometry> ;
+        btn100:codigoDeEstacion  "72203" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+georec:439  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "439" ;
+        dc:created               "2012-05-22"^^xsd:date ;
+        dc:identifier            "439" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Estación de Trapagaran/Trapagarango Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/439/geometry> ;
+        btn100:codigoDeEstacion  "13503" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1510/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.81503145308616 42.60217345397175)"^^geosparql:wktLiteral .
+
+georec:389  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "389" ;
+        dc:created               "2012-06-01"^^xsd:date ;
+        dc:identifier            "389" ;
+        dc:title                 "Estación de Zuhatsu/Zuhatsuko Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/389/geometry> ;
+        btn100:codigoDeEstacion  "13002" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/543/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.9179222000004965 43.31944353852227)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/896/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.0482600000000004 41.382821898531304)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1534/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.068393510000001 42.553637038525046)"^^geosparql:wktLiteral .
+
+georec:810  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "810" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "810" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Apartador de Pineda de Mar" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/810/geometry> ;
+        btn100:codigoDeEstacion  "79604" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:426  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "426" ;
+        dc:created               "2012-05-22"^^xsd:date ;
+        dc:identifier            "426" ;
+        dc:replaces              "29893" ;
+        dc:title                 "Estación de de Ollargan/Ollargango Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/426/geometry> ;
+        btn100:codigoDeEstacion  "13114" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:405  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "405" ;
+        dc:created               "2012-06-01"^^xsd:date ;
+        dc:identifier            "405" ;
+        dc:title                 "Estación de Alegria-Dulantzi/Alegria-Dulantziko Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/405/geometry> ;
+        btn100:codigoDeEstacion  "11210" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:1547  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1547" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1547" ;
+        dc:replaces              "60237" ;
+        dc:title                 "Estación de Palanquinos" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1547/geometry> ;
+        btn100:codigoDeEstacion  "15015" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:547  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "547" ;
+        dc:created               "2012-04-27"^^xsd:date ;
+        dc:identifier            "547" ;
+        dc:replaces              "22187" ;
+        dc:title                 "Estación de Irún-Colón/Irungo Tren geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/547/geometry> ;
+        btn100:codigoDeEstacion  "11600" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/2434/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.743978010000001 43.51100578852173)"^^geosparql:wktLiteral .
+
+georec:881  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "881" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "881" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Apartador de Terrasa Este" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/881/geometry> ;
+        btn100:codigoDeEstacion  "78710" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/509/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.3344885015557724 43.01907690753007)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1529/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.96441149 42.41461952852568)"^^geosparql:wktLiteral .
+
+georec:818  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "818" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "818" ;
+        dc:replaces              "19790" ;
+        dc:title                 "Apartador de Manlleu" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/818/geometry> ;
+        btn100:codigoDeEstacion  "77110" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/810/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6929371800000004 41.622153588529834)"^^geosparql:wktLiteral .
+
+georec:1534  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1534" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1534" ;
+        dc:replaces              "59472" ;
+        dc:title                 "Estación de Vega-magaz" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1534/geometry> ;
+        btn100:codigoDeEstacion  "20102" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:1513  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1513" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1513" ;
+        dc:replaces              "61234" ;
+        dc:title                 "Estación de La Bañeza" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1513/geometry> ;
+        btn100:codigoDeEstacion  "30216" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+georec:847  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "847" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "847" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Apartador de Bellvitge" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/847/geometry> ;
+        btn100:codigoDeEstacion  "71708" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1533/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.118867308652649 42.601354463151345)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/911/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1827360999999996 41.431862258531)"^^geosparql:wktLiteral .
+
+georec:442  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "442" ;
+        dc:created               "2012-05-22"^^xsd:date ;
+        dc:identifier            "442" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Estación de Galindo/Galindoko Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/442/geometry> ;
+        btn100:codigoDeEstacion  "13501" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:797  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "797" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "797" ;
+        dc:replaces              "19957" ;
+        dc:title                 "Apartador de Llinars del Valles" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/797/geometry> ;
+        btn100:codigoDeEstacion  "79102" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/529/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.05565473 43.18909411852268)"^^geosparql:wktLiteral .
+
+georec:392  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "392" ;
+        dc:created               "2012-06-01"^^xsd:date ;
+        dc:identifier            "392" ;
+        dc:title                 "Estación de Artomaña/Artomañako Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/392/geometry> ;
+        btn100:codigoDeEstacion  "13006" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:926  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "926" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "926" ;
+        dc:replaces              "19887" ;
+        dc:title                 "Apartador de Montcada i Reixac" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/926/geometry> ;
+        btn100:codigoDeEstacion  "79005" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:1521  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1521" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1521" ;
+        dc:replaces              "59463" ;
+        dc:title                 "Estación de La Granja" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1521/geometry> ;
+        btn100:codigoDeEstacion  "20106" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:408  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "408" ;
+        dc:created               "2012-06-01"^^xsd:date ;
+        dc:identifier            "408" ;
+        dc:title                 "Estación de Araia/Araiako Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/408/geometry> ;
+        btn100:codigoDeEstacion  "11213" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+georec:1529  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1529" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1529" ;
+        dc:replaces              "59477" ;
+        dc:title                 "Estación de Barrientos" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1529/geometry> ;
+        btn100:codigoDeEstacion  "20006" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:913  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "913" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "913" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Apartador de Montcada-Bifurcacio" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/913/geometry> ;
+        btn100:codigoDeEstacion  "78800" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:1508  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1508" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1508" ;
+        dc:replaces              "59443" ;
+        dc:title                 "Estación de Dehesas" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1508/geometry> ;
+        btn100:codigoDeEstacion  "20201" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:529  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "529" ;
+        dc:created               "2012-04-27"^^xsd:date ;
+        dc:identifier            "529" ;
+        dc:replaces              "22082" ;
+        dc:title                 "Estación de Elbarrena/Villabona-zizurkilgo tren geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/529/geometry> ;
+        btn100:codigoDeEstacion  "11503" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/392/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9799133916768286 42.986826974990464)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/549/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.0156099840696307 43.222244580582625)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1524/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.200953209999999 42.632843568524706)"^^geosparql:wktLiteral .
+
+georec:821  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "821" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "821" ;
+        dc:replaces              "19788" ;
+        dc:title                 "Apartador de Sant Quirze de Besora-Montesquiu" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/821/geometry> ;
+        btn100:codigoDeEstacion  "77113" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/797/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.404664583421399 41.637975650637614)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1577/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.658316937083217 42.93779615098384)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/850/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.7254106000000002 41.3708089985314)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1548/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.633300115686167 42.68165196920227)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/821/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.2172523 42.10536439852716)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/926/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1856280999999993 41.483886798530676)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/439/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.0300028799999157 43.30210189852232)"^^geosparql:wktLiteral .
+
+georec:516  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "516" ;
+        dc:created               "2012-04-27"^^xsd:date ;
+        dc:identifier            "516" ;
+        dc:replaces              "22014" ;
+        dc:title                 "Estación de Beasain/Beasaingo tren geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/516/geometry> ;
+        btn100:codigoDeEstacion  "11404" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:850  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "850" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "850" ;
+        dc:replaces              "19852" ;
+        dc:title                 "Apartador de La Granada" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/850/geometry> ;
+        btn100:codigoDeEstacion  "72205" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1520/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.328353706795383 42.59551885122186)"^^geosparql:wktLiteral .
+
+georec:808  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "808" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "808" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Apartador de Sant Pol de Mar" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/808/geometry> ;
+        btn100:codigoDeEstacion  "79602" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/958/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.1459396 41.08863569853327)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/516/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.2024082800000007 43.04601328852314)"^^geosparql:wktLiteral .
+
+georec:929  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "929" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "929" ;
+        dc:replaces              "19962" ;
+        dc:title                 "Apartador de Mollet-Santa Rosa" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/929/geometry> ;
+        btn100:codigoDeEstacion  "77004" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1544/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.638094155865157 42.550108324982595)"^^geosparql:wktLiteral .
+
+georec:566  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "566" ;
+        dc:created               "2012-05-28"^^xsd:date ;
+        dc:identifier            "566" ;
+        dc:title                 "Estación de Feculas-Navarra" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/566/geometry> ;
+        btn100:codigoDeEstacion  "81106" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:1524  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1524" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1524" ;
+        dc:replaces              "59468" ;
+        dc:title                 "Estación de Brañuelas" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1524/geometry> ;
+        btn100:codigoDeEstacion  "20104" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/435/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.0915668611251896 43.3153544080236)"^^geosparql:wktLiteral .
+
+georec:837  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "837" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "837" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Apartador de Garraf" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/837/geometry> ;
+        btn100:codigoDeEstacion  "71703" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+georec:958  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "958" ;
+        dc:created               "2012-08-21"^^xsd:date ;
+        dc:identifier            "958" ;
+        dc:replaces              "26142" ;
+        dc:title                 "Baixador de Port Aventura" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/958/geometry> ;
+        btn100:codigoDeEstacion  "65411" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/2055/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.988119960000002 42.35200498852596)"^^geosparql:wktLiteral .
+
+georec:1532  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1532" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1532" ;
+        dc:replaces              "60802" ;
+        dc:title                 "Estación de San Martin del Camino" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1532/geometry> ;
+        btn100:codigoDeEstacion  "20004" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:1511  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1511" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1511" ;
+        dc:replaces              "59440" ;
+        dc:title                 "Estación de Cosmos" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1511/geometry> ;
+        btn100:codigoDeEstacion  "20601" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+georec:511  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "511" ;
+        dc:created               "2012-04-27"^^xsd:date ;
+        dc:identifier            "511" ;
+        dc:replaces              "21965" ;
+        dc:title                 "Estación de Zumarraga/Zumarragako tren geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/511/geometry> ;
+        btn100:codigoDeEstacion  "11400" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/536/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.96380759993968 43.27239319137728)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1511/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.769124690000002 42.56987335852499)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/2432/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.875926370000001 43.554450628521636)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/402/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.7460318328745164 42.851725696069636)"^^geosparql:wktLiteral .
+
+georec:803  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "803" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "803" ;
+        dc:replaces              "19932" ;
+        dc:title                 "Apartador de Arenys de Mar" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/803/geometry> ;
+        btn100:codigoDeEstacion  "79600" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/507/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.26351615 42.9395316185235)"^^geosparql:wktLiteral .
+
+georec:795  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "795" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "795" ;
+        dc:replaces              "19794" ;
+        dc:title                 "Apartador de La Garriga" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/795/geometry> ;
+        btn100:codigoDeEstacion  "77102" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:1561  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1561" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1561" ;
+        dc:replaces              "59523" ;
+        dc:title                 "Estación de El Burgo-Raneros" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1561/geometry> ;
+        btn100:codigoDeEstacion  "15012" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/913/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1800491649928357 41.470187658076)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/426/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9163334499999998 43.242292578522495)"^^geosparql:wktLiteral .
+
+georec:540  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "540" ;
+        dc:created               "2012-04-27"^^xsd:date ;
+        dc:identifier            "540" ;
+        dc:replaces              "22142" ;
+        dc:title                 "Estación de Martutene/Martuteneko tren geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/540/geometry> ;
+        btn100:codigoDeEstacion  "11508" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:519  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "519" ;
+        dc:created               "2012-04-27"^^xsd:date ;
+        dc:identifier            "519" ;
+        dc:replaces              "22038" ;
+        dc:title                 "Estación de Legorreta/Legorretako tren geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/519/geometry> ;
+        btn100:codigoDeEstacion  "11407" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1559/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.39145702 42.46015896852545)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/540/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.9562614899999997 43.29917474852232)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/803/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.549616363045199 41.577579906107076)"^^geosparql:wktLiteral .
+
+georec:1548  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1548" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1548" ;
+        dc:replaces              "59492" ;
+        dc:title                 "Estación de Santibañez" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1548/geometry> ;
+        btn100:codigoDeEstacion  "15103" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+georec:911  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "911" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "911" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Apartador de Sant Andreu Arenal" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/911/geometry> ;
+        btn100:codigoDeEstacion  "78802" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:548  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "548" ;
+        dc:created               "2012-04-27"^^xsd:date ;
+        dc:identifier            "548" ;
+        dc:replaces              "22195" ;
+        dc:title                 "Estación de Santiagoko Zubia/Santiagoko Zubia Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/548/geometry> ;
+        btn100:codigoDeEstacion  "11602" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/446/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.041189656695113 43.335703295849385)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/394/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9156427144809585 42.99275145788671)"^^geosparql:wktLiteral .
+
+georec:435  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "435" ;
+        dc:created               "2012-05-22"^^xsd:date ;
+        dc:identifier            "435" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Estación de Putxeta/Putxetako Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/435/geometry> ;
+        btn100:codigoDeEstacion  "13505" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:1577  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1577" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1577" ;
+        dc:replaces              "59488" ;
+        dc:title                 "Estación de Villamanin" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1577/geometry> ;
+        btn100:codigoDeEstacion  "15112" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:385  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "385" ;
+        dc:created               "2012-06-01"^^xsd:date ;
+        dc:identifier            "385" ;
+        dc:title                 "Estación de Ribavellosa/Ribavellosako Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/385/geometry> ;
+        btn100:codigoDeEstacion  "11202" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+georec:1514  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1514" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1514" ;
+        dc:replaces              "59450" ;
+        dc:title                 "Estación de San Miguel de Las Dueñas" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1514/geometry> ;
+        btn100:codigoDeEstacion  "20113" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/823/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.6601859900002671 41.314490868531756)"^^geosparql:wktLiteral .
+
+georec:848  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "848" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "848" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Apartador de Mercabarna" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/848/geometry> ;
+        btn100:codigoDeEstacion  "XX003" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/389/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.8963674417224508 42.868560756376176)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/442/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.010199770024335 43.304194022739686)"^^geosparql:wktLiteral .
+
+georec:443  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "443" ;
+        dc:created               "2012-05-22"^^xsd:date ;
+        dc:identifier            "443" ;
+        dc:replaces              "29885" ;
+        dc:title                 "Estación de Sestao/Sestaoko Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/443/geometry> ;
+        btn100:codigoDeEstacion  "13401" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:798  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "798" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "798" ;
+        dc:replaces              "19793" ;
+        dc:title                 "Apartador de Sant Marti de Centelles" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/798/geometry> ;
+        btn100:codigoDeEstacion  "77104" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1522/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.282328398971404 42.614943331236255)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1470/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9519302000000005 39.33474929854818)"^^geosparql:wktLiteral .
+
+georec:393  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "393" ;
+        dc:created               "2012-06-01"^^xsd:date ;
+        dc:identifier            "393" ;
+        dc:title                 "Estación del camino de Lezama/Lezamarenbideko Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/393/geometry> ;
+        btn100:codigoDeEstacion  "13005" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:1543  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1543" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1543" ;
+        dc:replaces              "59482" ;
+        dc:title                 "Estación de Villadangos" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1543/geometry> ;
+        btn100:codigoDeEstacion  "20003" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:927  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "927" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "927" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Apartador de La Llagosta" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/927/geometry> ;
+        btn100:codigoDeEstacion  "79011" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:1522  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1522" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1522" ;
+        dc:replaces              "59465" ;
+        dc:title                 "Estación de Albares" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1522/geometry> ;
+        btn100:codigoDeEstacion  "20108" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:543  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "543" ;
+        dc:created               "2012-04-27"^^xsd:date ;
+        dc:identifier            "543" ;
+        dc:replaces              "22158" ;
+        dc:title                 "Estación de Pasaia/Pasaiako tren geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/543/geometry> ;
+        btn100:codigoDeEstacion  "11514" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/818/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.2690611902380624 42.000051416988114)"^^geosparql:wktLiteral .
+
+georec:522  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "522" ;
+        dc:created               "2012-04-27"^^xsd:date ;
+        dc:identifier            "522" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Estación de San Esteban/Tolosako tren geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/522/geometry> ;
+        btn100:codigoDeEstacion  "11500" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1546/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.56013262 42.517098808525205)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/385/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9088790099999997 42.69919871852443)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/393/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.984713118685553 43.02084715163319)"^^geosparql:wktLiteral .
+
+georec:1572  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1572" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1572" ;
+        dc:replaces              "59485" ;
+        dc:title                 "Estación de La Pola de Gordon" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1572/geometry> ;
+        btn100:codigoDeEstacion  "15108" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/408/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.30670996 42.86924299852377)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/798/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.2490221421789864 41.76057167557744)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/551/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.9054817100002526 43.31237924852231)"^^geosparql:wktLiteral .
+
+georec:551  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label             "551" ;
+        dc:created             "2012-04-20"^^xsd:date ;
+        dc:identifier          "551" ;
+        dc:title               "Estación de Errenteria/Galtzarabordako tren geltokia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/551/geometry> ;
+        btn100:rutaTEN-T       <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico   <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/522/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.0791452899999996 43.13574696852285)"^^geosparql:wktLiteral .
+
+georec:509  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "509" ;
+        dc:created               "2012-04-27"^^xsd:date ;
+        dc:identifier            "509" ;
+        dc:replaces              "21952" ;
+        dc:title                 "Estación de Brikola/Brinkolako tren geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/509/geometry> ;
+        btn100:codigoDeEstacion  "11305" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/927/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1998831000001617 41.51047035853051)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1513/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.904945577204549 42.298013255340955)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/388/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9079525399999997 42.80296844852403)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1521/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.294912340000001 42.60668123852482)"^^geosparql:wktLiteral .
+
+georec:1559  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1559" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1559" ;
+        dc:replaces              "60242" ;
+        dc:title                 "Estación de Santas Martas" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1559/geometry> ;
+        btn100:codigoDeEstacion  "15014" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+georec:388  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "388" ;
+        dc:created               "2012-06-01"^^xsd:date ;
+        dc:identifier            "388" ;
+        dc:title                 "Estación de Pobes/Pobeseko Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/388/geometry> ;
+        btn100:codigoDeEstacion  "13001" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:2055  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "2055" ;
+        dc:created               "2013-02-13"^^xsd:date ;
+        dc:identifier            "2055" ;
+        dc:replaces              "5703" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/2055/geometry> ;
+        btn100:codigoDeEstacion  "31301" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1508/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.686111960000002 42.54395403852509)"^^geosparql:wktLiteral .
+
+georec:446  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "446" ;
+        dc:created               "2012-05-22"^^xsd:date ;
+        dc:identifier            "446" ;
+        dc:replaces              "29874" ;
+        dc:title                 "Estación del Puerto de Bilbao/Bilboko Portua Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/446/geometry> ;
+        btn100:codigoDeEstacion  "13408" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+georec:1546  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1546" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1546" ;
+        dc:replaces              "59498" ;
+        dc:title                 "Estación de Torneros" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1546/geometry> ;
+        btn100:codigoDeEstacion  "15017" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:1504  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1504" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1504" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Estación de Peñamala" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1504/geometry> ;
+        btn100:codigoDeEstacion  "20205" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/566/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.0981102733577597 42.41112605967533)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1504/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.793928360000001 42.52484819852517)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/837/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.9024356000000002 41.25423616853216)"^^geosparql:wktLiteral .
+
+georec:1575  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1575" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1575" ;
+        dc:replaces              "59483" ;
+        dc:title                 "Estación de Busdongo" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1575/geometry> ;
+        btn100:codigoDeEstacion  "15113" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+georec:1533  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1533" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1533" ;
+        dc:title                 "Estación de Porqueros" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1533/geometry> ;
+        btn100:codigoDeEstacion  "20103" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/808/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6245977179191047 41.60163732836679)"^^geosparql:wktLiteral .
+
+georec:2434  a                 btn100:InstalacionFerroviaria ;
+        rdfs:label             "2434" ;
+        dc:created             "2013-06-06"^^xsd:date ;
+        dc:identifier          "2434" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/2434/geometry> ;
+        btn100:rutaTEN-T       <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico   <https://datos.ign.es/kos/transportes/tipo-de-trafico/mercancias> .
+
+georec:804  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "804" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "804" ;
+        dc:replaces              "19933" ;
+        dc:title                 "Apartador de Canet de Mar" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/804/geometry> ;
+        btn100:codigoDeEstacion  "79601" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:796  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "796" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "796" ;
+        dc:replaces              "19958" ;
+        dc:title                 "Apartador de Cardedeu" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/796/geometry> ;
+        btn100:codigoDeEstacion  "79101" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1561/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.207814999999999 42.425448018525614)"^^geosparql:wktLiteral .
+
+georec:391  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "391" ;
+        dc:created               "2012-06-01"^^xsd:date ;
+        dc:identifier            "391" ;
+        dc:title                 "Estación de Izarra/Izarrako Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/391/geometry> ;
+        btn100:codigoDeEstacion  "13003" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+georec:1520  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1520" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1520" ;
+        dc:replaces              "59461" ;
+        dc:title                 "Estación de Torre del Bierzo" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1520/geometry> ;
+        btn100:codigoDeEstacion  "20109" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/804/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.580623218760874 41.586267220186954)"^^geosparql:wktLiteral .
+
+georec:896  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "896" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "896" ;
+        dc:replaces              "19858" ;
+        dc:title                 "Apartador de Sant Feliu de Llobregat" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/896/geometry> ;
+        btn100:codigoDeEstacion  "72301" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1532/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.820097987641278 42.47649964951836)"^^geosparql:wktLiteral .
+
+georec:1470  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1470" ;
+        dc:created               "2012-02-03"^^xsd:date ;
+        dc:identifier            "1470" ;
+        dc:replaces              "41735" ;
+        dc:title                 "Estación de Río Záncara" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1470/geometry> ;
+        btn100:codigoDeEstacion  "60404" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:933  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "933" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "933" ;
+        dc:replaces              "19961" ;
+        dc:title                 "Apartador de Parets del Vallés" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/933/geometry> ;
+        btn100:codigoDeEstacion  "77005" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:549  a                  btn100:InstalacionFerroviaria ;
+        rdfs:label             "549" ;
+        dc:created             "2012-04-10"^^xsd:date ;
+        dc:identifier          "549" ;
+        dc:title               "Estación de Andoain/Andoaingo tren geltokia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/549/geometry> ;
+        btn100:rutaTEN-T       <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico   <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:507  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "507" ;
+        dc:created               "2012-04-27"^^xsd:date ;
+        dc:identifier            "507" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Estación de Zegama/Zegama-otzaurteko tren geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/507/geometry> ;
+        btn100:codigoDeEstacion  "11303" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:820  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "820" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "820" ;
+        dc:replaces              "19789" ;
+        dc:title                 "Apartador de Torello" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/820/geometry> ;
+        btn100:codigoDeEstacion  "77111" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/929/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.2059902500000006 41.536652848530345)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/443/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9939535058575113 43.308498935146595)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1523/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.251403477474585 42.63060907645281)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/548/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7934759800002782 43.3447972885222)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/391/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9009151035156657 42.95150927062526)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/848/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1459002000000003 41.32502419853169)"^^geosparql:wktLiteral .
+
+georec:536  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "536" ;
+        dc:created               "2012-04-27"^^xsd:date ;
+        dc:identifier            "536" ;
+        dc:replaces              "22135" ;
+        dc:title                 "Estación de Hernani/Hernaniko tren geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/536/geometry> ;
+        btn100:codigoDeEstacion  "11507" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/796/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.35374914575441 41.63653033348801)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/519/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.141014068056035 43.085836131303324)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1547/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.49752276 42.460898398525444)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/820/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.2603384999999996 42.05209409852743)"^^geosparql:wktLiteral .
+
+georec:402  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "402" ;
+        dc:created               "2012-06-01"^^xsd:date ;
+        dc:identifier            "402" ;
+        dc:title                 "Estación de Jundiz/Jundizeko Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/402/geometry> ;
+        btn100:codigoDeEstacion  "11221" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/933/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.2259544249964347 41.556157685696654)"^^geosparql:wktLiteral .
+
+georec:1544  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1544" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1544" ;
+        dc:title                 "Estación de Quintana-Raneros" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1544/geometry> ;
+        btn100:codigoDeEstacion  "20002" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+georec:394  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "394" ;
+        dc:created               "2012-06-01"^^xsd:date ;
+        dc:identifier            "394" ;
+        dc:title                 "Estación de Inoso-Oiardo/Inoso-Oiardoko Tren Geltokia" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/394/geometry> ;
+        btn100:codigoDeEstacion  "13004" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/881/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.0393675605343655 41.56752948784004)"^^geosparql:wktLiteral .
+
+georec:1523  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1523" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1523" ;
+        dc:title                 "Estación de Folgoso" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1523/geometry> ;
+        btn100:codigoDeEstacion  "20105" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/mixto> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1572/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.675135289999998 42.854070328523825)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/815/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.24740604 41.84188264852855)"^^geosparql:wktLiteral .
+
+georec:815  a                    btn100:InstalacionFerroviaria ;
+        rdfs:label               "815" ;
+        dc:created               "2012-04-18"^^xsd:date ;
+        dc:identifier            "815" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Apartador de Balenya-Tona-Seva" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/815/geometry> ;
+        btn100:codigoDeEstacion  "77107" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1543/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.74532206 42.521577268525185)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1514/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.524022129999999 42.58651934852491)"^^geosparql:wktLiteral .
+
+georec:1510  a                   btn100:InstalacionFerroviaria ;
+        rdfs:label               "1510" ;
+        dc:created               "2012-09-26"^^xsd:date ;
+        dc:identifier            "1510" ;
+        dc:replaces              "59437" ;
+        dc:title                 "Estación de Villafranca del Bierzo" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/1510/geometry> ;
+        btn100:codigoDeEstacion  "20603" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+<https://datos.ign.es/recurso/btn100/instalacion-ferroviaria/547/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.797521170000555 43.34117233852219)"^^geosparql:wktLiteral .
+

@@ -427,9 +427,9 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2021/06/07 18:36:45.563</created_date>
+    <created_date>2021/06/11 17:15:55.132</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2021/06/07 18:36:45.563</modified_date>
+    <modified_date>2021/06/11 17:15:55.132</modified_date>
     <key_for_session_key/>
     <is_key_private>N</is_key_private>
   </info>
@@ -437,8 +437,23 @@
   </notepads>
   <order>
     <hop>
+      <from>Coordinate system operation</from>
+      <to>Selecciona/Renombra valores 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>06. CIUDAD AUTÓNOMA</from>
+      <to>CiudadAutonoma</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
       <from>Switch / Case</from>
       <to>Valor Java Script Modificado</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Valor Java Script Modificado</from>
+      <to>Selecciona/Renombra valores</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -447,240 +462,16 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Coordinate system operation</from>
-      <to>Selecciona/Renombra valores 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Selecciona/Renombra valores 2</from>
-      <to>TripleGeoKettle</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Valor Java Script Modificado</from>
+      <from>Selecciona/Renombra valores</from>
       <to>Coordinate system operation</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>TripleGeoKettle</from>
-      <to>CiudadAutonoma</to>
+      <from>Selecciona/Renombra valores 2</from>
+      <to>06. CIUDAD AUTÓNOMA</to>
       <enabled>Y</enabled>
     </hop>
   </order>
-  <step>
-    <name>CiudadAutonoma</name>
-    <type>TextFileOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <separator>;</separator>
-    <enclosure>"</enclosure>
-    <enclosure_forced>N</enclosure_forced>
-    <enclosure_fix_disabled>Y</enclosure_fix_disabled>
-    <header>N</header>
-    <footer>N</footer>
-    <format>DOS</format>
-    <compression>None</compression>
-    <encoding>UTF-8</encoding>
-    <endedLine/>
-    <fileNameInField>N</fileNameInField>
-    <fileNameField/>
-    <create_parent_folder>Y</create_parent_folder>
-    <file>
-      <name>${Internal.Transformation.Filename.Directory}/BTN100_0101S_UNI_ADMIN_CIUAUTONOMA</name>
-      <servlet_output>N</servlet_output>
-      <do_not_open_new_file_init>N</do_not_open_new_file_init>
-      <extention>ttl</extention>
-      <append>N</append>
-      <split>N</split>
-      <haspartno>N</haspartno>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format/>
-      <add_to_result_filenames>Y</add_to_result_filenames>
-      <pad>N</pad>
-      <fast_dump>N</fast_dump>
-      <splitevery>0</splitevery>
-    </file>
-    <fields>
-      <field>
-        <name>rdf_output</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>864</xloc>
-      <yloc>464</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Switch / Case</name>
-    <type>SwitchCase</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fieldname>TIPO_0101</fieldname>
-    <use_contains>N</use_contains>
-    <case_value_type>String</case_value_type>
-    <case_value_format/>
-    <case_value_decimal/>
-    <case_value_group/>
-    <default_target_step>Dummy Plugin</default_target_step>
-    <cases>
-      <case>
-        <value>06</value>
-        <target_step>Valor Java Script Modificado</target_step>
-      </case>
-    </cases>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>176</xloc>
-      <yloc>208</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Valor Java Script Modificado</name>
-    <type>ScriptValueMod</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <compatible>N</compatible>
-    <optimizationLevel/>
-    <jsScripts>
-      <jsScript>
-        <jsScript_type>0</jsScript_type>
-        <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>//Script here
-
-var aux = FECHA_ALTA.match(/^(\d{4})(\d{2})(\d{2})/);
-
-//Here we fix the date
-if(!aux || aux.length &lt; 4){
-	FECHA_ALTA = "";
-}
-else{
-    FECHA_ALTA = new Date(aux[1], aux[2]-1, aux[3]);
-    FECHA_ALTA = date2str(FECHA_ALTA, "yyyy-MM-dd");
-}
-
-
-
-identificador =  COD_0101</jsScript_script>
-      </jsScript>
-    </jsScripts>
-    <fields>
-      <field>
-        <name>FECHA_ALTA</name>
-        <rename>FECHA_ALTA</rename>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <replace>Y</replace>
-      </field>
-      <field>
-        <name>identificador</name>
-        <rename>identificador</rename>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <replace>N</replace>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>176</xloc>
-      <yloc>336</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>shp input</name>
-    <type>GisFileInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <inputFormat>ESRI_SHP</inputFormat>
-    <params>
-      <param>
-        <key>FORCE_TO_2D</key>
-        <value>TRUE</value>
-      </param>
-      <param>
-        <key>FORCE_TO_MULTIGEOMETRY</key>
-        <value>FALSE</value>
-      </param>
-    </params>
-    <inputFileName>${Internal.Entry.Current.Directory}/BTN100_0101S_UNI_ADMIN.shp</inputFileName>
-    <geometryFieldName>the_geom</geometryFieldName>
-    <encoding>ISO-8859-1</encoding>
-    <rowLimit>0</rowLimit>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>176</xloc>
-      <yloc>112</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
   <step>
     <name>Coordinate system operation</name>
     <type>GisCoordinateTransformation</type>
@@ -709,8 +500,8 @@ identificador =  COD_0101</jsScript_script>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>176</xloc>
-      <yloc>464</yloc>
+      <xloc>432</xloc>
+      <yloc>448</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -758,23 +549,6 @@ identificador =  COD_0101</jsScript_script>
         <name>identificador</name>
       </field>
       <select_unspecified>N</select_unspecified>
-      <meta>
-        <name>FECHA_ALTA</name>
-        <rename>FECHA_ALTA</rename>
-        <type>Date</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask>yyyy-MM-dd</conversion_mask>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
     </fields>
     <attributes/>
     <cluster_schema/>
@@ -785,13 +559,53 @@ identificador =  COD_0101</jsScript_script>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>480</xloc>
-      <yloc>464</yloc>
+      <xloc>704</xloc>
+      <yloc>448</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>TripleGeoKettle</name>
+    <name>shp input</name>
+    <type>GisFileInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <inputFormat>ESRI_SHP</inputFormat>
+    <params>
+      <param>
+        <key>FORCE_TO_2D</key>
+        <value>TRUE</value>
+      </param>
+      <param>
+        <key>FORCE_TO_MULTIGEOMETRY</key>
+        <value>FALSE</value>
+      </param>
+    </params>
+    <inputFileName>${Internal.Entry.Current.Directory}/BTN100_0101S_UNI_ADMIN.shp</inputFileName>
+    <geometryFieldName>the_geom</geometryFieldName>
+    <encoding>ISO-8859-1</encoding>
+    <rowLimit>0</rowLimit>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>160</xloc>
+      <yloc>64</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>06. CIUDAD AUTÓNOMA</name>
     <type>TripleGeoKettle</type>
     <description/>
     <distribute>Y</distribute>
@@ -802,10 +616,10 @@ identificador =  COD_0101</jsScript_script>
       <schema_name/>
     </partitioning>
     <attributename>identificador</attributename>
-    <feature>ComunidadAutonoma</feature>
+    <feature>CiudadAutonoma</feature>
     <ontologyns>http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#</ontologyns>
     <ontologynsprefix>esadm</ontologynsprefix>
-    <resourcens>https://datos.ign.es/recurso/btn100/comunidad-autonoma/</resourcens>
+    <resourcens>https://datos.ign.es/recurso/btn100/ciudad-autonoma/</resourcens>
     <resourcensprefix>georec</resourcensprefix>
     <language>null</language>
     <pathcsv>null</pathcsv>
@@ -893,8 +707,227 @@ identificador =  COD_0101</jsScript_script>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>720</xloc>
-      <yloc>464</yloc>
+      <xloc>944</xloc>
+      <yloc>448</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>CiudadAutonoma</name>
+    <type>TextFileOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <separator>;</separator>
+    <enclosure>"</enclosure>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>Y</enclosure_fix_disabled>
+    <header>N</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding>UTF-8</encoding>
+    <endedLine/>
+    <fileNameInField>N</fileNameInField>
+    <fileNameField/>
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>${Internal.Transformation.Filename.Directory}/BTN100_0101S_UNI_ADMIN_CIUAUTONOMA</name>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>ttl</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery>0</splitevery>
+    </file>
+    <fields>
+      <field>
+        <name>rdf_output</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1136</xloc>
+      <yloc>448</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Selecciona/Renombra valores</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>FECHA_ALTA</name>
+        <rename>FECHA_ALTA</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask>yyyy-MM-dd</conversion_mask>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>160</xloc>
+      <yloc>448</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Switch / Case</name>
+    <type>SwitchCase</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fieldname>TIPO_0101</fieldname>
+    <use_contains>N</use_contains>
+    <case_value_type>String</case_value_type>
+    <case_value_format/>
+    <case_value_decimal/>
+    <case_value_group/>
+    <default_target_step>Dummy Plugin</default_target_step>
+    <cases>
+      <case>
+        <value>06</value>
+        <target_step>Valor Java Script Modificado</target_step>
+      </case>
+    </cases>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>160</xloc>
+      <yloc>192</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Valor Java Script Modificado</name>
+    <type>ScriptValueMod</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <compatible>N</compatible>
+    <optimizationLevel/>
+    <jsScripts>
+      <jsScript>
+        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>//Script here
+
+var aux = FECHA_ALTA.match(/^(\d{4})(\d{2})(\d{2})/);
+
+//Here we fix the date
+if(!aux || aux.length &lt; 4){
+	FECHA_ALTA = "";
+}
+else{
+    FECHA_ALTA = new Date(aux[1], aux[2]-1, aux[3]);
+    FECHA_ALTA = date2str(FECHA_ALTA, "yyyy-MM-dd");
+}
+
+
+
+identificador =  COD_0101</jsScript_script>
+      </jsScript>
+    </jsScripts>
+    <fields>
+      <field>
+        <name>FECHA_ALTA</name>
+        <rename>FECHA_ALTA</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>
+      <field>
+        <name>identificador</name>
+        <rename>identificador</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>160</xloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

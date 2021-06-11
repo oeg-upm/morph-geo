@@ -1,0 +1,42 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/estacion-suministro/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:351  a                    btn100:EstacionDeSuministro ;
+        rdfs:label               "351" ;
+        dc:created               "2012-09-19"^^xsd:date ;
+        dc:identifier            "351" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Suministro de Butano Sa" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/estacion-suministro/351/geometry> ;
+        btn100:codigoDeEstacion  "70121" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+georec:1295  a                   btn100:EstacionDeSuministro ;
+        rdfs:label               "1295" ;
+        dc:created               "2012-08-22"^^xsd:date ;
+        dc:identifier            "1295" ;
+        dc:replaces              "5703" ;
+        dc:title                 "Estación de Campsa" ;
+        geosparql:hasGeometry    <https://datos.ign.es/recurso/btn100/estacion-suministro/1295/geometry> ;
+        btn100:codigoDeEstacion  "60121" ;
+        btn100:rutaTEN-T         <https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea> ;
+        btn100:tipoDeTrafico     <https://datos.ign.es/kos/transportes/tipo-de-trafico/viajeros> .
+
+<https://datos.ign.es/recurso/btn100/estacion-suministro/1295/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.678413769999999 41.69728927852938)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-suministro/351/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.4908718888235617 40.42781405269665)"^^geosparql:wktLiteral .
+

@@ -1,0 +1,22 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/teleferico/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:2  a                    btn100:Teleferico ;
+        rdfs:label             "2" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "2" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/teleferico/2/geometry> .
+
+<https://datos.ign.es/recurso/btn100/teleferico/2/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.3988939999999994 37.092810128575096, -3.3889693700000003 37.07151859857541)"^^geosparql:wktLiteral .
+
