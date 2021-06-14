@@ -230,7 +230,7 @@ En los ultimos anyos Pentaho ha pasado de utilizar Apache Ant a utilizar Apache 
 utilizaba Ant, y se ha decidido utilizar Maven por las ventajas que ofrece. El proyecto TripleGeoKettle contenia
 una carpeta lib en la que se encontraban los .jar con las dependencias necesarias. Ahora, las dependencias se
 administran con Maven y el pom.xml. Se incluyen los repositorios de Pentaho y OSGeo y las dependencias que se
-quieren incluir. Las properties funcionan a modo de ``variable'' para poder cambiar la version de pdi facilmente
+quieren incluir. Las properties funcionan a modo de ``variable'' para poder cambiar la version de pdi fácilmente
 en un solo lugar.
 
 
@@ -366,7 +366,7 @@ main/java/plugin/tripleGEOStepDialog.java
 69: private static String PKG = tripleGEOStepDialog.class.getPackage().getName();
 \end{lstlisting}
 
-\item PDI9 utiliza iconos .svg y proporciona una guia de disenyo\cite{guia-diseno}. Por tanto se ha actualizado el
+\item PDI9 utiliza iconos .svg y proporciona una guia de diseño\cite{guia-diseno}. Por tanto se ha actualizado el
     icono antiguo .png a .svg con los nuevos colores fig.\ref{fig:icono-TGK}
 \end{enumerate}
 
@@ -445,7 +445,7 @@ Apache Jena y vividsolutions.jts utilizan Xerces, pero versiones distintas. Cuen
 \end{lstlisting}
 
 
-\subsection{Compilación}
+\subsection{Problemas de dependencias}
 
 Para el pom.xml de Maven se ha decidido dejar de utilizar maven-assembly-plugin ya que en algunos casos no
 incluía los jars necesarios y saltaban errores en tiempo de ejecución. En su lugar se utilizará
@@ -453,32 +453,75 @@ maven-shade-plugin que es más apropiado para proyectos grandes con muchas depen
 conflictos entre sí. Además crea un ``super jar'' que incluye todas las dependencias, tal y como se hacía antiguamente
 con el build.xml de Ant.
 
+Las versiones detalladas en el pom.xml son necesarias por compatibilidad. Por ejemplo no es posible utilizar la
+version de jts que se utilizaba anteriormente (1.11), ni la de gt-geometry ya que hay muchos problemas de compatibilidad debido a
+xerces. Xerces también se utiliza en Jena, y debido a que todas las dependencias (incluso las de pentaho) utilizan
+xerces, ha sido un verdadero rompecabezas solucionar las incompatibilidades. Es más, fue tan complicado, que
+durante unos días se pasó todo el código de Jena del fichero ShpToRDF.java a otra librería (RDF4J) para evitar
+las incompatibilidades. Pero como llevó al detenido estudio del código fuente, ayudó a encontrar las
+incompatibilidades que tenía Jena.
+
+Fue necesario realizar dos cambios: 
+
 \begin{lstlisting}
-        <build>
-        <plugins>
-            <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-                <configuration>
-                    <encoding>UTF-8</encoding>
-                    <target>${java.version}</target>
-                    <source>${java.version}</source>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-shade-plugin</artifactId>
-                <version>3.2.4</version>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
+ShpToRDF:347, debido al error de cast, cambiar
+    geometry = reader.read((String)row[this.posGeometry]);
+por 
+    geometry = reader.read(row[this.posGeometry].toString());
+
+tripleGEOStep:73, debido a error unsupported operationexception, cambiar
+    rm.remove(0)
+por
+    rm.removeValueMeta(0);
 \end{lstlisting}
 
+Finalmente el contenido del pom.xml es el siguiente:
+
+\lstinputlisting[language=XML]{../TripleGeoKettle-PDI9/pom.xml}
+
+
+\section{Adaptación de las transformaciones}
+
+Con el plugin porteado, el siguiente paso es adaptar todas las transformaciones .ktr para que puedan ejecutarse
+en PDI9. La mayoría de los pasos existentes se pueden copiar y pegar directamente los pasos desde GeoKettle a
+PDI9 (switch/case, valor javascript modificado, salida de fichero de texto, selecciona/renombra valores,
+filtrar...). Es necesario sustituir el paso que lee el fichero shp y el de transformación de coordenadas por los
+respectivos de pentaho-gis-plugins. El paso de GeoKettle no hace falta modificarlo, pero hace falta precederlo
+por un paso de seleccionar/renombrar valores, ya que además de la geometría transformada, el paso de SRS también
+pasa la geometría original. Es necesario quitar la original del pipeline y sustituirla por la original en el
+mismo orden para que GeoKettle la lea sin problemas. El modo de trabajo ha sido el siguiente para los 104
+ficheros .ktr:
+
+\begin{enumerate}
+    \item Crear la nueva transformacion
+    \item Copiar los pasos compatibles de GeoKettle a PDI9 (Ctrl+C,V)
+    \item Añadir los 3 pasos nuevos (input, transformación, renombrado)
+    \item Ejecutar la transformación y comprobar que los ficheros output coinciden con los originales.
+\end{enumerate}
+
+Fue considerado realizar estos cambios mediante un script, pero las transformaciones no son homogéneas, algunas
+tienen unos pasos y otras no, y de por tanto habría sido necesario revisarlas todas manualmente. Por tanto, hacer
+las transformaciones se ha considerado más rápido y seguro.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{images/renombra-geom.png}
+    \centering
+    \caption{Nuevos pasos y renombrado/reordenado de los valores}
+    \label{fig:renombra-geom}
+\end{figure}
+
+\section{Soporte GeoPackage}
+
+El primer paso para añadir soporte a GeoPackage es convertir todos los .shp y ficheros relacionados a .gpkg. Para
+ello se hace uso del comando ogr2ogr de GDAL\cite{ogr2ogr}.
+
+Utilizando PDI9 y sus plugins, añadir soporte a geopackage es sencillo. Mediante el script shpTogpkg.sh se
+modifica el primer paso de lectura de .shp a .gpkg:
+
+\lstinputlisting[language=BASH]{../scripts/shpTogpkg.sh}
+
+A continuación, es necesario volver a ejecutar todas las transformaciones y comprobar que los resultados son los
+mismos que con los .shp. Mediante el script gpkg-tests.sh es ejecutan las transformaciones con la herramienta
+pan de pentaho y se comprueban los resultados con cmp.
+
+\lstinputlisting[language=BASH]{../scripts/gpkg-tests.sh}

@@ -455,17 +455,17 @@
     <hop>
       <from>Coordinate system operation</from>
       <to>TripleGeoKettle</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>TripleGeoKettle</from>
       <to>Text file output</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>ESRI shapefile reader</from>
       <to>Modified JavaScript value</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>shp input</from>
@@ -475,7 +475,7 @@
     <hop>
       <from>gpkg input</from>
       <to>Modified JavaScript value</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>gpkg input 2</from>
@@ -485,12 +485,12 @@
     <hop>
       <from>Coordinate system operation</from>
       <to>TripleGeoKettle gpkg</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>TripleGeoKettle gpkg</from>
       <to>Text file output</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
   </order>
   <step>
@@ -537,8 +537,8 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <shapefilename>/home/ben/politecnica/semestre_8/TFG/Workspace/btn100-master/transformaciones-shape/3-Hidrografia/3-Laguna/BTN100_0303S_LAGUNA/BTN100_0303S_LAGUNA.shp</shapefilename>
-    <dbffilename>/home/ben/politecnica/semestre_8/TFG/Workspace/btn100-master/transformaciones-shape/3-Hidrografia/3-Laguna/BTN100_0303S_LAGUNA/BTN100_0303S_LAGUNA.dbf</dbffilename>
+    <shapefilename>/home/ben/politecnica/semestre_8/TFG/Workspace/viejo/btn100-master/transformaciones-shape/3-Hidrografia/3-Laguna/BTN100_0303S_LAGUNA/BTN100_0303S_LAGUNA.shp</shapefilename>
+    <dbffilename>/home/ben/politecnica/semestre_8/TFG/Workspace/viejo/btn100-master/transformaciones-shape/3-Hidrografia/3-Laguna/BTN100_0303S_LAGUNA/BTN100_0303S_LAGUNA.dbf</dbffilename>
     <encoding>ISO-8859-1</encoding>
     <attributes/>
     <cluster_schema/>
@@ -550,46 +550,6 @@
     </remotesteps>
     <GUI>
       <xloc>80</xloc>
-      <yloc>32</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>shp input</name>
-    <type>GisFileInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <inputFormat>ESRI_SHP</inputFormat>
-    <params>
-      <param>
-        <key>FORCE_TO_2D</key>
-        <value>TRUE</value>
-      </param>
-      <param>
-        <key>FORCE_TO_MULTIGEOMETRY</key>
-        <value>FALSE</value>
-      </param>
-    </params>
-    <inputFileName>/home/ben/politecnica/semestre_8/TFG/Workspace/btn100-master/transformaciones-shape/3-Hidrografia/3-Laguna/BTN100_0303S_LAGUNA/BTN100_0303S_LAGUNA.shp</inputFileName>
-    <geometryFieldName>the_geom</geometryFieldName>
-    <encoding>ISO-8859-1</encoding>
-    <rowLimit>0</rowLimit>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>240</xloc>
       <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
@@ -867,6 +827,114 @@ else{
     </GUI>
   </step>
   <step>
+    <name>TripleGeoKettle gpkg</name>
+    <type>TripleGeoKettle</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <attributename>ID</attributename>
+    <feature>Laguna</feature>
+    <ontologyns>https://datos.ign.es/def/bnt100#</ontologyns>
+    <ontologynsprefix>btn100</ontologynsprefix>
+    <resourcens>https://datos.ign.es/recurso/btn100/laguna/</resourcens>
+    <resourcensprefix>georec</resourcensprefix>
+    <language>null</language>
+    <pathcsv>null</pathcsv>
+    <uuidsactive>false</uuidsactive>
+    <fields>
+		</fields>
+    <columns>
+      <columns>
+        <column>the_geom</column>
+        <prefix>n/a</prefix>
+        <uri/>
+        <show>NO</show>
+        <column_shp>fid</column_shp>
+      </columns>
+      <columns>
+        <column>the_geom</column>
+        <prefix>n/a</prefix>
+        <uri/>
+        <show>YES</show>
+        <column_shp>the_geom</column_shp>
+      </columns>
+      <columns>
+        <column>identifier</column>
+        <prefix>dc</prefix>
+        <uri>http://purl.org/dc/terms/</uri>
+        <show>YES</show>
+        <column_shp>ID</column_shp>
+      </columns>
+      <columns>
+        <column>ID_BD</column>
+        <prefix>dc</prefix>
+        <uri>http://purl.org/dc/terms/</uri>
+        <show>YES</show>
+        <column_shp>ID_BD</column_shp>
+      </columns>
+      <columns>
+        <column>ID_CODIGO</column>
+        <prefix/>
+        <uri/>
+        <show>NO</show>
+        <column_shp>ID_CODIGO</column_shp>
+      </columns>
+      <columns>
+        <column>replaces</column>
+        <prefix>dc</prefix>
+        <uri>http://purl.org/dc/terms/</uri>
+        <show>NO</show>
+        <column_shp>ID_MOD</column_shp>
+      </columns>
+      <columns>
+        <column>created</column>
+        <prefix>dc</prefix>
+        <uri>http://purl.org/dc/terms/</uri>
+        <show>YES</show>
+        <column_shp>FECHA_ALTA</column_shp>
+      </columns>
+      <columns>
+        <column>regimen</column>
+        <prefix>btn100</prefix>
+        <uri>https://datos.ign.es/def/btn100#</uri>
+        <show>YES</show>
+        <column_shp>REGIMEN</column_shp>
+      </columns>
+      <columns>
+        <column>title</column>
+        <prefix>dc</prefix>
+        <uri>http://purl.org/dc/terms/</uri>
+        <show>YES</show>
+        <column_shp>ETIQUETA</column_shp>
+      </columns>
+      <columns>
+        <column>the_geom_1</column>
+        <prefix/>
+        <uri/>
+        <show>NO</show>
+        <column_shp>the_geom_1</column_shp>
+      </columns>
+    </columns>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>352</xloc>
+      <yloc>336</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>Value mapper</name>
     <type>ValueMapper</type>
     <description/>
@@ -993,8 +1061,8 @@ else{
     </GUI>
   </step>
   <step>
-    <name>TripleGeoKettle gpkg</name>
-    <type>TripleGeoKettle</type>
+    <name>shp input</name>
+    <type>GisFileInput</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -1003,89 +1071,21 @@ else{
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <attributename>ID</attributename>
-    <feature>Laguna</feature>
-    <ontologyns>https://datos.ign.es/def/bnt100#</ontologyns>
-    <ontologynsprefix>btn100</ontologynsprefix>
-    <resourcens>https://datos.ign.es/recurso/btn100/laguna/</resourcens>
-    <resourcensprefix>georec</resourcensprefix>
-    <language>null</language>
-    <pathcsv>null</pathcsv>
-    <uuidsactive>false</uuidsactive>
-    <fields>
-		</fields>
-    <columns>
-      <columns>
-        <column>the_geom</column>
-        <prefix>n/a</prefix>
-        <uri/>
-        <show>NO</show>
-        <column_shp>fid</column_shp>
-      </columns>
-      <columns>
-        <column>the_geom</column>
-        <prefix>n/a</prefix>
-        <uri/>
-        <show>YES</show>
-        <column_shp>the_geom</column_shp>
-      </columns>
-      <columns>
-        <column>identifier</column>
-        <prefix>dc</prefix>
-        <uri>http://purl.org/dc/terms/</uri>
-        <show>YES</show>
-        <column_shp>ID</column_shp>
-      </columns>
-      <columns>
-        <column>ID_BD</column>
-        <prefix>dc</prefix>
-        <uri>http://purl.org/dc/terms/</uri>
-        <show>YES</show>
-        <column_shp>ID_BD</column_shp>
-      </columns>
-      <columns>
-        <column>ID_CODIGO</column>
-        <prefix/>
-        <uri/>
-        <show>NO</show>
-        <column_shp>ID_CODIGO</column_shp>
-      </columns>
-      <columns>
-        <column>replaces</column>
-        <prefix>dc</prefix>
-        <uri>http://purl.org/dc/terms/</uri>
-        <show>NO</show>
-        <column_shp>ID_MOD</column_shp>
-      </columns>
-      <columns>
-        <column>created</column>
-        <prefix>dc</prefix>
-        <uri>http://purl.org/dc/terms/</uri>
-        <show>YES</show>
-        <column_shp>FECHA_ALTA</column_shp>
-      </columns>
-      <columns>
-        <column>regimen</column>
-        <prefix>btn100</prefix>
-        <uri>https://datos.ign.es/def/btn100#</uri>
-        <show>YES</show>
-        <column_shp>REGIMEN</column_shp>
-      </columns>
-      <columns>
-        <column>title</column>
-        <prefix>dc</prefix>
-        <uri>http://purl.org/dc/terms/</uri>
-        <show>YES</show>
-        <column_shp>ETIQUETA</column_shp>
-      </columns>
-      <columns>
-        <column>the_geom_1</column>
-        <prefix/>
-        <uri/>
-        <show>NO</show>
-        <column_shp>the_geom_1</column_shp>
-      </columns>
-    </columns>
+    <inputFormat>ESRI_SHP</inputFormat>
+    <params>
+      <param>
+        <key>FORCE_TO_2D</key>
+        <value>TRUE</value>
+      </param>
+      <param>
+        <key>FORCE_TO_MULTIGEOMETRY</key>
+        <value>FALSE</value>
+      </param>
+    </params>
+    <inputFileName>/home/ben/politecnica/semestre_8/TFG/Workspace/viejo/btn100-master/transformaciones-shape/3-Hidrografia/3-Laguna/BTN100_0303S_LAGUNA/BTN100_0303S_LAGUNA.shp</inputFileName>
+    <geometryFieldName>the_geom</geometryFieldName>
+    <encoding>ISO-8859-1</encoding>
+    <rowLimit>0</rowLimit>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -1095,8 +1095,8 @@ else{
       </output>
     </remotesteps>
     <GUI>
-      <xloc>352</xloc>
-      <yloc>336</yloc>
+      <xloc>240</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
