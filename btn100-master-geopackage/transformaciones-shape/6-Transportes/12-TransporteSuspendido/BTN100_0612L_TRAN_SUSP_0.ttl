@@ -1,0 +1,92 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/telesqui/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/btn100/telesqui/79/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.385881360000001 43.04271059852314, -5.397382750000001 43.04174465852315)"^^geosparql:wktLiteral .
+
+georec:72  a                   btn100:Telesqui ;
+        rdfs:label             "72" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "72" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesqui/72/geometry> .
+
+georec:77  a                   btn100:Telesqui ;
+        rdfs:label             "77" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "77" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesqui/77/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesqui/78/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.385881360000001 43.04271059852314, -5.39915482 43.04068841852316)"^^geosparql:wktLiteral .
+
+georec:75  a                   btn100:Telesqui ;
+        rdfs:label             "75" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "75" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesqui/75/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesqui/74/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.27238805 42.69945478852444, -0.2730773499999999 42.70093008852444, -0.27315592 42.70136372852443, -0.27229297 42.70223288852443)"^^geosparql:wktLiteral .
+
+georec:73  a                   btn100:Telesqui ;
+        rdfs:label             "73" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "73" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesqui/73/geometry> .
+
+georec:78  a                   btn100:Telesqui ;
+        rdfs:label             "78" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "78" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesqui/78/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesqui/73/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.3833912 43.03678616852317, -5.3963253799999995 43.03394230852318)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesqui/72/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.39783923 43.04197690852316, -5.409921789999999 43.04443477852315)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/telesqui/77/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.385881360000001 43.04271059852314, -5.396968650000001 43.036554268523176)"^^geosparql:wktLiteral .
+
+georec:76  a                   btn100:Telesqui ;
+        rdfs:label             "76" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "76" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesqui/76/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesqui/76/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.4156809300000015 42.98743507852333, -6.42062007 42.98743974852336)"^^geosparql:wktLiteral .
+
+georec:79  a                   btn100:Telesqui ;
+        rdfs:label             "79" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "79" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesqui/79/geometry> .
+
+georec:74  a                   btn100:Telesqui ;
+        rdfs:label             "74" ;
+        dc:created             "2013-07-01"^^xsd:date ;
+        dc:identifier          "74" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/telesqui/74/geometry> .
+
+<https://datos.ign.es/recurso/btn100/telesqui/75/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.4915378 42.80760001852401, -0.48343246 42.80326300852404)"^^geosparql:wktLiteral .
+

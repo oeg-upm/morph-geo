@@ -1,0 +1,48 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/costa/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/btn100/costa/171/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (4.2708542199999995 39.80782225854362, 4.27654781 39.80825306854361, 4.2796144 39.80882222854359)"^^geosparql:wktLiteral .
+
+georec:171  a                  btn100:Costa ;
+        rdfs:label             "171" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "171" ;
+        dc:title               "Costa de Son Ganxo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/costa/171/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/costa/239/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-17.854864199999998 28.834636168747878, -17.83207918 28.862017828747124)"^^geosparql:wktLiteral .
+
+georec:8  a                    btn100:Costa ;
+        rdfs:label             "8" ;
+        dc:created             "2012-01-18"^^xsd:date ;
+        dc:identifier          "8" ;
+        dc:title               "Costa Blanca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/costa/8/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/costa/8/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.09283406 38.95962609855206, -0.04211308 38.95855276855206)"^^geosparql:wktLiteral .
+
+georec:239  a                  btn100:Costa ;
+        rdfs:label             "239" ;
+        dc:created             "2013-03-07"^^xsd:date ;
+        dc:identifier          "239" ;
+        dc:title               "Costa de Franceses" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/costa/239/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+

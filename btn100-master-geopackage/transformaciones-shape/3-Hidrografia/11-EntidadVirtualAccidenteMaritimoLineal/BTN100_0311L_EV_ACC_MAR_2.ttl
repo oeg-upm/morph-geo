@@ -1,0 +1,708 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/bahia/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:36  a                   btn100:Bahia ;
+        rdfs:label             "36" ;
+        dc:created             "2011-03-25"^^xsd:date ;
+        dc:identifier          "36" ;
+        dc:title               "Badia de Cadaqués" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/36/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/bahia/34/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.2381662999999996 42.239412298526474, 3.2668059100000004 42.21755137852659)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/248/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.748675639999998 42.23510964852651, -8.734611350000003 42.24209111852648)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/168/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (4.12614085 40.03222573854159, 4.13079023 40.042635818541505, 4.136170900000001 40.05628550854139)"^^geosparql:wktLiteral .
+
+georec:49  a                   btn100:Bahia ;
+        rdfs:label             "49" ;
+        dc:created             "2011-03-16"^^xsd:date ;
+        dc:identifier          "49" ;
+        dc:title               "Badía de Mont-Roig" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/49/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/bahia/242/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-16.43243341999999 28.49945973875716, -16.446947670000004 28.486187578757544)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/131/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.8071649 43.45280220852188, -3.779757879999999 43.4522530785219)"^^geosparql:wktLiteral .
+
+georec:181  a                  btn100:Bahia ;
+        rdfs:label             "181" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "181" ;
+        dc:title               "Badia d'Alcúdia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/181/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:30  a                   btn100:Bahia ;
+        rdfs:label             "30" ;
+        dc:created             "2011-03-25"^^xsd:date ;
+        dc:identifier          "30" ;
+        dc:title               "Badia de Llafranc" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/30/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:43  a                   btn100:Bahia ;
+        rdfs:label             "43" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "43" ;
+        dc:title               "Baía de Cap-Ras" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/43/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:15  a                   btn100:Bahia ;
+        rdfs:label             "15" ;
+        dc:created             "2012-06-05"^^xsd:date ;
+        dc:identifier          "15" ;
+        dc:title               "Bahía de Bilbao / Bilbaoko Itsasadarra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/15/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/bahia/9/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.04002375 38.628212328555705, 0.06243398 38.62831659855569)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/188/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-15.380935939999999 27.924561798773535, -15.341470030000002 27.924282188773546)"^^geosparql:wktLiteral .
+
+georec:179  a                  btn100:Bahia ;
+        rdfs:label             "179" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "179" ;
+        dc:title               "Badia de Andraixt" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/179/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:232  a                  btn100:Bahia ;
+        rdfs:label             "232" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "232" ;
+        dc:title               "Bahía de las Calcosas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/232/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/bahia/185/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-15.418256460000002 27.815461958776698, -15.357504309999996 27.81601569877667)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/182/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.1251898 39.90282610854275, 3.2014934900000007 39.902718638542765)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/154/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.87955135 36.09559770859117, -5.819253709999998 36.09563444859118)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/151/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.18810288 36.40240009858517, -5.15315038 36.403035658585175)"^^geosparql:wktLiteral .
+
+georec:132  a                  btn100:Bahia ;
+        rdfs:label             "132" ;
+        dc:created             "2013-06-06"^^xsd:date ;
+        dc:identifier          "132" ;
+        dc:title               "BAHÍA DE SANTOÑA" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/132/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:173  a                  btn100:Bahia ;
+        rdfs:label             "173" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "173" ;
+        dc:title               "Bahía de Pollença" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/173/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:50  a                   btn100:Bahia ;
+        rdfs:label             "50" ;
+        dc:created             "2011-03-16"^^xsd:date ;
+        dc:identifier          "50" ;
+        dc:title               "Badía de Cambrils" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/50/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/bahia/366/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.33910972 35.904737988594164, -5.3133291499999995 35.90523765859414)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/43/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.1581175200000002 42.393290398525764, 3.16453993 42.39385042852575, 3.1700548599999987 42.394307988525746)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/40/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.09956308 41.83997553852858, 3.121601540000001 41.84001276852857)"^^geosparql:wktLiteral .
+
+georec:186  a                  btn100:Bahia ;
+        rdfs:label             "186" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "186" ;
+        dc:title               "Bahía de Formas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/186/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:35  a                   btn100:Bahia ;
+        rdfs:label             "35" ;
+        dc:created             "2013-05-22"^^xsd:date ;
+        dc:identifier          "35" ;
+        dc:title               "Badia de Jóncols" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/35/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/bahia/227/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-18.20276135 27.738113158778944, -18.155517750000005 27.73919986877892)"^^geosparql:wktLiteral .
+
+georec:237  a                  btn100:Bahia ;
+        rdfs:label             "237" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "237" ;
+        dc:title               "Bahía de la Altura" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/237/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/bahia/39/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.17042711 42.4271234085256, 3.2122991600000006 42.4267609485256)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/36/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.2852402700000005 42.27377654852633, 3.3568701499999998 42.273107928526315)"^^geosparql:wktLiteral .
+
+georec:42  a                   btn100:Bahia ;
+        rdfs:label             "42" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "42" ;
+        dc:title               "Bahía de Grifeu" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/42/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/bahia/30/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.1970103599999993 41.8881614085283, 3.23925176 41.88811994852831)"^^geosparql:wktLiteral .
+
+georec:83  a                   btn100:Bahia ;
+        rdfs:label             "83" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "83" ;
+        dc:title               "Bahía de Portman" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/83/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/bahia/195/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.514944610000002 29.22156337873734, -13.510278950000002 29.212128978737596)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/164/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.41290134 36.158412388590214, -5.36998284 36.158266128590235)"^^geosparql:wktLiteral .
+
+georec:131  a                  btn100:Bahia ;
+        rdfs:label             "131" ;
+        dc:created             "2013-06-06"^^xsd:date ;
+        dc:identifier          "131" ;
+        dc:title               "BAHÍA DE SANTANDER" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/131/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:229  a                  btn100:Bahia ;
+        rdfs:label             "229" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "229" ;
+        dc:title               "Bahía de Naos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/229/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:172  a                  btn100:Bahia ;
+        rdfs:label             "172" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "172" ;
+        dc:title               "Badia de Sant Antoni" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/172/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:21  a                   btn100:Bahia ;
+        rdfs:label             "21" ;
+        dc:created             "2012-04-23"^^xsd:date ;
+        dc:identifier          "21" ;
+        dc:title               "Bahía de Txingudi" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/21/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/bahia/50/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (1.0748534199999997 41.05965811853348, 1.0898279200000003 41.05961872853347)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/237/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-18.040163449999998 28.736507458750573, -17.993879829999997 28.73808745875052)"^^geosparql:wktLiteral .
+
+georec:185  a                  btn100:Bahia ;
+        rdfs:label             "185" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "185" ;
+        dc:title               "Bahía de Pozo Izquierdo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/185/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:34  a                   btn100:Bahia ;
+        rdfs:label             "34" ;
+        dc:created             "2011-03-25"^^xsd:date ;
+        dc:identifier          "34" ;
+        dc:title               "Badia de Montjoi" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/34/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/bahia/184/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-15.561646729999998 27.75576448877843, -15.52332061 27.75591482877843)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/181/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.17231158 39.79757353854371, 3.2735441499999998 39.79684236854372)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/49/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (1.0121426200000003 41.04579801853358, 1.04337435 41.04545620853358)"^^geosparql:wktLiteral .
+
+georec:236  a                  btn100:Bahia ;
+        rdfs:label             "236" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "236" ;
+        dc:title               "Bahía de los Roques" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/236/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:151  a                  btn100:Bahia ;
+        rdfs:label             "151" ;
+        dc:created             "2013-02-03"^^xsd:date ;
+        dc:identifier          "151" ;
+        dc:title               "Bahía Dorada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/151/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/bahia/15/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.0635003300000005 43.37260962852211, -3.01581783 43.34212614852221)"^^geosparql:wktLiteral .
+
+georec:164  a                  btn100:Bahia ;
+        rdfs:label             "164" ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "164" ;
+        dc:title               "BAHÍA DE ALGECIRAS" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/164/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:41  a                   btn100:Bahia ;
+        rdfs:label             "41" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "41" ;
+        dc:title               "Bahía de Rosas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/41/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/bahia/12/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.4632762299999999 38.347727708558935, -0.43689177 38.347423558558944)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/177/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (2.5983909699999996 39.514921238546385, 2.689049340000001 39.51496577854639)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/174/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.4033591899999998 39.60942611854549, 3.4701463299999995 39.609175048545474)"^^geosparql:wktLiteral .
+
+georec:177  a                  btn100:Bahia ;
+        rdfs:label             "177" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "177" ;
+        dc:title               "Badia de Palma" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/177/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:230  a                  btn100:Bahia ;
+        rdfs:label             "230" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "230" ;
+        dc:title               "Bahía de los Pozos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/230/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:202  a                  btn100:Bahia ;
+        rdfs:label             "202" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "202" ;
+        dc:title               "Bahía de Ávila" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/202/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:39  a                   btn100:Bahia ;
+        rdfs:label             "39" ;
+        dc:created             "2011-03-25"^^xsd:date ;
+        dc:identifier          "39" ;
+        dc:title               "Badia de Portbou" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/39/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/bahia/38/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.1921905900000005 42.341647808526, 3.23554374 42.37328531852585)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/35/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.2579048700000004 42.24544417852644, 3.29872296 42.245108778526465)"^^geosparql:wktLiteral .
+
+georec:256  a                  btn100:Bahia ;
+        rdfs:label             "256" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "256" ;
+        dc:title               "Bahía de Samil" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/256/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:228  a                  btn100:Bahia ;
+        rdfs:label             "228" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "228" ;
+        dc:title               "Bahía de la Hoya" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/228/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:184  a                  btn100:Bahia ;
+        rdfs:label             "184" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "184" ;
+        dc:title               "Bahía del Inglés" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/184/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/bahia/83/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.8529885800000001 37.57985562856852, -0.8244560799999999 37.556809778568805)"^^geosparql:wktLiteral .
+
+georec:150  a                  btn100:Bahia ;
+        rdfs:label             "150" ;
+        dc:created             "2013-02-03"^^xsd:date ;
+        dc:identifier          "150" ;
+        dc:title               "Bahía de Casares" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/150/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:40  a                   btn100:Bahia ;
+        rdfs:label             "40" ;
+        dc:created             "2011-03-24"^^xsd:date ;
+        dc:identifier          "40" ;
+        dc:title               "Badía de Palamós" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/40/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:248  a                  btn100:Bahia ;
+        rdfs:label             "248" ;
+        dc:created             "2013-03-03"^^xsd:date ;
+        dc:identifier          "248" ;
+        dc:title               "Bahía de Bouzas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/248/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/bahia/236/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-17.78669948 28.533070408756238, -17.733522729999997 28.534151868756194)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/187/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-15.3981284 27.849234368775715, -15.355887009999998 27.84858357877573)"^^geosparql:wktLiteral .
+
+georec:12  a                   btn100:Bahia ;
+        rdfs:label             "12" ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "12" ;
+        dc:title               "Badía d'Alacant" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/12/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/bahia/233/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-17.90749713 27.769635538778026, -17.87681328 27.770687758777996)"^^geosparql:wktLiteral .
+
+georec:9  a                    btn100:Bahia ;
+        rdfs:label             "9" ;
+        dc:created             "2010-11-16"^^xsd:date ;
+        dc:identifier          "9" ;
+        dc:title               "Badía de Calp" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/9/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/bahia/202/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.74002609 28.896609578746162, -13.707823979999997 28.89630453874617)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/230/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-18.084701719999998 27.764494428778182, -18.04216025 27.764072098778197)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/150/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.214334710000001 36.37587329858556, -5.179394699999998 36.37651612858554)"^^geosparql:wktLiteral .
+
+georec:189  a                  btn100:Bahia ;
+        rdfs:label             "189" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "189" ;
+        dc:title               "Bahía del Confital" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/189/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:38  a                   btn100:Bahia ;
+        rdfs:label             "38" ;
+        dc:created             "2011-03-25"^^xsd:date ;
+        dc:identifier          "38" ;
+        dc:title               "Badia del Port de la Selva" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/38/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:242  a                  btn100:Bahia ;
+        rdfs:label             "242" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "242" ;
+        dc:title               "Bahía de la Garañona" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/242/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/bahia/42/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.1619549699999996 42.3792651185258, 3.16921235 42.37946157852582, 3.17444608 42.37960893852581)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/179/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (2.3638155199999997 39.53854853854616, 2.37494576 39.54127621854614, 2.3827195899999998 39.543349988546105)"^^geosparql:wktLiteral .
+
+georec:227  a                  btn100:Bahia ;
+        rdfs:label             "227" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "227" ;
+        dc:title               "Bahía de los Reyes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/227/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/bahia/229/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-18.038753960000008 27.64129358878178, -17.999216150000002 27.642428298781738)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/173/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.0870752300000013 39.90759526854271, 3.0977229700000004 39.9075129085427)"^^geosparql:wktLiteral .
+
+georec:183  a                  btn100:Bahia ;
+        rdfs:label             "183" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "183" ;
+        dc:title               "Bahía de Santa Águeda" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/183/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:155  a                  btn100:Bahia ;
+        rdfs:label             "155" ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "155" ;
+        dc:title               "BAHÍA DE CÁDIZ" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/155/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:196  a                  btn100:Bahia ;
+        rdfs:label             "196" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "196" ;
+        dc:title               "Bahía de Penedo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/196/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:168  a                  btn100:Bahia ;
+        rdfs:label             "168" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "168" ;
+        dc:title               "Badia de Fornells" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/168/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/bahia/196/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.570044839999998 29.136187558739636, -13.543227719999997 29.135515748739653)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/132/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.433103059999999 43.421997828521974, -3.37818998 43.45508115852188)"^^geosparql:wktLiteral .
+
+georec:175  a                  btn100:Bahia ;
+        rdfs:label             "175" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "175" ;
+        dc:title               "L'Olla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/175/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:188  a                  btn100:Bahia ;
+        rdfs:label             "188" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "188" ;
+        dc:title               "Bahía de Gando" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/188/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:37  a                   btn100:Bahia ;
+        rdfs:label             "37" ;
+        dc:created             "2011-03-25"^^xsd:date ;
+        dc:identifier          "37" ;
+        dc:title               "Badia de Guillola" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/37/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/bahia/7/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.23851337 39.16787388854987, -0.21650611 39.167725688549865)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/189/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-15.47072134 28.13977130876735, -15.445009290000002 28.140240288767334)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/21/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.7886296000000002 43.38210521852209, -1.7680617 43.385754338522084, -1.7375779500000004 43.39069754852207)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/186/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-15.41403203 27.83769455877605, -15.371149280000001 27.837241878776062)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/155/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.31576232 36.56506850858272, -6.253228490000001 36.56529158858271)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/232/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-18.00211313 27.843209108775888, -17.94724592 27.842753808775907)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/183/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-15.66474917 27.750039758778602, -15.646964890000003 27.746388888778707)"^^geosparql:wktLiteral .
+
+georec:182  a                  btn100:Bahia ;
+        rdfs:label             "182" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "182" ;
+        dc:title               "Badia de Pollença" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/182/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:154  a                  btn100:Bahia ;
+        rdfs:label             "154" ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "154" ;
+        dc:title               "Bahía de la Plata" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/154/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:195  a                  btn100:Bahia ;
+        rdfs:label             "195" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "195" ;
+        dc:title               "Bahía del Salado" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/195/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:44  a                   btn100:Bahia ;
+        rdfs:label             "44" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "44" ;
+        dc:title               "Bahía de Colera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/44/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/bahia/44/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.1635966899999994 42.4068887185257, 3.16967094 42.4072420285257, 3.175256019999999 42.40738882852569)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/41/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.1470512100000003 42.24930833852644, 3.1735097500000005 42.24844359852645)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/256/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.81081624 42.207442588526646, -8.782948669999998 42.20739323852665)"^^geosparql:wktLiteral .
+
+georec:233  a                  btn100:Bahia ;
+        rdfs:label             "233" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "233" ;
+        dc:title               "Bahía de Temijiraque" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/233/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/bahia/228/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-18.100243910000003 27.760322388778302, -18.07508852 27.75569472877843)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/175/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (2.9593792 39.1452201485501, 2.971363530000001 39.1453449085501)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/bahia/172/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (1.26444333 38.97969072855185, 1.29362315 38.980018108551846)"^^geosparql:wktLiteral .
+
+georec:7  a                    btn100:Bahia ;
+        rdfs:label             "7" ;
+        dc:created             "2012-01-18"^^xsd:date ;
+        dc:identifier          "7" ;
+        dc:title               "Bahía Park" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/7/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:174  a                  btn100:Bahia ;
+        rdfs:label             "174" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "174" ;
+        dc:title               "Badía de Son Servera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/174/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:366  a                  btn100:Bahia ;
+        rdfs:label             "366" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "366" ;
+        dc:title               "BAHÍA DE CEUTA" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/366/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/bahia/37/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.2994505399999996 42.301439178526174, 3.34076766 42.301060688526185)"^^geosparql:wktLiteral .
+
+georec:187  a                  btn100:Bahia ;
+        rdfs:label             "187" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "187" ;
+        dc:title               "Bahía de Arinaga" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/bahia/187/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+

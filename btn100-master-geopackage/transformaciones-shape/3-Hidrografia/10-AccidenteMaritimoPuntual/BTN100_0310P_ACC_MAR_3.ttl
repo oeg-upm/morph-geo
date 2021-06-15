@@ -1,0 +1,2460 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1064/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3827025999999998 38.686407398555055)"^^geosparql:wktLiteral .
+
+georec:1011  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1011" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1011" ;
+        dc:title               "Punta Verda" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1011/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1399/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3550964999999997 38.86528719855308)"^^geosparql:wktLiteral .
+
+georec:1403  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1403" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1403" ;
+        dc:title               "Tres Codols" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1403/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1318  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1318" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1318" ;
+        dc:title               "Es Fondos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1318/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1107  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1107" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1107" ;
+        dc:title               "Morro de na Mora" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1107/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1475  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1475" ;
+        dc:created             "2013-03-26"^^xsd:date ;
+        dc:identifier          "1475" ;
+        dc:title               "Baja Mares" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1475/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:976  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "976" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "976" ;
+        dc:title               "Es Brul" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/976/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1313/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.87492385 39.36279841854789)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1469/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.827627960000001 29.00997261874307)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/963/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5213884000000002 39.11558799855041)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1087/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.5260964999999995 39.70028569854462)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1228/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3094101 39.511091698546416)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/302/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1239436 42.13298669852701)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/878/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.0472151 39.91045529854267)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/279/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2050780000000003 41.89776439852825)"^^geosparql:wktLiteral .
+
+georec:1095  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1095" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1095" ;
+        dc:title               "Sa Badolia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1095/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/920/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5900008000000003 39.05856419855101)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/2180/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.298867520000001 35.17190130860613)"^^geosparql:wktLiteral .
+
+georec:862  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "862" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "862" ;
+        dc:title               "Illots d'en Marçal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/862/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1331  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1331" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1331" ;
+        dc:title               "Es Corp Marí" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1331/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:1120  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1120" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1120" ;
+        dc:title               "Morro d'en Llobera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1120/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1638  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1638" ;
+        dc:created             "2013-03-27"^^xsd:date ;
+        dc:identifier          "1638" ;
+        dc:title               "Risco Partido" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1638/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1280/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.990194300000001 39.328065598548235)"^^geosparql:wktLiteral .
+
+georec:832  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "832" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "832" ;
+        dc:title               "Morro d'en Balena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/832/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:928  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "928" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "928" ;
+        dc:title               "Canaló d'en Sintes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/928/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1126/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.927297400000001 39.901386698542765)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/917/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8441670999999995 40.05377819854141)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1362/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4761413000000005 39.46622569854686)"^^geosparql:wktLiteral .
+
+georec:874  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "874" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "874" ;
+        dc:title               "Cala Llucalari" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/874/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1469  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1469" ;
+        dc:created             "2013-03-26"^^xsd:date ;
+        dc:identifier          "1469" ;
+        dc:title               "Baja de los Cangrejos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1469/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1239/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2748782 39.41786529854733)"^^geosparql:wktLiteral .
+
+georec:844  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "844" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "844" ;
+        dc:title               "Sa Roqueta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/844/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1313  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1313" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1313" ;
+        dc:title               "Es Bastons" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1313/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1475/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.70031955 29.09092492874088)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1406/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2126539999999997 39.95506489854228)"^^geosparql:wktLiteral .
+
+georec:1228  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1228" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1228" ;
+        dc:title               "Banquet des Coloms" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1228/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1102  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1102" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1102" ;
+        dc:title               "Salt d'en Moixina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1102/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1055/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5500731999999995 38.65172049855544)"^^geosparql:wktLiteral .
+
+georec:1409  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1409" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1409" ;
+        dc:title               "Còdol Negre" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1409/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1470  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1470" ;
+        dc:created             "2013-03-26"^^xsd:date ;
+        dc:identifier          "1470" ;
+        dc:title               "El Caldero" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1470/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1385  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1385" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1385" ;
+        dc:title               "Morro de sa Ratjada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1385/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:971  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "971" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "971" ;
+        dc:title               "Escull des Pas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/971/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:886  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "886" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "886" ;
+        dc:title               "Enfonsat de Binissaïd" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/886/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1440  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1440" ;
+        dc:created             "2013-03-26"^^xsd:date ;
+        dc:identifier          "1440" ;
+        dc:title               "Cueva de la Arena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1440/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/872/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.099556800000001 39.878175798542976)"^^geosparql:wktLiteral .
+
+georec:675  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "675" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "675" ;
+        dc:title               "Piedra de la Hoya" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/675/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/280/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.211892399999999 41.909231598528194)"^^geosparql:wktLiteral .
+
+georec:856  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "856" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "856" ;
+        dc:title               "Caló des Vi Blanc" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/856/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/928/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.9412671 40.056489298541386)"^^geosparql:wktLiteral .
+
+georec:1325  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1325" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1325" ;
+        dc:title               "S'Estaca d'en Rotger" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1325/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:911  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "911" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "911" ;
+        dc:title               "Racó de s'Amarador" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/911/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1482  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1482" ;
+        dc:created             "2013-03-26"^^xsd:date ;
+        dc:identifier          "1482" ;
+        dc:title               "Los Lomillos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1482/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1429/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.52615586 29.242310358736784)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1219/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4036573000000003 39.58182229854573)"^^geosparql:wktLiteral .
+
+georec:1578  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1578" ;
+        dc:created             "2013-03-27"^^xsd:date ;
+        dc:identifier          "1578" ;
+        dc:title               "Los Pollos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1578/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1330/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7424641 39.42368199854728)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/869/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1157704 39.871308798543026)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1120/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8532588000000003 39.87412539854299)"^^geosparql:wktLiteral .
+
+georec:1241  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1241" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1241" ;
+        dc:title               "Sa Punta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1241/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:1633  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1633" ;
+        dc:created             "2013-03-27"^^xsd:date ;
+        dc:identifier          "1633" ;
+        dc:title               "La Laja del Risco" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1633/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/911/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8085261000000017 40.02503069854166)"^^geosparql:wktLiteral .
+
+georec:1030  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1030" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1030" ;
+        dc:title               "Ses Fontanelles" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1030/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:868  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "868" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "868" ;
+        dc:title               "Morro Esclafat" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/868/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1126  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1126" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1126" ;
+        dc:title               "Penyal de s'Udró" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1126/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:923  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "923" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "923" ;
+        dc:title               "Cul de sa Ferrada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/923/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1061/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4201380000000001 38.66176929855532)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/852/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.285367900000001 39.92491779854256)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1327/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7446409000000003 39.40334999854748)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/939/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.0950334999999995 40.05738119854137)"^^geosparql:wktLiteral .
+
+georec:1168  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1168" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1168" ;
+        dc:title               "Morer Vermell" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1168/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:1615  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1615" ;
+        dc:created             "2013-03-27"^^xsd:date ;
+        dc:identifier          "1615" ;
+        dc:title               "Perchel de Mogán" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1615/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:935  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "935" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "935" ;
+        dc:title               "Na Plana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/935/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1409/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3716443000000003 39.77461839854392)"^^geosparql:wktLiteral .
+
+georec:1404  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1404" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1404" ;
+        dc:title               "Cova des Vell Marí" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1404/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:332  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "332" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "332" ;
+        dc:title               "Sant Jordi" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/332/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1295  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1295" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1295" ;
+        dc:title               "Ses Roques des Codolar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1295/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1046/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4720136999999995 38.719210698554676)"^^geosparql:wktLiteral .
+
+georec:302  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "302" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "302" ;
+        dc:title               "Muscleres Grosses" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/302/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1225/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3403411999999997 39.53506289854618)"^^geosparql:wktLiteral .
+
+georec:1476  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1476" ;
+        dc:created             "2013-03-26"^^xsd:date ;
+        dc:identifier          "1476" ;
+        dc:title               "Los Lajares" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1476/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1633/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.734203450000004 28.063585888769527)"^^geosparql:wktLiteral .
+
+georec:1054  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1054" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1054" ;
+        dc:title               "Ses Bassetes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1054/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1041/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4625772999999995 39.09892379855058)"^^geosparql:wktLiteral .
+
+georec:1627  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1627" ;
+        dc:created             "2013-03-27"^^xsd:date ;
+        dc:identifier          "1627" ;
+        dc:title               "Roque Colorado" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1627/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/832/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1579393 40.065977398541285)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/412/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8576803999999999 40.935065298534354)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/919/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2105477 38.984099198551796)"^^geosparql:wktLiteral .
+
+georec:917  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "917" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "917" ;
+        dc:title               "Encletxa de s'Ull de Sol" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/917/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:893  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "893" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "893" ;
+        dc:title               "Es Melaos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/893/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1488  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1488" ;
+        dc:created             "2013-03-26"^^xsd:date ;
+        dc:identifier          "1488" ;
+        dc:title               "Bajo Negro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1488/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1362  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1362" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1362" ;
+        dc:title               "Banco de Ibiza" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1362/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:1151  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1151" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1151" ;
+        dc:title               "Racó del Xot" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1151/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1390/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4099679 39.626177298545315)"^^geosparql:wktLiteral .
+
+georec:1066  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1066" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1066" ;
+        dc:title               "Caló d'en Trull" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1066/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1321/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7815937 39.37123009854782)"^^geosparql:wktLiteral .
+
+georec:1332  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1332" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1332" ;
+        dc:title               "Racó de s'Almadrava na Cocó" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1332/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/971/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5694903999999998 39.09794229855059)"^^geosparql:wktLiteral .
+
+georec:1121  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1121" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1121" ;
+        dc:title               "Racó de sa Figuera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1121/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1095/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6102291000000006 39.73988209854424)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/940/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.3038652 39.83213919854339)"^^geosparql:wktLiteral .
+
+georec:1302  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1302" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1302" ;
+        dc:title               "Es Mal Entrador Gran" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1302/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:45  a                   btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "45" ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "45" ;
+        dc:title               "Roquetas Roges" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/45/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/886/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.9612759999999985 39.93248939854247)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/676/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.857962370000001 37.05648892857561)"^^geosparql:wktLiteral .
+
+georec:929  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "929" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "929" ;
+        dc:title               "Caló de n'Alfurinet" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/929/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1006  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1006" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1006" ;
+        dc:title               "Ses Covetes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1006/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1403/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6552824 39.76951439854396)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1052/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5824130000000005 38.67721359855515)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/843/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.294014619999999 39.908713828542695)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1318/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8167071 39.35963979854792)"^^geosparql:wktLiteral .
+
+georec:875  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "875" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "875" ;
+        dc:title               "Cap de ses Penyes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/875/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:930  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "930" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "930" ;
+        dc:title               "Macar d'Alfurinet" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/930/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:845  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "845" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "845" ;
+        dc:title               "Es Picatxo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/845/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1134/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0018623999999994 39.92378049854255)"^^geosparql:wktLiteral .
+
+georec:1314  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1314" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1314" ;
+        dc:title               "Ses Amagades" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1314/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1386  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1386" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1386" ;
+        dc:title               "Raconada de sa Cova" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1386/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:972  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "972" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "972" ;
+        dc:title               "Caló des Moltons" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/972/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:99  a                   btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "99" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "99" ;
+        dc:title               "Gola del Río Segura" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/99/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1006/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2413258 38.868720098553034)"^^geosparql:wktLiteral .
+
+georec:676  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "676" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "676" ;
+        dc:title               "Piedra del Sombrerico" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/676/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/828/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.190748600000002 40.03499519854156)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1483/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.662333779999999 29.118554198740124)"^^geosparql:wktLiteral .
+
+georec:1411  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1411" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1411" ;
+        dc:title               "Partions Noves" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1411/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1326  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1326" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1326" ;
+        dc:title               "Sa Pedrera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1326/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1032/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3046680999999998 39.035970798551254)"^^geosparql:wktLiteral .
+
+georec:1115  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1115" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1115" ;
+        dc:title               "Morro de sa Vaca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1115/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1329/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7395144 39.41395309854739)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1650/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.630844350000004 28.169828338766493)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/472/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.2870483000000004 37.55645489856881)"^^geosparql:wktLiteral .
+
+georec:1483  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1483" ;
+        dc:created             "2013-03-26"^^xsd:date ;
+        dc:identifier          "1483" ;
+        dc:title               "La Isleta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1483/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/769/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.7239189 36.06010719859172)"^^geosparql:wktLiteral .
+
+georec:1061  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1061" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1061" ;
+        dc:title               "Racó de s'Alga" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1061/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1324/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7576707 39.390384498547604)"^^geosparql:wktLiteral .
+
+georec:1634  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1634" ;
+        dc:created             "2013-03-27"^^xsd:date ;
+        dc:identifier          "1634" ;
+        dc:title               "Los Farallones" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1634/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:869  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "869" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "869" ;
+        dc:title               "Talaia de Torre Nova" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/869/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:266  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "266" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "266" ;
+        dc:title               "S'Estufador de Garbí" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/266/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1312/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8655679 39.36278799854789)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1102/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6668164999999995 39.786820198543815)"^^geosparql:wktLiteral .
+
+georec:1127  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1127" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1127" ;
+        dc:title               "Coal de la Morena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1127/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:924  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "924" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "924" ;
+        dc:title               "Codolar des Frares" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/924/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1296/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9537335 39.12724589855029)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1086/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.5139087000000004 39.691783898544685)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/931/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.969701300000001 40.0533626985414)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/332/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.158760600000001 42.37594359852585)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/877/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.0526433000000015 39.906622098542705)"^^geosparql:wktLiteral .
+
+georec:870  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "870" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "870" ;
+        dc:title               "Cova de ses Bruixes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/870/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1465  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1465" ;
+        dc:created             "2013-03-26"^^xsd:date ;
+        dc:identifier          "1465" ;
+        dc:title               "Los Hervideros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1465/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1168/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1296361000000004 39.86802679854306)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1630/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.77866377 28.028235178770544)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1210/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.434226400000001 39.63275459854524)"^^geosparql:wktLiteral .
+
+georec:1405  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1405" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1405" ;
+        dc:title               "Cingle des Pi" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1405/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1013  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1013" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1013" ;
+        dc:title               "Clot des Llamp" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1013/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1545/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-14.358666210000003 28.12659260876773)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/860/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.2372667999999996 39.81453309854355)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1335/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7441862 39.44844669854704)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1125/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9197982000000007 39.901940398542756)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/985/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5289285000000001 38.94502509855221)"^^geosparql:wktLiteral .
+
+georec:1296  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1296" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1296" ;
+        dc:title               "Es Freu" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1296/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1085  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1085" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1085" ;
+        dc:title               "Sa Rabassa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1085/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1477  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1477" ;
+        dc:created             "2013-03-26"^^xsd:date ;
+        dc:identifier          "1477" ;
+        dc:title               "Morro Negro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1477/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1151/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1929366999999997 39.95433359854226)"^^geosparql:wktLiteral .
+
+georec:1266  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1266" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1266" ;
+        dc:title               "Es Pou Salat" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1266/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:852  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "852" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "852" ;
+        dc:title               "Morro des Macar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/852/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1055  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1055" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1055" ;
+        dc:title               "Pesquerres Altes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1055/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1627/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.82720077 27.98600254877176)"^^geosparql:wktLiteral .
+
+georec:1321  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1321" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1321" ;
+        dc:title               "Partió de s'Àguila" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1321/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1066/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.390286 38.697379198554934)"^^geosparql:wktLiteral .
+
+georec:1110  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1110" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1110" ;
+        dc:title               "Morro des Forat" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1110/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1054/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5593327999999995 38.65184399855544)"^^geosparql:wktLiteral .
+
+georec:918  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "918" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "918" ;
+        dc:title               "Sa Cigonya" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/918/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1182  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1182" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1182" ;
+        dc:title               "Caló d'es Estret" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1182/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/45/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.1552154 40.11065599854091)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/673/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.1147918100000003 36.737721448580174)"^^geosparql:wktLiteral .
+
+georec:1363  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1363" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1363" ;
+        dc:title               "Racó de sa Fragata" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1363/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1400/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2931174000000003 39.0305944985513)"^^geosparql:wktLiteral .
+
+georec:472  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "472" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "472" ;
+        dc:title               "Cabezo del Castellar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/472/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1333  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1333" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1333" ;
+        dc:title               "Davallador de Can Climent" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1333/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1122  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1122" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1122" ;
+        dc:title               "Sa Crivella" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1122/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1429  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1429" ;
+        dc:created             "2013-03-26"^^xsd:date ;
+        dc:identifier          "1429" ;
+        dc:title               "Bajo del Corral" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1429/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1372/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4048861000000006 39.52689319854627)"^^geosparql:wktLiteral .
+
+georec:412  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "412" ;
+        dc:created             "2013-05-13"^^xsd:date ;
+        dc:identifier          "412" ;
+        dc:title               "Lo Colodar de l'Almadrava" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/412/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1287/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.929664900000001 39.155240798550004)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1638/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.708268830000003 28.09636809876858)"^^geosparql:wktLiteral .
+
+georec:201  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "201" ;
+        dc:created             "2012-06-05"^^xsd:date ;
+        dc:identifier          "201" ;
+        dc:title               "Anparrantxi Punta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/201/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/571/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.2654872 43.40287679852204)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/99/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.6378884 38.111191198561755)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/868/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1286019 39.86730159854306)"^^geosparql:wktLiteral .
+
+georec:1134  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1134" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1134" ;
+        dc:title               "La Codolada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1134/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:931  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "931" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "931" ;
+        dc:title               "Pla de Mar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/931/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1400  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1400" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1400" ;
+        dc:title               "Es Palleret" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1400/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1411/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2773091999999995 39.43908869854714)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1326/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7452957999999996 39.402125898547496)"^^geosparql:wktLiteral .
+
+georec:1261  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1261" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1261" ;
+        dc:title               "Ses Falconeres" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1261/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1176  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1176" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1176" ;
+        dc:title               "Es Bufador" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1176/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/976/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.6092904000000001 39.04435209855116)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/907/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8301164 39.983695198542016)"^^geosparql:wktLiteral .
+
+georec:1623  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1623" ;
+        dc:created             "2013-03-27"^^xsd:date ;
+        dc:identifier          "1623" ;
+        dc:title               "Los Canalizos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1623/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1477/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.6615938 29.120460928740066)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/933/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.9994483999999995 40.05844339854135)"^^geosparql:wktLiteral .
+
+georec:1327  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1327" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1327" ;
+        dc:title               "Caló de s'Arena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1327/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1408/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3372976 39.785355298543834)"^^geosparql:wktLiteral .
+
+georec:436  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "436" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "436" ;
+        dc:title               "Barra del Trabucador" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/436/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:828  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "828" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "828" ;
+        dc:title               "Escull Gros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/828/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1465/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.83320894 28.95443743874459)"^^geosparql:wktLiteral .
+
+georec:1399  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1399" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1399" ;
+        dc:title               "Es Còdols" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1399/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:985  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "985" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "985" ;
+        dc:title               "Escull des Cap des Llibrell" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/985/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/874/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.084384399999999 39.888976998542866)"^^geosparql:wktLiteral .
+
+georec:1032  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1032" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1032" ;
+        dc:title               "Corral d'en Guillem" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1032/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1127/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9382632000000006 39.90936669854269)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1306/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9143379000000005 39.35836459854794)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/918/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.308382999999999 39.84852179854325)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/201/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.880416700000001 43.43725409852195)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/956/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1740911 39.84370459854327)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/2178/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.5799907 43.55717929852163)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1363/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.477975300000001 39.47748819854676)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1153/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2089125000000003 39.952828298542286)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1332/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.746349 39.43207939854721)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1122/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8832461 39.8850701985429)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1488/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.836324129999998 28.71274555875123)"^^geosparql:wktLiteral .
+
+georec:871  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "871" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "871" ;
+        dc:title               "Tronc de sa Savina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/871/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1629/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.794115619999998 28.0192813587708)"^^geosparql:wktLiteral .
+
+georec:1340  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1340" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1340" ;
+        dc:title               "Caló de ses Lleonardes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1340/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:967  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "967" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "967" ;
+        dc:title               "Port de ses Caletes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/967/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1655/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.566353359999999 28.146292958767155)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/970/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5890134999999999 39.06520199855093)"^^geosparql:wktLiteral .
+
+georec:279  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "279" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "279" ;
+        dc:title               "El Cavall Bernat" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/279/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1225  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1225" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1225" ;
+        dc:title               "Morro de sa Carabassa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1225/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1406  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1406" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1406" ;
+        dc:title               "Ca n'Eloi" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1406/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/47/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.1885018 39.72193809854441)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/675/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8622787999999997 37.0491120785757)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1261/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1152436999999993 39.308554498548446)"^^geosparql:wktLiteral .
+
+georec:907  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "907" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "907" ;
+        dc:title               "Pont Puós" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/907/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1297  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1297" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1297" ;
+        dc:title               "Pedres des Codolar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1297/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1051/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5713903 38.68754139855504)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1440/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.460183510000002 29.063107678741627)"^^geosparql:wktLiteral .
+
+georec:1086  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1086" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1086" ;
+        dc:title               "S'Arenal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1086/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1386/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3630584000000003 39.60957619854548)"^^geosparql:wktLiteral .
+
+georec:280  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "280" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "280" ;
+        dc:title               "La Muscrera Trencada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/280/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1176/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1826471000000005 39.84502489854327)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1107/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7278378 39.82542539854345)"^^geosparql:wktLiteral .
+
+georec:1056  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1056" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1056" ;
+        dc:title               "S'Estufador" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1056/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/967/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.5521236 39.09957489855058)"^^geosparql:wktLiteral .
+
+georec:1237  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1237" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1237" ;
+        dc:title               "Ses Penyes Mortes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1237/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:1629  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1629" ;
+        dc:created             "2013-03-27"^^xsd:date ;
+        dc:identifier          "1629" ;
+        dc:title               "Roque del Herrero" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1629/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/924/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8941991999999996 40.057799298541376)"^^geosparql:wktLiteral .
+
+georec:919  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "919" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "919" ;
+        dc:title               "Estància de Dins" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/919/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1153  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1153" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1153" ;
+        dc:title               "Racó de les Arcades" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1153/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/950/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.3087587 39.849841998543226)"^^geosparql:wktLiteral .
+
+georec:1630  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1630" ;
+        dc:created             "2013-03-27"^^xsd:date ;
+        dc:identifier          "1630" ;
+        dc:title               "Bajas del Cabo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1630/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1545  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1545" ;
+        dc:created             "2013-03-26"^^xsd:date ;
+        dc:identifier          "1545" ;
+        dc:title               "El Islote" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1545/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:950  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "950" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "950" ;
+        dc:title               "Na Girada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/950/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1215/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.385425499999999 39.59077709854563)"^^geosparql:wktLiteral .
+
+georec:473  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "473" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "473" ;
+        dc:title               "Cabezo de la Reya" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/473/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:865  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "865" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "865" ;
+        dc:title               "Morro de Levant de Cales Coves" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/865/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/865/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1448188 39.86097109854314)"^^geosparql:wktLiteral .
+
+georec:1334  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1334" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1334" ;
+        dc:title               "Es Racó de na Casetes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1334/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/445/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.7431189 40.82698629853515)"^^geosparql:wktLiteral .
+
+georec:1123  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1123" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1123" ;
+        dc:title               "Cova des Cingle" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1123/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:920  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "920" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "920" ;
+        dc:title               "Font des Covetes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/920/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1241/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2621627 39.41919219854731)"^^geosparql:wktLiteral .
+
+georec:47  a                   btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "47" ;
+        dc:created             "2012-01-18"^^xsd:date ;
+        dc:identifier          "47" ;
+        dc:title               "Gola de Estany" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/47/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:1219  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1219" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1219" ;
+        dc:title               "Es Codol" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1219/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1280  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1280" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1280" ;
+        dc:title               "Ses Arenes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1280/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:1376  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1376" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1376" ;
+        dc:title               "Morro des Garrover" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1376/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:570  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "570" ;
+        dc:created             "2013-06-06"^^xsd:date ;
+        dc:identifier          "570" ;
+        dc:title               "Campete" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/570/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1182/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3161512599999985 39.75678162854408)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1323/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7704779000000004 39.38367049854769)"^^geosparql:wktLiteral .
+
+georec:877  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "877" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "877" ;
+        dc:title               "Na Rodona" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/877/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1113/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7816574 39.856074198543176)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1269/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1737729 39.327899698548244)"^^geosparql:wktLiteral .
+
+georec:1220  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1220" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1220" ;
+        dc:title               "S'Argentalar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1220/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:932  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "932" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "932" ;
+        dc:title               "Penyals de Binidalfa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/932/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1295/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9541218000000002 39.13495969855022)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1085/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.5034156000000003 39.686423598544735)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1615/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.780868099999996 27.82986919877628)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/930/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.967668599999999 40.05636179854136)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1405/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8982019000000006 39.89479689854282)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/300/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1718809000000014 42.11388209852712)"^^geosparql:wktLiteral .
+
+georec:1388  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1388" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1388" ;
+        dc:title               "Es Ratjolí" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1388/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/845/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.474725 38.71665989855472)"^^geosparql:wktLiteral .
+
+georec:2178  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "2178" ;
+        dc:created             "2013-06-11"^^xsd:date ;
+        dc:identifier          "2178" ;
+        dc:title               "El Castaño" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/2178/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1051  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1051" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1051" ;
+        dc:title               "Racó des Forat" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1051/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1011/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2164423 38.90831299855263)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/871/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.107203200000001 39.875174998542995)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1334/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7470339 39.4419202985471)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1124/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9044435 39.89818079854278)"^^geosparql:wktLiteral .
+
+georec:1093  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1093" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1093" ;
+        dc:title               "Escull de sa Font Figuera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1093/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1360/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.5014505 39.46112889854691)"^^geosparql:wktLiteral .
+
+georec:860  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "860" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "860" ;
+        dc:title               "Morro d'en Bruixa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/860/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/269/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0616795999999993 41.796509598528814)"^^geosparql:wktLiteral .
+
+georec:956  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "956" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "956" ;
+        dc:title               "Morro d'en Toni" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/956/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/856/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.306217300000001 39.8532851985432)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/18/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.3916436 40.34910639853888)"^^geosparql:wktLiteral .
+
+georec:1129  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1129" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1129" ;
+        dc:title               "Cova de ses Canteres" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1129/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:926  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "926" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "926" ;
+        dc:title               "Escull de ses Vinyoles" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/926/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/436/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.7243006500000001 40.609997268536794)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1388/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3891018000000006 39.616635798545396)"^^geosparql:wktLiteral .
+
+georec:872  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "872" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "872" ;
+        dc:title               "Regana des Cans" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/872/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1045  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1045" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1045" ;
+        dc:title               "Caló de s'Oli" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1045/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1314/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8597397000000004 39.36331279854789)"^^geosparql:wktLiteral .
+
+georec:1407  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1407" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1407" ;
+        dc:title               "Maressos des Cap de Menorca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1407/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1340/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7344629 39.484043198546686)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/570/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.2470462000000007 43.39910889852204)"^^geosparql:wktLiteral .
+
+georec:1087  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1087" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1087" ;
+        dc:title               "Es Cavall" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1087/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1045/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4030413000000002 38.727713798554596)"^^geosparql:wktLiteral .
+
+georec:673  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "673" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "673" ;
+        dc:title               "Morrón de los Genoveses" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/673/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1268  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1268" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1268" ;
+        dc:title               "Cova de sa Sal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1268/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:769  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "769" ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "769" ;
+        dc:title               "Isleta Grande" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/769/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1071/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.6087965999999998 39.03476799855126)"^^geosparql:wktLiteral .
+
+georec:1323  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1323" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1323" ;
+        dc:title               "S'Escorxador" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1323/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1578/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.401209240000002 28.165736218766614)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/893/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8757332000000004 39.92206689854258)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/473/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.2789991 37.5574463985688)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/862/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.219848299999999 39.821843998543486)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1325/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7531199000000006 39.39333939854758)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1115/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8051848000000006 39.86226089854313)"^^geosparql:wktLiteral .
+
+georec:1335  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1335" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1335" ;
+        dc:title               "Devallador de ses Olles" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1335/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:1124  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1124" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1124" ;
+        dc:title               "Musclo des Llorens" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1124/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1297/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.934053600000001 39.12811049855028)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1110/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7672169000000006 39.84297269854329)"^^geosparql:wktLiteral .
+
+georec:444  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "444" ;
+        dc:created             "2013-05-13"^^xsd:date ;
+        dc:identifier          "444" ;
+        dc:title               "Illot del Torn" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/444/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1476/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.679138979999998 29.104248828740506)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/932/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.9942145000000004 40.05892089854136)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1266/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.067891799999999 39.26659229854884)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1407/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1937013000000007 39.85633229854316)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1056/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.537255 38.65141659855545)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1643/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.704076750000004 28.142264218767277)"^^geosparql:wktLiteral .
+
+georec:18  a                   btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "18" ;
+        dc:created             "2012-01-13"^^xsd:date ;
+        dc:identifier          "18" ;
+        dc:title               "Racó del Bessó" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/18/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1013/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2250694 38.924483098552436)"^^geosparql:wktLiteral .
+
+georec:1643  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1643" ;
+        dc:created             "2013-03-27"^^xsd:date ;
+        dc:identifier          "1643" ;
+        dc:title               "Roque Partido" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1643/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/873/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.0899849 39.88368989854292)"^^geosparql:wktLiteral .
+
+georec:571  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "571" ;
+        dc:created             "2013-06-06"^^xsd:date ;
+        dc:identifier          "571" ;
+        dc:title               "El Portillo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/571/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:963  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "963" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "963" ;
+        dc:title               "Caló Fondo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/963/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:878  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "878" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "878" ;
+        dc:title               "Racó des Cavalls" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/878/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/929/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.9526409000000013 40.059099098541346)"^^geosparql:wktLiteral .
+
+georec:933  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "933" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "933" ;
+        dc:title               "Roca de sa Sal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/933/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1106  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1106" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1106" ;
+        dc:title               "Es Joncar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1106/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:300  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "300" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "300" ;
+        dc:title               "Trencabraços" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/300/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1331/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7418431999999995 39.421914598547296)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1121/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8722306999999994 39.87779669854296)"^^geosparql:wktLiteral .
+
+georec:1655  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1655" ;
+        dc:created             "2013-03-27"^^xsd:date ;
+        dc:identifier          "1655" ;
+        dc:title               "El Altillo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1655/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1052  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1052" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1052" ;
+        dc:title               "Racó de sa Cova Grossa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1052/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/266/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0317515 41.77145569852895)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1093/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.5978682000000006 39.72806389854435)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1482/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.52207351 29.16862780873877)"^^geosparql:wktLiteral .
+
+georec:1329  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1329" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1329" ;
+        dc:title               "Es Pas des Verro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1329/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1623/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.83209928 27.922972258773566)"^^geosparql:wktLiteral .
+
+georec:1390  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1390" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1390" ;
+        dc:title               "Es Pont d'en Barracar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1390/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1118  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1118" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1118" ;
+        dc:title               "Morrillo de Bordils" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1118/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/674/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8761169499999997 37.03497519857592)"^^geosparql:wktLiteral .
+
+georec:2180  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "2180" ;
+        dc:created             "2013-03-07"^^xsd:date ;
+        dc:identifier          "2180" ;
+        dc:title               "Peñón de Vélez de la Gomera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/2180/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1470/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-13.820246519999996 29.022408618742727)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1118/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8399959 39.865070998543096)"^^geosparql:wktLiteral .
+
+georec:1360  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1360" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1360" ;
+        dc:title               "Morro d'en Feliu" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1360/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/433/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8553913999999998 40.68426499853623)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1385/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.356013000000001 39.60556379854552)"^^geosparql:wktLiteral .
+
+georec:1064  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1064" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1064" ;
+        dc:title               "Racó Alt" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1064/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1330  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1330" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1330" ;
+        dc:title               "Ses Males Pesqueres" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1330/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1106/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7215576999999995 39.8208693985435)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/935/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.038971199999998 40.06146519854133)"^^geosparql:wktLiteral .
+
+georec:269  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "269" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "269" ;
+        dc:title               "Sa Conca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/269/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1215  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1215" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1215" ;
+        dc:title               "Estanyol d'en Roig" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1215/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/572/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.412138599999999 43.419175398521986)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/923/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8736115 40.0532624985414)"^^geosparql:wktLiteral .
+
+georec:1372  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1372" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1372" ;
+        dc:title               "Morro d'en Ferrà" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1372/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1287  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1287" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1287" ;
+        dc:title               "Es racó des Pabellons" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1287/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:873  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "873" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "873" ;
+        dc:title               "Cova de Sant Llorenç" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/873/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1634/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.725534979999999 28.068073258769402)"^^geosparql:wktLiteral .
+
+georec:1046  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1046" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1046" ;
+        dc:title               "Racó des Forat" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1046/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:843  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "843" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "843" ;
+        dc:title               "Sa Trona" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/843/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1129/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.947323999999999 39.917759298542606)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/444/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8912337999999999 40.96626619853412)"^^geosparql:wktLiteral .
+
+georec:1312  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1312" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1312" ;
+        dc:title               "Es Dos Ulls" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1312/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:939  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "939" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "939" ;
+        dc:title               "Macar Gran" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/939/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1030/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2938762000000001 39.021613398551395)"^^geosparql:wktLiteral .
+
+georec:1408  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1408" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1408" ;
+        dc:title               "Pedra des Pont" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1408/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1155/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1929428000000004 39.939899898542414)"^^geosparql:wktLiteral .
+
+georec:1650  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1650" ;
+        dc:created             "2013-03-27"^^xsd:date ;
+        dc:identifier          "1650" ;
+        dc:title               "Puerto Nuevo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1650/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:970  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "970" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "970" ;
+        dc:title               "Aigua Blanca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/970/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:674  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "674" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "674" ;
+        dc:title               "El Lance" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/674/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1269  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1269" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1269" ;
+        dc:title               "S'Observatori" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1269/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:940  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "940" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "940" ;
+        dc:title               "Llosa de Rafalet" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/940/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1268/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6233106999999998 39.74871899854415)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/972/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.6022789999999998 39.0876448985507)"^^geosparql:wktLiteral .
+
+georec:1324  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1324" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1324" ;
+        dc:title               "Ses Portes de I'Infern" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1324/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1237/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.27789601 39.44636797854706)"^^geosparql:wktLiteral .
+
+georec:1239  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1239" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1239" ;
+        dc:title               "Cova de ses Pedreres" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1239/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1113  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1113" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1113" ;
+        dc:title               "Morro de sa Corda" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1113/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:433  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "433" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "433" ;
+        dc:title               "Gola de Migjorn" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/433/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1404/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7406076000000006 39.83226629854339)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/875/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.0791263 39.89153069854286)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/844/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4464645 38.73421039855451)"^^geosparql:wktLiteral .
+
+georec:1155  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1155" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1155" ;
+        dc:title               "Morro d'es Pont" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1155/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1220/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2778625 39.443790998547065)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1376/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3792906 39.5332288985462)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/870/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1688998999999995 40.060993298541334)"^^geosparql:wktLiteral .
+
+georec:1210  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1210" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1210" ;
+        dc:title               "Na Rafela" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1210/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1125  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1125" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1125" ;
+        dc:title               "Musclo de ses Cordes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1125/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:445  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "445" ;
+        dc:created             "2013-05-13"^^xsd:date ;
+        dc:identifier          "445" ;
+        dc:title               "Morro de Gos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/445/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1306  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1306" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1306" ;
+        dc:title               "Racó de s'Arena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1306/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/926/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.9150389000000003 40.051167698541434)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1333/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7479441999999996 39.43759729854713)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1123/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8893878000000006 39.89135609854284)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1302/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9171748 39.147203498550084)"^^geosparql:wktLiteral .
+
+georec:1071  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1071" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1071" ;
+        dc:title               "Pou des Lleó" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1071/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:572  a                  btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "572" ;
+        dc:created             "2013-06-06"^^xsd:date ;
+        dc:identifier          "572" ;
+        dc:title               "Canto de Laredo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/572/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1041  a                 btn100:AccidenteMaritimoPuntual ;
+        rdfs:label             "1041" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1041" ;
+        dc:title               "Caló de s'Illa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/accidente-maritimo-puntual/1041/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+

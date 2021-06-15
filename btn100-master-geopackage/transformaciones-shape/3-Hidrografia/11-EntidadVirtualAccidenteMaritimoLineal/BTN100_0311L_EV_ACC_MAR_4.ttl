@@ -1,0 +1,2292 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/142/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.656599490000002 36.73999761858014, -3.6428213499999997 36.73989106858014)"^^geosparql:wktLiteral .
+
+georec:317  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "317" ;
+        dc:created             "2013-05-03"^^xsd:date ;
+        dc:identifier          "317" ;
+        dc:title               "Ría de Ares" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/317/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/298/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.992361069999998 43.25166428852248, -8.949884639999999 43.25303035852247)"^^geosparql:wktLiteral .
+
+georec:106  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "106" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "106" ;
+        dc:title               "Playa Veneciola" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/106/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:82  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "82" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "82" ;
+        dc:title               "Cola del Caballo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/82/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:52  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "52" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "52" ;
+        dc:title               "Playa del Cocón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/52/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/98/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.9907127499999997 37.57707558856854, -0.9764853800000002 37.57658059856855)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/224/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.832858799999999 28.709292638751325, -13.800719659999997 28.70843699875135)"^^geosparql:wktLiteral .
+
+georec:359  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "359" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "359" ;
+        dc:title               "Playa de San Amaro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/359/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/67/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.3282025799999997 37.56118664856875, -1.29539073 37.5348376785691)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/281/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.132770940000002 42.74253497852426, -9.094153310000001 42.74395984852427)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/212/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-14.48110315 28.105503108768335, -14.46313781 28.134452358767508)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/93/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7030575 37.63535129856778, -0.69557398 37.635194018567766)"^^geosparql:wktLiteral .
+
+georec:118  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "118" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "118" ;
+        dc:title               "Cala Reona" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/118/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/24/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.35338472 43.302564668522336, -2.3407528599999994 43.31039234852229, -2.32928335 43.31717214852228)"^^geosparql:wktLiteral .
+
+georec:94  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "94" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "94" ;
+        dc:title               "Cala de Cañas-ases" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/94/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/5/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.61712032 39.872415288543024, 0.65715173 39.87184429854303)"^^geosparql:wktLiteral .
+
+georec:64  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "64" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "64" ;
+        dc:title               "Playa Cabezo de la Pelea" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/64/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/363/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.33993541 35.875396158594604, -5.338680299999999 35.87674943859459, -5.336405560000001 35.87789343859458, -5.33450179 35.87825122859456, -5.332757420000001 35.878285128594555)"^^geosparql:wktLiteral .
+
+georec:245  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "245" ;
+        dc:created             "2013-03-03"^^xsd:date ;
+        dc:identifier          "245" ;
+        dc:title               "Ría de Pontevedra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/245/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/278/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.108867679999998 42.62256455852473, -9.05599891 42.62323406852475)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/209/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-14.13609205 28.47264773875792, -14.10879138 28.47151396875796)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/320/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.033917940000004 43.245502928522505, -9.007402420000002 43.2430847885225, -8.96498347 43.236537758522516)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/110/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.73788083 37.77178175856603, -0.6962451499999999 37.77121430856602)"^^geosparql:wktLiteral .
+
+georec:191  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "191" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "191" ;
+        dc:title               "Caleta de Pedro Barba" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/191/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/78/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.11722871 37.55992671856877, -1.0799083299999996 37.55980469856877)"^^geosparql:wktLiteral .
+
+georec:372  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "372" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "372" ;
+        dc:title               "Playa de la Hípica" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/372/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:287  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "287" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "287" ;
+        dc:title               "Ensenada de Boiro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/287/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:76  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "76" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "76" ;
+        dc:title               "Cala Abierta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/76/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:342  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "342" ;
+        dc:created             "2013-01-29"^^xsd:date ;
+        dc:identifier          "342" ;
+        dc:title               "Islas Pantorgas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/342/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/348/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.834373200000001 43.439950698521926, -4.821248429999999 43.45109595852191)"^^geosparql:wktLiteral .
+
+georec:46  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "46" ;
+        dc:created             "2011-03-22"^^xsd:date ;
+        dc:identifier          "46" ;
+        dc:title               "Ribes Roges" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/46/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/317/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.230916579999999 43.41034365852201, -8.19609928 43.417009298522)"^^geosparql:wktLiteral .
+
+georec:312  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "312" ;
+        dc:created             "2013-04-12"^^xsd:date ;
+        dc:identifier          "312" ;
+        dc:title               "Ría de Muros e Noia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/312/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/107/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7363340099999999 37.73341629856651, -0.69893336 37.73317096856651)"^^geosparql:wktLiteral .
+
+georec:101  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "101" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "101" ;
+        dc:title               "Playa de las Gaviotas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/101/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:16  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "16" ;
+        dc:created             "2012-06-05"^^xsd:date ;
+        dc:identifier          "16" ;
+        dc:title               "Ría de Plentzia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/16/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/61/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.39448949 37.516097988569335, -1.34936795 37.51595512856935)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/343/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-7.02762147 43.56059829852162, -7.022780980000003 43.560768988521616)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/133/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.02830212 43.451493858521914, -4.01154414 43.451726988521905)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/289/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.2589462 42.919652628523586, -9.23029064 42.91950363852359)"^^geosparql:wktLiteral .
+
+georec:5  a                    btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "5" ;
+        dc:created             "2012-04-18"^^xsd:date ;
+        dc:identifier          "5" ;
+        dc:title               "Illes Columbretes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/5/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:88  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "88" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "88" ;
+        dc:title               "Playa Larga" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/88/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/190/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-15.662111490000001 28.165412438766616, -15.650341599999999 28.184814048766064)"^^geosparql:wktLiteral .
+
+georec:354  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "354" ;
+        dc:created             "2013-01-30"^^xsd:date ;
+        dc:identifier          "354" ;
+        dc:title               "Ría de Avilés" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/354/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:143  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "143" ;
+        dc:created             "2012-12-19"^^xsd:date ;
+        dc:identifier          "143" ;
+        dc:title               "Playa de Velilla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/143/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:58  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "58" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "58" ;
+        dc:title               "Playa Larga" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/58/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/246/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.958394110000002 42.52669058852516, -8.901794160000003 42.56723459852499, -8.844735410000002 42.594120428524874)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/89/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.74613057 37.59918752856825, -0.72528743 37.58153598856849)"^^geosparql:wktLiteral .
+
+georec:324  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "324" ;
+        dc:created             "2013-05-03"^^xsd:date ;
+        dc:identifier          "324" ;
+        dc:title               "Ría de  Arousa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/324/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/58/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.4653738799999996 37.47750094856986, -1.4395224899999999 37.47716227856985)"^^geosparql:wktLiteral .
+
+georec:113  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "113" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "113" ;
+        dc:title               "Punta de Algas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/113/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:28  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "28" ;
+        dc:created             "2012-04-25"^^xsd:date ;
+        dc:identifier          "28" ;
+        dc:title               "Isla Mollarri" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/28/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:209  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "209" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "209" ;
+        dc:title               "Caleta del Paso" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/209/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/84/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.82873362 37.57533842856858, -0.8063936399999999 37.5569546285688)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/118/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7133809399999999 37.61568879856802, -0.7079014300000002 37.615582438568026)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/354/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.946024489999999 43.59460732852153, -5.969291270000002 43.59829867852153)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/144/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.76173253 36.728282888580324, -3.7543502500000003 36.73541910858022)"^^geosparql:wktLiteral .
+
+georec:210  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "210" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "210" ;
+        dc:title               "Caleta de la Peña Vieja" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/210/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/113/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7451491399999999 37.79084934856578, -0.71104579 37.790430988565774)"^^geosparql:wktLiteral .
+
+georec:306  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "306" ;
+        dc:created             "2010-08-12"^^xsd:date ;
+        dc:identifier          "306" ;
+        dc:title               "Praia de Doniños" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/306/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/170/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (4.27815691 39.891221728542845, 4.282677289999999 39.88941781854286, 4.28571582 39.88828791854288)"^^geosparql:wktLiteral .
+
+georec:282  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "282" ;
+        dc:created             "2010-08-17"^^xsd:date ;
+        dc:identifier          "282" ;
+        dc:title               "Praia da Lagoa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/282/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/101/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.73865298 37.71668886856673, -0.6910122100000001 37.716244178566726)"^^geosparql:wktLiteral .
+
+georec:197  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "197" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "197" ;
+        dc:title               "Caleta de Caballo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/197/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:71  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "71" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "71" ;
+        dc:title               "Los Abejorros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/71/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/69/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.2507737 37.56575581856868, -1.2208056200000004 37.565464828568686)"^^geosparql:wktLiteral .
+
+georec:167  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "167" ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "167" ;
+        dc:title               "Zona de Protección del Mar Litoral" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/167/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:348  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "348" ;
+        dc:created             "2013-01-31"^^xsd:date ;
+        dc:identifier          "348" ;
+        dc:title               "Ría de Barro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/348/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:222  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "222" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "222" ;
+        dc:title               "Caleta del Buen Pobre" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/222/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/95/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.76018431 37.59544190856831, -0.7422606799999999 37.58072397856849)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/198/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.75339491 29.088421868740948, -13.7104687 29.086675658740994)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/26/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.129691710000001 43.29286554852235, -2.1053971899999993 43.30742434852231, -2.0813827700000003 43.32176953852227, -2.0593949100000004 43.33496768852224)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/64/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.35829318 37.547950218568914, -1.3195684200000002 37.51673293856932)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/167/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.514457920000001 36.950382858577115, -6.48145115 36.91913845857756, -6.459310630000002 36.89345550857792, -6.440673780000001 36.859325678578415, -6.430075639999999 36.83624523857874)"^^geosparql:wktLiteral .
+
+georec:318  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "318" ;
+        dc:created             "2013-05-03"^^xsd:date ;
+        dc:identifier          "318" ;
+        dc:title               "Ría de Betanzos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/318/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/308/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.3368623 43.53279958852171, -8.316346730000003 43.532919148521685, -8.29697919 43.53298166852168)"^^geosparql:wktLiteral .
+
+georec:107  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "107" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "107" ;
+        dc:title               "Playa del Estacio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/107/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/365/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.31729968 35.88495370859445, -5.312289800000001 35.885004488594454)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/52/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.6072825700000004 37.387915118571065, -1.5717523700000005 37.38729292857107)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/90/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.8325615799999998 37.69233675856704, -0.8039471500000004 37.69132788856705)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/193/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.42997085 29.211402118737617, -13.383503529999997 29.210082838737645)"^^geosparql:wktLiteral .
+
+georec:53  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "53" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "53" ;
+        dc:title               "Playa de Matalentisco" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/53/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/2/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.15695824 40.110542328540895, 0.19809535 40.110866678540916)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/206/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.911294809999998 28.74949332875021, -13.886559950000002 28.78682727874919)"^^geosparql:wktLiteral .
+
+georec:119  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "119" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "119" ;
+        dc:title               "Cala Medina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/119/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:95  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "95" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "95" ;
+        dc:title               "Playa Las Cañas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/95/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/75/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.15928068 37.539024098569044, -1.1404044900000003 37.52363207856924)"^^geosparql:wktLiteral .
+
+georec:65  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "65" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "65" ;
+        dc:title               "Playa del Hondón de Fondo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/65/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/319/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.395728809999996 43.39631162852204, -8.37201504 43.376074138522114, -8.357874039999999 43.36266984852215)"^^geosparql:wktLiteral .
+
+georec:331  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "331" ;
+        dc:created             "2012-12-25"^^xsd:date ;
+        dc:identifier          "331" ;
+        dc:title               "Ría de Ribadeo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/331/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/109/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.74254105 37.75749527856621, -0.6788897899999998 37.75673740856622)"^^geosparql:wktLiteral .
+
+georec:246  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "246" ;
+        dc:created             "2013-03-03"^^xsd:date ;
+        dc:identifier          "246" ;
+        dc:title               "Ría de Arosa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/246/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:301  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "301" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "301" ;
+        dc:title               "Praia de Razo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/301/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/345/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.78981601 43.55902835852163, -6.78739679 43.56161153852164)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/314/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-7.847763469999997 43.71015753852125, -7.833644540000002 43.717059198521255, -7.814974289999999 43.72799801852122, -7.800599740000002 43.737569948521205)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/104/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7861189999999999 37.73316429856651, -0.74057692 37.73277893856651)"^^geosparql:wktLiteral .
+
+georec:192  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "192" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "192" ;
+        dc:title               "Charca de la Laja" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/192/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/371/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.936323550000001 35.281164278604294, -2.9320912400000005 35.28118574860429)"^^geosparql:wktLiteral .
+
+georec:288  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "288" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "288" ;
+        dc:title               "Ensenada de Rianxo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/288/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/302/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.715816229999998 43.317205508522285, -8.682412899999997 43.299757408522325)"^^geosparql:wktLiteral .
+
+georec:77  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "77" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "77" ;
+        dc:title               "Cala Salitrona" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/77/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/286/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.996248560000003 42.74860994852424, -8.958655530000001 42.748645988524245)"^^geosparql:wktLiteral .
+
+georec:343  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "343" ;
+        dc:created             "2013-01-29"^^xsd:date ;
+        dc:identifier          "343" ;
+        dc:title               "Islas Romelas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/343/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:258  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "258" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "258" ;
+        dc:title               "Ría Bayona" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/258/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:47  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "47" ;
+        dc:created             "2011-03-22"^^xsd:date ;
+        dc:identifier          "47" ;
+        dc:title               "L'Espigó" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/47/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/29/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.0058371200000007 43.32394804852226, -2.0026376800000008 43.32389757852226, -1.9949447800000002 43.32377585852227)"^^geosparql:wktLiteral .
+
+georec:313  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "313" ;
+        dc:created             "2013-04-25"^^xsd:date ;
+        dc:identifier          "313" ;
+        dc:title               "Ría do Burgo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/313/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:102  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "102" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "102" ;
+        dc:title               "Playa del Barco Perdido" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/102/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:17  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "17" ;
+        dc:created             "2012-06-05"^^xsd:date ;
+        dc:identifier          "17" ;
+        dc:title               "Ría de Mundaka / Mundakako Itsasadarra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/17/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/86/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7839648400000001 37.592716178568345, -0.7566387699999999 37.57015602856864)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/368/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.9514613800000005 35.319797828603626, -2.949403709999999 35.31741997860367)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/55/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.5717525299999995 37.400382258570886, -1.5342250400000004 37.3999229085709)"^^geosparql:wktLiteral .
+
+georec:6  a                    btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "6" ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "6" ;
+        dc:title               "Reserva Marina d'Irta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/6/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:89  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "89" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "89" ;
+        dc:title               "Playa Negrete" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/89/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/200/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.782474549999996 28.83935813874774, -13.745084210000005 28.837866448747782)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/81/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.8775187599999997 37.57478840856857, -0.8510514300000004 37.55298408856886)"^^geosparql:wktLiteral .
+
+georec:355  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "355" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "355" ;
+        dc:title               "Playa del Algarrobo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/355/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/325/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.336699220000002 43.448089308521915, -8.30930951 43.44769094852191)"^^geosparql:wktLiteral .
+
+georec:144  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "144" ;
+        dc:created             "2012-12-19"^^xsd:date ;
+        dc:identifier          "144" ;
+        dc:title               "Playa de la Calaiza" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/144/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/115/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7584017300000001 37.83183389856525, -0.7034409400000001 37.83125366856527)"^^geosparql:wktLiteral .
+
+georec:59  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "59" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "59" ;
+        dc:title               "Cala Blanca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/59/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:325  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "325" ;
+        dc:created             "2013-05-08"^^xsd:date ;
+        dc:identifier          "325" ;
+        dc:title               "Playa de Chanteiro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/325/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/351/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.386285179999999 43.530135248521695, -5.387546140000001 43.53453578852168, -5.385530610000001 43.54217564852165)"^^geosparql:wktLiteral .
+
+georec:114  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "114" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "114" ;
+        dc:title               "Playa de la Barraca Quemada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/114/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:29  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "29" ;
+        dc:created             "2012-04-25"^^xsd:date ;
+        dc:identifier          "29" ;
+        dc:title               "Isla Santa Clara" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/29/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/141/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.51271513 36.71531489858049, -3.49377859 36.702129438580705)"^^geosparql:wktLiteral .
+
+georec:90  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "90" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "90" ;
+        dc:title               "Playa de Punta Brava" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/90/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/297/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.993342250000001 43.219821978522575, -8.976714560000001 43.23895327852252)"^^geosparql:wktLiteral .
+
+georec:60  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "60" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "60" ;
+        dc:title               "Cala del Ciscar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/60/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/223/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.828051260000002 28.672864658752342, -13.786150630000002 28.67211244875236)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/66/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.3427686700000006 37.55588062856882, -1.32709974 37.54319897856898)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/169/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (4.2666080299999996 39.951860958542305, 4.277087359999999 39.952403718542286)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/280/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.147191579999996 42.821770458523964, -9.106926410000002 42.821785308523964)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/92/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.8011725499999999 37.662763328567415, -0.7776696200000001 37.662562248567426)"^^geosparql:wktLiteral .
+
+georec:283  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "283" ;
+        dc:created             "2010-08-17"^^xsd:date ;
+        dc:identifier          "283" ;
+        dc:title               "Ensenada de Ribeira" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/283/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:198  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "198" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "198" ;
+        dc:title               "Caletón de las Ánimas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/198/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/362/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.34205936 35.87104751859468, -5.34058636 35.874558678594624)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/152/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.458248349999999 36.75440647857993, -6.414602189999999 36.75476761857993)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/331/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-7.0318890000000005 43.54455859852166, -7.011621830000001 43.565283498521616)"^^geosparql:wktLiteral .
+
+georec:349  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "349" ;
+        dc:created             "2013-01-31"^^xsd:date ;
+        dc:identifier          "349" ;
+        dc:title               "Ría de Póo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/349/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:223  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "223" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "223" ;
+        dc:title               "Caletón de las Palomas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/223/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/208/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-14.060077440000004 28.709434378751325, -14.020978410000001 28.709157068751335)"^^geosparql:wktLiteral .
+
+georec:319  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "319" ;
+        dc:created             "2013-05-03"^^xsd:date ;
+        dc:identifier          "319" ;
+        dc:title               "Ría da Coruña" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/319/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:108  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "108" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "108" ;
+        dc:title               "Esculls del Estacio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/108/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:84  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "84" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "84" ;
+        dc:title               "Cala del Barco" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/84/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/77/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.1210498 37.55160090856888, -1.0891547000000004 37.55132847856888)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/359/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.307290530000001 35.89706015859426, -5.30064893 35.89718763859427)"^^geosparql:wktLiteral .
+
+georec:350  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "350" ;
+        dc:created             "2013-01-31"^^xsd:date ;
+        dc:identifier          "350" ;
+        dc:title               "Ría de Santiuste" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/350/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/46/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (1.71565931 41.21070727853244, 1.7370223899999997 41.19459658853255)"^^geosparql:wktLiteral .
+
+georec:54  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "54" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "54" ;
+        dc:title               "Playa de Poniente" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/54/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:320  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "320" ;
+        dc:created             "2013-05-03"^^xsd:date ;
+        dc:identifier          "320" ;
+        dc:title               "Ría de Corme e Laxe" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/320/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:24  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "24" ;
+        dc:created             "2012-04-25"^^xsd:date ;
+        dc:identifier          "24" ;
+        dc:title               "Ría de Deba / Debako Itsasadarra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/24/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/316/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.26280231 43.46664226852186, -8.24948261 43.467767028521855, -8.23434827 43.46766668852186, -8.205904469999998 43.467836108521844)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/106/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7749814600000001 37.77392607856599, -0.7541659900000001 37.773530998565995)"^^geosparql:wktLiteral .
+
+georec:205  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "205" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "205" ;
+        dc:title               "El Charco de Bistol" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/205/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/342/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-7.001945160000001 43.560254428521624, -6.989617919999999 43.56076344852163)"^^geosparql:wktLiteral .
+
+georec:96  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "96" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "96" ;
+        dc:title               "Playa de la Parajola" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/96/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/288/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.8549823 42.65060745852464, -8.815676849999997 42.66047736852458)"^^geosparql:wktLiteral .
+
+georec:362  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "362" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "362" ;
+        dc:title               "Playa del Tarajal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/362/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:66  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "66" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "66" ;
+        dc:title               "Cala Leño" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/66/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:247  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "247" ;
+        dc:created             "2013-03-03"^^xsd:date ;
+        dc:identifier          "247" ;
+        dc:title               "Ría de Aldán" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/247/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/283/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.9878835 42.56252904852501, -8.947622690000001 42.56157662852501)"^^geosparql:wktLiteral .
+
+georec:302  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "302" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "302" ;
+        dc:title               "Praia de Baldaio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/302/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/57/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.4754359799999999 37.45582445857015, -1.42464481 37.45539778857015)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/129/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.473298989999999 43.38897104852208, -4.43354732 43.41588775852198)"^^geosparql:wktLiteral .
+
+georec:193  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "193" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "193" ;
+        dc:title               "Caleta del Mojón Blanco" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/193/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:289  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "289" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "289" ;
+        dc:title               "Praia do Langosteira" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/289/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/117/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.81119783 37.76954811856604, -0.8026188199999997 37.76947145856603)"^^geosparql:wktLiteral .
+
+georec:78  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "78" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "78" ;
+        dc:title               "El Bolete Grande" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/78/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:344  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "344" ;
+        dc:created             "2013-01-29"^^xsd:date ;
+        dc:identifier          "344" ;
+        dc:title               "Islas Castelos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/344/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/353/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.939194750000002 43.59352279852154, -5.946024489999999 43.59460732852153)"^^geosparql:wktLiteral .
+
+georec:133  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "133" ;
+        dc:created             "2013-03-20"^^xsd:date ;
+        dc:identifier          "133" ;
+        dc:title               "Islotes de Portio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/133/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/143/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.6685204299999996 36.73429621858022, -3.6624808500000006 36.74105567858013)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/322/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.29926161 42.9997848285233, -9.263304630000002 43.0024732485233)"^^geosparql:wktLiteral .
+
+georec:314  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "314" ;
+        dc:created             "2013-05-03"^^xsd:date ;
+        dc:identifier          "314" ;
+        dc:title               "Ría de Ortigueira" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/314/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/112/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7495298999999999 37.795725098565704, -0.7184491000000001 37.79512698856572)"^^geosparql:wktLiteral .
+
+georec:103  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "103" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "103" ;
+        dc:title               "Gola de la Encañizada de Marchamalo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/103/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/225/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.81498049 28.73441600875064, -13.78998995 28.734769168750635)"^^geosparql:wktLiteral .
+
+georec:356  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "356" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "356" ;
+        dc:title               "Playa de Benzú" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/356/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:145  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "145" ;
+        dc:created             "2012-12-19"^^xsd:date ;
+        dc:identifier          "145" ;
+        dc:title               "Punta de las Calderas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/145/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/94/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.8045125 37.58343089856845, -0.7856923300000002 37.56803959856866)"^^geosparql:wktLiteral .
+
+georec:326  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "326" ;
+        dc:created             "2013-05-08"^^xsd:date ;
+        dc:identifier          "326" ;
+        dc:title               "Illas Sisargas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/326/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:200  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "200" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "200" ;
+        dc:title               "Caleta del Congrio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/200/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/220/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.845621280000001 28.406047628759794, -13.81270965 28.404998638759828)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/63/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.3678551699999997 37.53729950856906, -1.3326866800000003 37.50853188856945)"^^geosparql:wktLiteral .
+
+georec:115  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "115" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "115" ;
+        dc:title               "Playa de Torre Derribada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/115/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/166/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-7.0677954 37.20682049857352, -7.031770379999999 37.19947298857362)"^^geosparql:wktLiteral .
+
+georec:91  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "91" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "91" ;
+        dc:title               "Playa Calblanque" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/91/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:61  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "61" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "61" ;
+        dc:title               "Playa de Parazuelos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/61/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/192/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.43679971 29.221630338737345, -13.405164359999997 29.22068245873736)"^^geosparql:wktLiteral .
+
+georec:368  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "368" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "368" ;
+        dc:title               "Playa del Quemado" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/368/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/279/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.16302629 42.75975552852418, -9.12270187 42.76171201852418)"^^geosparql:wktLiteral .
+
+georec:31  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "31" ;
+        dc:created             "2011-03-25"^^xsd:date ;
+        dc:identifier          "31" ;
+        dc:title               "Aigua-xelida" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/31/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:212  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "212" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "212" ;
+        dc:title               "Caleta de la Madera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/212/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/205/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.869341470000006 28.75068092875019, -13.85170681 28.773513008749543)"^^geosparql:wktLiteral .
+
+georec:308  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "308" ;
+        dc:created             "2010-08-12"^^xsd:date ;
+        dc:identifier          "308" ;
+        dc:title               "Praia de S. Xurso" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/308/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:284  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "284" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "284" ;
+        dc:title               "Praia Xudemil" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/284/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/17/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.6903542300000005 43.407335338522024, -2.61973561 43.44986542852191)"^^geosparql:wktLiteral .
+
+georec:199  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "199" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "199" ;
+        dc:title               "Caleta Negra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/199/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:73  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "73" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "73" ;
+        dc:title               "Cala del Moro Santo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/73/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/74/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.20371669 37.55613083856882, -1.1726309200000005 37.55600977856882)"^^geosparql:wktLiteral .
+
+georec:169  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "169" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "169" ;
+        dc:title               "S'Albufera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/169/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/318/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.265777570000001 43.39942769852204, -8.252929939999996 43.39037992852208, -8.24273731 43.38183289852209, -8.227735019999999 43.35992681852215)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/356/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.3720403600000015 35.917036178593946, -5.36881146 35.91711290859394)"^^geosparql:wktLiteral .
+
+georec:224  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "224" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "224" ;
+        dc:title               "Caleta del Bajo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/224/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/344/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.87835862 43.5681402385216, -6.873074929999999 43.56825706852161)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/31/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.2198423799999993 41.91762252852814, 3.25002341 41.91753823852814)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/313/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.38479857 43.342162838522206, -8.3682981 43.35130273852217)"^^geosparql:wktLiteral .
+
+georec:296  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "296" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "296" ;
+        dc:title               "Praia de Traba" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/296/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/103/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7157143699999999 37.658263288567476, -0.6530525200000001 37.65751172856749)"^^geosparql:wktLiteral .
+
+georec:109  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "109" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "109" ;
+        dc:title               "Playa Ensenada del Esparto" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/109/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:2  a                    btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "2" ;
+        dc:created             "2012-02-12"^^xsd:date ;
+        dc:identifier          "2" ;
+        dc:title               "Roquetas Roches" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/2/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:170  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "170" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "170" ;
+        dc:title               "Sa Colarsega" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/170/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:85  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "85" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "85" ;
+        dc:title               "Canto de la Manceba" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/85/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/370/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.9369289800000002 35.2852647086042, -2.93356634 35.2852275086042)"^^geosparql:wktLiteral .
+
+georec:351  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "351" ;
+        dc:created             "2013-02-04"^^xsd:date ;
+        dc:identifier          "351" ;
+        dc:title               "Ría de Villaviciosa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/351/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:55  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "55" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "55" ;
+        dc:title               "Playa de Levante" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/55/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:321  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "321" ;
+        dc:created             "2013-05-03"^^xsd:date ;
+        dc:identifier          "321" ;
+        dc:title               "Ría de Camariñas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/321/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/97/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.0397888300000002 37.57379538856858, -1.0253674100000005 37.5736825085686)"^^geosparql:wktLiteral .
+
+georec:110  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "110" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "110" ;
+        dc:title               "Punta del Pudrider" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/110/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/28/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.151809529999999 43.29924619852231, -2.12787422 43.29896086852235)"^^geosparql:wktLiteral .
+
+georec:25  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "25" ;
+        dc:created             "2012-04-25"^^xsd:date ;
+        dc:identifier          "25" ;
+        dc:title               "Ría de Zumaia / Zumaiako Itsasadarra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/25/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:206  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "206" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "206" ;
+        dc:title               "Caleta del Bajo Almejillón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/206/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/54/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.5951958799999997 37.39630004857094, -1.55443938 37.395808718570954)"^^geosparql:wktLiteral .
+
+georec:97  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "97" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "97" ;
+        dc:title               "Playa de Fatares" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/97/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:363  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "363" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "363" ;
+        dc:title               "Playa de Tramaguera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/363/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:278  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "278" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "278" ;
+        dc:title               "Praia de Areas Longas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/278/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:152  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "152" ;
+        dc:created             "2010-09-28"^^xsd:date ;
+        dc:identifier          "152" ;
+        dc:title               "Costa de la Grajuela" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/152/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/80/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.0767754899999997 37.57628733856855, -1.04035035 37.576167288568556)"^^geosparql:wktLiteral .
+
+georec:67  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "67" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "67" ;
+        dc:title               "Playa de Piedra Mala" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/67/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/324/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.95409727 42.52613634852516, -8.937318590000002 42.538729718525104, -8.912410869999999 42.555915138525044, -8.900225649999998 42.56250583852501)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/114/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7525734399999997 37.804887928565584, -0.68584837 37.804553788565585)"^^geosparql:wktLiteral .
+
+georec:303  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "303" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "303" ;
+        dc:title               "Praia de Barrañan" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/303/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/350/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.577477600000001 43.393790898522056, -4.566543629999999 43.399507518522036)"^^geosparql:wktLiteral .
+
+georec:218  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "218" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "218" ;
+        dc:title               "Caleta Blanca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/218/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/296/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.072776290000002 43.19757412852264, -9.03839376 43.197252838522644)"^^geosparql:wktLiteral .
+
+georec:194  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "194" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "194" ;
+        dc:title               "Caleta de las Aulagas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/194/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:79  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "79" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "79" ;
+        dc:title               "Cala Aguilar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/79/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/291/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.300759809999999 42.9712626185234, -9.263311729999996 42.9711782185234)"^^geosparql:wktLiteral .
+
+georec:345  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "345" ;
+        dc:created             "2013-01-29"^^xsd:date ;
+        dc:identifier          "345" ;
+        dc:title               "Islotes Cónicos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/345/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/222/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.823974000000003 28.571137938755164, -13.789267519999997 28.57083269875518)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/65/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.3525028899999998 37.55122433856888, -1.3078668200000003 37.51536768856934)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/347/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.71171519 43.56871580852161, -5.703705909999999 43.59771146852153)"^^geosparql:wktLiteral .
+
+georec:315  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "315" ;
+        dc:created             "2013-05-03"^^xsd:date ;
+        dc:identifier          "315" ;
+        dc:title               "Ría de Cedeira" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/315/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:291  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "291" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "291" ;
+        dc:title               "Praia do Rostro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/291/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:104  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "104" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "104" ;
+        dc:title               "Playa Matas Gordas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/104/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/91/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7307597100000002 37.59961164856826, -0.6841042100000001 37.59894448856826)"^^geosparql:wktLiteral .
+
+georec:80  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "80" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "80" ;
+        dc:title               "Playa del Portús" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/80/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/194/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.421399879999997 29.15826220873905, -13.383223379999999 29.15838123873904)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/60/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.43852236 37.49631971856961, -1.4048373299999999 37.4963488185696)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/219/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.857101360000001 28.38584369876036, -13.822665189999997 28.386125058760353)"^^geosparql:wktLiteral .
+
+georec:357  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "357" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "357" ;
+        dc:title               "Playa de Calamocarro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/357/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/207/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-14.006119100000001 28.71843283875107, -13.987602119999998 28.746256228750305)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/245/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.926390970000003 42.3188211385261, -8.795575559999998 42.37039424852586)"^^geosparql:wktLiteral .
+
+georec:201  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "201" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "201" ;
+        dc:title               "Caleta Larga" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/201/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/88/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7543286199999999 37.59694783856828, -0.73640584 37.58222903856847)"^^geosparql:wktLiteral .
+
+georec:116  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "116" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "116" ;
+        dc:title               "Los Esculls de Punta de Algas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/116/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:92  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "92" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "92" ;
+        dc:title               "Playa de los Nietos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/92/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/358/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.3386749600000005 35.89692867859428, -5.33440479 35.894577588594316)"^^geosparql:wktLiteral .
+
+georec:62  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "62" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "62" ;
+        dc:title               "Playa Percheles" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/62/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/45/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (3.2283847700000003 42.04922202852744, 3.2385445 42.049201358527455)"^^geosparql:wktLiteral .
+
+georec:369  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "369" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "369" ;
+        dc:title               "Cala del Galápago" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/369/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/71/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.4695567100000002 37.46682999857, -1.41875822 37.466400628570014)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/315/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.09183063 43.67679910852134, -8.085256579999998 43.67008417852136, -8.08087144 43.662175108521375, -8.07610211 43.6467522785214)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/105/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.77385078 37.760007948566184, -0.7476029300000001 37.75974856856617)"^^geosparql:wktLiteral .
+
+georec:128  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "128" ;
+        dc:created             "2013-06-05"^^xsd:date ;
+        dc:identifier          "128" ;
+        dc:title               "Ría de Tina Mayor" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/128/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:309  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "309" ;
+        dc:created             "2010-08-12"^^xsd:date ;
+        dc:identifier          "309" ;
+        dc:title               "Praia de Sta. Comba" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/309/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:370  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "370" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "370" ;
+        dc:title               "Playa de San Lorenzo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/370/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/341/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.725222599999999 43.55658409852164, -6.69251354 43.58611041852155)"^^geosparql:wktLiteral .
+
+georec:74  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "74" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "74" ;
+        dc:title               "Playa de San Ginés" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/74/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/310/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.19181389 43.63480675852142, -8.174080079999998 43.62470607852146, -8.15952915 43.616639978521484)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/100/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7289709 37.67816666856722, -0.6940157400000001 37.67772763856722)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/99/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.78244789 37.71464595856674, -0.7438500700000001 37.71439248856675)"^^geosparql:wktLiteral .
+
+georec:310  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "310" ;
+        dc:created             "2010-08-12"^^xsd:date ;
+        dc:identifier          "310" ;
+        dc:title               "Praia da Frouxeira" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/310/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/282/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.072177400000001 42.55763994852502, -9.032614540000003 42.55777233852503)"^^geosparql:wktLiteral .
+
+georec:225  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "225" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "225" ;
+        dc:title               "Caleta de la Rasca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/225/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/369/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.93471731 35.29597226860403, -2.934224129999999 35.296328548604016, -2.9333251300000014 35.29656575860402, -2.93231014 35.296802898604014)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/56/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.48059305 37.42377963857058, -1.45055462 37.42338963857059)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/197/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.633045350000002 29.122100438740027, -13.62053312 29.14456775873942)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/25/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.24485896 43.30832481852231, -2.2285808000000005 43.318117228522276, -2.213021479999999 43.32770159852225)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/128/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.512279700000001 43.39328809852206, -4.477499140000001 43.42481352852197)"^^geosparql:wktLiteral .
+
+georec:297  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "297" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "297" ;
+        dc:title               "Praia de Laxe" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/297/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:3  a                    btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "3" ;
+        dc:created             "2012-02-12"^^xsd:date ;
+        dc:identifier          "3" ;
+        dc:title               "Gola del Trenc" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/3/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/6/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.3528373400000001 40.29890064853931, 0.41283318 40.29836530853931)"^^geosparql:wktLiteral .
+
+georec:86  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "86" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "86" ;
+        dc:title               "Cala de las Mulas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/86/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/82/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.8699691900000001 37.57561080856856, -0.8443717600000001 37.555018758568835)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/364/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.32358659 35.880433308594526, -5.322072490000002 35.882570398594495, -5.321095660000002 35.88382647859447, -5.319836090000001 35.885042188594454)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/51/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.6388719700000001 40.60723375853681, 0.69695585 40.60805565853681)"^^geosparql:wktLiteral .
+
+georec:141  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "141" ;
+        dc:created             "2012-12-19"^^xsd:date ;
+        dc:identifier          "141" ;
+        dc:title               "Playa de la Azucena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/141/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:56  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "56" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "56" ;
+        dc:title               "Cala del Rayo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/56/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:322  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "322" ;
+        dc:created             "2013-05-03"^^xsd:date ;
+        dc:identifier          "322" ;
+        dc:title               "Ría de Lires" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/322/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/321/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.236948619999998 43.1231457785229, -9.22337356 43.1195386085229, -9.21046821 43.117866988522906, -9.19393 43.117653918522905, -9.16979143 43.11987295852291)"^^geosparql:wktLiteral .
+
+georec:111  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "111" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "111" ;
+        dc:title               "Escull de la Caleta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/111/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:26  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "26" ;
+        dc:created             "2012-04-25"^^xsd:date ;
+        dc:identifier          "26" ;
+        dc:title               "Ría de Orio / Orioko Itsasadarra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/26/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/111/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7427177 37.78145846856589, -0.7007747699999998 37.78088666856591)"^^geosparql:wktLiteral .
+
+georec:207  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "207" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "207" ;
+        dc:title               "Caleta del Marrajo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/207/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/79/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.10897791 37.5648268185687, -1.08098275 37.56485415856869)"^^geosparql:wktLiteral .
+
+georec:98  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "98" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "98" ;
+        dc:title               "La Podadera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/98/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:364  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "364" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "364" ;
+        dc:title               "Playa del Chorrillo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/364/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:279  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "279" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "279" ;
+        dc:title               "Praia de Lariño" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/279/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/349/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.786149810000003 43.43181058852195, -4.78072024 43.438089788521935)"^^geosparql:wktLiteral .
+
+georec:249  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "249" ;
+        dc:created             "2013-06-14"^^xsd:date ;
+        dc:identifier          "249" ;
+        dc:title               "RÍA DE VIGO" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/249/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/108/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.71986189 37.739328218566435, -0.67703133 37.73897066856644)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/62/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.38586221 37.525565588569215, -1.3642113500000002 37.52502797856923)"^^geosparql:wktLiteral .
+
+georec:219  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "219" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "219" ;
+        dc:title               "Caleta de Fustes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/219/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/306/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.364912620000002 43.49809140852177, -8.34204006 43.49748746852177, -8.31975902 43.498361498521795)"^^geosparql:wktLiteral .
+
+georec:280  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "280" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "280" ;
+        dc:title               "Praia de Carnota" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/280/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/191/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.48286163 29.25088246873655, -13.44182366 29.250218938736577)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/301/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.73007338 43.3124084085223, -8.711689070000002 43.292064968522354)"^^geosparql:wktLiteral .
+
+georec:346  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "346" ;
+        dc:created             "2013-01-29"^^xsd:date ;
+        dc:identifier          "346" ;
+        dc:title               "Islotes de Illones" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/346/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/247/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.847546740000004 42.321896938526095, -8.82989445 42.28389507852627)"^^geosparql:wktLiteral .
+
+georec:220  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "220" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "220" ;
+        dc:title               "Caleta del Espino" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/220/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/59/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.4583567200000005 37.482441898569796, -1.4321981 37.48233722856979)"^^geosparql:wktLiteral .
+
+georec:316  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "316" ;
+        dc:created             "2013-05-03"^^xsd:date ;
+        dc:identifier          "316" ;
+        dc:title               "Ría de Ferrol" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/316/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:105  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "105" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "105" ;
+        dc:title               "Playa Chica" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/105/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:81  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "81" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "81" ;
+        dc:title               "Playa de Gorguel" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/81/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/47/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (2.57500615 41.58066702853009, 2.59553392 41.58045778853008)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/85/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.8123668300000002 37.57910943856853, -0.7803304400000002 37.55287317856885, -0.78031622 37.55335212856885)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/16/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.991175239999999 43.435955318521934, -2.9574789600000004 43.41635069852201)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/119/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.70088538 37.628530038567874, -0.6933308599999998 37.62823212856786)"^^geosparql:wktLiteral .
+
+georec:51  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "51" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "51" ;
+        dc:title               "Port dels Alfacs" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/51/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/73/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.2505740900000002 37.55982194856877, -1.22060839 37.55953096856876)"^^geosparql:wktLiteral .
+
+georec:358  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "358" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "358" ;
+        dc:title               "Playa de Benítez" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/358/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/355/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.381746429999999 35.91319871859401, -5.37979954 35.915153618593976)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/145/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.4502397199999995 36.693099818580826, -3.4291686900000005 36.69341664858083)"^^geosparql:wktLiteral .
+
+georec:117  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "117" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "117" ;
+        dc:title               "Playa de Palo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/117/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:93  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "93" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "93" ;
+        dc:title               "Cala Hierro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/93/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/312/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.09347919 42.70106184852443, -9.067576509999999 42.719004628524345, -9.02869367 42.744115278524276, -8.985726310000004 42.762042418524196)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/102/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.70947813 37.64544345856766, -0.65706563 37.64489283856765)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/258/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.87889834 42.136765568527004, -8.827625320000003 42.12878497852704)"^^geosparql:wktLiteral .
+
+georec:63  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "63" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "63" ;
+        dc:title               "Playa de las Covaticas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/63/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/284/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.06658287 42.67808987852453, -9.03083528 42.678695788524514)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/96/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.0106001900000001 37.57981263856851, -0.9934468999999999 37.57952218856851)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/199/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.90305222 28.872565588746827, -13.877817000000002 28.87235784874684)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/27/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.9284319099999998 43.33981936852221, -1.9141657199999997 43.36296251852215, -1.904210640000001 43.3786668585221)"^^geosparql:wktLiteral .
+
+georec:129  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "129" ;
+        dc:created             "2012-12-15"^^xsd:date ;
+        dc:identifier          "129" ;
+        dc:title               "Ría de Tina Menor" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/129/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/309/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.314388599999997 43.58922255852154, -8.30079185 43.5737470585216, -8.29098167 43.559268808521615)"^^geosparql:wktLiteral .
+
+georec:190  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "190" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "190" ;
+        dc:title               "Boca Barranco" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/190/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/210/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-14.198888210000003 28.423235438759317, -14.154478940000002 28.422775378759326)"^^geosparql:wktLiteral .
+
+georec:371  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "371" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "371" ;
+        dc:title               "Playa de los Cárabos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/371/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/53/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.60273243 37.39202623857099, -1.5535291699999998 37.39143448857101)"^^geosparql:wktLiteral .
+
+georec:286  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "286" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "286" ;
+        dc:title               "Praia de Cedeira" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/286/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:75  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "75" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "75" ;
+        dc:title               "Cala Cerrada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/75/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:341  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "341" ;
+        dc:created             "2013-01-25"^^xsd:date ;
+        dc:identifier          "341" ;
+        dc:title               "Ría de Navia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/341/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/3/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.2108745200000001 40.18113957854031, 0.24391985 40.18125602854029)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/323/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.19428121 42.89020764852369, -9.183700939999998 42.899625498523655, -9.173944970000003 42.913041258523606, -9.1717998 42.924444908523576)"^^geosparql:wktLiteral .
+
+georec:45  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "45" ;
+        dc:created             "2012-10-16"^^xsd:date ;
+        dc:identifier          "45" ;
+        dc:title               "Islas Medas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/45/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:100  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "100" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "100" ;
+        dc:title               "Playa Bellavista" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/100/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:298  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "298" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "298" ;
+        dc:title               "Praia de Riocovo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/298/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:87  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "87" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "87" ;
+        dc:title               "Cala del Reventón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/87/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/76/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.15174889 37.53938565856903, -1.13287421 37.523992478569234)"^^geosparql:wktLiteral .
+
+georec:353  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "353" ;
+        dc:created             "2013-01-30"^^xsd:date ;
+        dc:identifier          "353" ;
+        dc:title               "Ría de Avilés" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/353/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:142  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "142" ;
+        dc:created             "2012-12-19"^^xsd:date ;
+        dc:identifier          "142" ;
+        dc:title               "Puntà de Jesús" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/142/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:57  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "57" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "57" ;
+        dc:title               "Playa de Rambla Elena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/57/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/221/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.826051659999997 28.559856798755483, -13.7859222 28.559886788755477)"^^geosparql:wktLiteral .
+
+georec:323  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "323" ;
+        dc:created             "2013-05-03"^^xsd:date ;
+        dc:identifier          "323" ;
+        dc:title               "Ría de Corcubión" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/323/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/346/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.751088619999999 43.568422938521586, -6.7466703 43.572149008521585)"^^geosparql:wktLiteral .
+
+georec:112  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "112" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "112" ;
+        dc:title               "Playa la Llana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/112/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:27  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "27" ;
+        dc:created             "2012-04-25"^^xsd:date ;
+        dc:identifier          "27" ;
+        dc:title               "Ría de Pasaia / Pasaiako Itsasadarra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/27/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:208  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "208" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "208" ;
+        dc:title               "Caleta de la Aduana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/208/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/372/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.9320953800000003 35.27621775860436, -2.9275155099999997 35.27621510860436)"^^geosparql:wktLiteral .
+
+georec:99  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "99" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "99" ;
+        dc:title               "Punta el Bolondo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/99/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/303/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.57573833 43.33917917852221, -8.56469931 43.32790386852224, -8.549661720000001 43.314674038522284)"^^geosparql:wktLiteral .
+
+georec:365  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "365" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "365" ;
+        dc:title               "Playa de la Ribera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/365/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/249/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.769211420000003 42.23151425852653, -8.733930039999997 42.24971057852645, -8.70815266 42.26376768852637)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/287/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.899843770000002 42.6346393885247, -8.879147870000004 42.63420347852471)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/218/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.87403977 28.340403428761643, -13.84568493 28.34016642876165)"^^geosparql:wktLiteral .
+
+georec:69  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "69" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "69" ;
+        dc:title               "La Galerica" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/69/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/87/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7763984599999999 37.594011428568315, -0.7484798199999999 37.57119864856863)"^^geosparql:wktLiteral .
+
+georec:281  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "281" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "281" ;
+        dc:title               "Praia de Louro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/281/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:70  a                   btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "70" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "70" ;
+        dc:title               "Piedras Negras" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/70/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/201/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.770815970000001 28.850550968747434, -13.743641390000002 28.84934302874745)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/357/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.35835507 35.913768848593996, -5.354497000000001 35.91141040859404)"^^geosparql:wktLiteral .
+
+georec:166  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "166" ;
+        dc:created             "2013-01-21"^^xsd:date ;
+        dc:identifier          "166" ;
+        dc:title               "Barra El Rompido" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/166/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/326/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.84705385 43.36650596852215, -8.801587330000002 43.36643612852213)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/116/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-0.7526498800000001 37.80829772856556, -0.7043790099999999 37.80767237856556)"^^geosparql:wktLiteral .
+
+georec:347  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "347" ;
+        dc:created             "2013-01-31"^^xsd:date ;
+        dc:identifier          "347" ;
+        dc:title               "Ría de Aboño" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/347/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:221  a                  btn100:EntidadVirtualAccidenteMaritimo ;
+        rdfs:label             "221" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "221" ;
+        dc:title               "Caleta de la Tabaiba" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/221/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/entidad-virtual-accidente-maritimo/70/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.47249937 37.461231298570084, -1.42170461 37.46080327857008)"^^geosparql:wktLiteral .
+

@@ -1,0 +1,2040 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/cabo/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:899  a                  btn100:Cabo ;
+        rdfs:label             "899" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "899" ;
+        dc:title               "Cap d'Artrutx" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/899/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:688  a                  btn100:Cabo ;
+        rdfs:label             "688" ;
+        dc:created             "2013-05-07"^^xsd:date ;
+        dc:identifier          "688" ;
+        dc:title               "Cabo Sacratif" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/688/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1933  a                 btn100:Cabo ;
+        rdfs:label             "1933" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1933" ;
+        dc:title               "Cabo Touriñán" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1933/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/339/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1709796000000003 42.41638509852566)"^^geosparql:wktLiteral .
+
+georec:839  a                  btn100:Cabo ;
+        rdfs:label             "839" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "839" ;
+        dc:title               "Cap de Favàritx" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/839/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/396/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.1720504999999999 41.055147398533514)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/155/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.1152328 38.67373699855519)"^^geosparql:wktLiteral .
+
+georec:996  a                  btn100:Cabo ;
+        rdfs:label             "996" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "996" ;
+        dc:title               "Cap de ses Savines" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/996/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/391/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3900659999999998 41.131700798532975)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/688/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.4679901 36.69353839858083)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1209/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4366422800000005 39.635205328545226)"^^geosparql:wktLiteral .
+
+georec:278  a                  btn100:Cabo ;
+        rdfs:label             "278" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "278" ;
+        dc:title               "Cap de Sant Sebastià" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/278/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1320/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7875395 39.362933198547886)"^^geosparql:wktLiteral .
+
+georec:459  a                  btn100:Cabo ;
+        rdfs:label             "459" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "459" ;
+        dc:title               "Cabo Negrete" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/459/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/855/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.3084275 39.89886629854278)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1025/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2866159 38.990286498551725)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1292/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.976583700000001 39.15807129854996)"^^geosparql:wktLiteral .
+
+georec:218  a                  btn100:Cabo ;
+        rdfs:label             "218" ;
+        dc:created             "2012-04-27"^^xsd:date ;
+        dc:identifier          "218" ;
+        dc:title               "Cabo Higer / Higer Lurmuturra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/218/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/319/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2929984999999986 42.3006208985262)"^^geosparql:wktLiteral .
+
+georec:1354  a                 btn100:Cabo ;
+        rdfs:label             "1354" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1354" ;
+        dc:title               "Cap des Falcó" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1354/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:2059  a                 btn100:Cabo ;
+        rdfs:label             "2059" ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "2059" ;
+        dc:title               "Cabo Prieto" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/2059/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1374/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.386927700000001 39.52087999854632)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1904/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.0611694 42.617692998524774)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/512/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6947185999999994 43.48007429852183)"^^geosparql:wktLiteral .
+
+georec:1209  a                 btn100:Cabo ;
+        rdfs:label             "1209" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1209" ;
+        dc:title               "Cap des Pinar o des Raix" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1209/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:291  a                  btn100:Cabo ;
+        rdfs:label             "291" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "291" ;
+        dc:title               "Cap de la Barra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/291/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1930/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.298613700000002 42.922277298523575)"^^geosparql:wktLiteral .
+
+georec:76  a                   btn100:Cabo ;
+        rdfs:label             "76" ;
+        dc:created             "2011-12-30"^^xsd:date ;
+        dc:identifier          "76" ;
+        dc:title               "Cabo Roig" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/76/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:176  a                  btn100:Cabo ;
+        rdfs:label             "176" ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "176" ;
+        dc:title               "Cap de Sant Antoni" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/176/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1939  a                 btn100:Cabo ;
+        rdfs:label             "1939" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1939" ;
+        dc:title               "Cabo Veo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1939/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1005/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2479705000000003 38.855808698553176)"^^geosparql:wktLiteral .
+
+georec:1336  a                 btn100:Cabo ;
+        rdfs:label             "1336" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1336" ;
+        dc:title               "Cap de Paret des Puig de Ros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1336/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:749  a                  btn100:Cabo ;
+        rdfs:label             "749" ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "749" ;
+        dc:title               "Cabo Roche" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/749/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1062/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3907589000000005 38.64085049855555)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/861/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.282035499999999 39.80193859854367)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/2056/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.243503099999999 43.595143098521525)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1958/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.3410931 43.45836679852187)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1031/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2899513 39.02823259855133)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1328/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7395241999999995 39.411312998547395)"^^geosparql:wktLiteral .
+
+georec:508  a                  btn100:Cabo ;
+        rdfs:label             "508" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "508" ;
+        dc:title               "Cabo Menor" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/508/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:2072  a                 btn100:Cabo ;
+        rdfs:label             "2072" ;
+        dc:created             "2013-06-11"^^xsd:date ;
+        dc:identifier          "2072" ;
+        dc:title               "Cabo Lastres" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/2072/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:273  a                  btn100:Cabo ;
+        rdfs:label             "273" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "273" ;
+        dc:title               "Cap de Roques Planes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/273/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1354/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.535769799999999 39.48668069854665)"^^geosparql:wktLiteral .
+
+georec:2042  a                 btn100:Cabo ;
+        rdfs:label             "2042" ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "2042" ;
+        dc:title               "Cabo San Agustín" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/2042/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/313/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2644076 42.23797749852649)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/469/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.1188123 37.533957398569115)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/259/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9538032000000003 41.7312124985292)"^^geosparql:wktLiteral .
+
+georec:2012  a                 btn100:Cabo ;
+        rdfs:label             "2012" ;
+        dc:created             "2013-01-02"^^xsd:date ;
+        dc:identifier          "2012" ;
+        dc:title               "Cabo Burela" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/2012/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:28  a                   btn100:Cabo ;
+        rdfs:label             "28" ;
+        dc:created             "2012-01-14"^^xsd:date ;
+        dc:identifier          "28" ;
+        dc:title               "Cabo de Oropesa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/28/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:339  a                  btn100:Cabo ;
+        rdfs:label             "339" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "339" ;
+        dc:title               "Cap Marcer" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/339/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/285/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2336001999999997 41.95060039852797)"^^geosparql:wktLiteral .
+
+georec:496  a                  btn100:Cabo ;
+        rdfs:label             "496" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "496" ;
+        dc:title               "Cabo de Oyambre" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/496/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1672/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.8391623 42.339124598526)"^^geosparql:wktLiteral .
+
+georec:285  a                  btn100:Cabo ;
+        rdfs:label             "285" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "285" ;
+        dc:title               "Cap de Begur" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/285/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1042/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4750284999999996 39.10549369855051)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1759/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.6849585 42.4074747985257)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1339/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.722005899999999 39.476129998546746)"^^geosparql:wktLiteral .
+
+georec:521  a                  btn100:Cabo ;
+        rdfs:label             "521" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "521" ;
+        dc:title               "Cabo de Quejo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/521/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/756/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.034170100000001 36.18095339858988)"^^geosparql:wktLiteral .
+
+georec:310  a                  btn100:Cabo ;
+        rdfs:label             "310" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "310" ;
+        dc:title               "Cap Trencat" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/310/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1926/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.2091497 42.91639999852359)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/126/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.3914548000000001 38.41532719855814)"^^geosparql:wktLiteral .
+
+georec:171  a                  btn100:Cabo ;
+        rdfs:label             "171" ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "171" ;
+        dc:title               "Cap de Sant Martí" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/171/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1904  a                 btn100:Cabo ;
+        rdfs:label             "1904" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1904" ;
+        dc:title               "Cabo Teira" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1904/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1035  a                 btn100:Cabo ;
+        rdfs:label             "1035" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1035" ;
+        dc:title               "Cap d'en Mosson" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1035/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1206/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4552314999999996 39.65515439854504)"^^geosparql:wktLiteral .
+
+georec:1005  a                 btn100:Cabo ;
+        rdfs:label             "1005" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1005" ;
+        dc:title               "Cap Llentrisca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1005/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/291/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2123125000000003 42.053977198527434)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1949/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.53263712 43.34880664852219)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/432/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8762260700000003 40.72083159853594)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/260/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.960035299999999 41.73737839852914)"^^geosparql:wktLiteral .
+
+georec:1946  a                 btn100:Cabo ;
+        rdfs:label             "1946" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1946" ;
+        dc:title               "Cabo San Adrián" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1946/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:364  a                  btn100:Cabo ;
+        rdfs:label             "364" ;
+        dc:created             "2012-03-26"^^xsd:date ;
+        dc:identifier          "364" ;
+        dc:title               "Cap de Sant Pere" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/364/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:756  a                  btn100:Cabo ;
+        rdfs:label             "756" ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "756" ;
+        dc:title               "Cabo Trafalgar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/756/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1906/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.886944500000002 42.6104994985248)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/583/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.1932122600000006 36.721070008580426)"^^geosparql:wktLiteral .
+
+georec:334  a                  btn100:Cabo ;
+        rdfs:label             "334" ;
+        dc:created             "2013-05-22"^^xsd:date ;
+        dc:identifier          "334" ;
+        dc:title               "Cap de Ras" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/334/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:123  a                  btn100:Cabo ;
+        rdfs:label             "123" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "123" ;
+        dc:title               "Cap de l'Horta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/123/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1371/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4194399999999994 39.52289399854631)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/288/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2315933000000006 41.96879339852787)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1286/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9171462 39.16167549854993)"^^geosparql:wktLiteral .
+
+georec:1174  a                 btn100:Cabo ;
+        rdfs:label             "1174" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1174" ;
+        dc:title               "Cap de Menorca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1174/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1958  a                 btn100:Cabo ;
+        rdfs:label             "1958" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1958" ;
+        dc:title               "Cabo Prioriño Chico" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1958/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1007/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2220039 38.878600298552925)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1694/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.7782921 42.2176486985266)"^^geosparql:wktLiteral .
+
+georec:823  a                  btn100:Cabo ;
+        rdfs:label             "823" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "823" ;
+        dc:title               "Cap Fornells" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/823/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1033/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3110384000000002 39.044514698551154)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1929/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.1831186 42.91609509852359)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1986/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.869952900000001 43.774012298521136)"^^geosparql:wktLiteral .
+
+georec:1186  a                 btn100:Cabo ;
+        rdfs:label             "1186" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1186" ;
+        dc:title               "Cap Ferrutx" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1186/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1367  a                 btn100:Cabo ;
+        rdfs:label             "1367" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1367" ;
+        dc:title               "Cap Negret" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1367/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1759  a                 btn100:Cabo ;
+        rdfs:label             "1759" ;
+        dc:created             "2013-02-14"^^xsd:date ;
+        dc:identifier          "1759" ;
+        dc:title               "Cabo o Placeres" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1759/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1382/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3378984000000003 39.59838899854557)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/310/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2253526999999997 42.2374655985265)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1018/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2154246 38.95630489855209)"^^geosparql:wktLiteral .
+
+georec:509  a                  btn100:Cabo ;
+        rdfs:label             "509" ;
+        dc:created             "2013-06-06"^^xsd:date ;
+        dc:identifier          "509" ;
+        dc:title               "Cabo de Lata" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/509/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/28/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.1475931 40.082994998541125)"^^geosparql:wktLiteral .
+
+georec:89  a                   btn100:Cabo ;
+        rdfs:label             "89" ;
+        dc:created             "2012-01-03"^^xsd:date ;
+        dc:identifier          "89" ;
+        dc:title               "Cabo Cervera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/89/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1379  a                 btn100:Cabo ;
+        rdfs:label             "1379" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1379" ;
+        dc:title               "Es Cap des Falcons" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1379/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1379/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3544656 39.55764719854598)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1169/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1674384 39.87777189854295)"^^geosparql:wktLiteral .
+
+georec:1042  a                 btn100:Cabo ;
+        rdfs:label             "1042" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1042" ;
+        dc:title               "Cap Blanc" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1042/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/2064/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.6176391 43.55900519852162)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1195/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.4613410000000004 39.747996098544164)"^^geosparql:wktLiteral .
+
+georec:510  a                  btn100:Cabo ;
+        rdfs:label             "510" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "510" ;
+        dc:title               "Cabo Mayor" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/510/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/994/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3692980000000001 38.835957798553395)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1336/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7434953 39.44668809854706)"^^geosparql:wktLiteral .
+
+georec:425  a                  btn100:Cabo ;
+        rdfs:label             "425" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "425" ;
+        dc:title               "Cap Roig" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/425/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/364/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.67925256 41.199419248532514)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1992/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.6617891 43.77737109852112)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/123/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.4034722000000001 38.35285629855888)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1152/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2135905000000005 39.96251429854221)"^^geosparql:wktLiteral .
+
+georec:1265  a                 btn100:Cabo ;
+        rdfs:label             "1265" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1265" ;
+        dc:title               "Es Còdol Negre" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1265/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1320  a                 btn100:Cabo ;
+        rdfs:label             "1320" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1320" ;
+        dc:title               "Cap Blanc" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1320/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/2134/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.839989300000001 43.66062179852138)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/2049/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.470226300000001 43.5711559985216)"^^geosparql:wktLiteral .
+
+georec:311  a                  btn100:Cabo ;
+        rdfs:label             "311" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "311" ;
+        dc:title               "Cap Blanc" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/311/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/823/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1299333 40.06355999854132)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1359/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.5217423999999995 39.45660069854694)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1401/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.6486201999999999 39.03173129855128)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/108/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.5099178000000001 38.202208198560676)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1946/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.841132499999999 43.345276798522185)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/764/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.825748299999999 36.10228869859108)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/2032/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.9460843 43.57498199852158)"^^geosparql:wktLiteral .
+
+georec:2037  a                 btn100:Cabo ;
+        rdfs:label             "2037" ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "2037" ;
+        dc:title               "Cabo Blanco" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/2037/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1670  a                 btn100:Cabo ;
+        rdfs:label             "1670" ;
+        dc:created             "2013-02-14"^^xsd:date ;
+        dc:identifier          "1670" ;
+        dc:title               "Cabo do Home" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1670/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:480  a                  btn100:Cabo ;
+        rdfs:label             "480" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "480" ;
+        dc:title               "Cabo Cope" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/480/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1374  a                 btn100:Cabo ;
+        rdfs:label             "1374" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1374" ;
+        dc:title               "Cap des Llamp" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1374/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:842  a                  btn100:Cabo ;
+        rdfs:label             "842" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "842" ;
+        dc:title               "Cap de Monsenyor Vives" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/842/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1035/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3440929999999998 39.06295479855097)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/273/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.093225 41.832561498528605)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/76/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.7198245999999999 37.91138059856424)"^^geosparql:wktLiteral .
+
+georec:2134  a                 btn100:Cabo ;
+        rdfs:label             "2134" ;
+        dc:created             "2013-01-31"^^xsd:date ;
+        dc:identifier          "2134" ;
+        dc:title               "Cabo de Peñas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/2134/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:938  a                  btn100:Cabo ;
+        rdfs:label             "938" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "938" ;
+        dc:title               "Cap des Nord" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/938/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/959/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.7946413999999984 39.99998999854186)"^^geosparql:wktLiteral .
+
+georec:2049  a                 btn100:Cabo ;
+        rdfs:label             "2049" ;
+        dc:created             "2013-06-11"^^xsd:date ;
+        dc:identifier          "2049" ;
+        dc:title               "Cabo Busto" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/2049/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/749/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.14007455 36.295059528586805)"^^geosparql:wktLiteral .
+
+georec:1706  a                 btn100:Cabo ;
+        rdfs:label             "1706" ;
+        dc:created             "2013-02-14"^^xsd:date ;
+        dc:identifier          "1706" ;
+        dc:title               "Cabo Silleiro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1706/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1103  a                 btn100:Cabo ;
+        rdfs:label             "1103" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1103" ;
+        dc:title               "Cap Gros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1103/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1290  a                 btn100:Cabo ;
+        rdfs:label             "1290" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1290" ;
+        dc:title               "Cap d'es Moro Botí" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1290/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/508/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.778621500000001 43.48583179852181)"^^geosparql:wktLiteral .
+
+georec:1018  a                 btn100:Cabo ;
+        rdfs:label             "1018" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1018" ;
+        dc:title               "Cap des Bou" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1018/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:516  a                  btn100:Cabo ;
+        rdfs:label             "516" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "516" ;
+        dc:title               "Cabo Quintrés" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/516/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1186/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.348201899999999 39.78932339854378)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/2012/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.3570971 43.67121189852135)"^^geosparql:wktLiteral .
+
+georec:462  a                  btn100:Cabo ;
+        rdfs:label             "462" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "462" ;
+        dc:title               "Cabo de Agua" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/462/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1322/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7731785999999996 39.37793599854774)"^^geosparql:wktLiteral .
+
+georec:1929  a                 btn100:Cabo ;
+        rdfs:label             "1929" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1929" ;
+        dc:title               "Cabo de Cee" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1929/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/171/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.2247965500000001 38.76418879855419)"^^geosparql:wktLiteral .
+
+georec:432  a                  btn100:Cabo ;
+        rdfs:label             "432" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "432" ;
+        dc:title               "Cap de Tortosa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/432/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1694  a                 btn100:Cabo ;
+        rdfs:label             "1694" ;
+        dc:created             "2013-06-14"^^xsd:date ;
+        dc:identifier          "1694" ;
+        dc:title               "Cabo do Mar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1694/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1398  a                 btn100:Cabo ;
+        rdfs:label             "1398" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1398" ;
+        dc:title               "Cap de s'Àguila" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1398/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:293  a                  btn100:Cabo ;
+        rdfs:label             "293" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "293" ;
+        dc:title               "Cap d'Ultrera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/293/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/2009/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.4364259 43.70110429852129)"^^geosparql:wktLiteral .
+
+georec:1930  a                 btn100:Cabo ;
+        rdfs:label             "1930" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1930" ;
+        dc:title               "Cabo da Nave" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1930/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:78  a                   btn100:Cabo ;
+        rdfs:label             "78" ;
+        dc:created             "2011-12-30"^^xsd:date ;
+        dc:identifier          "78" ;
+        dc:title               "Cabo Peñas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/78/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:2062  a                 btn100:Cabo ;
+        rdfs:label             "2062" ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "2062" ;
+        dc:title               "Cabo Torres" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/2062/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/199/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.946908999999999 43.43602649852194)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/519/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.5802981999999997 43.51240329852174)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/996/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4316231000000004 38.781537098554004)"^^geosparql:wktLiteral .
+
+georec:1031  a                 btn100:Cabo ;
+        rdfs:label             "1031" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1031" ;
+        dc:title               "Cap Nunó" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1031/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:2032  a                 btn100:Cabo ;
+        rdfs:label             "2032" ;
+        dc:created             "2013-06-11"^^xsd:date ;
+        dc:identifier          "2032" ;
+        dc:title               "Cabo Cebes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/2032/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1942  a                 btn100:Cabo ;
+        rdfs:label             "1942" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1942" ;
+        dc:title               "Cabo de Laxe" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1942/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1169  a                 btn100:Cabo ;
+        rdfs:label             "1169" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1169" ;
+        dc:title               "Cap Gros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1169/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/276/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1816954 41.87614009852835)"^^geosparql:wktLiteral .
+
+georec:456  a                  btn100:Cabo ;
+        rdfs:label             "456" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "456" ;
+        dc:title               "Cabo de Palos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/456/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:848  a                  btn100:Cabo ;
+        rdfs:label             "848" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "848" ;
+        dc:title               "Cap des Mestral" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/848/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/863/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.207103300000002 39.82532869854345)"^^geosparql:wktLiteral .
+
+georec:903  a                  btn100:Cabo ;
+        rdfs:label             "903" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "903" ;
+        dc:title               "Cap Negre" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/903/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:583  a                  btn100:Cabo ;
+        rdfs:label             "583" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "583" ;
+        dc:title               "Cabo de Gata" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/583/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1707/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.889324899999998 42.19199839852672)"^^geosparql:wktLiteral .
+
+georec:764  a                  btn100:Cabo ;
+        rdfs:label             "764" ;
+        dc:created             "2013-05-27"^^xsd:date ;
+        dc:identifier          "764" ;
+        dc:title               "Cabo de la Plata" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/764/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/2072/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.300090300000001 43.53568419852168)"^^geosparql:wktLiteral .
+
+georec:2056  a                 btn100:Cabo ;
+        rdfs:label             "2056" ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "2056" ;
+        dc:title               "Cabo Vidio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/2056/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:468  a                  btn100:Cabo ;
+        rdfs:label             "468" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "468" ;
+        dc:title               "Cabo Tiñoso" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/468/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:342  a                  btn100:Cabo ;
+        rdfs:label             "342" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "342" ;
+        dc:title               "Cap de Creus" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/342/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:257  a                  btn100:Cabo ;
+        rdfs:label             "257" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "257" ;
+        dc:title               "Cap de Tossa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/257/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1025  a                 btn100:Cabo ;
+        rdfs:label             "1025" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1025" ;
+        dc:title               "Cap Blanc" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1025/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1103/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6789323999999994 39.7982881985437)"^^geosparql:wktLiteral .
+
+georec:1206  a                 btn100:Cabo ;
+        rdfs:label             "1206" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1206" ;
+        dc:title               "Cap Vermell" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1206/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/848/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.278090899999998 39.966513098542165)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/218/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.7910624000000002 43.39590819852205)"^^geosparql:wktLiteral .
+
+georec:987  a                  btn100:Cabo ;
+        rdfs:label             "987" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "987" ;
+        dc:title               "Cap Martinet" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/987/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:861  a                  btn100:Cabo ;
+        rdfs:label             "861" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "861" ;
+        dc:title               "Cap de Llebeig" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/861/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1152  a                 btn100:Cabo ;
+        rdfs:label             "1152" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1152" ;
+        dc:title               "Cap de Formentor" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1152/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1936  a                 btn100:Cabo ;
+        rdfs:label             "1936" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1936" ;
+        dc:title               "Cabo Vilán" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1936/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/480/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.4914802000000005 37.4215283985706)"^^geosparql:wktLiteral .
+
+georec:1037  a                 btn100:Cabo ;
+        rdfs:label             "1037" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1037" ;
+        dc:title               "Cap des Mossons" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1037/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1997/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.8592742 43.76352069852117)"^^geosparql:wktLiteral .
+
+georec:1906  a                 btn100:Cabo ;
+        rdfs:label             "1906" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1906" ;
+        dc:title               "Cabo de Cruz" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1906/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1398/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2063468 38.98908049855175)"^^geosparql:wktLiteral .
+
+georec:927  a                  btn100:Cabo ;
+        rdfs:label             "927" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "927" ;
+        dc:title               "Cap Gros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/927/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/987/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4768254 38.91301809855257)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/411/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.1132171 41.071242698533375)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1367/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.4597072000000004 39.49882279854654)"^^geosparql:wktLiteral .
+
+georec:1007  a                 btn100:Cabo ;
+        rdfs:label             "1007" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1007" ;
+        dc:title               "Cap Blanc" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1007/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/326/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2382228000000013 42.348983398525974)"^^geosparql:wktLiteral .
+
+georec:396  a                  btn100:Cabo ;
+        rdfs:label             "396" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "396" ;
+        dc:title               "Cap de Salou" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/396/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1980/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.316425040000002 43.568994518521606)"^^geosparql:wktLiteral .
+
+georec:155  a                  btn100:Cabo ;
+        rdfs:label             "155" ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "155" ;
+        dc:title               "Cap Blanc o Punta Estrella" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/155/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1707  a                 btn100:Cabo ;
+        rdfs:label             "1707" ;
+        dc:created             "2013-02-14"^^xsd:date ;
+        dc:identifier          "1707" ;
+        dc:title               "Cabo dos Bicos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1707/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1265/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0717653000000005 39.268383098548846)"^^geosparql:wktLiteral .
+
+georec:1019  a                 btn100:Cabo ;
+        rdfs:label             "1019" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1019" ;
+        dc:title               "Cap des Blancar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1019/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:909  a                  btn100:Cabo ;
+        rdfs:label             "909" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "909" ;
+        dc:title               "Cap Menorca o Bajolí" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/909/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/293/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2122778 42.06830879852734)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1673/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.816124399999998 42.186860898526746)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/2037/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.8538731 43.57050799852159)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1939/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.150129200000002 43.19537149852266)"^^geosparql:wktLiteral .
+
+georec:855  a                  btn100:Cabo ;
+        rdfs:label             "855" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "855" ;
+        dc:title               "Cap Negre" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/855/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:167  a                  btn100:Cabo ;
+        rdfs:label             "167" ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "167" ;
+        dc:title               "Cap de la Nao" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/167/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/516/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6431553000000014 43.49894999852178)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/839/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.269853099999998 39.9965413985419)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/278/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.203013 41.891638298528285)"^^geosparql:wktLiteral .
+
+georec:1062  a                 btn100:Cabo ;
+        rdfs:label             "1062" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1062" ;
+        dc:title               "Cap de Barbaria" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1062/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1696/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.7871529 42.24852749852644)"^^geosparql:wktLiteral .
+
+georec:1901  a                 btn100:Cabo ;
+        rdfs:label             "1901" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1901" ;
+        dc:title               "Cabo Corrubedo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1901/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1339  a                 btn100:Cabo ;
+        rdfs:label             "1339" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1339" ;
+        dc:title               "Es Cap Enderrocat" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1339/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/204/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.752160799999999 43.4569551985219)"^^geosparql:wktLiteral .
+
+georec:994  a                  btn100:Cabo ;
+        rdfs:label             "994" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "994" ;
+        dc:title               "Cap des Falcó" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/994/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:391  a                  btn100:Cabo ;
+        rdfs:label             "391" ;
+        dc:created             "2012-03-27"^^xsd:date ;
+        dc:identifier          "391" ;
+        dc:title               "Cap Gros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/391/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:204  a                  btn100:Cabo ;
+        rdfs:label             "204" ;
+        dc:created             "2012-06-05"^^xsd:date ;
+        dc:identifier          "204" ;
+        dc:title               "Cabo Machichaco / Matxitxako Lurmuturra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/204/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1148/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1776775999999995 39.961583898542216)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/176/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.1990426700000001 38.80210327855376)"^^geosparql:wktLiteral .
+
+georec:276  a                  btn100:Cabo ;
+        rdfs:label             "276" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "276" ;
+        dc:title               "Cap Roig" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/276/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1174/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1970164999999997 39.8627597985431)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/904/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8324052999999982 39.96481259854218)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/468/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.1068112 37.53549589856908)"^^geosparql:wktLiteral .
+
+georec:512  a                  btn100:Cabo ;
+        rdfs:label             "512" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "512" ;
+        dc:title               "Cabo de Galizano" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/512/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:904  a                  btn100:Cabo ;
+        rdfs:label             "904" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "904" ;
+        dc:title               "Cap de sa Paret" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/904/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1382  a                 btn100:Cabo ;
+        rdfs:label             "1382" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1382" ;
+        dc:title               "Cap de Tramuntana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1382/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/510/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7852036 43.49176629852179)"^^geosparql:wktLiteral .
+
+georec:1171  a                 btn100:Cabo ;
+        rdfs:label             "1171" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1171" ;
+        dc:title               "Cap des Pinar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1171/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/425/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.7414109999999999 40.82339459853519)"^^geosparql:wktLiteral .
+
+georec:1267  a                 btn100:Cabo ;
+        rdfs:label             "1267" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1267" ;
+        dc:title               "Cap de ses Salines" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1267/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:288  a                  btn100:Cabo ;
+        rdfs:label             "288" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "288" ;
+        dc:title               "Cap sa Sal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/288/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1925  a                 btn100:Cabo ;
+        rdfs:label             "1925" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1925" ;
+        dc:title               "Cabo Fisterra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1925/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:469  a                  btn100:Cabo ;
+        rdfs:label             "469" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "469" ;
+        dc:title               "Cabo Falcón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/469/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1322  a                 btn100:Cabo ;
+        rdfs:label             "1322" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1322" ;
+        dc:title               "Es Cap Roig" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1322/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1026  a                 btn100:Cabo ;
+        rdfs:label             "1026" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1026" ;
+        dc:title               "Cap Negret" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1026/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1997  a                 btn100:Cabo ;
+        rdfs:label             "1997" ;
+        dc:created             "2013-05-08"^^xsd:date ;
+        dc:identifier          "1997" ;
+        dc:title               "Cabo Ortabade" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1997/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/927/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.9339450999999994 40.06291829854132)"^^geosparql:wktLiteral .
+
+georec:313  a                  btn100:Cabo ;
+        rdfs:label             "313" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "313" ;
+        dc:title               "Cap de Norfeu" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/313/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/507/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8427074000000006 43.48399179852182)"^^geosparql:wktLiteral .
+
+georec:1786  a                 btn100:Cabo ;
+        rdfs:label             "1786" ;
+        dc:created             "2013-02-14"^^xsd:date ;
+        dc:identifier          "1786" ;
+        dc:title               "Cabo Pequeño" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1786/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1925/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.272975600000002 42.879907898523726)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/899/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.824103300000001 39.92191369854256)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1267/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0536671 39.264725398548876)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/295/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2023952999999996 42.08189689852727)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1026/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2836551000000003 38.99862259855165)"^^geosparql:wktLiteral .
+
+georec:1672  a                 btn100:Cabo ;
+        rdfs:label             "1672" ;
+        dc:created             "2013-02-14"^^xsd:date ;
+        dc:identifier          "1672" ;
+        dc:title               "Cabo Udra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1672/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1293/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.969655199999999 39.147922998550065)"^^geosparql:wktLiteral .
+
+georec:1195  a                 btn100:Cabo ;
+        rdfs:label             "1195" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1195" ;
+        dc:title               "Cap des Freu" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1195/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:2009  a                 btn100:Cabo ;
+        rdfs:label             "2009" ;
+        dc:created             "2013-01-02"^^xsd:date ;
+        dc:identifier          "2009" ;
+        dc:title               "Cabo de San Cibrao" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/2009/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/462/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.9191791999999998 37.553956798568855)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/938/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.074384 40.09376479854105)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1670/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.8739541 42.2541370985264)"^^geosparql:wktLiteral .
+
+georec:1949  a                 btn100:Cabo ;
+        rdfs:label             "1949" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1949" ;
+        dc:title               "Cabo Cociñadoiro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1949/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/167/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.23151195 38.73184669855453)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1936/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.214151100000002 43.16161729852277)"^^geosparql:wktLiteral .
+
+georec:1401  a                 btn100:Cabo ;
+        rdfs:label             "1401" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1401" ;
+        dc:title               "Cap de Xaloc" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1401/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1980  a                 btn100:Cabo ;
+        rdfs:label             "1980" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1980" ;
+        dc:title               "Cabo Prior" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1980/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:422  a                  btn100:Cabo ;
+        rdfs:label             "422" ;
+        dc:created             "2013-05-13"^^xsd:date ;
+        dc:identifier          "422" ;
+        dc:title               "Cap de Santes Creus" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/422/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/334/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1669075000000007 42.38868229852579)"^^geosparql:wktLiteral .
+
+georec:1292  a                 btn100:Cabo ;
+        rdfs:label             "1292" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1292" ;
+        dc:title               "Es Cap Ventós" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1292/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1962/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.347677600000003 43.46407169852188)"^^geosparql:wktLiteral .
+
+georec:126  a                  btn100:Cabo ;
+        rdfs:label             "126" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "126" ;
+        dc:title               "Cap Blau" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/126/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/459/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.8219697999999999 37.57482289856857)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1037/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.358106 39.07372159855083)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/78/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.7181406000000004 37.93384009856396)"^^geosparql:wktLiteral .
+
+georec:1992  a                 btn100:Cabo ;
+        rdfs:label             "1992" ;
+        dc:created             "2013-05-08"^^xsd:date ;
+        dc:identifier          "1992" ;
+        dc:title               "Cabo de Bares" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1992/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:1328  a                 btn100:Cabo ;
+        rdfs:label             "1328" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1328" ;
+        dc:title               "Cap de Regana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1328/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1063/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3862873999999996 38.67064259855522)"^^geosparql:wktLiteral .
+
+georec:1696  a                 btn100:Cabo ;
+        rdfs:label             "1696" ;
+        dc:created             "2013-06-14"^^xsd:date ;
+        dc:identifier          "1696" ;
+        dc:title               "Cabo Balea" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1696/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1962  a                 btn100:Cabo ;
+        rdfs:label             "1962" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1962" ;
+        dc:title               "Cabo Prioriño Grande" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1962/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:319  a                  btn100:Cabo ;
+        rdfs:label             "319" ;
+        dc:created             "2013-05-22"^^xsd:date ;
+        dc:identifier          "319" ;
+        dc:title               "Cap d'en Roig" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/319/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:108  a                  btn100:Cabo ;
+        rdfs:label             "108" ;
+        dc:created             "2013-05-16"^^xsd:date ;
+        dc:identifier          "108" ;
+        dc:title               "Cap de Santa Pola" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/108/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:295  a                  btn100:Cabo ;
+        rdfs:label             "295" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "295" ;
+        dc:title               "Cap Castell" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/295/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:2064  a                 btn100:Cabo ;
+        rdfs:label             "2064" ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "2064" ;
+        dc:title               "Cabo de San Lorenzo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/2064/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1063  a                 btn100:Cabo ;
+        rdfs:label             "1063" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1063" ;
+        dc:title               "Racó de sa Llenya" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1063/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1706/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.900677399999998 42.11228659852712)"^^geosparql:wktLiteral .
+
+georec:1033  a                 btn100:Cabo ;
+        rdfs:label             "1033" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1033" ;
+        dc:title               "Cap Negret" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1033/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1942/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.013167000000001 43.233312798522526)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1171/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2042732 39.889001898542865)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/496/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.338518800000001 43.405437898522024)"^^geosparql:wktLiteral .
+
+georec:1371  a                 btn100:Cabo ;
+        rdfs:label             "1371" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1371" ;
+        dc:title               "Cap Andritxol" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1371/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/89/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.6473559000000001 38.00425489856308)"^^geosparql:wktLiteral .
+
+georec:1286  a                 btn100:Cabo ;
+        rdfs:label             "1286" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1286" ;
+        dc:title               "Es Cap des Llebeig" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1286/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/842/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.266174400000001 39.98191449854203)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/422/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.7818812 40.8604096985349)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/509/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8106840999999996 43.4946506985218)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1786/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-8.8641255 42.24655799852644)"^^geosparql:wktLiteral .
+
+georec:1986  a                 btn100:Cabo ;
+        rdfs:label             "1986" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1986" ;
+        dc:title               "Cabo Ortegal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1986/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:1383  a                 btn100:Cabo ;
+        rdfs:label             "1383" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1383" ;
+        dc:title               "Cap des Llegeig" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1383/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1926  a                 btn100:Cabo ;
+        rdfs:label             "1926" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1926" ;
+        dc:title               "Cabo da Nasa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1926/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/827/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.173877700000001 40.03333849854158)"^^geosparql:wktLiteral .
+
+georec:259  a                  btn100:Cabo ;
+        rdfs:label             "259" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "259" ;
+        dc:title               "Cap de Pola" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/259/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:989  a                  btn100:Cabo ;
+        rdfs:label             "989" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "989" ;
+        dc:title               "Cap de s'Illa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/989/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1290/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9508027000000006 39.16569569854989)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/169/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.2328724 38.74555619855442)"^^geosparql:wktLiteral .
+
+georec:863  a                  btn100:Cabo ;
+        rdfs:label             "863" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "863" ;
+        dc:title               "Cap d'en Font" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/863/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/909/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.7909650999999993 40.01643969854172)"^^geosparql:wktLiteral .
+
+georec:260  a                  btn100:Cabo ;
+        rdfs:label             "260" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "260" ;
+        dc:title               "Cap de Pola" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/260/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1938/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.174489199999998 43.191596898522654)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1377/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3630435000000003 39.532276098546234)"^^geosparql:wktLiteral .
+
+georec:1938  a                 btn100:Cabo ;
+        rdfs:label             "1938" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "1938" ;
+        dc:title               "Cabo Tosto" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1938/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:959  a                  btn100:Cabo ;
+        rdfs:label             "959" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "959" ;
+        dc:title               "Cabo de Banyos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/959/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:833  a                  btn100:Cabo ;
+        rdfs:label             "833" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "833" ;
+        dc:title               "Cap Negre" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/833/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/2062/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.6979755999999995 43.575575598521574)"^^geosparql:wktLiteral .
+
+georec:1039  a                 btn100:Cabo ;
+        rdfs:label             "1039" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1039" ;
+        dc:title               "Cap des Rubió" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1039/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:411  a                  btn100:Cabo ;
+        rdfs:label             "411" ;
+        dc:created             "2013-05-13"^^xsd:date ;
+        dc:identifier          "411" ;
+        dc:title               "Cap de Sant Pere" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/411/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1933/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.2930294 43.05922709852309)"^^geosparql:wktLiteral .
+
+georec:326  a                  btn100:Cabo ;
+        rdfs:label             "326" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "326" ;
+        dc:title               "Cap Gros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/326/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1673  a                 btn100:Cabo ;
+        rdfs:label             "1673" ;
+        dc:created             "2013-06-14"^^xsd:date ;
+        dc:identifier          "1673" ;
+        dc:title               "Cabo Estay" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1673/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:507  a                  btn100:Cabo ;
+        rdfs:label             "507" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "507" ;
+        dc:title               "Cabo Cabezón de San Pedro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/507/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1039/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.3972329000000006 39.08047339855078)"^^geosparql:wktLiteral .
+
+georec:1377  a                 btn100:Cabo ;
+        rdfs:label             "1377" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1377" ;
+        dc:title               "Cap de sa Mola" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1377/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/456/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.6885553999999999 37.63674409856777)"^^geosparql:wktLiteral .
+
+georec:272  a                  btn100:Cabo ;
+        rdfs:label             "272" ;
+        dc:created             "2012-02-29"^^xsd:date ;
+        dc:identifier          "272" ;
+        dc:title               "Cap Roig" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/272/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/2059/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.8389004 43.446347098521905)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/833/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.1656982000000005 40.0547550985414)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/989/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.4580239 38.90406699855265)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/272/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0814560000000006 41.824012498528674)"^^geosparql:wktLiteral .
+
+georec:1293  a                 btn100:Cabo ;
+        rdfs:label             "1293" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1293" ;
+        dc:title               "Es Cap de sa Carabassa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1293/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:519  a                  btn100:Cabo ;
+        rdfs:label             "519" ;
+        dc:created             "2013-06-06"^^xsd:date ;
+        dc:identifier          "519" ;
+        dc:title               "Cabjo de Ajo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/519/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:199  a                  btn100:Cabo ;
+        rdfs:label             "199" ;
+        dc:created             "2013-06-04"^^xsd:date ;
+        dc:identifier          "199" ;
+        dc:title               "Cabo de Billano / Bilano Lurmuturra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/199/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/cabo/2042/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.733382800000002 43.564420498521606)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1383/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3035528999999997 39.57260789854582)"^^geosparql:wktLiteral .
+
+georec:1359  a                 btn100:Cabo ;
+        rdfs:label             "1359" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "1359" ;
+        dc:title               "Cap de Cala Figuera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1359/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:1148  a                 btn100:Cabo ;
+        rdfs:label             "1148" ;
+        dc:created             "2013-06-12"^^xsd:date ;
+        dc:identifier          "1148" ;
+        dc:title               "Cap de Catalunya" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/1148/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/903/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.8258811 39.953930498542285)"^^geosparql:wktLiteral .
+
+georec:169  a                  btn100:Cabo ;
+        rdfs:label             "169" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "169" ;
+        dc:title               "Cap Negre" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/169/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/342/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.3222739000000012 42.3194999985261)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/521/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.5463441000000007 43.50770699852176)"^^geosparql:wktLiteral .
+
+georec:827  a                  btn100:Cabo ;
+        rdfs:label             "827" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "827" ;
+        dc:title               "Cap des Redoble" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/cabo/827/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/cabo/1019/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.2140779000000002 38.97592679855189)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/311/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2289537 42.24032069852647)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/1901/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-9.091003300000002 42.578046398524954)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/cabo/257/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9243554 41.71199129852931)"^^geosparql:wktLiteral .
+

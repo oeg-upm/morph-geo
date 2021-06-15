@@ -1,0 +1,1104 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/estacion-radio/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1516/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.46682245 37.511150678569415)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1164/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.448475 42.82948190852392)"^^geosparql:wktLiteral .
+
+georec:2079  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2079" ;
+        dc:created             "2013-04-22"^^xsd:date ;
+        dc:identifier          "2079" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2079/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/183/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.5120278099999998 42.44221957852554)"^^geosparql:wktLiteral .
+
+georec:1516  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1516" ;
+        dc:created             "2007-10-22"^^xsd:date ;
+        dc:identifier          "1516" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1516/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2521  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2521" ;
+        dc:created             "2007-08-10"^^xsd:date ;
+        dc:identifier          "2521" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2521/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1548/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.2753795799999998 37.57543668856857)"^^geosparql:wktLiteral .
+
+georec:2500  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2500" ;
+        dc:created             "2007-08-10"^^xsd:date ;
+        dc:identifier          "2500" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2500/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:1111  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1111" ;
+        dc:created             "2012-08-14"^^xsd:date ;
+        dc:identifier          "1111" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1111/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1054/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.5448784 40.372091838538715)"^^geosparql:wktLiteral .
+
+georec:2066  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2066" ;
+        dc:created             "2007-10-11"^^xsd:date ;
+        dc:identifier          "2066" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2066/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1536/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8106986600000006 38.085339798562096)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2059/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.47489982 36.702323098580685)"^^geosparql:wktLiteral .
+
+georec:2884  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2884" ;
+        dc:created             "2014-06-17"^^xsd:date ;
+        dc:identifier          "2884" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2884/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1544/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.5898291899999997 38.31040315855938)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2060/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.471909429999999 36.704595558580664)"^^geosparql:wktLiteral .
+
+georec:2671  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2671" ;
+        dc:created             "2007-02-08"^^xsd:date ;
+        dc:identifier          "2671" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2671/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/915/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.12923603 40.34212113853894)"^^geosparql:wktLiteral .
+
+georec:1069  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1069" ;
+        dc:created             "2007-04-12"^^xsd:date ;
+        dc:identifier          "1069" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1069/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:1595  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1595" ;
+        dc:created             "2012-02-03"^^xsd:date ;
+        dc:identifier          "1595" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1595/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2074  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2074" ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "2074" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2074/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/774/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.00736672 41.28715645853194)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2736/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.61165819 43.501400228521774)"^^geosparql:wktLiteral .
+
+georec:1511  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1511" ;
+        dc:created             "2007-10-22"^^xsd:date ;
+        dc:identifier          "1511" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1511/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2537  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2537" ;
+        dc:created             "2007-08-10"^^xsd:date ;
+        dc:identifier          "2537" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2537/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1539/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.6962067500000002 37.92266856856411)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1540/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.67254985 38.05672413856244)"^^geosparql:wktLiteral .
+
+georec:2132  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2132" ;
+        dc:created             "2012-10-25"^^xsd:date ;
+        dc:identifier          "2132" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2132/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2618/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.82428625 43.45200989852191)"^^geosparql:wktLiteral .
+
+georec:92  a                   btn100:EstacionDeRadio ;
+        rdfs:label             "92" ;
+        dc:created             "2012-02-16"^^xsd:date ;
+        dc:identifier          "92" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/92/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1511/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.74573799 37.66585968856738)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2079/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1146083300000007 39.927415438542525)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2132/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.757365980000001 38.32216008855925)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1069/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.385453209999999 39.89162531854285)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2537/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.5238048399999995 43.73288528852121)"^^geosparql:wktLiteral .
+
+georec:1540  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1540" ;
+        dc:created             "2007-10-22"^^xsd:date ;
+        dc:identifier          "1540" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1540/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:850  a                  btn100:EstacionDeRadio ;
+        rdfs:label             "850" ;
+        dc:created             "2012-08-21"^^xsd:date ;
+        dc:identifier          "850" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/850/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/854/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.56702604 41.102360048533185)"^^geosparql:wktLiteral .
+
+georec:58  a                   btn100:EstacionDeRadio ;
+        rdfs:label             "58" ;
+        dc:created             "2012-02-22"^^xsd:date ;
+        dc:identifier          "58" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/58/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1125/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.54914111 41.974543488527836)"^^geosparql:wktLiteral .
+
+georec:1548  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1548" ;
+        dc:created             "2007-10-22"^^xsd:date ;
+        dc:identifier          "1548" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1548/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2481/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.753946620000001 42.820625058523945)"^^geosparql:wktLiteral .
+
+georec:1164  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1164" ;
+        dc:created             "2007-04-13"^^xsd:date ;
+        dc:identifier          "1164" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1164/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2099/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.06197008 37.40023424857089)"^^geosparql:wktLiteral .
+
+georec:2695  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2695" ;
+        dc:created             "2007-02-08"^^xsd:date ;
+        dc:identifier          "2695" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2695/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/850/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8213348 41.01216520853382)"^^geosparql:wktLiteral .
+
+georec:1961  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1961" ;
+        dc:created             "2012-10-30"^^xsd:date ;
+        dc:identifier          "1961" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1961/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1068/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.4086311899999995 39.805351668543636)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2671/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.390050390000001 43.36897722852214)"^^geosparql:wktLiteral .
+
+georec:2056  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2056" ;
+        dc:created             "2007-10-11"^^xsd:date ;
+        dc:identifier          "2056" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2056/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2476/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.53298071 42.501149738525285)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1121/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.586308729999999 41.99030158852775)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2536/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.52961784 43.73280719852122)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1961/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.71502039 37.79973263856567)"^^geosparql:wktLiteral .
+
+georec:2540  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2540" ;
+        dc:created             "2007-08-10"^^xsd:date ;
+        dc:identifier          "2540" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2540/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2519  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2519" ;
+        dc:created             "2007-08-10"^^xsd:date ;
+        dc:identifier          "2519" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2519/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2500/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.648680320000003 42.950294428523485)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2695/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.941751849999999 43.491171568521786)"^^geosparql:wktLiteral .
+
+georec:1272  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1272" ;
+        dc:created             "2012-08-22"^^xsd:date ;
+        dc:identifier          "1272" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1272/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/651/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.9533130100000002 41.85160392852852)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2066/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.432570260000001 36.77871975857958)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1551/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.1706526 37.56092654856876)"^^geosparql:wktLiteral .
+
+georec:774  a                  btn100:EstacionDeRadio ;
+        rdfs:label             "774" ;
+        dc:created             "2012-04-18"^^xsd:date ;
+        dc:identifier          "774" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/774/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/764/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.8514010600000004 41.239760188532244)"^^geosparql:wktLiteral .
+
+georec:1038  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1038" ;
+        dc:created             "2012-02-16"^^xsd:date ;
+        dc:identifier          "1038" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1038/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:1543  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1543" ;
+        dc:created             "2007-10-22"^^xsd:date ;
+        dc:identifier          "1543" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1543/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2740  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2740" ;
+        dc:created             "2007-02-08"^^xsd:date ;
+        dc:identifier          "2740" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2740/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2885/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.65582332159073 37.11674788989102)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2519/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.660536070000001 43.68238423852134)"^^geosparql:wktLiteral .
+
+georec:1551  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1551" ;
+        dc:created             "2007-10-22"^^xsd:date ;
+        dc:identifier          "1551" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1551/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1465/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.15487487 41.94925762852796)"^^geosparql:wktLiteral .
+
+georec:2172  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2172" ;
+        dc:created             "2012-10-25"^^xsd:date ;
+        dc:identifier          "2172" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2172/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/836/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.5045053400000002 40.73736931853581)"^^geosparql:wktLiteral .
+
+georec:2514  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2514" ;
+        dc:created             "2007-08-10"^^xsd:date ;
+        dc:identifier          "2514" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2514/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:1125  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1125" ;
+        dc:created             "2007-04-13"^^xsd:date ;
+        dc:identifier          "1125" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1125/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1136/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.547027650000002 42.053638978527424)"^^geosparql:wktLiteral .
+
+georec:1609  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1609" ;
+        dc:created             "2012-02-03"^^xsd:date ;
+        dc:identifier          "1609" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1609/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:1075  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1075" ;
+        dc:created             "2007-10-11"^^xsd:date ;
+        dc:identifier          "1075" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1075/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:1054  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1054" ;
+        dc:created             "2012-02-17"^^xsd:date ;
+        dc:identifier          "1054" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1054/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2059  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2059" ;
+        dc:created             "2007-10-11"^^xsd:date ;
+        dc:identifier          "2059" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2059/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2643  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2643" ;
+        dc:created             "2007-02-08"^^xsd:date ;
+        dc:identifier          "2643" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2643/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:798  a                  btn100:EstacionDeRadio ;
+        rdfs:label             "798" ;
+        dc:created             "2012-04-18"^^xsd:date ;
+        dc:identifier          "798" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/798/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2067  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2067" ;
+        dc:created             "2007-10-11"^^xsd:date ;
+        dc:identifier          "2067" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2067/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/62/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.2251650499999998 39.596818748545594)"^^geosparql:wktLiteral .
+
+georec:2509  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2509" ;
+        dc:created             "2007-08-10"^^xsd:date ;
+        dc:identifier          "2509" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2509/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2885  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2885" ;
+        dc:created             "2014-06-17"^^xsd:date ;
+        dc:identifier          "2885" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2885/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1075/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.176664940000002 39.839841018543325)"^^geosparql:wktLiteral .
+
+georec:1120  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1120" ;
+        dc:created             "2007-04-13"^^xsd:date ;
+        dc:identifier          "1120" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1120/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2056/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.66954295 36.73737697858019)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/799/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.40630725 41.511120388530514)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2162/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.699157510000001 38.823767268553524)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2514/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.43728197 43.32687459852226)"^^geosparql:wktLiteral .
+
+georec:764  a                  btn100:EstacionDeRadio ;
+        rdfs:label             "764" ;
+        dc:created             "2012-04-18"^^xsd:date ;
+        dc:identifier          "764" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/764/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1609/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.07832695 38.818330798553596)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1894/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.02057623 43.09827602852296)"^^geosparql:wktLiteral .
+
+georec:509  a                  btn100:EstacionDeRadio ;
+        rdfs:label             "509" ;
+        dc:created             "2007-04-23"^^xsd:date ;
+        dc:identifier          "509" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/509/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:651  a                  btn100:EstacionDeRadio ;
+        rdfs:label             "651" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "651" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/651/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/142/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.6674036699999999 38.074444238562236)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2509/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.48438067 43.272481978522414)"^^geosparql:wktLiteral .
+
+georec:325  a                  btn100:EstacionDeRadio ;
+        rdfs:label             "325" ;
+        dc:created             "2007-04-18"^^xsd:date ;
+        dc:identifier          "325" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/325/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:1136  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1136" ;
+        dc:created             "2007-04-13"^^xsd:date ;
+        dc:identifier          "1136" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1136/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2162  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2162" ;
+        dc:created             "2012-10-25"^^xsd:date ;
+        dc:identifier          "2162" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2162/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:133  a                  btn100:EstacionDeRadio ;
+        rdfs:label             "133" ;
+        dc:created             "2012-02-16"^^xsd:date ;
+        dc:identifier          "133" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/133/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:1115  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1115" ;
+        dc:created             "2007-04-13"^^xsd:date ;
+        dc:identifier          "1115" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1115/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2667  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2667" ;
+        dc:created             "2007-02-08"^^xsd:date ;
+        dc:identifier          "2667" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2667/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:1933  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1933" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "1933" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1933/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2070  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2070" ;
+        dc:created             "2007-10-11"^^xsd:date ;
+        dc:identifier          "2070" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2070/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/798/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.1107967500000004 41.68793402852947)"^^geosparql:wktLiteral .
+
+georec:183  a                  btn100:EstacionDeRadio ;
+        rdfs:label             "183" ;
+        dc:created             "2007-02-12"^^xsd:date ;
+        dc:identifier          "183" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/183/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/133/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.17637725 38.7173985285547)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2883/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.9591564151088963 36.746099424605106)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2643/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.43745542 43.246403018522486)"^^geosparql:wktLiteral .
+
+georec:2099  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2099" ;
+        dc:created             "2013-02-15"^^xsd:date ;
+        dc:identifier          "2099" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2099/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1933/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.56197975 43.35836478852215)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/509/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.1330822100000004 42.77575239852415)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/794/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.10103959 41.80875785852874)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1686/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.79937752 39.30385820854848)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2067/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.3959869199999995 36.762821128579816)"^^geosparql:wktLiteral .
+
+georec:1536  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1536" ;
+        dc:created             "2007-10-22"^^xsd:date ;
+        dc:identifier          "1536" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1536/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2667/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.558518849999999 43.460400908521876)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2173/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.415986000000001 38.44234208855784)"^^geosparql:wktLiteral .
+
+georec:2520  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2520" ;
+        dc:created             "2007-08-10"^^xsd:date ;
+        dc:identifier          "2520" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2520/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2773/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.736487230000001 43.40665329852203)"^^geosparql:wktLiteral .
+
+georec:1465  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1465" ;
+        dc:created             "2007-04-19"^^xsd:date ;
+        dc:identifier          "1465" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1465/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2641  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2641" ;
+        dc:created             "2007-02-08"^^xsd:date ;
+        dc:identifier          "2641" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2641/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:1544  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1544" ;
+        dc:created             "2007-10-22"^^xsd:date ;
+        dc:identifier          "1544" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1544/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2063/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.455218750000001 36.732545808580255)"^^geosparql:wktLiteral .
+
+georec:2883  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2883" ;
+        dc:created             "2014-06-17"^^xsd:date ;
+        dc:identifier          "2883" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2883/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2521/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.652854890000001 43.672479598521356)"^^geosparql:wktLiteral .
+
+georec:1686  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1686" ;
+        dc:created             "2012-02-03"^^xsd:date ;
+        dc:identifier          "1686" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1686/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:1310  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1310" ;
+        dc:created             "2006-07-26"^^xsd:date ;
+        dc:identifier          "1310" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1310/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:854  a                  btn100:EstacionDeRadio ;
+        rdfs:label             "854" ;
+        dc:created             "2012-08-21"^^xsd:date ;
+        dc:identifier          "854" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/854/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2841  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2841" ;
+        dc:created             "2012-04-03"^^xsd:date ;
+        dc:identifier          "2841" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2841/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1272/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.595117130000001 41.648495528529665)"^^geosparql:wktLiteral .
+
+georec:1068  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1068" ;
+        dc:created             "2007-10-11"^^xsd:date ;
+        dc:identifier          "1068" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1068/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2740/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.58981798 43.5269372285217)"^^geosparql:wktLiteral .
+
+georec:62  a                   btn100:EstacionDeRadio ;
+        rdfs:label             "62" ;
+        dc:created             "2012-02-22"^^xsd:date ;
+        dc:identifier          "62" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/62/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1543/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.58361988 38.30681368855943)"^^geosparql:wktLiteral .
+
+georec:1510  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1510" ;
+        dc:created             "2007-10-22"^^xsd:date ;
+        dc:identifier          "1510" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1510/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2536  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2536" ;
+        dc:created             "2007-08-10"^^xsd:date ;
+        dc:identifier          "2536" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2536/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2173  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2173" ;
+        dc:created             "2012-10-25"^^xsd:date ;
+        dc:identifier          "2173" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2173/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2172/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.410067709999999 38.42830834855799)"^^geosparql:wktLiteral .
+
+georec:1631  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1631" ;
+        dc:created             "2012-02-03"^^xsd:date ;
+        dc:identifier          "1631" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1631/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2060  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2060" ;
+        dc:created             "2007-10-11"^^xsd:date ;
+        dc:identifier          "2060" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2060/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2841/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.861714299999999 40.104359198540955)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/92/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.6643321199999999 38.071742968562255)"^^geosparql:wktLiteral .
+
+georec:2778  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2778" ;
+        dc:created             "2012-04-03"^^xsd:date ;
+        dc:identifier          "2778" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2778/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:1539  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1539" ;
+        dc:created             "2007-10-22"^^xsd:date ;
+        dc:identifier          "1539" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1539/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2736  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2736" ;
+        dc:created             "2007-02-08"^^xsd:date ;
+        dc:identifier          "2736" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2736/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:1894  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1894" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "1894" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1894/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2520/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.6543002799999975 43.67219049852134)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1510/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.75003145 37.662696708567424)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1563/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.4026744 38.53968493855671)"^^geosparql:wktLiteral .
+
+georec:799  a                  btn100:EstacionDeRadio ;
+        rdfs:label             "799" ;
+        dc:created             "2012-04-18"^^xsd:date ;
+        dc:identifier          "799" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/799/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/58/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.9376290600000002 39.23527463854918)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1595/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.10816199 38.66353419855531)"^^geosparql:wktLiteral .
+
+georec:1121  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1121" ;
+        dc:created             "2007-04-13"^^xsd:date ;
+        dc:identifier          "1121" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1121/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:836  a                  btn100:EstacionDeRadio ;
+        rdfs:label             "836" ;
+        dc:created             "2012-08-21"^^xsd:date ;
+        dc:identifier          "836" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/836/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2074/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.983477620000001 36.244708258588915)"^^geosparql:wktLiteral .
+
+georec:2481  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2481" ;
+        dc:created             "2007-08-10"^^xsd:date ;
+        dc:identifier          "2481" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2481/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2540/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.48432663 43.72373367852125)"^^geosparql:wktLiteral .
+
+georec:2773  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2773" ;
+        dc:created             "2007-02-08"^^xsd:date ;
+        dc:identifier          "2773" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2773/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:915  a                  btn100:EstacionDeRadio ;
+        rdfs:label             "915" ;
+        dc:created             "2012-04-02"^^xsd:date ;
+        dc:identifier          "915" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/915/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2070/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.21556942 36.74532971858007)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/325/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.4462626000000003 43.21060594852261)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1120/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.5928979000000005 41.978105738527816)"^^geosparql:wktLiteral .
+
+georec:794  a                  btn100:EstacionDeRadio ;
+        rdfs:label             "794" ;
+        dc:created             "2012-04-18"^^xsd:date ;
+        dc:identifier          "794" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/794/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:2618  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2618" ;
+        dc:created             "2007-02-08"^^xsd:date ;
+        dc:identifier          "2618" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2618/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2641/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.34639327 43.128611058522864)"^^geosparql:wktLiteral .
+
+georec:2063  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2063" ;
+        dc:created             "2007-10-11"^^xsd:date ;
+        dc:identifier          "2063" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2063/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:1563  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1563" ;
+        dc:created             "2012-02-03"^^xsd:date ;
+        dc:identifier          "1563" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1563/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1038/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8802094900000004 40.84377618853503)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1631/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.73141 38.942335568552245)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1310/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.456447090000001 41.01676047853378)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1115/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.60060005 41.900065628528246)"^^geosparql:wktLiteral .
+
+georec:2476  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "2476" ;
+        dc:created             "2007-08-10"^^xsd:date ;
+        dc:identifier          "2476" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/2476/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2778/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.30347528 39.89420922854283)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1821/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.609412550000001 42.585799978524896)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/2884/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.800151808564898 37.12891605950825)"^^geosparql:wktLiteral .
+
+georec:142  a                  btn100:EstacionDeRadio ;
+        rdfs:label             "142" ;
+        dc:created             "2007-04-16"^^xsd:date ;
+        dc:identifier          "142" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/142/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+georec:1821  a                 btn100:EstacionDeRadio ;
+        rdfs:label             "1821" ;
+        dc:created             "2012-09-26"^^xsd:date ;
+        dc:identifier          "1821" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estacion-radio/1821/geometry> ;
+        btn100:componenteDeTelecomunicaciones
+                <https://datos.ign.es/kos/red-de-suministro/tipo-de-componente/repetidor> .
+
+<https://datos.ign.es/recurso/btn100/estacion-radio/1111/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.318830449999999 41.393223528531244)"^^geosparql:wktLiteral .
+

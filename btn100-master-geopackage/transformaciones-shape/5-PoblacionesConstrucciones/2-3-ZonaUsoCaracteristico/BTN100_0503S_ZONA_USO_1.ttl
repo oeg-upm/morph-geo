@@ -1,0 +1,1807 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4488/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.54867235 41.47535544853075, -2.5471914600000005 41.476761738530726, -2.54445554 41.47510366853073, -2.5458244999999997 41.47370031853074, -2.5459936999999986 41.47376429853074, -2.54867235 41.47535544853075))"^^geosparql:wktLiteral .
+
+georec:1634  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "1634" ;
+        dc:created             "2012-01-03"^^xsd:date ;
+        dc:identifier          "1634" ;
+        dc:title               "Aparcament" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/1634/geometry> .
+
+georec:4722  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "4722" ;
+        dc:created             "2012-08-17"^^xsd:date ;
+        dc:identifier          "4722" ;
+        dc:title               "Aramunt Vell" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4722/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6377/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.4028645500000003 41.13925224853293, 1.40245823 41.13980161853293, 1.4010593199999999 41.14169293853292, 1.4015917999999998 41.141795298532905, 1.4066094300000005 41.14280920853292, 1.4100087999999997 41.14385879853289, 1.41198291 41.14456338853289, 1.41412628 41.14558330853288, 1.4136014199999998 41.14729897853287, 1.4150436 41.147633198532866, 1.4159222000000002 41.147836798532886, 1.4167828000000002 41.14805589853287, 1.4172727 41.14708039853287, 1.41776766 41.14623149853288, 1.41763811 41.14602644853288, 1.4111284600000003 41.143041958532905, 1.4070437099999997 41.14168990853292, 1.4047150499999996 41.14079901853292, 1.40394598 41.14036033853292, 1.4036799399999997 41.14020858853292, 1.4028645500000003 41.13925224853293))"^^geosparql:wktLiteral .
+
+georec:20287  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "20287" ;
+        dc:created             "2012-09-28"^^xsd:date ;
+        dc:identifier          "20287" ;
+        dc:title               "Estación Transformadora AVE" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/20287/geometry> .
+
+georec:36  a                   btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "36" ;
+        dc:created             "2012-02-06"^^xsd:date ;
+        dc:identifier          "36" ;
+        dc:title               "Centre Penitenciari de Castellón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/36/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4273/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.75258231 42.34966040852596, -3.75035133 42.35115237852595, -3.74794855 42.348999658525955, -3.74910824 42.34836767852596, -3.750218429999999 42.348079358525965, -3.75258231 42.34966040852596))"^^geosparql:wktLiteral .
+
+georec:20257  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "20257" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "20257" ;
+        dc:title               "Centro Nacional de Parapléjicos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/20257/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/20/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.09533981 39.923642578542555, -0.09613642 39.92295974854255, -0.09681501 39.922866238542575, -0.09738203 39.92303516854257, -0.09874946 39.923956718542556, -0.09874096 39.924956558542554, -0.09799977 39.92573024854254, -0.09709619 39.925734708542535, -0.09663946 39.926384508542526, -0.09572675 39.92642656854253, -0.09541552 39.925808348542546, -0.09583586 39.925442238542544, -0.09527149 39.92406534854255, -0.09533981 39.923642578542555))"^^geosparql:wktLiteral .
+
+georec:2762  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "2762" ;
+        dc:created             "2012-09-25"^^xsd:date ;
+        dc:identifier          "2762" ;
+        dc:title               "Aparcamiento" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2762/geometry> .
+
+georec:9462  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "9462" ;
+        dc:created             "2012-06-05"^^xsd:date ;
+        dc:identifier          "9462" ;
+        dc:title               "Centro Penitenciario de Topas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9462/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/771/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.4721739400000007 42.43780785852555, -2.47080705 42.43814994852556, -2.4695540400000007 42.436140878525556, -2.471798740000001 42.434879598525576, -2.4721007 42.434573898525564, -2.473257100000001 42.43443134852556, -2.4738130099999998 42.43501929852556, -2.4736983900000005 42.435498028525565, -2.472896520000001 42.435773058525584, -2.4732669399999994 42.43647155852556, -2.4721739400000007 42.43780785852555))"^^geosparql:wktLiteral .
+
+georec:11873  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "11873" ;
+        dc:created             "2013-01-22"^^xsd:date ;
+        dc:identifier          "11873" ;
+        dc:title               "Hospital Comarcal de Sierrallana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11873/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9111/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.7366446500000015 41.60985445852991, -4.73463017 41.609518118529905, -4.73451027 41.60831406852991, -4.7347664599999995 41.60697277852992, -4.736505649999999 41.60701228852993, -4.736349260000001 41.607716248529925, -4.73763212 41.60808003852991, -4.7366446500000015 41.60985445852991))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11873/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.074965070000002 43.36045103852217, -4.075206060000001 43.36048597852216, -4.077473900000001 43.36118981852215, -4.078430050000001 43.36155660852215, -4.07845586 43.36189516852214, -4.07573482 43.36336779852214, -4.075266060000001 43.362800428522156, -4.0740329399999995 43.36332801852214, -4.0729085199999995 43.36243208852215, -4.073940120000001 43.36121124852217, -4.074965070000002 43.36045103852217))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19543/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.33861507 35.88414918859448, -5.33852554 35.88441214859446, -5.337829089999998 35.88454444859446, -5.33694838 35.88452992859446, -5.33678908 35.88408347859446, -5.336889740000001 35.88371898859446, -5.33738895 35.883425138594475, -5.33800202 35.88397511859447, -5.338494249999999 35.88417528859446, -5.33861507 35.88414918859448))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/1566/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.3323536 39.38266909854768, -0.32992399 39.38194882854769, -0.33077697 39.380658468547715, -0.3321618200000002 39.380973678547704, -0.33226114 39.381851698547706, -0.3323536 39.38266909854768))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11243/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.2657125700000003 39.06316029855096, -3.26276184 39.064594328550946, -3.2596991500000003 39.06594050855091, -3.257690890000001 39.06585394855093, -3.2567261700000008 39.06379928855095, -3.25916666 39.06079060855098, -3.26154913 39.061094718550976, -3.2630955300000006 39.062583778550966, -3.26545309 39.06245102855097, -3.2657125700000003 39.06316029855096))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2671/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.970997709999999 40.80475107853533, -3.9710777 40.80508649853532, -3.968491219999999 40.80727585853529, -3.9682141600000005 40.8069572985353, -3.9681038300000013 40.80659029853529, -3.968029640000001 40.80622457853531, -3.9690002299999994 40.80508251853529, -3.970113600000001 40.80428814853533, -3.9704106999999995 40.80448620853531, -3.970997709999999 40.80475107853533))"^^geosparql:wktLiteral .
+
+georec:771  a                  btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "771" ;
+        dc:created             "2012-05-11"^^xsd:date ;
+        dc:identifier          "771" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/771/geometry> .
+
+georec:8599  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "8599" ;
+        dc:created             "2012-08-14"^^xsd:date ;
+        dc:identifier          "8599" ;
+        dc:title               "Centro de Capacitación Agrícola" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8599/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18070/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.034151330000003 38.881429568552896, -7.034431839999998 38.8819751385529, -7.03355518 38.8821973685529, -7.033337090000001 38.8824782585529, -7.0336589 38.883122498552886, -7.03357568 38.883136468552884, -7.033480880000001 38.88315237855288, -7.03297008 38.883117518552886, -7.032704580000002 38.88300664855288, -7.032447149999999 38.88303805855288, -7.032363060000001 38.88306119855288, -7.031158499999999 38.883392708552876, -7.03078895 38.88351018855288, -7.03058487 38.88236332855289, -7.034151330000003 38.881429568552896))"^^geosparql:wktLiteral .
+
+georec:264  a                  btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "264" ;
+        dc:created             "2012-04-20"^^xsd:date ;
+        dc:identifier          "264" ;
+        dc:title               "Hospital General de Castellón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/264/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5714/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((2.466895070000001 41.545770438530305, 2.466370250000001 41.5462567585303, 2.46642014 41.546450368530294, 2.4669488300000006 41.54685247853029, 2.4673089900000003 41.54687992853029, 2.4678912800000004 41.54702443853029, 2.46901808 41.54773871853027, 2.4691198800000005 41.54788099853028, 2.4690215100000006 41.54814305853028, 2.4693934800000004 41.54840505853027, 2.46979628 41.548821588530295, 2.4698691800000003 41.54900109853028, 2.47041768 41.54867339853027, 2.4706232999999997 41.548713018530265, 2.47074185 41.54890694853028, 2.4706330999999997 41.54961551853028, 2.4707695400000005 41.549719278530276, 2.471078340000001 41.54973358853027, 2.4712165799999997 41.54961819853027, 2.471323640000001 41.54911589853028, 2.47158179 41.54902683853027, 2.4726446199999996 41.54917352853027, 2.4728001200000005 41.54904532853027, 2.4729187699999993 41.54867484853027, 2.47313723 41.54813312853028, 2.47314648 41.547838598530284, 2.4689163 41.546690598530304, 2.466895070000001 41.545770438530305))"^^geosparql:wktLiteral .
+
+georec:18640  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "18640" ;
+        dc:created             "2013-01-30"^^xsd:date ;
+        dc:identifier          "18640" ;
+        dc:title               "Observatorio Astrofísico" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18640/geometry> .
+
+georec:15045  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "15045" ;
+        dc:created             "2012-12-08"^^xsd:date ;
+        dc:identifier          "15045" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/15045/geometry> .
+
+georec:18525  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "18525" ;
+        dc:created             "2013-01-08"^^xsd:date ;
+        dc:identifier          "18525" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18525/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/17252/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.8845298 37.406232498570816, -5.884729450000001 37.40904750857077, -5.886437620000001 37.40902965857078, -5.8865648 37.40921611857078, -5.8866209 37.41037976857077, -5.89228529 37.41026131857075, -5.89223308 37.40955916857076, -5.89369688 37.40962380857075, -5.893647640000002 37.410308338570765, -5.892392159999999 37.410419478570766, -5.89246336 37.41096037857074, -5.891330629999999 37.410988108570734, -5.89127165 37.41207483857074, -5.88908013 37.412088258570726, -5.88906439 37.41102345857075, -5.886743179999999 37.41093951857075, -5.886781330000001 37.41259366857073, -5.8784757 37.412826428570725, -5.877453839999999 37.41285502857072, -5.87729797 37.412584788570726, -5.878224280000002 37.41249268857072, -5.878212750000001 37.41219165857074, -5.87831464 37.41074555857076, -5.880282560000001 37.40934870857077, -5.880621230000002 37.40883868857078, -5.88167752 37.408134398570795, -5.8845298 37.406232498570816))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8432/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.69840602 41.05248900853352, -4.698103820000001 41.05232244853352, -4.696732260000001 41.05345774853352, -4.6955840700000016 41.052735818533534, -4.69460809 41.05273649853353, -4.69456477 41.053161278533516, -4.69285143 41.05365849853352, -4.69267918 41.05328476853352, -4.68924351 41.05393035853353, -4.688368910000002 41.05259549853353, -4.6880452 41.05217059853352, -4.6933292 41.052201198533524, -4.6956645 41.05231999853353, -4.69912438 41.051803498533516, -4.6992798 41.05178029853355, -4.69840602 41.05248900853352))"^^geosparql:wktLiteral .
+
+georec:2756  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "2756" ;
+        dc:created             "2012-09-19"^^xsd:date ;
+        dc:identifier          "2756" ;
+        dc:title               "Centro Psicopedagógico" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2756/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/654/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.42900673 39.50216500854651, -0.42944893 39.5022181385465, -0.43002975 39.5023737985465, -0.4301647699999999 39.502472898546515, -0.4303397800000001 39.502601358546514, -0.4307113800000001 39.50322379854649, -0.43133547 39.504269158546485, -0.4313561099999999 39.50432484854649, -0.43165071 39.505471568546476, -0.4307744700000001 39.50622113854646, -0.4299609 39.50638134854647, -0.4275290899999999 39.50686015854646, -0.4265557000000001 39.506779528546474, -0.42542874 39.50636004854647, -0.4246759099999999 39.50550102854647, -0.4253231399999999 39.50383505854649, -0.42693711 39.502944478546496, -0.42633483 39.501890238546515, -0.42852788 39.50104500854653, -0.42930505 39.50074545854652, -0.4297914699999998 39.50156357854652, -0.4294781499999999 39.50180371854651, -0.42900673 39.50216500854651))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/3072/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.48326658 42.39867563852574, -2.48288612 42.39909804852573, -2.48154962 42.39929945852573, -2.47982548 42.39949844852573, -2.4785653300000003 42.39959555852573, -2.47742315 42.39958335852573, -2.477472629999999 42.39901916852573, -2.47857113 42.397624228525764, -2.479416750000001 42.396637548525746, -2.4823648000000005 42.397826318525745, -2.48326658 42.39867563852574))"^^geosparql:wktLiteral .
+
+georec:3643  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "3643" ;
+        dc:created             "2012-11-05"^^xsd:date ;
+        dc:identifier          "3643" ;
+        dc:title               "Instituto de enseñanza" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/3643/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18342/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-15.449454910000004 28.053379568769824, -15.449020870000004 28.05299733876983, -15.448586830000002 28.05261510876985, -15.448755029999997 28.05195130876986, -15.449560430000004 28.05144212876988, -15.45022985 28.051577428769875, -15.450623339999998 28.052046498769858, -15.450692660000003 28.05302317876984, -15.45015733 28.05374856876982, -15.449454910000004 28.053379568769824))"^^geosparql:wktLiteral .
+
+georec:4559  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "4559" ;
+        dc:created             "2012-08-07"^^xsd:date ;
+        dc:identifier          "4559" ;
+        dc:title               "Matadero Municipal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4559/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4587/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.5045861600000006 41.745848378529125, -2.503251300000001 41.74672464852909, -2.5008289500000003 41.74564444852912, -2.50196539 41.744504628529114, -2.502489569999999 41.744769628529106, -2.50426076 41.74254405852912, -2.50421859 41.74151171852913, -2.5051821000000003 41.74003331852914, -2.50623214 41.74033809852912, -2.50624425 41.74202713852914, -2.50738652 41.74338323852913, -2.5045861600000006 41.745848378529125))"^^geosparql:wktLiteral .
+
+georec:7044  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "7044" ;
+        dc:created             "2012-03-30"^^xsd:date ;
+        dc:identifier          "7044" ;
+        dc:title               "Aparcamiento" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/7044/geometry> .
+
+georec:4348  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "4348" ;
+        dc:created             "2012-07-25"^^xsd:date ;
+        dc:identifier          "4348" ;
+        dc:title               "Hotel" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4348/geometry> .
+
+georec:9227  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "9227" ;
+        dc:created             "2012-08-22"^^xsd:date ;
+        dc:identifier          "9227" ;
+        dc:replaces            "67235" ;
+        dc:title               "Colegio de San Agustín" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9227/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9227/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.7338832 41.61598625852987, -4.732667819999998 41.61831761852985, -4.729323229999999 41.617940338529856, -4.727157890000001 41.617802118529866, -4.726298049999999 41.61772308852987, -4.7262784799999995 41.61698951852986, -4.726275619999999 41.614823108529876, -4.72858698 41.61494582852989, -4.72870814 41.61555417852988, -4.731538040000002 41.61569273852987, -4.732454820000001 41.61610645852987, -4.73277835 41.615641158529876, -4.7338832 41.61598625852987))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8061/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.162062120000001 40.948606888534265, -4.16244476 40.94872084853427, -4.162853120000001 40.948954158534264, -4.163275940000001 40.949179478534255, -4.16365493 40.94950993853426, -4.163815150000001 40.94990737853426, -4.163855610000001 40.950218438534264, -4.16188312 40.95019225853425, -4.161135729999999 40.95018233853425, -4.15908082 40.95015740853425, -4.159143989999999 40.94799413853427, -4.15959726 40.94787449853426, -4.160683849999999 40.94780601853427, -4.16074503 40.94781290853427, -4.16085357 40.94780025853427, -4.160904059999999 40.947836548534276, -4.161146770000001 40.948049378534265, -4.161383880000001 40.948277548534264, -4.16147497 40.94836090853426, -4.16162124 40.94849476853427, -4.16195737 40.94867377853427, -4.162062120000001 40.948606888534265))"^^geosparql:wktLiteral .
+
+georec:6381  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "6381" ;
+        dc:created             "2012-08-21"^^xsd:date ;
+        dc:identifier          "6381" ;
+        dc:title               "Urbanització El Racó del Cèsar Sud" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6381/geometry> .
+
+georec:4294  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "4294" ;
+        dc:created             "2012-11-06"^^xsd:date ;
+        dc:identifier          "4294" ;
+        dc:title               "Complejo Asistencial" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4294/geometry> .
+
+georec:14491  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "14491" ;
+        dc:created             "2012-12-15"^^xsd:date ;
+        dc:identifier          "14491" ;
+        dc:title               "Cámping" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/14491/geometry> .
+
+georec:3082  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "3082" ;
+        dc:created             "2012-04-16"^^xsd:date ;
+        dc:identifier          "3082" ;
+        dc:title               "Hospital Residencia Infantil" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/3082/geometry> .
+
+georec:2865  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "2865" ;
+        dc:created             "2012-10-11"^^xsd:date ;
+        dc:identifier          "2865" ;
+        dc:title               "Centro Penitenciario Madrid III" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2865/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6379/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.4251067400000001 41.15302400853284, 1.42337771 41.155045018532824, 1.4233547000000002 41.15571633853283, 1.4216550500000003 41.1573288885328, 1.4216844899999999 41.157766118532784, 1.4220080899999996 41.1580115285328, 1.4225404500000005 41.157810548532815, 1.4255043700000003 41.15622668853281, 1.42727562 41.15441857853283, 1.4287355900000005 41.153549438532835, 1.42953808 41.15256078853284, 1.4294138 41.15250284853283, 1.427936 41.15181379853284, 1.4244002100000004 41.150244468532854, 1.4225454100000001 41.15139876853284, 1.42377107 41.15217650853283, 1.4251067400000001 41.15302400853284))"^^geosparql:wktLiteral .
+
+georec:5712  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "5712" ;
+        dc:created             "2012-09-18"^^xsd:date ;
+        dc:identifier          "5712" ;
+        dc:title               "Urbanització" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5712/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/13682/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.795663039999999 37.33366241857179, -5.79264522 37.335291268571765, -5.791928659999999 37.33440879857178, -5.7946481 37.332964148571804, -5.795663039999999 37.33366241857179))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11875/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.832454570000001 43.4560657685219, -3.8303153899999995 43.45736909852189, -3.8294980100000005 43.45765844852188, -3.8262236800000005 43.458469408521886, -3.82776026 43.45434304852189, -3.828815800000001 43.4539472985219, -3.8302707000000007 43.45455309852189, -3.83094595 43.45489486852188, -3.832454570000001 43.4560657685219))"^^geosparql:wktLiteral .
+
+georec:16107  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "16107" ;
+        dc:created             "2008-07-03"^^xsd:date ;
+        dc:identifier          "16107" ;
+        dc:title               "Colegio Ciudad de los Niños" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/16107/geometry> .
+
+georec:17108  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "17108" ;
+        dc:created             "2013-01-30"^^xsd:date ;
+        dc:identifier          "17108" ;
+        dc:title               "Centro territorial de TVE" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/17108/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/12503/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.8052860199999996 36.75460941857994, -2.8023655800000014 36.75487220857992, -2.8022627199999994 36.75431960857992, -2.8019281199999995 36.75252202857997, -2.8028048299999995 36.75250689857996, -2.8050696900000003 36.75246779857996, -2.80486373 36.75074997857999, -2.806432460000001 36.75071709858, -2.80729025 36.75058856857997, -2.80743375 36.752168348579964, -2.80755412 36.75326824857995, -2.8076525000000006 36.754167218579944, -2.80715131 36.75422938857992, -2.80646945 36.75431397857994, -2.8052860199999996 36.75460941857994))"^^geosparql:wktLiteral .
+
+georec:18562  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "18562" ;
+        dc:created             "2013-01-10"^^xsd:date ;
+        dc:identifier          "18562" ;
+        dc:title               "Centro Educativo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18562/geometry> .
+
+georec:548  a                  btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "548" ;
+        dc:created             "2012-02-07"^^xsd:date ;
+        dc:identifier          "548" ;
+        dc:title               "Hospital Militar de la Defensa de Valencia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/548/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8213/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.9800251100000006 41.44584532853091, -3.980695 41.4464364285309, -3.980528239999999 41.44706780853091, -3.979203919999999 41.44691330853091, -3.978942649999999 41.44565560853092, -3.9800251100000006 41.44584532853091))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/435/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.3785048200000001 39.44485389854707, -0.37305888 39.44439431854706, -0.37124875 39.44424150854708, -0.3713344099999999 39.44380139854709, -0.37172677 39.4417854985471, -0.3788750699999999 39.44269443854708, -0.3785048200000001 39.44485389854707))"^^geosparql:wktLiteral .
+
+georec:37  a                   btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "37" ;
+        dc:created             "2012-02-06"^^xsd:date ;
+        dc:identifier          "37" ;
+        dc:title               "Centre Penitenciari Castellon II Albocásser" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/37/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2168/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.8553962299999999 38.089960848562036, -0.8546339300000001 38.09001689856204, -0.8539528900000001 38.08997313856203, -0.8535640199999999 38.08994815856203, -0.8522738500000001 38.087585458562074, -0.8539939099999998 38.08666766856207, -0.8553556999999999 38.08986567856205, -0.8553962299999999 38.089960848562036))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19486/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.7477661 43.54504191852167, -6.74592952 43.54433579852166, -6.746834759999998 43.54309432852166, -6.747462879999999 43.542361888521675, -6.747712310000001 43.54228253852168, -6.749213780000001 43.54283101852167, -6.749327269999999 43.54308347852166, -6.748708970000001 43.54389008852165, -6.7477661 43.54504191852167))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18671/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-16.34382641 28.453947558758458, -16.342140959999995 28.454521318758434, -16.341072 28.45399536875845, -16.34137557 28.453074168758477, -16.34319858 28.452303038758505, -16.344115400000003 28.45279951875847, -16.34382641 28.453947558758458))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/17592/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.28757659 37.35277815857153, -6.285215140000001 37.35260581857155, -6.284841 37.35230302857155, -6.2848133200000005 37.35202818857154, -6.284956950000001 37.35172352857155, -6.28543519 37.35153484857155, -6.287726479999999 37.35081967857157, -6.288168070000001 37.35087003857156, -6.28856701 37.35102178857154, -6.288848209999999 37.351352208571555, -6.288956459999999 37.35167491857156, -6.28886478 37.35209087857153, -6.288674679999999 37.35240935857153, -6.28829486 37.35269553857153, -6.28757659 37.35277815857153))"^^geosparql:wktLiteral .
+
+georec:2763  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "2763" ;
+        dc:created             "2012-09-25"^^xsd:date ;
+        dc:identifier          "2763" ;
+        dc:title               "Aparcamiento" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2763/geometry> .
+
+georec:9589  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "9589" ;
+        dc:created             "2010-07-09"^^xsd:date ;
+        dc:identifier          "9589" ;
+        dc:title               "Centro de Tratamiento de residuos urbanos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9589/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8531/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.292448150000001 40.96835678853412, -4.294825750000001 40.966672698534126, -4.300258219999999 40.9695804085341, -4.2986517300000004 40.971686948534106, -4.294367449999999 40.96948290853413, -4.292448150000001 40.96835678853412))"^^geosparql:wktLiteral .
+
+georec:19575  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "19575" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "19575" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19575/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/7044/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.76450159 41.872657038528395, -0.7659272000000001 41.873307598528385, -0.7650702000000003 41.874624498528384, -0.7636037699999999 41.87571836852837, -0.7630030800000001 41.87681298852837, -0.7623372799999999 41.878924138528355, -0.7623370399999999 41.880078998528354, -0.76199196 41.88074988852833, -0.7612998400000001 41.88063115852835, -0.7612583 41.88000724852835, -0.76117236 41.87871631852836, -0.7594358299999999 41.87874008852835, -0.75636054 41.87954478852835, -0.7561595099999999 41.87867608852836, -0.75699894 41.87673233852838, -0.7573465900000002 41.87561491852838, -0.7584758599999999 41.87310029852839, -0.76450159 41.872657038528395))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9735/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.76574986 40.66388849853637, -4.766460050000001 40.66542557853637, -4.76590696 40.66621712853637, -4.76551831 40.66689688853636, -4.76503308 40.66754169853636, -4.763620789999999 40.667656848536346, -4.76253262 40.66664261853636, -4.761407319999999 40.66528398853637, -4.761797800000001 40.664568068536376, -4.762590470000002 40.66379108853637, -4.76574986 40.66388849853637))"^^geosparql:wktLiteral .
+
+georec:18363  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "18363" ;
+        dc:created             "2012-12-18"^^xsd:date ;
+        dc:identifier          "18363" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18363/geometry> .
+
+georec:8432  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "8432" ;
+        dc:created             "2012-08-31"^^xsd:date ;
+        dc:identifier          "8432" ;
+        dc:title               "Urbanización Dunas de la Vega" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8432/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5711/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.7071505 41.20743839853246, 1.7068276 41.20742469853246, 1.7065072999999993 41.20744679853247, 1.7061987999999997 41.20746839853248, 1.7058705 41.20754489853247, 1.705574 41.20756599853246, 1.7052392 41.20755269853246, 1.7049044000000002 41.207539398532454, 1.7048217999999997 41.207551798532464, 1.7045497000000005 41.20758089853248, 1.7042768999999993 41.20760109853245, 1.7039454 41.20763269853247, 1.7036308 41.207735598532466, 1.7033638999999994 41.20783649853246, 1.7031101 41.207954998532465, 1.70288193 41.208185878532475, 1.7023144799999999 41.209092358532445, 1.7023773200000005 41.20930848853245, 1.70390345 41.21020000853245, 1.7043141000000002 41.21064813853244, 1.70451643 41.211215748532446, 1.7061211999999997 41.211361298532445, 1.70739461 41.21015055853244, 1.7077636499999997 41.20935258853244, 1.7076983200000004 41.208515638532454, 1.7081260999999999 41.20807379853246, 1.708074 41.20801289853246, 1.7079878999999993 41.20780929853246, 1.7079239 41.207748898532486, 1.7076858000000001 41.207587598532456, 1.7074172000000007 41.207499598532465, 1.7071505 41.20743839853246))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5447/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.7645577999999997 41.25467455853216, 1.76553233 41.254389648532154, 1.7667866400000005 41.25409365853217, 1.7678375399999993 41.25371108853216, 1.7687429000000001 41.25346529853216, 1.7689867799999996 41.25269492853216, 1.7679182799999997 41.252389828532145, 1.7670797800000002 41.25238085853216, 1.7664619600000004 41.252528948532174, 1.7662312100000002 41.25290623853216, 1.7660249200000004 41.25297434853215, 1.7655244600000004 41.252828338532154, 1.7646103499999997 41.25287478853216, 1.7642709700000005 41.25308212853217, 1.7641118200000003 41.253614888532155, 1.76412118 41.25410726853215, 1.7645577999999997 41.25467455853216))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/20104/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.21431045 39.800940758543675, -3.2139036199999995 39.80120680854367, -3.2132286800000003 39.801648198543674, -3.2109538 39.799901798543694, -3.2117076300000003 39.7993790685437, -3.212238240000001 39.7990111185437, -3.21431045 39.800940758543675))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4601/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.496835860000001 41.79598558852882, -2.497438760000001 41.79666207852881, -2.49953776 41.796177018528816, -2.5002149999999994 41.7968617485288, -2.5012013400000006 41.800721468528806, -2.4959308 41.801556428528784, -2.49416397 41.79724965852881, -2.496835860000001 41.79598558852882))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9497/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.620803440000001 40.9438162885343, -5.618846449999999 40.9436988785343, -5.618624619999999 40.9431398985343, -5.61786395 40.94122305853432, -5.6161065 40.939204328534345, -5.617951270000001 40.93802900853434, -5.618434650000002 40.937139048534355, -5.6188525 40.93613491853436, -5.618676380000001 40.93553751853435, -5.619528750000001 40.93549500853435, -5.619534550000002 40.934870338534374, -5.6191606400000005 40.934670658534365, -5.619390149999999 40.93353202853439, -5.62153517 40.93378393853437, -5.621655520000002 40.933119958534384, -5.62146411 40.932344218534375, -5.622406800000001 40.93149447853438, -5.62367856 40.93138335853438, -5.62691124 40.93369194853438, -5.62660221 40.93392948853438, -5.625533290000001 40.934445578534365, -5.625156710000001 40.937111358534345, -5.62731441 40.937208438534334, -5.62713045 40.93811147853433, -5.626234210000001 40.93807969853433, -5.62577857 40.938742668534346, -5.62497457 40.94017055853432, -5.623056540000001 40.941284468534306, -5.621649869999999 40.94314371853431, -5.620803440000001 40.9438162885343))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/10158/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.4104939500000004 38.23013065856033, -1.40816701 38.230607328560325, -1.40771652 38.22840853856036, -1.4093884600000004 38.22821949856037, -1.4095606800000002 38.22911402856036, -1.41026619 38.22904797856035, -1.4102519 38.22970383856033, -1.4104939500000004 38.23013065856033))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9077/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.763242569999999 41.413641538531095, -4.761579469999998 41.41404606853112, -4.761275549999999 41.41348058853111, -4.76033376 41.41190973853113, -4.759328909999999 41.41043890853113, -4.75871821 41.40975469853114, -4.759670029999998 41.40935390853115, -4.762831440000001 41.40904752853115, -4.76287382 41.41185238853114, -4.763242569999999 41.413641538531095))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/14491/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.4409517400000005 36.70001998858072, -3.44090952 36.70006615858072, -3.4407430900000007 36.70024812858071, -3.4402426100000008 36.70008673858072, -3.4397836799999997 36.70087328858071, -3.43938774 36.70087017858072, -3.4402611399999996 36.69952699858074, -3.4400111199999994 36.69949762858074, -3.44120217 36.697461158580765, -3.4416049900000005 36.69651378858077, -3.441976009999999 36.6957463485808, -3.4427017699999998 36.6957322685808, -3.4435108800000003 36.69571655858079, -3.4409517400000005 36.70001998858072))"^^geosparql:wktLiteral .
+
+georec:18671  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "18671" ;
+        dc:created             "2013-01-25"^^xsd:date ;
+        dc:identifier          "18671" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18671/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/16731/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.84946294 37.389930098571035, -5.848901080000001 37.391501898571015, -5.848679860000001 37.39160583857101, -5.846580999999999 37.392591928570994, -5.84589945 37.39241001857099, -5.84566931 37.39289720857101, -5.842298100000001 37.392015068571, -5.843896880000002 37.38781181857109, -5.846621870000002 37.388511158571056, -5.84714816 37.387875178571065, -5.848264799999999 37.38802210857106, -5.848458470000001 37.38872187857105, -5.847837799999999 37.388950098571044, -5.84825843 37.38953415857104, -5.84946294 37.389930098571035))"^^geosparql:wktLiteral .
+
+georec:20  a                   btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "20" ;
+        dc:created             "2012-02-06"^^xsd:date ;
+        dc:identifier          "20" ;
+        dc:title               "Hospital La Plana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/20/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2761/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.574808640000001 40.46255567853796, -3.5741545599999998 40.46386319853796, -3.5737499299999995 40.465258878537945, -3.57337864 40.46591210853793, -3.57276535 40.466096928537944, -3.5716566100000002 40.46632964853793, -3.5705271199999995 40.46645641853792, -3.5705033200000003 40.46598692853794, -3.5704139900000005 40.46480578853795, -3.5708813900000003 40.46378851853796, -3.5717070400000006 40.46292096853796, -3.5724376299999996 40.46253863853794, -3.57345011 40.462654808537955, -3.5742837100000004 40.46272641853797, -3.574808640000001 40.46255567853796))"^^geosparql:wktLiteral .
+
+georec:4452  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "4452" ;
+        dc:created             "2012-08-01"^^xsd:date ;
+        dc:identifier          "4452" ;
+        dc:title               "Área de descanso" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4452/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/103/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.0466201 39.98510648854199, -0.04462469 39.98489166854202, -0.0450525 39.98303230854202, -0.04514264 39.98294172854202, -0.04530453 39.98287043854204, -0.04830424 39.98377278854203, -0.04808118 39.98399184854201, -0.0466201 39.98510648854199))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4348/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.041290350000001 41.83604289852862, -3.041058019999999 41.8360666585286, -3.03927317 41.83624920852859, -3.0397718 41.835292098528605, -3.0418054799999994 41.8351616785286, -3.04191811 41.8356760285286, -3.0412163100000003 41.83579175852858, -3.041290350000001 41.83604289852862))"^^geosparql:wktLiteral .
+
+georec:19232  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "19232" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "19232" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19232/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/15427/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.48202887 36.14463466859042, -5.48145256 36.14323718859045, -5.483059300000001 36.14300314859046, -5.48386181 36.142544738590466, -5.484716620000001 36.142511218590464, -5.48836564 36.14287717859046, -5.488924380000001 36.143323098590464, -5.4888381399999995 36.14490260859043, -5.488454339999999 36.14506835859043, -5.48816871 36.1464942485904, -5.487790870000002 36.1468491985904, -5.485842399999999 36.146747688590395, -5.485126580000001 36.1474883085904, -5.483702480000001 36.14736009859039, -5.483228000000002 36.14650219859041, -5.482627409999999 36.14596244859042, -5.482769050000001 36.14490243859043, -5.48202887 36.14463466859042))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/7849/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.92591115 40.21075705854005, -1.9268849100000003 40.211047368540044, -1.9282895999999996 40.21115413854004, -1.930054249999999 40.21170176854004, -1.93045889 40.21189302854003, -1.9307567199999993 40.21239582854003, -1.9306073900000007 40.212755858540035, -1.92954772 40.21247257854003, -1.9279817800000003 40.21261542854002, -1.9259701700000007 40.21257489854003, -1.92524485 40.212594838540035, -1.92376089 40.21281190854004, -1.9234389999999995 40.21221451854004, -1.9228210099999994 40.21142557854003, -1.922503529999999 40.211136818540055, -1.9223191500000003 40.21054650854004, -1.9233905600000003 40.21032734854005, -1.9247338500000002 40.21044921854005, -1.9252420900000002 40.21053206854003, -1.92591115 40.21075705854005))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/15045/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.5849490799999995 36.67237527858112, -4.586287349999999 36.673794358581105, -4.58632857 36.67447438858111, -4.584903839999999 36.67543737858109, -4.582293220000001 36.677052788581065, -4.58155842 36.67710645858107, -4.58119881 36.67684778858107, -4.58074982 36.67621707858108, -4.580915400000002 36.6749854685811, -4.581497309999998 36.6741215285811, -4.582593750000001 36.673097078581115, -4.58299571 36.672762428581116, -4.58424184 36.67239458858113, -4.5849490799999995 36.67237527858112))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/36/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.09732884 40.00180800854186, -0.09475731 40.00112011854186, -0.09332474 39.99946071854188, -0.09514112 39.99844131854189, -0.09540095 39.99788936854189, -0.09822506 39.99938880854189, -0.09732884 40.00180800854186))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/10152/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.3891317900000004 37.99772904856317, -1.3869525899999997 37.998031928563165, -1.3859708099999997 37.99806004856317, -1.3857451400000003 37.99800748856316, -1.3837570000000001 37.99754436856317, -1.3835366000000002 37.997208588563176, -1.3838180999999998 37.993163968563216, -1.38421011 37.99286433856322, -1.38524649 37.992739928563225, -1.3884850999999998 37.99285367856323, -1.38928075 37.99332211856323, -1.3892874500000003 37.99346569856322, -1.38929863 37.993705688563224, -1.3893142500000002 37.994040678563216, -1.38947155 37.99741481856317, -1.3891317900000004 37.99772904856317))"^^geosparql:wktLiteral .
+
+georec:9077  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "9077" ;
+        dc:created             "2012-08-22"^^xsd:date ;
+        dc:identifier          "9077" ;
+        dc:title               "Centro Escuela de la Naturaleza" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9077/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/10121/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.35184984 41.92378837852811, -5.3528447 41.92341490852812, -5.354400900000002 41.923736068528115, -5.35265931 41.9252311585281, -5.351470650000001 41.92461998852811, -5.35184984 41.92378837852811))"^^geosparql:wktLiteral .
+
+georec:9735  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "9735" ;
+        dc:created             "2012-11-10"^^xsd:date ;
+        dc:identifier          "9735" ;
+        dc:title               "Colegio Especial de Santa Teresa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9735/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6376/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.3909469 41.137429488532945, 1.3912059800000003 41.13798306853294, 1.39021564 41.13961780853291, 1.39236038 41.14002921853292, 1.3928128499999999 41.14011600853292, 1.39382017 41.13855176853293, 1.3937889 41.138504038532936, 1.3937658900000003 41.137739918532944, 1.39408779 41.13737879853296, 1.3946592 41.13729881853293, 1.39502957 41.13766255853294, 1.39517459 41.13925578853293, 1.3955517200000003 41.14063981853291, 1.3960647899999998 41.1407191285329, 1.4010593199999999 41.14169293853292, 1.40245823 41.13980161853293, 1.4028645500000003 41.13925224853293, 1.4018731800000004 41.13790506853294, 1.4024517900000002 41.13734562853292, 1.40135101 41.136365018532935, 1.40073297 41.13528482853296, 1.4007166500000001 41.134992338532946, 1.40039586 41.13469562853297, 1.3997993000000004 41.134660778532954, 1.3994631499999999 41.134514398532964, 1.3986461999999997 41.133560798532976, 1.3984369999999997 41.13346079853297, 1.3982947 41.13340143853297, 1.3981797700000003 41.13335353853298, 1.39805939 41.13328693853298, 1.3979818999999998 41.13324409853297, 1.3978968999999999 41.133220298532954, 1.3976123999999999 41.133240198532974, 1.3975156 41.13321689853296, 1.3974311999999998 41.13320209853296, 1.3972209000000004 41.13308409853296, 1.3971657600000005 41.13306780853298, 1.39697787 41.13301232853298, 1.3969399499999997 41.132997048532964, 1.3969167 41.13298769853298, 1.3968360700000004 41.13293258853296, 1.3967918799999999 41.13290239853296, 1.3965506799999998 41.13285758853298, 1.3965007600000003 41.13282347853297, 1.3964098500000002 41.13268498853297, 1.3963681 41.13262139853297, 1.3963295 41.13257789853298, 1.3962683100000002 41.13255322853296, 1.3962285499999998 41.13254976853296, 1.3961964000000002 41.13254699853298, 1.3961721 41.13255931853298, 1.39613884 41.132576188532965, 1.3960379300000003 41.132670098532984, 1.39602514 41.13267555853298, 1.3959685 41.13269979853297, 1.3958871 41.13272989853297, 1.3958032999999999 41.13272409853297, 1.3957859300000004 41.132721498532966, 1.3957552299999996 41.132716928532965, 1.39553359 41.13260834853297, 1.3953552700000005 41.13243507853297, 1.3953192399999998 41.13237226853296, 1.3952338999999996 41.13222359853299, 1.3951589 41.13199239853298, 1.3951118300000005 41.13190114853297, 1.3950631600000003 41.131806918532995, 1.3949885499999997 41.131695518532965, 1.3949573 41.13164889853299, 1.39491689 41.13163258853298, 1.39489612 41.131624218532984, 1.3948117700000005 41.13160942853297, 1.3947678999999997 41.13166509853298, 1.3947538300000004 41.13178954853299, 1.3947454299999997 41.13186409853297, 1.3947133900000004 41.131919348532975, 1.3946575999999997 41.13197550853297, 1.3945875300000001 41.13199619853299, 1.3945542 41.13200386853298, 1.3944467999999999 41.132028598532976, 1.39443756 41.13202778853297, 1.3943749000000005 41.13202233853298, 1.3943143100000002 41.132006638532985, 1.3942877599999999 41.131983998532974, 1.3942638000000003 41.13196359853298, 1.3941996 41.13189399853297, 1.3941690799999997 41.131877358532975, 1.3941377899999998 41.13186031853297, 1.39384849 41.13180833853298, 1.39369084 41.131793768532965, 1.3935729 41.13178289853297, 1.3932603999999997 41.13174079853298, 1.39299628 41.13174318853297, 1.3929509400000002 41.13174359853299, 1.3928378000000003 41.13177133853299, 1.3926463 41.13181829853297, 1.3926102499999997 41.13182270853297, 1.3925399800000002 41.13183134853298, 1.39245404 41.13182653853297, 1.3924443000000004 41.131825998532975, 1.39232127 41.13180148853297, 1.3921788000000002 41.131773108532975, 1.3919696499999998 41.131673048532974, 1.3918978000000002 41.13166679853298, 1.39167447 41.13171133853297, 1.3916129799999999 41.131713688532976, 1.3915793999999995 41.13171499853297, 1.3914500700000005 41.13167676853297, 1.3913364500000003 41.131643218532986, 1.39120922 41.131630698532994, 1.3910727 41.13161729853299, 1.3907477999999998 41.131566698532964, 1.3905531600000003 41.13156819853299, 1.3904501999999996 41.13156901853297, 1.3903082900000001 41.131593308532985, 1.3901793999999998 41.13161539853298, 1.3901099000000001 41.13164509853297, 1.3900659999999998 41.131700798532975, 1.3900815000000004 41.13175419853298, 1.3901466799999997 41.131891008532975, 1.3901784100000003 41.131957588532984, 1.3901969300000003 41.13210915853298, 1.3902047000000002 41.132172698532976, 1.3901955099999999 41.132182998532976, 1.3900717399999998 41.13232184853298, 1.38988621 41.13241595853298, 1.3898414 41.13243869853296, 1.38981871 41.13244429853297, 1.39093684 41.13519655853295, 1.3915568000000003 41.13672239853293, 1.3909469 41.137429488532945))"^^geosparql:wktLiteral .
+
+georec:18243  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "18243" ;
+        dc:created             "2013-02-08"^^xsd:date ;
+        dc:identifier          "18243" ;
+        dc:title               "Centro Penitenciario de Pereiro de Aguilar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18243/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19559/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.357396230000002 35.88450499859446, -5.357578989999999 35.88357342859448, -5.35742869 35.88307958859449, -5.357148539999999 35.88278149859449, -5.356302000000001 35.882825718594496, -5.355720889999999 35.88267152859448, -5.355125889999999 35.88204841859449, -5.354656680000001 35.88109163859451, -5.35407558 35.880937438594515, -5.353471560000001 35.88096022859451, -5.352508890000002 35.88099335859451, -5.352196640000001 35.88109928859452, -5.35178439 35.88137828859452, -5.3514183399999995 35.88144248859451, -5.350839219999999 35.881411058594516, -5.35036032 35.88145181859451, -5.350042480000003 35.88157706859452, -5.34967977 35.8815210885945, -5.34942142 35.881417248594516, -5.349097440000001 35.881179968594516, -5.34903338 35.880906638594524, -5.34920975 35.88033944859453, -5.34900969 35.88006100859453, -5.34912684 35.87979053859455, -5.349651120000001 35.87925774859455, -5.350530710000001 35.879185328594545, -5.35097295 35.879231868594545, -5.35141437 35.87925082859454, -5.35164755 35.87910825859454, -5.351699829999999 35.87858284859455, -5.352192719999999 35.87804879859457, -5.35309313 35.87753436859458, -5.353940429999999 35.87751775859458, -5.354276909999999 35.87742835859458, -5.354303450000001 35.87717944859458, -5.3542275 35.87690493859459, -5.353910220000001 35.87649716859458, -5.353936769999999 35.876248258594586, -5.35463869 35.87590329859459, -5.356295290000001 35.875732798594605, -5.356601949999999 35.875781978594596, -5.357125850000001 35.876296088594586, -5.357863390000002 35.87829635859456, -5.3577439 35.879094038594545, -5.357731040000001 35.87925113859455, -5.357996050000001 35.87991609859455, -5.358786199999999 35.88115536859453, -5.359459729999998 35.8825965385945, -5.3602512 35.88387854859447, -5.36058248 35.88441386859447, -5.360641370000001 35.88462659859445, -5.36002846 35.884638648594446, -5.359234099999999 35.88444037859446, -5.3589364 35.88444622859445, -5.358310639999999 35.88461536859446, -5.358013360000001 35.88463546859447, -5.357396230000002 35.88450499859446))"^^geosparql:wktLiteral .
+
+georec:103  a                  btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "103" ;
+        dc:created             "2012-01-02"^^xsd:date ;
+        dc:identifier          "103" ;
+        dc:title               "Consorcio Hospitalario Provincial de Castellón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/103/geometry> .
+
+georec:10120  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "10120" ;
+        dc:created             "2012-08-19"^^xsd:date ;
+        dc:identifier          "10120" ;
+        dc:title               "Urbanización Las Bodegas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/10120/geometry> .
+
+georec:6382  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "6382" ;
+        dc:created             "2012-08-21"^^xsd:date ;
+        dc:identifier          "6382" ;
+        dc:title               "Urbanització Marítima Residencial" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6382/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/15320/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.258983319999999 36.66264185858128, -6.26019436 36.663633058581276, -6.261112829999999 36.664652718581245, -6.259496829999999 36.668615118581194, -6.258886979999999 36.66876242858119, -6.255163700000001 36.6677411685812, -6.25487876 36.66713511858118, -6.255628400000001 36.664920458581236, -6.2554332299999995 36.664520928581254, -6.255492429999998 36.663782218581254, -6.258983319999999 36.66264185858128))"^^geosparql:wktLiteral .
+
+georec:5658  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "5658" ;
+        dc:created             "2012-04-12"^^xsd:date ;
+        dc:identifier          "5658" ;
+        dc:title               "Centre Penitenciari dels Quatre Camins" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5658/geometry> .
+
+georec:5447  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "5447" ;
+        dc:created             "2012-03-12"^^xsd:date ;
+        dc:identifier          "5447" ;
+        dc:title               "Hospital Sant Camil" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5447/geometry> .
+
+georec:9144  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "9144" ;
+        dc:created             "2012-09-05"^^xsd:date ;
+        dc:identifier          "9144" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9144/geometry> .
+
+georec:5713  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "5713" ;
+        dc:created             "2012-09-18"^^xsd:date ;
+        dc:identifier          "5713" ;
+        dc:title               "Urbanització" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5713/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19301/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.76940844 42.80693458852401, -7.773323389999997 42.809524708523995, -7.770341189999996 42.811869418524, -7.76992063 42.811338388524, -7.766739740000004 42.80876721852401, -7.76940844 42.80693458852401))"^^geosparql:wktLiteral .
+
+georec:18593  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "18593" ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "18593" ;
+        dc:title               "Vertedero" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18593/geometry> .
+
+georec:17592  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "17592" ;
+        dc:created             "2013-03-21"^^xsd:date ;
+        dc:identifier          "17592" ;
+        dc:title               "ESPA( Escuela de Seguridad Pública de Andalucía)" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/17592/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/767/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.5105838499999997 42.450780138525495, -2.50942997 42.4505686385255, -2.5086345699999995 42.450373428525495, -2.50776181 42.4498827985255, -2.508571 42.448869298525494, -2.5095412000000006 42.449078938525496, -2.5115177 42.44854146852551, -2.51284639 42.44932909852551, -2.5105838499999997 42.450780138525495))"^^geosparql:wktLiteral .
+
+georec:4488  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "4488" ;
+        dc:created             "2012-08-02"^^xsd:date ;
+        dc:identifier          "4488" ;
+        dc:title               "Escuela de Capacitación Agraria" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4488/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5713/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.7107459899999997 41.23931986853224, 1.7101848400000002 41.23995774853224, 1.7102418599999998 41.240157778532236, 1.7105241599999998 41.240268298532236, 1.71050083 41.24042140853224, 1.7103122700000004 41.24071070853226, 1.7103683900000002 41.24095672853224, 1.71216468 41.24157499853224, 1.7123896599999995 41.24150082853223, 1.7125050800000003 41.24079659853225, 1.71236996 41.24068317853224, 1.71185952 41.24055931853224, 1.7117371399999997 41.24042310853224, 1.7120511799999998 41.239844208532254, 1.7115528500000003 41.239620308532245, 1.7107459899999997 41.23931986853224))"^^geosparql:wktLiteral .
+
+georec:19298  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "19298" ;
+        dc:created             "2007-08-22"^^xsd:date ;
+        dc:identifier          "19298" ;
+        dc:title               "Hospital Universitario Lucus Augusti" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19298/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/15725/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.885927200000001 37.316171528572035, -6.885926639999998 37.31708093857201, -6.885720759999999 37.318148658572, -6.886182980000001 37.32067215857198, -6.885729339999999 37.321664908571954, -6.882822770000001 37.32129416857197, -6.880665060000002 37.320853528571966, -6.88026631 37.31955937857199, -6.880045969999999 37.31712262857203, -6.880371 37.31652464857203, -6.885927200000001 37.316171528572035))"^^geosparql:wktLiteral .
+
+georec:4724  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "4724" ;
+        dc:created             "2012-08-17"^^xsd:date ;
+        dc:identifier          "4724" ;
+        dc:title               "Herba-savina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4724/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6382/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.4306614999999996 41.1568952985328, 1.4290922499999998 41.15833188853279, 1.4291418900000004 41.158562048532794, 1.4294960800000003 41.1587546885328, 1.42921517 41.1595015085328, 1.4276415 41.16335069853275, 1.4283044000000003 41.16364039853277, 1.4291807400000005 41.16303028853277, 1.43188744 41.16252972853277, 1.4336309999999999 41.161706098532775, 1.4361335000000002 41.1601237985328, 1.43534035 41.15959728853279, 1.43447034 41.1590197385328, 1.43266204 41.15814569853279, 1.4320704000000002 41.15782239853281, 1.4306614999999996 41.1568952985328))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9289/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.691066499999999 40.99267259853394, -5.690875850000002 40.99244058853395, -5.690657179999999 40.992224438533945, -5.69257189 40.99122883853397, -5.693054560000001 40.991844118533955, -5.693956299999998 40.992993568533954, -5.691377309999999 40.993050828533946, -5.691066499999999 40.99267259853394))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2865/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.655815280000001 40.21970270853998, -3.658682579999999 40.21762440854, -3.659492059999999 40.21768623854, -3.66225833 40.21992933853996, -3.6616312000000013 40.22079661853997, -3.6610881299999987 40.22139766853996, -3.658438719999999 40.22227646853995, -3.6573974299999996 40.22214950853995, -3.6564749000000005 40.22235405853994, -3.6563098000000007 40.221690438539966, -3.6568113099999984 40.22128913853995, -3.655209970000001 40.220422708539964, -3.655815280000001 40.21970270853998))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8599/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.16405215 40.95415209853422, -4.162933519999999 40.95379331853422, -4.16224356 40.953261328534225, -4.162002860000001 40.95247251853424, -4.16171132 40.952234648534244, -4.160373930000001 40.95186969853425, -4.16027538 40.95098840853426, -4.161970310000001 40.95085731853426, -4.1636577500000005 40.95072677853425, -4.163376409999999 40.951449568534244, -4.16251606 40.95154998853423, -4.16261604 40.952076458534236, -4.1632348399999985 40.95200141853424, -4.16375915 40.952123958534244, -4.164352390000001 40.952596918534226, -4.165094429999998 40.952882108534226, -4.16633131 40.95270108853423, -4.16660205 40.95279590853422, -4.166614690000001 40.95351420853423, -4.16625865 40.953890328534214, -4.16522153 40.95412254853422, -4.16405215 40.95415209853422))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/20257/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.054868090000001 39.87579345854298, -4.054708059999999 39.875957628543006, -4.053484280000002 39.87598073854298, -4.051985579999999 39.87599434854298, -4.05024163 39.87601014854298, -4.048521409999999 39.875794738543, -4.046881989999999 39.87551557854299, -4.04616203 39.87476614854299, -4.046471700000001 39.874360998543004, -4.050183500000001 39.875453698543, -4.052099699999999 39.87426464854301, -4.05289693 39.87413297854301, -4.053704129999999 39.874364108543006, -4.054868090000001 39.87579345854298))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/17968/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.422081959999997 38.432723808557945, -6.422699859999998 38.43333547855793, -6.42283101 38.43389259855794, -6.42124551 38.434377188557924, -6.420363750000002 38.43484946855793, -6.41974584 38.43423083855792, -6.42062447 38.43369250855794, -6.420593299999999 38.433255178557935, -6.422081959999997 38.432723808557945))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8610/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.127820139999998 40.9440607585343, -4.12719115 40.943904668534294, -4.127625859999999 40.94190146853432, -4.127863760000001 40.94157332853433, -4.1284756300000005 40.94133927853431, -4.130615679999999 40.94253465853429, -4.129423909999998 40.9431979585343, -4.127820139999998 40.9440607585343))"^^geosparql:wktLiteral .
+
+georec:6376  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "6376" ;
+        dc:created             "2012-08-21"^^xsd:date ;
+        dc:identifier          "6376" ;
+        dc:title               "Urbanització Els Munts" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6376/geometry> .
+
+georec:11875  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "11875" ;
+        dc:created             "2013-01-22"^^xsd:date ;
+        dc:identifier          "11875" ;
+        dc:title               "Hospital Universitario Marqués de Valdecilla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11875/geometry> .
+
+georec:11272  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "11272" ;
+        dc:created             "2012-01-23"^^xsd:date ;
+        dc:identifier          "11272" ;
+        dc:title               "Centro Educativo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11272/geometry> .
+
+georec:435  a                  btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "435" ;
+        dc:created             "2012-01-07"^^xsd:date ;
+        dc:identifier          "435" ;
+        dc:title               "Nou Hospital La Fé de Valencia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/435/geometry> .
+
+georec:8433  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "8433" ;
+        dc:created             "2012-08-31"^^xsd:date ;
+        dc:identifier          "8433" ;
+        dc:title               "Urbanización La Huelga" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8433/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2763/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.5779703300000003 40.46789179853791, -3.5787729199999996 40.46828425853791, -3.5778773199999994 40.46951133853791, -3.5773599800000007 40.46946716853792, -3.57558009 40.46931518853792, -3.575715290000002 40.46890677853793, -3.575878850000001 40.46841264853791, -3.57603661 40.46838875853792, -3.5775013900000006 40.46803354853793, -3.5779703300000003 40.46789179853791))"^^geosparql:wktLiteral .
+
+georec:15427  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "15427" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "15427" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/15427/geometry> .
+
+georec:170  a                  btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "170" ;
+        dc:created             "2012-01-13"^^xsd:date ;
+        dc:identifier          "170" ;
+        dc:title               "Hospital Provincial de Vinarós" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/170/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18525/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-15.46453297 27.809772708776862, -15.464527840000008 27.810975998776826, -15.464479059999999 27.811559568776808, -15.464193169999996 27.811833998776795, -15.460113199999999 27.811929688776786, -15.459732880000002 27.811693948776796, -15.459583790000002 27.807938778776908, -15.46300785 27.807927338776924, -15.46353282 27.80842693877689, -15.46358891 27.80956621877686, -15.46453297 27.809772708776862))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/17625/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.6105366000000005 43.526473398521716, -5.60973338 43.52590679852171, -5.608738839999999 43.525563928521706, -5.6084424 43.525680368521705, -5.6082746000000006 43.52586699852172, -5.60836485 43.52621223852169, -5.60824566 43.526361198521705, -5.60675705 43.52621237852171, -5.606252059999999 43.5259679385217, -5.60595142 43.52500602852172, -5.605587380000001 43.5247197185217, -5.604865969999999 43.52488454852172, -5.604697819999999 43.52479950852171, -5.6046369799999995 43.52448980852171, -5.60472903 43.5243703485217, -5.605601900000001 43.524222008521726, -5.605806039999998 43.5240598885217, -5.6057523100000015 43.52391516852171, -5.605375440000001 43.52353134852173, -5.606121359999999 43.523119378521706, -5.60691724 43.52349618852172, -5.607959760000001 43.52380860852171, -5.60909943 43.52339957852171, -5.60957762 43.523460918521714, -5.610018539999999 43.52388868852168, -5.610510279999997 43.524150368521695, -5.6105888 43.52477221852171, -5.6105366000000005 43.526473398521716))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19000/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-8.451570080000003 42.4068939185257, -8.450699160000005 42.40578219852571, -8.451467630000003 42.4055609885257, -8.45141288 42.4048487285257, -8.455218960000002 42.40327636852571, -8.455658409999998 42.403452758525695, -8.456035490000001 42.404042818525724, -8.457868579999998 42.406252078525704, -8.457718400000001 42.4066217685257, -8.4539118 42.40823778852569, -8.45279425 42.40827603852568, -8.451570080000003 42.4068939185257))"^^geosparql:wktLiteral .
+
+georec:447  a                  btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "447" ;
+        dc:created             "2012-01-07"^^xsd:date ;
+        dc:identifier          "447" ;
+        dc:title               "Palau de Congressos de Valencia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/447/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11806/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.46024252 43.46256257852186, -3.4578588399999997 43.46228895852187, -3.455031750000001 43.461881268521886, -3.4544758000000004 43.46185889852188, -3.45447671 43.46125326852188, -3.454495049999999 43.46088032852188, -3.4543388400000006 43.460440008521864, -3.4540857899999997 43.46005769852188, -3.4540321000000005 43.45967198852188, -3.45385277 43.45932515852188, -3.4540077600000005 43.458944528521876, -3.4545647200000005 43.458612938521895, -3.4555342399999995 43.45766643852187, -3.45614412 43.45701814852189, -3.45647392 43.456494578521884, -3.4573231800000004 43.455739878521904, -3.4580471999999998 43.45531775852189, -3.45890078 43.455413428521894, -3.4588317900000005 43.456098048521895, -3.4595752100000006 43.457217238521885, -3.4626776999999995 43.46104370852188, -3.46024252 43.46256257852186))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18287/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-15.443651980000002 27.881141608774783, -15.442317810000004 27.8803147487748, -15.444181509999998 27.878128368774878, -15.444991229999992 27.878756918774858, -15.444580399999998 27.87962205877483, -15.443651980000002 27.881141608774783))"^^geosparql:wktLiteral .
+
+georec:19558  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "19558" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "19558" ;
+        dc:title               "Hospital Universitario de Ceuta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19558/geometry> .
+
+georec:7118  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "7118" ;
+        dc:created             "2012-03-14"^^xsd:date ;
+        dc:identifier          "7118" ;
+        dc:title               "Eras Bajas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/7118/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/17108/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.99755813 37.423924918570556, -5.997202850000002 37.42554938857055, -5.99535834 37.42520832857056, -5.995343359999999 37.424832468570564, -5.99373708 37.42464326857056, -5.9939706100000025 37.423926678570574, -5.99610634 37.42424875857057, -5.996346500000001 37.42369920857059, -5.99755813 37.423924918570556))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4722/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.9972630599999999 42.201370338526665, 0.9979556100000001 42.20095101852667, 0.9988394600000002 42.20087180852667, 0.9985564599999999 42.20058098852667, 0.9979730399999999 42.200278588526686, 0.9969649200000001 42.19978120852668, 0.99595283 42.200252258526675, 0.9957349200000002 42.20058262852668, 0.9958466400000001 42.20132109852667, 0.9964158299999999 42.201398068526686, 0.9972630599999999 42.201370338526665))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9462/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.691173570000002 41.19847654853253, -5.691686539999998 41.19485269853254, -5.6921687 41.19462727853256, -5.697191140000002 41.194966518532546, -5.697599109999999 41.19615614853255, -5.698097080000001 41.19631578853254, -5.698191239999999 41.19722724853252, -5.697579119999999 41.19796966853252, -5.697606659999999 41.19863999853252, -5.69809222 41.19895696853252, -5.69803427 41.1993866085325, -5.696865860000001 41.19947109853252, -5.696230999999999 41.19920045853252, -5.691587070000001 41.19888087853251, -5.691173570000002 41.19847654853253))"^^geosparql:wktLiteral .
+
+georec:5750  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "5750" ;
+        dc:created             "2012-09-24"^^xsd:date ;
+        dc:identifier          "5750" ;
+        dc:title               "Sanatori" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5750/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/3643/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.9839842600000006 43.33279907852224, -2.9839652100000005 43.33318626852224, -2.98371888 43.333435138522226, -2.9829421200000006 43.333670108522234, -2.98222285 43.33386301852223, -2.9819731000000003 43.333445268522226, -2.9807060099999996 43.33273906852223, -2.98040609 43.33203301852222, -2.98134004 43.33149759852223, -2.9817735799999996 43.33149766852223, -2.9839842600000006 43.33279907852224))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/548/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.42690215 39.47904172854673, -0.4272844299999999 39.479231898546736, -0.4273943400000001 39.479286568546726, -0.4279262900000001 39.479551178546735, -0.42840192 39.47994143854673, -0.4284637500000001 39.48002379854673, -0.4270799199999999 39.4820313685467, -0.4266163199999998 39.4826334685467, -0.42300221 39.481160988546726, -0.4232341100000001 39.48077422854672, -0.42347598 39.48037081854671, -0.4238366099999999 39.47978035854672, -0.42480019 39.478202638546755, -0.4261769599999999 39.47875224854673, -0.42690215 39.47904172854673))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/3082/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.8368192900000007 42.604135288524844, -2.8374104 42.604439598524834, -2.837669040000001 42.60457273852484, -2.83779384 42.60520990852483, -2.8374082400000002 42.606001028524815, -2.8371027899999994 42.60633391852481, -2.83641444 42.60641627852482, -2.8361307099999995 42.60706586852482, -2.8355319600000004 42.607390008524824, -2.83444894 42.60740511852481, -2.83401026 42.60692114852481, -2.8342031400000005 42.60650475852481, -2.8341269400000004 42.60546298852482, -2.83498537 42.60504755852484, -2.8359456300000003 42.604515608524835, -2.8368192900000007 42.604135288524844))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6378/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.4122619400000003 41.14781658853287, 1.4117941699999998 41.14923600853287, 1.41136037 41.14924773853284, 1.40986668 41.15201306853284, 1.4091463400000002 41.15232072853284, 1.40882366 41.15303319853283, 1.40901147 41.153761098532826, 1.4113844999999998 41.15461518853283, 1.4133802599999998 41.15467860853282, 1.41400822 41.15437445853282, 1.4143754300000004 41.15432535853284, 1.41480995 41.15458870853282, 1.4148334200000001 41.15493784853282, 1.4169606399999999 41.1559055085328, 1.4169658999999994 41.15680119853279, 1.4192837999999999 41.156377068532805, 1.4202854899999997 41.15564892853283, 1.42096166 41.15515740853282, 1.4215566699999995 41.15436441853282, 1.4220823000000002 41.15465658853282, 1.4225408500000003 41.15453658853282, 1.42310845 41.15402468853284, 1.4230849400000003 41.15367554853284, 1.42377107 41.15217650853283, 1.4225454100000001 41.15139876853284, 1.42150761 41.15215042853284, 1.4208806199999995 41.15191156853283, 1.4204282900000003 41.15220647853285, 1.4196121899999998 41.15203586853283, 1.41781942 41.150576528532845, 1.4180609099999997 41.15027873853285, 1.4165761600000004 41.14868190853285, 1.4167828000000002 41.14805589853287, 1.4159222000000002 41.147836798532886, 1.4150436 41.147633198532866, 1.4136014199999998 41.14729897853287, 1.4122619400000003 41.14781658853287))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/20251/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.9668786099999997 39.88946558854288, -3.9660196499999993 39.889963588542855, -3.9642944300000003 39.888385348542876, -3.9644902599999994 39.88786489854287, -3.9651112700000004 39.88793384854287, -3.965977979999998 39.88868472854287, -3.966773769999999 39.88832352854286, -3.967046560000001 39.88855423854288, -3.9670145399999996 39.888595428542885, -3.966783270000001 39.889102388542874, -3.9668786099999997 39.88946558854288))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5704/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((2.12848804 41.43792657853096, 2.12690822 41.438411108530964, 2.1249280399999995 41.43967195853095, 2.1246886400000005 41.440220788530944, 2.12473731 41.44058377853095, 2.12503635 41.442238008530936, 2.12531992 41.44238789853094, 2.1263546799999995 41.442422628530935, 2.1277867499999994 41.44211115853095, 2.1280571499999996 41.44191174853094, 2.128402349999999 41.441457728530935, 2.1290668100000008 41.44115385853093, 2.1293020500000006 41.44091389853095, 2.12911549 41.44022927853096, 2.12924395 41.439919598530956, 2.1291296199999996 41.439126338530954, 2.1289779799999993 41.43845365853097, 2.1288397 41.43811684853096, 2.12848804 41.43792657853096))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2899/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.7911866000000005 40.36349228853877, -3.791795630000002 40.36380044853876, -3.7921944999999995 40.36419620853878, -3.7922738399999987 40.36496032853876, -3.791940240000001 40.365328798538755, -3.7909611299999995 40.365884768538756, -3.7901608899999997 40.36608409853876, -3.7848924499999987 40.36587225853875, -3.78053805 40.36555709853874, -3.779375140000001 40.36483257853877, -3.7791683900000015 40.36407211853878, -3.779252089999999 40.36361806853876, -3.7808773400000013 40.36317628853878, -3.782714229999999 40.36309584853877, -3.7861230900000002 40.36309539853877, -3.78908656 40.363029868538774, -3.7911866000000005 40.36349228853877))"^^geosparql:wktLiteral .
+
+georec:11321  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "11321" ;
+        dc:created             "2012-08-13"^^xsd:date ;
+        dc:identifier          "11321" ;
+        dc:title               "Centro Educativo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11321/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18562/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-13.70777057 28.94092451874496, -13.705986870000002 28.941287128744946, -13.705284669999998 28.93884074874501, -13.7070163 28.93845462874502, -13.70777057 28.94092451874496))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/7119/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.4552105200000002 41.411851128531126, -0.45539834 41.41281358853112, -0.45555235 41.413839758531125, -0.45592883 41.4153822285311, -0.45744611 41.4175343585311, -0.45764302 41.41994950853108, -0.4576879700000001 41.420087888531086, -0.45585431 41.419669458531075, -0.4542956499999999 41.41948763853108, -0.4538680099999998 41.418219338531095, -0.4547454399999999 41.41771722853108, -0.45278218 41.416034628531115, -0.45176346 41.414093348531125, -0.4552105200000002 41.411851128531126))"^^geosparql:wktLiteral .
+
+georec:12503  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "12503" ;
+        dc:created             "2008-04-04"^^xsd:date ;
+        dc:identifier          "12503" ;
+        dc:title               "Hospital Comarcal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/12503/geometry> .
+
+georec:767  a                  btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "767" ;
+        dc:created             "2012-05-11"^^xsd:date ;
+        dc:identifier          "767" ;
+        dc:title               "Centro Educacional" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/767/geometry> .
+
+georec:3072  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "3072" ;
+        dc:created             "2012-05-09"^^xsd:date ;
+        dc:identifier          "3072" ;
+        dc:title               "Centro Asistencial Reina Sofía" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/3072/geometry> .
+
+georec:9289  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "9289" ;
+        dc:created             "2010-07-16"^^xsd:date ;
+        dc:identifier          "9289" ;
+        dc:title               "Centro Sanitario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9289/geometry> .
+
+georec:19486  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "19486" ;
+        dc:created             "2013-02-17"^^xsd:date ;
+        dc:identifier          "19486" ;
+        dc:title               "Hospital" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19486/geometry> .
+
+georec:3645  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "3645" ;
+        dc:created             "2012-05-22"^^xsd:date ;
+        dc:identifier          "3645" ;
+        dc:title               "Centro geriátrico" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/3645/geometry> .
+
+georec:10121  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "10121" ;
+        dc:created             "2012-08-19"^^xsd:date ;
+        dc:identifier          "10121" ;
+        dc:title               "Urbanización Las Bodegas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/10121/geometry> .
+
+georec:16495  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "16495" ;
+        dc:created             "2006-09-08"^^xsd:date ;
+        dc:identifier          "16495" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/16495/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11321/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.01512134 39.147407168550075, -3.0142065699999994 39.14624316855009, -3.01418598 39.14545308855009, -3.01711384 39.1454526985501, -3.01781204 39.146756998550096, -3.0165730199999996 39.14742612855008, -3.01512134 39.147407168550075))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5710/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.68702532 41.212141688532434, 1.6863579300000002 41.21293530853242, 1.6863889700000003 41.21324491853243, 1.6872335399999996 41.21383087853243, 1.6879320500000001 41.21427459853243, 1.6879269899999998 41.21452756853242, 1.6877564 41.21468024853242, 1.6877533100000006 41.21483483853241, 1.6883373600000002 41.215417818532416, 1.68857819 41.215476788532406, 1.6894404900000002 41.21517735853241, 1.68994215 41.21522523853242, 1.6909049000000003 41.21548920853242, 1.6911324399999998 41.21528094853241, 1.6911223199999996 41.21473225853241, 1.6911145499999998 41.21431081853244, 1.6908968199999996 41.21402720853242, 1.6891030499999997 41.21343047853242, 1.6890703200000001 41.21320518853243, 1.689306 41.21258937853244, 1.6891782500000008 41.212461408532434, 1.68846465 41.21231116853242, 1.6873431100000003 41.212075028532446, 1.68702532 41.212141688532434))"^^geosparql:wktLiteral .
+
+georec:16731  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "16731" ;
+        dc:created             "2013-01-05"^^xsd:date ;
+        dc:identifier          "16731" ;
+        dc:title               "Centro Penitenciario Sevilla 2" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/16731/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11828/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.11227793 43.36083470852216, -4.11271004 43.36076726852213, -4.113282650000001 43.36079963852216, -4.113775590000001 43.36088445852215, -4.1140200400000015 43.361246478522155, -4.114065780000001 43.36144334852216, -4.1142669399999985 43.36154256852214, -4.115064849999999 43.36157272852214, -4.115187209999998 43.36162844852214, -4.115224309999999 43.361760888522156, -4.115199350000001 43.36181803852217, -4.115027200000002 43.36188295852216, -4.11497637 43.36194668852216, -4.11502166 43.362053748522136, -4.11499694 43.362123548522135, -4.11474703 43.36220186852214, -4.114041660000002 43.36249330852214, -4.113467660000001 43.36285934852214, -4.113277010000002 43.36286120852213, -4.11299613 43.36266790852214, -4.112945360000001 43.36253831852214, -4.113139159999999 43.36195825852215, -4.11304292 43.36183270852215, -4.11251963 43.361730318522156, -4.11241426 43.36165545852216, -4.1122197 43.36096806852216, -4.11227793 43.36083470852216))"^^geosparql:wktLiteral .
+
+georec:5714  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "5714" ;
+        dc:created             "2012-09-18"^^xsd:date ;
+        dc:identifier          "5714" ;
+        dc:title               "Urbanització" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5714/geometry> .
+
+georec:5690  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "5690" ;
+        dc:created             "2012-04-18"^^xsd:date ;
+        dc:identifier          "5690" ;
+        dc:title               "Urbanització El Palau" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5690/geometry> .
+
+georec:3205  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "3205" ;
+        dc:created             "2012-08-27"^^xsd:date ;
+        dc:identifier          "3205" ;
+        dc:title               "Educativa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/3205/geometry> .
+
+georec:17593  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "17593" ;
+        dc:created             "2013-03-21"^^xsd:date ;
+        dc:identifier          "17593" ;
+        dc:title               "Colegio Altair" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/17593/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2862/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.5950754700000003 40.232848568539865, -3.59579304 40.23353629853986, -3.5961538000000006 40.234079878539845, -3.5968054600000006 40.23609625853983, -3.597038470000001 40.23711933853983, -3.5964776700000005 40.23704337853984, -3.593492879999999 40.23717313853983, -3.5913978400000013 40.236611778539825, -3.59131698 40.235897088539836, -3.5908975100000005 40.23487182853984, -3.5898821200000004 40.233987918539846, -3.590174480000001 40.23327132853985, -3.59058017 40.23294541853986, -3.59210094 40.232740638539866, -3.59297021 40.232567228539864, -3.594155000000002 40.23254433853986, -3.5950754700000003 40.232848568539865))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19298/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.53793502 43.01897630852324, -7.5367443499999975 43.020428868523226, -7.534979650000002 43.023007628523224, -7.533318859999997 43.0247894885232, -7.530859830000001 43.02359252852322, -7.529731740000003 43.02188486852322, -7.530222110000001 43.02142938852323, -7.531131389999998 43.02097755852322, -7.531748450000002 43.02052148852323, -7.534081409999999 43.01919197852323, -7.536246079999999 43.01822754852324, -7.53793502 43.01897630852324))"^^geosparql:wktLiteral .
+
+georec:1360  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "1360" ;
+        dc:created             "2012-05-14"^^xsd:date ;
+        dc:identifier          "1360" ;
+        dc:title               "Aparcamiento" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/1360/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/3073/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.47392361 42.391680898525756, -2.4725286800000004 42.394151938525766, -2.4706804200000008 42.39377639852576, -2.4691311500000004 42.393403638525754, -2.4682219 42.392904618525776, -2.469818590000001 42.391036978525776, -2.471527680000001 42.39153048852578, -2.47180244 42.391033058525764, -2.47392361 42.391680898525756))"^^geosparql:wktLiteral .
+
+georec:792  a                  btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "792" ;
+        dc:created             "2012-02-06"^^xsd:date ;
+        dc:identifier          "792" ;
+        dc:title               "Plaza Armas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/792/geometry> .
+
+georec:15320  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "15320" ;
+        dc:created             "2012-11-28"^^xsd:date ;
+        dc:identifier          "15320" ;
+        dc:title               "Centro Penitenciario del Puerto de Santa María" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/15320/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2760/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.57339105 40.4693032685379, -3.57307771 40.469657128537904, -3.5720600500000006 40.469463408537905, -3.570670100000001 40.46928848853791, -3.57015095 40.468882048537914, -3.56974876 40.46823263853792, -3.5701195800000005 40.46751882853795, -3.570970000000001 40.46722680853794, -3.5717377800000003 40.46728405853793, -3.57192266 40.46729783853792, -3.573110630000001 40.46704957853794, -3.5735252 40.466820298537925, -3.57399847 40.46637625853793, -3.573578269999999 40.46839547853791, -3.57339105 40.4693032685379))"^^geosparql:wktLiteral .
+
+georec:7071  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "7071" ;
+        dc:created             "2012-06-28"^^xsd:date ;
+        dc:identifier          "7071" ;
+        dc:title               "Centro Neuropsiquíatrico Ntra. Sra. del Carmen" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/7071/geometry> .
+
+georec:6377  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "6377" ;
+        dc:created             "2012-08-21"^^xsd:date ;
+        dc:identifier          "6377" ;
+        dc:title               "Urbanització La Marina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6377/geometry> .
+
+georec:17967  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "17967" ;
+        dc:created             "2012-10-25"^^xsd:date ;
+        dc:identifier          "17967" ;
+        dc:title               "Centro Educacional" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/17967/geometry> .
+
+georec:20104  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "20104" ;
+        dc:created             "2012-03-16"^^xsd:date ;
+        dc:identifier          "20104" ;
+        dc:title               "Peaje" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/20104/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19573/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.9479781499999995 35.28708562860419, -2.9471112999999995 35.28696816860418, -2.9465812800000006 35.2864661886042, -2.9467143100000004 35.2857805186042, -2.94819035 35.2860178486042, -2.9481417800000003 35.286374878604185, -2.9479781499999995 35.28708562860419))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/16925/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.770188849999999 37.22031572857333, -4.773153569999998 37.21338630857344, -4.776790849999999 37.21930948857335, -4.775954069999998 37.219921038573354, -4.774211819999999 37.21676159857338, -4.77333463 37.2171014685734, -4.7742558200000005 37.21863959857336, -4.77351665 37.219059078573366, -4.77262632 37.21738433857338, -4.77189912 37.21904245857335, -4.7711718900000015 37.220700568573335, -4.770188849999999 37.22031572857333))"^^geosparql:wktLiteral .
+
+georec:11243  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "11243" ;
+        dc:created             "2012-01-19"^^xsd:date ;
+        dc:identifier          "11243" ;
+        dc:title               "Centro Penitenciario Herrera de la Mancha" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11243/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11063/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.7366255400000004 37.64470363856767, -1.7353467999999999 37.64538066856765, -1.7347632300000002 37.64568963856764, -1.7336671900000005 37.64626990856763, -1.73297974 37.64549240856765, -1.73342837 37.644069998567666, -1.73359104 37.64396758856767, -1.7337543300000007 37.643864788567676, -1.7339828799999997 37.64372089856768, -1.73496513 37.64397798856766, -1.7357745900000001 37.64433174856765, -1.7366255400000004 37.64470363856767))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5577/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.88299912 41.465335538530795, 1.8824379300000005 41.4656420085308, 1.8815306199999997 41.46705015853076, 1.8820592099999998 41.46906364853077, 1.881441989999999 41.46970736853078, 1.8809512099999994 41.47026227853076, 1.87965337 41.471100708530756, 1.8796265300000008 41.472632728530755, 1.8789461699999999 41.47460194853073, 1.8818729799999994 41.47638215853073, 1.8824592900000003 41.47568077853074, 1.8838215499999995 41.47208043853076, 1.8839511300000003 41.47002782853075, 1.8850888 41.46970181853077, 1.8856049199999996 41.46953708853076, 1.88613248 41.468097868530776, 1.8849341899999996 41.46598853853077, 1.8844384399999998 41.4655710585308, 1.88299912 41.465335538530795))"^^geosparql:wktLiteral .
+
+georec:2862  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "2862" ;
+        dc:created             "2012-10-11"^^xsd:date ;
+        dc:identifier          "2862" ;
+        dc:title               "Aparcamiento" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2862/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9589/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.139072210000001 40.12324853854079, -5.13844727 40.124605118540785, -5.138692310000001 40.12709852854076, -5.1381426900000005 40.128197528540774, -5.1361060200000015 40.129772318540745, -5.13556157 40.12837327854076, -5.1346142100000005 40.12743000854076, -5.134562130000001 40.12576566854077, -5.136084370000001 40.123752048540794, -5.1361397 40.12285433854079, -5.13753919 40.1222520585408, -5.138506569999999 40.1228808685408, -5.139072210000001 40.12324853854079))"^^geosparql:wktLiteral .
+
+georec:18070  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "18070" ;
+        dc:created             "2012-11-13"^^xsd:date ;
+        dc:identifier          "18070" ;
+        dc:title               "Depósito municipal de vehículos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18070/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/10120/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.366788310000002 41.91139437852818, -5.365036910000001 41.91260739852819, -5.363484410000002 41.912380458528176, -5.36393329 41.91173567852818, -5.3632257899999995 41.91135009852817, -5.362517670000001 41.91009361852818, -5.363493160000001 41.90920261852819, -5.365616700000001 41.909535478528205, -5.366788310000002 41.91139437852818))"^^geosparql:wktLiteral .
+
+georec:8531  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "8531" ;
+        dc:created             "2012-09-05"^^xsd:date ;
+        dc:identifier          "8531" ;
+        dc:title               "Depósito de Rechazos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8531/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/15157/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.530497530000001 37.03254812857595, -4.529881639999999 37.032864388575945, -4.529066930000002 37.03346010857594, -4.52808577 37.034177528575924, -4.527499019999999 37.033555658575914, -4.52766494 37.03304607857595, -4.528679170000001 37.03221244857596, -4.5270038800000005 37.03176000857596, -4.52665033 37.03110381857597, -4.52662619 37.02989753857599, -4.528579089999999 37.029901128575986, -4.529376719999999 37.029919568576, -4.53017434 37.02993801857599, -4.53025824 37.03179847857596, -4.530497530000001 37.03254812857595))"^^geosparql:wktLiteral .
+
+georec:19559  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "19559" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "19559" ;
+        dc:title               "Zona de explotación minera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19559/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5560/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((2.05154194 41.555939568530235, 2.05163971 41.55708980853022, 2.0518135600000003 41.55774024853023, 2.05220147 41.55803807853021, 2.0533826400000006 41.55776764853022, 2.05351753 41.55790159853022, 2.05343948 41.558154058530214, 2.053589740000001 41.55832940853023, 2.05493988 41.55854675853021, 2.05515689 41.55846014853022, 2.0551995400000003 41.55822479853022, 2.05543937 41.557917408530216, 2.0557165000000004 41.55774289853023, 2.0559360700000004 41.55747953853024, 2.05556788 41.555826588530245, 2.05531509 41.55567719853024, 2.05447315 41.55558188853023, 2.05154194 41.555939568530235))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19558/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.34280382 35.881560708594506, -5.34060422 35.88097956859451, -5.34074589 35.88044875859453, -5.341206070000001 35.87938369859455, -5.34163697 35.87932728859454, -5.34318336 35.87976115859455, -5.34345059 35.88015596859453, -5.343011049999999 35.881110648594515, -5.34280382 35.881560708594506))"^^geosparql:wktLiteral .
+
+georec:11828  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "11828" ;
+        dc:created             "2012-11-26"^^xsd:date ;
+        dc:identifier          "11828" ;
+        dc:title               "Invernaderos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11828/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9751/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.8226087 40.70866986853604, -4.822487889999999 40.70836756853604, -4.821773489999998 40.70725663853605, -4.8208845600000005 40.70605689853606, -4.822069430000001 40.706264548536055, -4.82348737 40.70613591853607, -4.824423269999999 40.70555128853606, -4.82503509 40.70564785853607, -4.825344799999999 40.70629971853604, -4.82450214 40.707510658536044, -4.82334813 40.70847540853604, -4.8226087 40.70866986853604))"^^geosparql:wktLiteral .
+
+georec:7119  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "7119" ;
+        dc:created             "2012-07-11"^^xsd:date ;
+        dc:identifier          "7119" ;
+        dc:title               "Eras Altas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/7119/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/12504/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.7978184299999995 36.763392048579796, -2.7940496600000007 36.76141996857982, -2.79488082 36.76096783857984, -2.79654338 36.75996274857985, -2.7980810200000006 36.758806228579864, -2.7988962800000006 36.758429628579876, -2.79902286 36.757925858579895, -2.7997749400000003 36.75775074857988, -2.79958487 36.75858199857987, -2.7978184299999995 36.763392048579796))"^^geosparql:wktLiteral .
+
+georec:4273  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "4273" ;
+        dc:created             "2012-05-23"^^xsd:date ;
+        dc:identifier          "4273" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4273/geometry> .
+
+georec:5540  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "5540" ;
+        dc:created             "2012-03-26"^^xsd:date ;
+        dc:identifier          "5540" ;
+        dc:title               "Hospital Universitari Germans Trias i Pujol" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5540/geometry> .
+
+georec:7849  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "7849" ;
+        dc:created             "2012-02-17"^^xsd:date ;
+        dc:identifier          "7849" ;
+        dc:replaces            "44108" ;
+        dc:title               "Urbanización de La Toba" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/7849/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/264/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.04122004 40.00102005854187, -0.04216681 40.00223346854185, -0.04252611 40.00272747854186, -0.04267037 40.003243448541845, -0.04274509 40.003986198541845, -0.04239302 40.00436608854183, -0.04158448 40.00414878854184, -0.04126283 40.00388442854185, -0.04094383 40.002913458541855, -0.04074908 40.001639318541855, -0.0408838 40.00109378854187, -0.04122004 40.00102005854187))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/16495/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.67659337 37.90389870856434, -4.672020820000001 37.90722967856431, -4.671686570000001 37.90678381856431, -4.66895755 37.90480385856433, -4.66850498 37.904261998564344, -4.67317091 37.90085756856438, -4.67659337 37.90389870856434))"^^geosparql:wktLiteral .
+
+georec:12504  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "12504" ;
+        dc:created             "2008-04-04"^^xsd:date ;
+        dc:identifier          "12504" ;
+        dc:title               "Aparcamiento" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/12504/geometry> .
+
+georec:2760  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "2760" ;
+        dc:created             "2012-09-25"^^xsd:date ;
+        dc:identifier          "2760" ;
+        dc:title               "Aparcamiento" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2760/geometry> .
+
+georec:5497  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "5497" ;
+        dc:created             "2012-04-18"^^xsd:date ;
+        dc:identifier          "5497" ;
+        dc:title               "Rèsidencia Sanitària de Bellvitge" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5497/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4294/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.635666780000001 42.340071918526014, -3.63558901 42.33886998852601, -3.634248939999999 42.33917991852601, -3.63247781 42.33878446852602, -3.6308373500000015 42.33860280852601, -3.6307937100000007 42.338411998526006, -3.631046069999999 42.33826321852601, -3.630910689999999 42.33796917852601, -3.631339150000002 42.33777029852601, -3.6320927399999996 42.33807730852602, -3.632381989999999 42.33830498852602, -3.63240242 42.338141108526024, -3.6330731000000003 42.337883568526024, -3.6337164199999994 42.33819935852601, -3.6343564599999993 42.33818763852603, -3.6345739 42.337858888526014, -3.6356023499999983 42.33805790852601, -3.6353002500000007 42.33874741852601, -3.6366894600000004 42.338600508526014, -3.636645290000001 42.33847833852601, -3.636806979999999 42.338214998526006, -3.6371913600000014 42.338024528526006, -3.6391445700000005 42.33798908852601, -3.6394570699999993 42.33833125852601, -3.6395889100000005 42.33908268852599, -3.637817370000001 42.33937465852601, -3.63731553 42.33939130852601, -3.637321150000002 42.33994809852601, -3.635666780000001 42.340071918526014))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5571/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((2.17428532 41.41108641853112, 2.1709064700000003 41.4139733785311, 2.1742193500000004 41.4164521385311, 2.1777120699999992 41.413722058531114, 2.17428532 41.41108641853112))"^^geosparql:wktLiteral .
+
+georec:3073  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "3073" ;
+        dc:created             "2012-05-09"^^xsd:date ;
+        dc:identifier          "3073" ;
+        dc:title               "Centro de Exposiciones y Congresos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/3073/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5750/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((2.36172271 41.543726698530314, 2.3628691599999994 41.54355272853031, 2.3639239099999996 41.543446548530305, 2.364332469999999 41.5433442485303, 2.3643785900000003 41.543002228530305, 2.3642409199999994 41.542848648530324, 2.3638015100000005 41.542894478530336, 2.36344861 41.542852308530314, 2.362990470000001 41.54262454853032, 2.36269111 41.54258266853031, 2.36151055 41.54287373853031, 2.36135901 41.543041808530305, 2.361389309999999 41.54322697853031, 2.36172271 41.543726698530314))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9144/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.825946689999999 41.740403248529155, -4.82246626 41.73645631852916, -4.8243895000000006 41.735511658529184, -4.82732469 41.73881525852915, -4.827316620000001 41.73955492852915, -4.825946689999999 41.740403248529155))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5540/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((2.2358382600000004 41.47820107853072, 2.2365559300000006 41.48108477853069, 2.2369510799999994 41.482672458530686, 2.23735918 41.48301085853069, 2.2390784199999993 41.482815668530684, 2.239321189999999 41.48261069853068, 2.239160380000001 41.48168001853068, 2.23803168 41.478367268530725, 2.2381512899999993 41.47751648853071, 2.2373695799999993 41.4776438185307, 2.2358382600000004 41.47820107853072))"^^geosparql:wktLiteral .
+
+georec:2168  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "2168" ;
+        dc:created             "2012-09-07"^^xsd:date ;
+        dc:identifier          "2168" ;
+        dc:title               "Hospital Comarcal de Orihuela Vega Baja" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2168/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/792/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((2.972929680000001 42.37135274852586, 2.97385739 42.371372068525865, 2.97385781 42.370368868525865, 2.97295588 42.37036865852586, 2.972929680000001 42.37135274852586))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/7071/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.98882458 41.67650507852951, -0.98871487 41.67749946852952, -0.9879383000000004 41.67811452852951, -0.9873163600000001 41.67897565852949, -0.9860475699999999 41.67889258852949, -0.9855478000000003 41.67843767852951, -0.9847481200000002 41.678058618529505, -0.9850221400000001 41.67709101852951, -0.98664705 41.6767831085295, -0.98882458 41.67650507852951))"^^geosparql:wktLiteral .
+
+georec:8610  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "8610" ;
+        dc:created             "2012-09-07"^^xsd:date ;
+        dc:identifier          "8610" ;
+        dc:title               "Hospital General de Segovia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8610/geometry> .
+
+georec:10152  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "10152" ;
+        dc:created             "2012-07-10"^^xsd:date ;
+        dc:identifier          "10152" ;
+        dc:title               "Centro Penitenciario Murcia II" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/10152/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6381/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.43534035 41.15959728853279, 1.4376339500000002 41.15628507853281, 1.43493878 41.15505639853282, 1.4341328399999995 41.156177848532806, 1.4337766000000003 41.156251478532816, 1.4299287099999995 41.15460141853282, 1.4294151699999997 41.15471952853282, 1.42830787 41.155923088532816, 1.4286766000000002 41.15608039853281, 1.4296394 41.15640339853281, 1.4298162899999998 41.156488528532805, 1.4306614999999996 41.1568952985328, 1.4320704000000002 41.15782239853281, 1.43266204 41.15814569853279, 1.43447034 41.1590197385328, 1.43534035 41.15959728853279))"^^geosparql:wktLiteral .
+
+georec:15157  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "15157" ;
+        dc:created             "2013-01-17"^^xsd:date ;
+        dc:identifier          "15157" ;
+        dc:title               "Hospital Comarcal de Antequera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/15157/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8091/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.7262292600000007 41.253056768532154, -3.7238082799999996 41.254331148532145, -3.7234132599999996 41.25429108853214, -3.723139800000001 41.254029068532155, -3.724033920000001 41.25332581853215, -3.724342039999999 41.25264326853217, -3.7246411300000006 41.25216495853218, -3.7253110800000004 41.251582218532185, -3.726067300000001 41.25268344853217, -3.7262292600000007 41.253056768532154))"^^geosparql:wktLiteral .
+
+georec:19301  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "19301" ;
+        dc:created             "2013-01-02"^^xsd:date ;
+        dc:identifier          "19301" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19301/geometry> .
+
+georec:2898  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "2898" ;
+        dc:created             "2012-10-13"^^xsd:date ;
+        dc:identifier          "2898" ;
+        dc:title               "Hospital Instituto San José" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2898/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/17967/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.406703160000001 38.43094815855797, -6.406133170000002 38.43112184855797, -6.406147139999999 38.43164236855797, -6.40470152 38.43219708855795, -6.403902929999998 38.43198051855796, -6.402368240000002 38.43265356855794, -6.40155106 38.43181736855795, -6.40162263 38.43155068855796, -6.403123899999999 38.43120339855796, -6.405041489999999 38.430037338557966, -6.406703160000001 38.43094815855797))"^^geosparql:wktLiteral .
+
+georec:654  a                  btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "654" ;
+        dc:created             "2012-02-22"^^xsd:date ;
+        dc:identifier          "654" ;
+        dc:title               "Feria de Mostres" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/654/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19380/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.584064140000002 43.10522403852294, -7.583325520000003 43.10498513852295, -7.58161772 43.10400031852295, -7.581234780000001 43.10380860852296, -7.57884323 43.10271613852295, -7.579655130000005 43.101546198522946, -7.57979863 43.10135138852296, -7.58515648 43.103342318522955, -7.585211069999999 43.10361008852294, -7.584064140000002 43.10522403852294))"^^geosparql:wktLiteral .
+
+georec:18287  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "18287" ;
+        dc:created             "2012-12-27"^^xsd:date ;
+        dc:identifier          "18287" ;
+        dc:title               "Centro Estación Espacial de Agüimes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18287/geometry> .
+
+georec:18342  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "18342" ;
+        dc:created             "2012-12-14"^^xsd:date ;
+        dc:identifier          "18342" ;
+        dc:title               "Centro Hospitalario de Psiquiatría" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18342/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/1360/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.35424184 39.42566311854726, -0.3512195000000001 39.42540469854727, -0.3508242300000001 39.424585078547274, -0.3504739599999999 39.42385876854728, -0.35245555 39.42267831854729, -0.35328928 39.4224984785473, -0.35370105 39.42320626854729, -0.35379002 39.42428056854727, -0.3543516200000001 39.424330808547275, -0.35424184 39.42566311854726))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4274/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.7389665500000007 42.34460185852597, -3.73974189 42.34497812852598, -3.7407079399999983 42.34576389852597, -3.7409363900000003 42.346608988525986, -3.7409770600000005 42.34667971852598, -3.7413015099999996 42.34724401852597, -3.73709452 42.347232918525975, -3.7374341199999996 42.344502328525984, -3.738358609999999 42.34456237852598, -3.7389665500000007 42.34460185852597))"^^geosparql:wktLiteral .
+
+georec:8694  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "8694" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "8694" ;
+        dc:title               "Zona Arqueológica Monte Bernorio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8694/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18593/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-14.18119438 28.19301226876583, -14.18178071 28.192546378765837, -14.182416569999997 28.19253453876584, -14.18312104 28.19278908876584, -14.183251829999998 28.192933678765833, -14.18334871 28.193040788765835, -14.18332938 28.193259718765827, -14.181428620000002 28.19471913876578, -14.180419270000003 28.19507296876578, -14.18031462 28.194900228765782, -14.180726880000002 28.194104728765797, -14.180819949999997 28.193479428765812, -14.18119438 28.19301226876583))"^^geosparql:wktLiteral .
+
+georec:4207  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "4207" ;
+        dc:created             "2012-08-29"^^xsd:date ;
+        dc:identifier          "4207" ;
+        dc:title               "Merenderos San Juan del Monte" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4207/geometry> .
+
+georec:8091  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "8091" ;
+        dc:created             "2012-08-14"^^xsd:date ;
+        dc:identifier          "8091" ;
+        dc:title               "Complejo Agropecuario Naves de la Matilla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8091/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5497/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((2.10728119 41.34711801853154, 2.1074471000000004 41.34629445853155, 2.1082092300000004 41.34449229853156, 2.10780256 41.344181828531575, 2.10716943 41.34369845853157, 2.1055887 41.34249158853158, 2.10132062 41.34562974853155, 2.102968590000001 41.34633574853156, 2.10438705 41.34672068853155, 2.10728119 41.34711801853154))"^^geosparql:wktLiteral .
+
+georec:9750  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "9750" ;
+        dc:created             "2013-01-27"^^xsd:date ;
+        dc:identifier          "9750" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9750/geometry> .
+
+georec:8061  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "8061" ;
+        dc:created             "2012-08-14"^^xsd:date ;
+        dc:identifier          "8061" ;
+        dc:title               "Vivero" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8061/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19575/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.94411796 35.29917176860398, -2.9443691 35.29968045860396, -2.9444019900000002 35.30062888860397, -2.9442676600000004 35.30091746860395, -2.9439265000000003 35.30114763860394, -2.9437820300000004 35.301149798603944, -2.9436912700000004 35.30115116860394, -2.9432061700000003 35.30115843860394, -2.9428175999999997 35.301127518603934, -2.942902830000001 35.30029673860396, -2.9426020499999996 35.30021263860394, -2.942820250000001 35.299399388603966, -2.94345386 35.29950988860397, -2.94360138 35.29907965860398, -2.94411796 35.29917176860398))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9112/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.72629038 41.605708178529945, -4.72602902 41.60467066852993, -4.725024259999998 41.60478441852993, -4.7247243899999996 41.603944808529945, -4.725937329999999 41.60342232852994, -4.72629033 41.60296756852996, -4.727529529999999 41.60288316852996, -4.727809569999998 41.60352574852995, -4.73050814 41.603397448529954, -4.730878739999999 41.60414827852993, -4.72772172 41.60461234852995, -4.727767590000001 41.605236518529935, -4.727038759999999 41.60529131852994, -4.726933949999999 41.60574235852993, -4.72629038 41.605708178529945))"^^geosparql:wktLiteral .
+
+georec:4545  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "4545" ;
+        dc:created             "2012-08-07"^^xsd:date ;
+        dc:identifier          "4545" ;
+        dc:title               "Vivero Forestal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4545/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8212/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.98037347 41.371997548531375, -3.978913040000001 41.373030388531376, -3.978262940000001 41.3728226985314, -3.97811602 41.37288226853138, -3.9774188899999996 41.373164928531374, -3.9770100200000007 41.372863798531384, -3.976690329999998 41.3704145085314, -3.977183170000001 41.3695726785314, -3.9772529400000005 41.3695956485314, -3.979032069999999 41.37018138853139, -3.97896102 41.37083687853139, -3.9800379100000005 41.37119322853139, -3.98037347 41.371997548531375))"^^geosparql:wktLiteral .
+
+georec:16925  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "16925" ;
+        dc:created             "2013-01-20"^^xsd:date ;
+        dc:identifier          "16925" ;
+        dc:title               "Aparcamiento" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/16925/geometry> .
+
+georec:8212  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "8212" ;
+        dc:created             "2012-08-24"^^xsd:date ;
+        dc:identifier          "8212" ;
+        dc:title               "Almacén" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8212/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/14200/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.7781297599999997 37.18346482857384, -3.778143090000001 37.184810878573835, -3.77708829 37.18483186857382, -3.776033490000002 37.184852848573826, -3.7756726899999986 37.18482004857383, -3.7756328499999996 37.18350456857384, -3.7781297599999997 37.18346482857384))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/37/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.01036806 40.3722695185387, 0.010549 40.3719952685387, 0.00995036 40.371057178538706, 0.00949949 40.36996636853871, 0.00926065 40.36884597853873, 0.00927798 40.367917418538724, 0.0093162 40.367035158538734, 0.00928352 40.36627581853874, 0.0090115 40.36561024853876, 0.00862065 40.36515528853876, 0.0081832 40.36464675853877, 0.00767888 40.36459190853876, 0.00639855 40.36472361853876, 0.00463523 40.36592547853875, 0.00037539 40.36884007853872, 0.00547408 40.3714130985387, 0.00815895 40.37321249853869, 0.01036806 40.3722695185387))"^^geosparql:wktLiteral .
+
+georec:4587  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "4587" ;
+        dc:created             "2012-08-07"^^xsd:date ;
+        dc:identifier          "4587" ;
+        dc:title               "Planta de tratamiento de residuos sólidos urbanos de Soria" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4587/geometry> .
+
+georec:6378  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "6378" ;
+        dc:created             "2012-08-21"^^xsd:date ;
+        dc:identifier          "6378" ;
+        dc:title               "Urbanització La Marina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6378/geometry> .
+
+georec:17968  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "17968" ;
+        dc:created             "2012-10-25"^^xsd:date ;
+        dc:identifier          "17968" ;
+        dc:title               "Área de Servicio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/17968/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6976/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.7072022699999999 41.95148979852795, -0.70662568 41.952883658527945, -0.70636452 41.95620236852793, -0.6997881400000001 41.95596464852793, -0.6996108899999998 41.95299077852795, -0.6998215400000001 41.95108549852796, -0.7045368500000001 41.95134384852796, -0.7060936400000001 41.951429108527975, -0.7072022699999999 41.95148979852795))"^^geosparql:wktLiteral .
+
+georec:11063  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "11063" ;
+        dc:created             "2012-06-29"^^xsd:date ;
+        dc:identifier          "11063" ;
+        dc:title               "Hospital Rafael Méndez" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11063/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19232/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.98532501 43.16023061852276, -7.983412500000001 43.16090893852276, -7.982917090000001 43.16043800852276, -7.9814443399999995 43.15912366852276, -7.982179900000002 43.15809345852277, -7.983450510000001 43.157635878522775, -7.987099699999998 43.156305468522774, -7.98894448 43.15884567852275, -7.98532501 43.16023061852276))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2898/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.7748040699999996 40.36127698853878, -3.7758256199999987 40.362441268538774, -3.7763982999999994 40.363002028538766, -3.7767090700000003 40.36329715853877, -3.776882409999999 40.36355790853875, -3.777204489999998 40.36381517853877, -3.7776200399999995 40.36414710853875, -3.7769982999999994 40.36470179853875, -3.7767064 40.364928998538744, -3.776389500000001 40.36502119853876, -3.775542200000001 40.365080998538765, -3.7741409 40.36510839853877, -3.773567819999999 40.36517246853876, -3.7730933 40.365225518538765, -3.772075270000002 40.364294468538745, -3.7716846100000008 40.36278317853876, -3.77461358 40.36136896853879, -3.7748040699999996 40.36127698853878))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18363/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-15.436816819999999 28.058376248769676, -15.43721151 28.060310948769622, -15.4341491 28.06060349876961, -15.43396681 28.060087588769633, -15.43371724 28.060076088769627, -15.4337053 28.058827968769666, -15.434911149999998 28.058787258769676, -15.436816819999999 28.058376248769676))"^^geosparql:wktLiteral .
+
+georec:10158  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "10158" ;
+        dc:created             "2012-07-11"^^xsd:date ;
+        dc:identifier          "10158" ;
+        dc:title               "Hospital de Cieza" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/10158/geometry> .
+
+georec:15725  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "15725" ;
+        dc:created             "2012-12-25"^^xsd:date ;
+        dc:identifier          "15725" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/15725/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4452/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.86200167 41.8879056185283, -1.8618829699999988 41.8879527985283, -1.8579008899999994 41.88953543852831, -1.8571876399999994 41.8894427685283, -1.85715072 41.8893735185283, -1.8569728800000005 41.8890398685283, -1.85755227 41.8887001485283, -1.85865383 41.888116858528306, -1.85980396 41.88792099852832, -1.86091612 41.88778001852831, -1.86200167 41.8879056185283))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/7031/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-1.37635711 41.113500848533114, -1.37489475 41.11252401853311, -1.37384826 41.11200529853312, -1.3730426099999997 41.11159292853312, -1.3736030599999995 41.111066048533125, -1.3749310000000001 41.11009849853313, -1.3760315699999999 41.11007199853313, -1.3776587400000004 41.110598878533125, -1.3782517400000005 41.11080104853311, -1.37848801 41.11168132853313, -1.3786624899999997 41.11233138853311, -1.37635711 41.113500848533114))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/7118/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.4552105200000002 41.411851128531126, -0.45176346 41.414093348531125, -0.4509665999999999 41.41493319853111, -0.4498742000000001 41.41533229853112, -0.4485855 41.416771698531086, -0.44845966 41.41695727853111, -0.4484742799999999 41.4162058685311, -0.44832486 41.41502395853112, -0.4488977200000002 41.414388438531134, -0.4493417300000001 41.41404470853111, -0.4482859300000001 41.41301947853113, -0.4475142899999999 41.41173536853114, -0.4486920600000001 41.41164364853114, -0.44921195 41.41136052853112, -0.4487772700000001 41.41046693853114, -0.4474062999999999 41.41049544853113, -0.4467622800000002 41.40995077853115, -0.44703151 41.40907280853114, -0.44610364 41.40678340853116, -0.4470065599999998 41.405713258531165, -0.4486844700000002 41.405838898531165, -0.44996223 41.405189548531176, -0.4520641300000001 41.404546248531176, -0.4539088000000002 41.40730689853117, -0.4543243000000001 41.409837898531144, -0.4547961999999999 41.41091506853114, -0.4552105200000002 41.411851128531126))"^^geosparql:wktLiteral .
+
+georec:19000  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "19000" ;
+        dc:created             "2013-02-15"^^xsd:date ;
+        dc:identifier          "19000" ;
+        dc:title               "Centro Penitenciario A Lama" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19000/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8433/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.684629350000002 41.05266773853353, -4.683892980000001 41.05300596853353, -4.68288538 41.053075268533526, -4.6818519 41.05307216853352, -4.6811741499999995 41.05288194853353, -4.681127900000001 41.052009388533534, -4.68105804 41.05155812853353, -4.684542429999999 41.052086858533535, -4.684629350000002 41.05266773853353))"^^geosparql:wktLiteral .
+
+georec:1566  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "1566" ;
+        dc:created             "2012-06-05"^^xsd:date ;
+        dc:identifier          "1566" ;
+        dc:title               "Colegio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/1566/geometry> .
+
+georec:5710  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "5710" ;
+        dc:created             "2012-09-18"^^xsd:date ;
+        dc:identifier          "5710" ;
+        dc:title               "Urbanització" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5710/geometry> .
+
+georec:7501  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "7501" ;
+        dc:created             "2012-06-20"^^xsd:date ;
+        dc:identifier          "7501" ;
+        dc:title               "El Retamal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/7501/geometry> .
+
+georec:9111  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "9111" ;
+        dc:created             "2012-09-03"^^xsd:date ;
+        dc:identifier          "9111" ;
+        dc:title               "Centro Educacional" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9111/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4685/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.6053220600000001 41.62279292852984, 0.6060127500000001 41.62424005852982, 0.60645854 41.62537395852981, 0.60945082 41.62472720852982, 0.60966166 41.624681628529835, 0.60944438 41.62374079852982, 0.6098691299999999 41.62348021852982, 0.6095568200000002 41.62277948852982, 0.60928566 41.622171068529845, 0.6075309999999999 41.62192620852983, 0.60644388 41.622125168529834, 0.6053220600000001 41.62279292852984))"^^geosparql:wktLiteral .
+
+georec:5571  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "5571" ;
+        dc:created             "2012-03-28"^^xsd:date ;
+        dc:identifier          "5571" ;
+        dc:title               "Hospital de la Santa Creu  i Sant Pau" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5571/geometry> .
+
+georec:19380  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "19380" ;
+        dc:created             "2013-05-15"^^xsd:date ;
+        dc:identifier          "19380" ;
+        dc:title               "Centro Penitenciario de Bonxe" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19380/geometry> .
+
+georec:4274  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "4274" ;
+        dc:created             "2012-05-23"^^xsd:date ;
+        dc:identifier          "4274" ;
+        dc:title               "Recinto Ferial" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4274/geometry> .
+
+georec:17625  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "17625" ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "17625" ;
+        dc:title               "Hospital de Cabueñes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/17625/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4545/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.5509164700000007 41.79957721852882, -2.5492887 41.8013533585288, -2.53865291 41.79742424852881, -2.54023263 41.79567970852883, -2.5421514999999997 41.796331698528824, -2.5425875 41.79649849852882, -2.5456134000000006 41.79765619852881, -2.5477421 41.798379498528824, -2.5500924999999994 41.799270498528806, -2.5509164700000007 41.79957721852882))"^^geosparql:wktLiteral .
+
+georec:14200  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "14200" ;
+        dc:created             "2012-12-11"^^xsd:date ;
+        dc:identifier          "14200" ;
+        dc:title               "Aparcamiento" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/14200/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4724/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.0749113700000001 42.207729838526646, 1.0754286300000002 42.20770112852666, 1.0760564199999998 42.20730682852664, 1.0758835399999997 42.20698417852664, 1.0757592400000002 42.20670417852664, 1.0752453600000005 42.20658144852665, 1.07481295 42.206772478526645, 1.07447102 42.20707394852664, 1.0743985099999995 42.20745880852665, 1.0745491100000002 42.20763943852665, 1.0749113700000001 42.207729838526646))"^^geosparql:wktLiteral .
+
+georec:6976  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "6976" ;
+        dc:created             "2012-03-13"^^xsd:date ;
+        dc:identifier          "6976" ;
+        dc:title               "Centro Penitenciario de Zaragoza" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6976/geometry> .
+
+georec:2761  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "2761" ;
+        dc:created             "2012-09-25"^^xsd:date ;
+        dc:identifier          "2761" ;
+        dc:title               "Aparcamiento" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2761/geometry> .
+
+georec:3285  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "3285" ;
+        dc:created             "2012-04-23"^^xsd:date ;
+        dc:identifier          "3285" ;
+        dc:title               "Peaje/Ordainlekua" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/3285/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/13742/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.034827210000001 38.831797808553446, -7.03319943 38.829503708553474, -7.0359715099999995 38.82788268855348, -7.036704990000001 38.82900116855347, -7.037689830000001 38.83025390855346, -7.034827210000001 38.831797808553446))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/3645/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.975085510000001 43.322773988522265, -2.9747736099999993 43.32297311852226, -2.9747150699999994 43.323143848522264, -2.9744032000000002 43.32327183852226, -2.9734092700000003 43.32327160852225, -2.972980519999999 43.323271508522254, -2.9726685500000003 43.323612918522265, -2.97299946 43.32452361852225, -2.97336961 43.324836738522265, -2.973155129999999 43.32507856852225, -2.9725705 43.32496459852228, -2.97184955 43.324622948522254, -2.97101166 43.32432393852226, -2.9709728099999997 43.324067818522266, -2.9726299200000006 43.32283034852225, -2.9727079699999996 43.322631168522264, -2.9722989200000005 43.322175758522256, -2.97187028 43.32194798852227, -2.9716754599999993 43.321805658522266, -2.97189024 43.32090931852227, -2.97211909 43.32049306852227, -2.97309515 43.31983567852227, -2.97450705 43.31936136852229, -2.97593802 43.32011254852227, -2.976717420000001 43.320521678522276, -2.9762722200000002 43.32082282852228, -2.9757105999999998 43.32068924852227, -2.9756600800000004 43.32160462852227, -2.9759860099999997 43.32173285852226, -2.9765877800000005 43.32184282852227, -2.97658768 43.32211744852228, -2.976261650000001 43.32222722852227, -2.97548425 43.32235521852226, -2.975085510000001 43.322773988522265))"^^geosparql:wktLiteral .
+
+georec:19573  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "19573" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "19573" ;
+        dc:title               "Hospital de Melilla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19573/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/7501/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.1835184 40.866537798534885, -3.18308418 40.866889838534846, -3.183064699999999 40.86712252853484, -3.1831660200000003 40.867331488534845, -3.183514540000001 40.867193008534855, -3.18462961 40.86777199853485, -3.1856826800000007 40.871232218534836, -3.1832058300000003 40.87157999853482, -3.1836364099999996 40.87244607853482, -3.1842232600000013 40.87337836853481, -3.185048539999999 40.87313435853481, -3.1860372500000014 40.874164228534816, -3.18563917 40.87473115853481, -3.18676147 40.875882148534785, -3.18646566 40.87639400853479, -3.185723340000001 40.87624787853479, -3.1844145900000007 40.875117388534804, -3.18385265 40.874248628534794, -3.1826502100000003 40.872996608534805, -3.1819316100000004 40.87328088853481, -3.18139834 40.8731401485348, -3.1808104200000002 40.87249388853482, -3.1808882600000006 40.871725228534814, -3.1814720900000006 40.87087486853481, -3.18240104 40.86957902853484, -3.182584979999999 40.86864839853484, -3.18287609 40.86794006853485, -3.1828511 40.867367068534854, -3.1820461600000014 40.866464978534864, -3.1830838199999993 40.86597793853487, -3.1835184 40.866537798534885))"^^geosparql:wktLiteral .
+
+georec:19543  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "19543" ;
+        dc:created             "2013-06-10"^^xsd:date ;
+        dc:identifier          "19543" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/19543/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4207/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.93370348 42.64370928852466, -2.93308913 42.64295201852467, -2.932200610000001 42.64292626852466, -2.93144835 42.64330427852467, -2.930319999999999 42.64380819852467, -2.9291732999999995 42.643461718524655, -2.9278425999999995 42.64289446852467, -2.9269856099999996 42.64247744852467, -2.9265574800000005 42.64196073852468, -2.9271785400000008 42.641510278524684, -2.9283401800000006 42.641763318524674, -2.929433980000001 42.64156214852468, -2.9304243899999998 42.642143058524674, -2.9314494300000002 42.642320288524665, -2.93247494 42.642068588524666, -2.933091 42.64121111852468, -2.9340816699999994 42.641564918524686, -2.93445637 42.64272573852466, -2.93411377 42.64353290852466, -2.93370348 42.64370928852466))"^^geosparql:wktLiteral .
+
+georec:5704  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "5704" ;
+        dc:created             "2012-09-17"^^xsd:date ;
+        dc:identifier          "5704" ;
+        dc:title               "Urbanització Sol i Aigua" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5704/geometry> .
+
+georec:2899  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "2899" ;
+        dc:created             "2012-10-13"^^xsd:date ;
+        dc:identifier          "2899" ;
+        dc:title               "Cocheras de METRO" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2899/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/170/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.4477011700000001 40.46329745853795, 0.4498384599999998 40.46561739853793, 0.4505736900000002 40.46557912853795, 0.4510773000000002 40.46545128853794, 0.4522532199999998 40.464490298537946, 0.44906141 40.46249242853798, 0.4477011700000001 40.46329745853795))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/15086/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.83148454 36.50819019858356, -4.82978778 36.50847497858356, -4.827522040000001 36.50901906858357, -4.825584119999999 36.508595978583564, -4.824635950000002 36.50679752858358, -4.82889174 36.507203958583574, -4.830253510000002 36.50753994858356, -4.83148454 36.50819019858356))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11272/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.01182533 38.72943585855457, -3.0136317000000004 38.729309888554575, -3.013591440000001 38.72864957855458, -3.0151971199999994 38.72871226855458, -3.01624092 38.729215228554565, -3.01571932 38.730347268554574, -3.0152147699999996 38.73063704855455, -3.0121688599999996 38.73122276855455, -3.01182533 38.72943585855457))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/3205/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.45232598 42.47906056852537, -2.4518237800000002 42.48008059852537, -2.4511767 42.48074207852536, -2.4502843 42.48124900852537, -2.4490695200000006 42.480264568525364, -2.4506823000000004 42.47973918852536, -2.44961398 42.47893072852538, -2.449536469999999 42.47876968852538, -2.4495965600000003 42.47866773852538, -2.44966555 42.478677668525386, -2.4511817099999993 42.47904048852537, -2.4514955500000006 42.47925377852539, -2.4516334799999995 42.479276348525374, -2.45177408 42.4789921985254, -2.45232598 42.47906056852537))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/17593/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.94517314 37.37535467857122, -5.946905310000001 37.3767471085712, -5.94687652 37.378698758571176, -5.946774460000001 37.37871149857118, -5.9458475900000005 37.37882712857117, -5.94365904 37.378394238571175, -5.944298120000001 37.376837828571205, -5.944292969999999 37.37602683857121, -5.94517314 37.37535467857122))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2756/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.55091588 40.45237694853803, -3.5490046900000003 40.451982908538035, -3.54768955 40.45118201853805, -3.54705204 40.45065862853806, -3.54620908 40.45083628853805, -3.5462343199999995 40.44994299853806, -3.5450302300000005 40.449885438538075, -3.5450832200000004 40.44817655853809, -3.5468305999999994 40.448376598538076, -3.5512303 40.448880098538076, -3.5541767700000007 40.44919388853806, -3.554159489999999 40.45005413853806, -3.5525026399999997 40.449987638538076, -3.552245360000001 40.45037505853806, -3.55309859 40.45137415853805, -3.5518732900000005 40.45244636853805, -3.55091588 40.45237694853803))"^^geosparql:wktLiteral .
+
+georec:9751  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "9751" ;
+        dc:created             "2012-10-31"^^xsd:date ;
+        dc:identifier          "9751" ;
+        dc:title               "Tentadero" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9751/geometry> .
+
+georec:5577  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "5577" ;
+        dc:created             "2012-03-29"^^xsd:date ;
+        dc:identifier          "5577" ;
+        dc:title               "Centre Penitenciari de Can Brians" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5577/geometry> .
+
+georec:637  a                  btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "637" ;
+        dc:created             "2012-11-16"^^xsd:date ;
+        dc:identifier          "637" ;
+        dc:title               "Radio Televissió Valenciana (RTVV)" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/637/geometry> .
+
+georec:15086  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "15086" ;
+        dc:created             "2012-12-30"^^xsd:date ;
+        dc:identifier          "15086" ;
+        dc:title               "Hospital Costa del Sol" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/15086/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5712/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.7153828400000002 41.24267943853223, 1.7151967399999997 41.2435354785322, 1.7168617399999995 41.24400980853222, 1.71710912 41.243991848532225, 1.71733715 41.24355933853222, 1.71728592 41.24337232853222, 1.7153828400000002 41.24267943853223))"^^geosparql:wktLiteral .
+
+georec:13742  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "13742" ;
+        dc:created             "2008-03-18"^^xsd:date ;
+        dc:identifier          "13742" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/13742/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5658/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((2.29162321 41.5767578285301, 2.29130567 41.579098518530095, 2.291467719999999 41.57955224853008, 2.2927154700000005 41.58034626853009, 2.2947896600000006 41.580459708530086, 2.295275800000001 41.58008699853008, 2.2967760200000003 41.578129738530095, 2.29785879 41.57619405853009, 2.29719362 41.57507337853012, 2.29645878 41.57529557853011, 2.29587537 41.575744168530115, 2.29535682 41.5764571685301, 2.2948777 41.576495748530114, 2.29263232 41.5768647585301, 2.2918077599999997 41.5768058585301, 2.29162321 41.5767578285301))"^^geosparql:wktLiteral .
+
+georec:7031  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "7031" ;
+        dc:created             "2012-03-29"^^xsd:date ;
+        dc:identifier          "7031" ;
+        dc:title               "Centro Penitenciario de Daroca" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/7031/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/1634/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.6350771 39.49826659854656, -0.6344291699999999 39.49876820854654, -0.6312746000000001 39.49704439854657, -0.62910555 39.49559393854659, -0.6284122799999999 39.49554859854658, -0.62799801 39.49512902854658, -0.62695279 39.49474774854658, -0.62675991 39.494677388546584, -0.6264615999999997 39.49456856854658, -0.6246349299999999 39.4936200385466, -0.6227701000000001 39.4931317185466, -0.6220779900000002 39.49295046854659, -0.62183264 39.4923575785466, -0.6230174400000001 39.49231769854661, -0.6235679799999999 39.4923997185466, -0.62447863 39.49243808854659, -0.6254792800000002 39.492475558546616, -0.6264339 39.49252498854661, -0.6271462699999999 39.492586128546606, -0.6275871200000002 39.492638418546605, -0.6278056100000001 39.49266432854659, -0.6283146399999999 39.4927584785466, -0.6288434200000002 39.492915508546595, -0.6293451299999998 39.4931107185466, -0.6298265800000001 39.49332508854659, -0.63024072 39.49351145854659, -0.6306530899999999 39.49369668854658, -0.63101887 39.49386623854658, -0.63141464 39.49406745854658, -0.6318843599999999 39.49439623854659, -0.6322195300000003 39.49465864854658, -0.6324195299999998 39.49481521854658, -0.63297886 39.49531699854656, -0.6334940499999999 39.49584520854656, -0.63390197 39.496345908546566, -0.63424005 39.49679163854656, -0.6346240800000003 39.497423228546566, -0.63497562 39.49806386854655, -0.6350771 39.49826659854656))"^^geosparql:wktLiteral .
+
+georec:4601  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "4601" ;
+        dc:created             "2012-11-25"^^xsd:date ;
+        dc:identifier          "4601" ;
+        dc:title               "Centro Penitenciario de Soria" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4601/geometry> .
+
+georec:8213  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "8213" ;
+        dc:created             "2012-08-24"^^xsd:date ;
+        dc:identifier          "8213" ;
+        dc:title               "Piscifactoría" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8213/geometry> .
+
+georec:20251  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "20251" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "20251" ;
+        dc:title               "Vivero" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/20251/geometry> .
+
+georec:11806  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "11806" ;
+        dc:created             "2012-11-08"^^xsd:date ;
+        dc:identifier          "11806" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/11806/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9750/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.628981479999999 40.69172683853616, -4.628353790000001 40.69224482853616, -4.62769769 40.69261872853616, -4.625802930000001 40.690717588536174, -4.62592976 40.69052821853618, -4.626691500000001 40.69001927853618, -4.62723918 40.68995287853618, -4.628981479999999 40.69172683853616))"^^geosparql:wktLiteral .
+
+georec:2671  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "2671" ;
+        dc:created             "2012-09-07"^^xsd:date ;
+        dc:identifier          "2671" ;
+        dc:title               "Aparcamiento" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2671/geometry> .
+
+georec:9497  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "9497" ;
+        dc:created             "2012-06-14"^^xsd:date ;
+        dc:identifier          "9497" ;
+        dc:title               "Urbanización Valdelagua" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9497/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/16107/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.941332880000001 37.30078093857223, -6.9405857399999995 37.30029339857224, -6.940316460000002 37.300894898572245, -6.939541010000001 37.30063248857224, -6.940032089999999 37.300055618572244, -6.937944189999998 37.298844038572255, -6.94041873 37.296711758572286, -6.940657029999999 37.29436572857231, -6.9406738200000015 37.29197965857237, -6.94305178 37.29218890857236, -6.94313952 37.29091790857237, -6.943235380000002 37.2901237885724, -6.942193850000001 37.28981823857239, -6.94258199 37.288878058572394, -6.94384702 37.28571150857243, -6.944973790000001 37.285960458572426, -6.94516727 37.28554900857245, -6.94541883 37.28498806857245, -6.946465539999998 37.285126088572454, -6.9456114 37.28922794857238, -6.9450176 37.29061065857237, -6.94486595 37.29096376857236, -6.943437740000001 37.29641042857231, -6.943300930000001 37.298364548572266, -6.942724909999999 37.29869988857225, -6.941332880000001 37.30078093857223))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/20287/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.8711526800000016 39.34070718854811, -3.8715578399999995 39.34002897854812, -3.8724792900000002 39.340385398548094, -3.872784969999999 39.34047978854811, -3.8723678500000007 39.341215838548095, -3.8711526800000016 39.34070718854811))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/447/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.40266673 39.49613606854657, -0.402515 39.496554618546554, -0.4023541899999999 39.49699816854657, -0.4018655500000001 39.497248978546565, -0.4013123900000001 39.49753290854655, -0.4012259100000002 39.49707515854657, -0.4011041200000001 39.49574480854658, -0.4020807499999999 39.49492796854656, -0.40243474 39.495657768546565, -0.40266673 39.49613606854657))"^^geosparql:wktLiteral .
+
+georec:6379  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "6379" ;
+        dc:created             "2012-08-21"^^xsd:date ;
+        dc:identifier          "6379" ;
+        dc:title               "Urbanització Sadolla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6379/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/3285/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.8674852800000004 42.71870942852436, -2.8672311400000003 42.718684238524354, -2.86703741 42.71866420852437, -2.8667355100000003 42.71824305852437, -2.8668183400000005 42.71763343852435, -2.8670999699999995 42.71663760852436, -2.8676780500000003 42.71655865852436, -2.8679838500000003 42.717205408524364, -2.86804014 42.718124348524356, -2.8674852800000004 42.71870942852436))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18640/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-17.896350899999998 28.763225538749847, -17.89548176 28.764001868749816, -17.89519779 28.764098158749817, -17.894450949999996 28.76411416874981, -17.89413056 28.76413429874981, -17.893142920000003 28.764196328749804, -17.89299002 28.763477998749835, -17.894204039999998 28.76341032874983, -17.89433487 28.76341934874983, -17.89525252 28.76274397874985, -17.89567994 28.763023448749852, -17.89587083 28.762893078749855, -17.896350899999998 28.763225538749847))"^^geosparql:wktLiteral .
+
+georec:6380  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "6380" ;
+        dc:created             "2012-08-21"^^xsd:date ;
+        dc:identifier          "6380" ;
+        dc:title               "Urbanització Claramar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6380/geometry> .
+
+georec:4685  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "4685" ;
+        dc:created             "2012-04-17"^^xsd:date ;
+        dc:identifier          "4685" ;
+        dc:title               "Centre Penitenciari" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4685/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2762/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.57964692 40.467384988537916, -3.5779703300000003 40.46789179853791, -3.5775013900000006 40.46803354853793, -3.57603661 40.46838875853792, -3.575878850000001 40.46841264853791, -3.57589563 40.46800524853791, -3.5760467900000004 40.46712587853793, -3.5759436100000004 40.46665678853793, -3.5757891500000003 40.46647191853793, -3.5758366000000015 40.46626509853794, -3.5760799000000008 40.465750298537934, -3.576289799999999 40.46546999853794, -3.5767576000000005 40.464999198537946, -3.5771556 40.46464589853794, -3.5774485999999994 40.46441919853795, -3.5784441699999996 40.463765918537945, -3.57970267 40.46350455853796, -3.58025033 40.464473958537944, -3.5782253699999993 40.464813638537954, -3.5784697399999996 40.46563626853793, -3.579644 40.46671786853793, -3.57964692 40.467384988537916))"^^geosparql:wktLiteral .
+
+georec:5560  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "5560" ;
+        dc:created             "2012-03-28"^^xsd:date ;
+        dc:identifier          "5560" ;
+        dc:title               "Hospital de Terrassa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5560/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/10045/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.77233783 41.501933088530585, -5.7725146 41.50071313853058, -5.775000079999999 41.50104308853058, -5.775064890000001 41.501488808530574, -5.7761945500000005 41.50186292853057, -5.7760587899999996 41.50225614853056, -5.774731500000002 41.50189825853056, -5.774683760000002 41.50220906853057, -5.77233783 41.501933088530585))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/8694/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.1945870900000015 42.79206829852408, -4.195260529999998 42.79229578852406, -4.196584709999999 42.79274308852406, -4.196940899999999 42.79305201852407, -4.19725961 42.793619278524055, -4.197444999999999 42.79497737852407, -4.19743252 42.79543084852408, -4.197162500000001 42.79573850852406, -4.19600382 42.79619614852407, -4.19483045 42.79644288852407, -4.194319289999998 42.79635441852406, -4.193623829999999 42.79606465852405, -4.19235201 42.79505396852405, -4.19186119 42.79491838852406, -4.191276820000001 42.79488538852405, -4.19077614 42.79478898852406, -4.189384699999999 42.79417813852406, -4.18899506 42.79378355852406, -4.188505449999998 42.79315551852406, -4.1885301 42.79278007852406, -4.18847749 42.79224911852407, -4.18883198 42.791917158524065, -4.1912001 42.79143919852408, -4.191869029999999 42.79145568852406, -4.19374974 42.79212392852408, -4.1945870900000015 42.79206829852408))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/4559/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-2.42474151 41.76188606852902, -2.4239421099999996 41.76197863852902, -2.4225236 41.76231329852901, -2.42210368 41.76230785852901, -2.42233971 41.760854948529015, -2.4223483000000003 41.76080203852902, -2.424885660000001 41.76123326852901, -2.42474151 41.76188606852902))"^^geosparql:wktLiteral .
+
+georec:17252  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "17252" ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "17252" ;
+        dc:title               "Instalaciones Aeroportuarias" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/17252/geometry> .
+
+georec:5711  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "5711" ;
+        dc:created             "2012-09-18"^^xsd:date ;
+        dc:identifier          "5711" ;
+        dc:title               "Urbanització El Racó de Santa Llúcia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5711/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2665/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-3.7866887 40.71806015853596, -3.78669532 40.72004769853595, -3.786166070000001 40.720484998535944, -3.7816526400000003 40.72143724853594, -3.7812213499999996 40.721114898535944, -3.779866249999999 40.71795266853598, -3.78003867 40.71746359853598, -3.7845868400000016 40.71645695853599, -3.78511977 40.71686346853597, -3.7863308799999995 40.71663041853598, -3.7866887 40.71806015853596))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/6380/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.42727562 41.15441857853283, 1.4274403 41.154534198532815, 1.4280023200000003 41.15506447853282, 1.42828269 41.15554969853282, 1.42830787 41.155923088532816, 1.4294151699999997 41.15471952853282, 1.4308419 41.15316868853284, 1.43158908 41.15235646853284, 1.4315429100000001 41.15217774853284, 1.43075602 41.15186091853284, 1.4304908700000003 41.15175414853286, 1.43011831 41.15179429853284, 1.42953808 41.15256078853284, 1.4287355900000005 41.153549438532835, 1.42727562 41.15441857853283))"^^geosparql:wktLiteral .
+
+georec:9112  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "9112" ;
+        dc:created             "2012-09-03"^^xsd:date ;
+        dc:identifier          "9112" ;
+        dc:title               "Centro Educacional" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/9112/geometry> .
+
+georec:10045  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "10045" ;
+        dc:created             "2010-08-09"^^xsd:date ;
+        dc:identifier          "10045" ;
+        dc:title               "Centro penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/10045/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/637/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.4253598900000001 39.51260633854641, -0.42303472 39.51025593854642, -0.4232560799999999 39.51005680854643, -0.4236232800000001 39.509900798546425, -0.4238883099999999 39.50981131854643, -0.424192 39.50979328854643, -0.4249055699999999 39.50991901854643, -0.42535519 39.510144798546435, -0.4257330400000001 39.51040116854643, -0.4262556400000001 39.51078500854643, -0.42671942 39.51092558854643, -0.42754377 39.51089104854642, -0.4276961099999999 39.511014718546406, -0.4253598900000001 39.51260633854641))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/5690/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((1.95316398 41.455090188530846, 1.9542865600000003 41.45564541853084, 1.9550587999999995 41.45601219853085, 1.9558902999999996 41.45593509853084, 1.9567568999999994 41.455524698530844, 1.9574517000000007 41.454823598530865, 1.9618904200000002 41.456296998530846, 1.9648373300000004 41.45368800853087, 1.9676873200000007 41.45143530853088, 1.9653786599999994 41.450150688530876, 1.9639210700000005 41.450677438530874, 1.9628758400000004 41.45051436853089, 1.96199512 41.45029704853089, 1.96136649 41.449743748530906, 1.9612933100000005 41.449189658530884, 1.96151358 41.448437128530905, 1.96150333 41.4481696185309, 1.9614824799999997 41.44762580853091, 1.9604784400000008 41.4466011385309, 1.9596119099999998 41.446568938530916, 1.9573648099999998 41.446642818530904, 1.9547909599999995 41.44728800853091, 1.9531854600000003 41.4476823885309, 1.9526345699999998 41.448147328530894, 1.9526557399999995 41.4484250385309, 1.9539231699999997 41.44885793853089, 1.95488553 41.4489324785309, 1.9552609600000002 41.449403868530894, 1.95505009 41.44997570853088, 1.9541495799999995 41.45061280853088, 1.9535601 41.45138125853089, 1.95391814 41.452433878530876, 1.9539589899999996 41.45377881853086, 1.95317608 41.45443952853086, 1.95316398 41.455090188530846))"^^geosparql:wktLiteral .
+
+georec:13682  a                btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "13682" ;
+        dc:created             "2013-02-15"^^xsd:date ;
+        dc:identifier          "13682" ;
+        dc:title               "Centro Penitenciario" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/13682/geometry> .
+
+<https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/18243/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-7.75544064 42.30302392852619, -7.75524951 42.30296585852618, -7.755108870000002 42.30253375852619, -7.754300159999998 42.30236504852618, -7.753719699999999 42.30154680852618, -7.75343498 42.30001825852618, -7.7536646800000035 42.2992949285262, -7.754794360000001 42.298310738526204, -7.755843300000002 42.298900328526194, -7.75595056 42.2993443585262, -7.755593430000003 42.2998079685262, -7.75584893 42.30113935852619, -7.756708589999999 42.302114678526195, -7.756787989999999 42.30261207852619, -7.75544064 42.30302392852619))"^^geosparql:wktLiteral .
+
+georec:2665  a                 btn100:ZonaDeUsoCaracteristico ;
+        rdfs:label             "2665" ;
+        dc:created             "2012-09-06"^^xsd:date ;
+        dc:identifier          "2665" ;
+        dc:title               "Centro Penitenciario Madrid V" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/zona-uso-caracteristico/2665/geometry> .
+

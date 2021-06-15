@@ -1,0 +1,72 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/estrecho/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:226  a                  btn100:Estrecho ;
+        rdfs:label             "226" ;
+        dc:created             "2013-03-20"^^xsd:date ;
+        dc:identifier          "226" ;
+        dc:title               "El Río" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estrecho/226/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/estrecho/367/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.37843914 35.92036893859391, -5.33643981 35.92119403859389)"^^geosparql:wktLiteral .
+
+georec:367  a                  btn100:Estrecho ;
+        rdfs:label             "367" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "367" ;
+        dc:title               "ESTRECHO DE GIBRALTAR" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estrecho/367/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:255  a                  btn100:Estrecho ;
+        rdfs:label             "255" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "255" ;
+        dc:title               "Estrecho de Rande" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estrecho/255/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/estrecho/180/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (2.33386117 39.58321645854572, 2.34665138 39.60208696854555)"^^geosparql:wktLiteral .
+
+georec:180  a                  btn100:Estrecho ;
+        rdfs:label             "180" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "180" ;
+        dc:title               "Es Freu" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estrecho/180/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/estrecho/226/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.517461889999998 29.21037514873765, -13.463361320000004 29.251875398736537)"^^geosparql:wktLiteral .
+
+georec:161  a                  btn100:Estrecho ;
+        rdfs:label             "161" ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "161" ;
+        dc:title               "ESTRECHO DE GIBRALTAR" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/estrecho/161/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/estrecho/255/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.70282873 42.26587678852636, -8.665111710000001 42.286258248526266)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/estrecho/161/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.620905470000001 35.94127358859359, -5.6075283 35.94234419859355, -5.598465239999999 35.943514728593534, -5.585572279999999 35.944767178593516, -5.57555742 35.9461512685935, -5.564590999999999 35.94774963859347, -5.553390970000001 35.94954675859344, -5.54290852 35.95132762859341, -5.5176762099999985 35.95633971859334, -5.501728520000001 35.9595950285933, -5.4739175000000015 35.96659950859318, -5.4656037699999995 35.96891324859314, -5.456337740000002 35.9714407085931, -5.443988059999999 35.97500422859304, -5.434493029999999 35.97792423859301, -5.42572169 35.98102365859296, -5.416452819999999 35.98354812859291, -5.407218810000001 35.98723986859286, -5.39654087 35.9907649885928)"^^geosparql:wktLiteral .
+

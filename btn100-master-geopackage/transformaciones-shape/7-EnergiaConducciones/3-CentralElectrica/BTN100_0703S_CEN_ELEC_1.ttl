@@ -1,0 +1,97 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/central-ciclo-combinado/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:1673  a                 btn100:CentralCicloCombinado ;
+        rdfs:label             "1673" ;
+        dc:created             "2013-01-18"^^xsd:date ;
+        dc:identifier          "1673" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-ciclo-combinado/1673/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-ciclo-combinado/782/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.2326957400000001 42.10283335852718, 0.23512264 42.10281811852717, 0.23503695 42.10149491852717, 0.23492567 42.097515928527194, 0.23491086 42.09698620852719, 0.23428091 42.097003978527205, 0.2329591700000001 42.09704126852719, 0.2328559 42.09832413852719, 0.23247016 42.100016518527184, 0.23253785 42.10142875852718, 0.2326245099999999 42.102199688527165, 0.2326957400000001 42.10283335852718))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-ciclo-combinado/779/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-0.55717016 42.55958165852503, -0.55714256 42.55984548852501, -0.5569908100000001 42.56006007852502, -0.55664373 42.56005846852503, -0.55652811 42.56029774852501, -0.5564246600000001 42.56043453852503, -0.55564352 42.56043033852502, -0.5554288200000002 42.56039515852501, -0.55520726 42.55999758852501, -0.5551013999999999 42.559777758525, -0.55526061 42.559678418525024, -0.5554615700000001 42.559463098525015, -0.55566731 42.559312388525015, -0.5558706600000003 42.55912937852503, -0.5562053299999999 42.55914256852502, -0.5563474 42.55927250852501, -0.5568964900000003 42.55944740852503, -0.55717016 42.55958165852503))"^^geosparql:wktLiteral .
+
+georec:782  a                  btn100:CentralCicloCombinado ;
+        rdfs:label             "782" ;
+        dc:created             "2012-05-17"^^xsd:date ;
+        dc:identifier          "782" ;
+        dc:title               "Central Eléctrica El Grado II" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-ciclo-combinado/782/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-ciclo-combinado/781/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.23217102 42.15328414852691, 0.23265438 42.15370037852691, 0.23332905 42.153646588526904, 0.23382856 42.153272698526905, 0.23398958 42.15270240852691, 0.2342044400000001 42.152174378526915, 0.2339991200000001 42.15189824852692, 0.23317949 42.15208649852693, 0.23244364 42.15213919852693, 0.23217873 42.15215817852692, 0.23217102 42.15328414852691))"^^geosparql:wktLiteral .
+
+georec:776  a                  btn100:CentralCicloCombinado ;
+        rdfs:label             "776" ;
+        dc:created             "2012-04-12"^^xsd:date ;
+        dc:identifier          "776" ;
+        dc:title               "Central Eléctrica de Seira" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-ciclo-combinado/776/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-ciclo-combinado/780/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.23902692 42.09055516852723, 0.23881649 42.090420658527236, 0.23852696 42.09048757852724, 0.238411 42.09051437852722, 0.2382767 42.09090614852723, 0.23825301 42.09097525852724, 0.23834093 42.091056948527225, 0.23842692 42.091136848527235, 0.2385198 42.091204778527214, 0.2385339799999999 42.09127681852722, 0.23858083 42.091447668527216, 0.2388410300000001 42.091557708527226, 0.2393090400000001 42.09146321852724, 0.23942902 42.09121824852721, 0.2392521999999999 42.09092669852722, 0.2391174 42.09070429852722, 0.2390538 42.09059949852723, 0.23902692 42.09055516852723))"^^geosparql:wktLiteral .
+
+georec:780  a                  btn100:CentralCicloCombinado ;
+        rdfs:label             "780" ;
+        dc:created             "2012-04-30"^^xsd:date ;
+        dc:identifier          "780" ;
+        dc:title               "Central Eléctrica El Ciego" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-ciclo-combinado/780/geometry> .
+
+georec:779  a                  btn100:CentralCicloCombinado ;
+        rdfs:label             "779" ;
+        dc:created             "2012-04-26"^^xsd:date ;
+        dc:identifier          "779" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-ciclo-combinado/779/geometry> .
+
+georec:1674  a                 btn100:CentralCicloCombinado ;
+        rdfs:label             "1674" ;
+        dc:created             "2013-01-18"^^xsd:date ;
+        dc:identifier          "1674" ;
+        dc:title               "Central Hidroeléctrica de San Román" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-ciclo-combinado/1674/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-ciclo-combinado/562/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-4.7640861 36.908363808577704, -4.76394229 36.908375828577704, -4.762760499999998 36.908572588577705, -4.76264896 36.90821994857771, -4.763955579999999 36.90802538857772, -4.764105440000001 36.90809714857772, -4.7640861 36.908363808577704))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-ciclo-combinado/1674/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-5.88076484 41.46993256853078, -5.8809802 41.47006589853077, -5.881071489999999 41.47034926853076, -5.88103874 41.47074491853076, -5.881204230000001 41.47108915853077, -5.880987470000001 41.471282918530754, -5.88072109 41.471275518530746, -5.88057812 41.471086028530756, -5.880360529999999 41.47069599853074, -5.880417649999999 41.470014918530765, -5.880575219999999 41.46989024853077, -5.88076484 41.46993256853078))"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/central-ciclo-combinado/1673/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((-6.458215080000001 42.019123088527614, -6.45864848 42.0193143385276, -6.458439350000001 42.0197401785276, -6.458286339999998 42.01981634852761, -6.458078989999999 42.019804678527585, -6.457476969999999 42.01951814852761, -6.457036829999998 42.01929124852761, -6.45699406 42.019034448527606, -6.457040649999999 42.0189183385276, -6.45719819 42.018809628527606, -6.457545209999998 42.0188093985276, -6.4575978 42.01899831852762, -6.4576733399999995 42.019150178527596, -6.4580608999999995 42.01938498852759, -6.458215080000001 42.019123088527614))"^^geosparql:wktLiteral .
+
+georec:781  a                  btn100:CentralCicloCombinado ;
+        rdfs:label             "781" ;
+        dc:created             "2012-05-01"^^xsd:date ;
+        dc:identifier          "781" ;
+        dc:title               "Central Eléctrica El Grado I" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-ciclo-combinado/781/geometry> .
+
+<https://datos.ign.es/recurso/btn100/central-ciclo-combinado/776/geometry>
+        a                sf:Polygon ;
+        geosparql:asWKT  "POLYGON ((0.4352659500000001 42.47781340852538, 0.43535575 42.47846026852537, 0.4359565200000001 42.47868321852538, 0.43666517 42.47867655852538, 0.43728247 42.47859473852537, 0.4376858900000001 42.47811662852537, 0.4380305099999999 42.47785672852538, 0.43845186 42.47740937852538, 0.4387600999999999 42.477279368525366, 0.43859841 42.47710711852538, 0.4381173000000001 42.477261598525395, 0.4373378000000001 42.47759579852537, 0.4367857 42.47773669852538, 0.4359717999999999 42.47777777852536, 0.4352659500000001 42.47781340852538))"^^geosparql:wktLiteral .
+
+georec:562  a                  btn100:CentralCicloCombinado ;
+        rdfs:label             "562" ;
+        dc:created             "2013-04-07"^^xsd:date ;
+        dc:identifier          "562" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/central-ciclo-combinado/562/geometry> .
+

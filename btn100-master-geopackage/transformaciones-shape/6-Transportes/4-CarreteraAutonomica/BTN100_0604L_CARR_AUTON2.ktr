@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transformation>
+  <info>
+    <name>BTN100_0604L_CARR_AUTON2</name>
+    <description/>
+    <extended_description/>
+    <trans_version/>
+    <trans_type>Normal</trans_type>
+    <directory>/</directory>
+    <parameters>
+    </parameters>
+    <log>
+      <trans-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <size_limit_lines/>
+        <interval/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STATUS</id>
+          <enabled>Y</enabled>
+          <name>STATUS</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+          <subject/>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>STARTDATE</id>
+          <enabled>Y</enabled>
+          <name>STARTDATE</name>
+        </field>
+        <field>
+          <id>ENDDATE</id>
+          <enabled>Y</enabled>
+          <name>ENDDATE</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>DEPDATE</id>
+          <enabled>Y</enabled>
+          <name>DEPDATE</name>
+        </field>
+        <field>
+          <id>REPLAYDATE</id>
+          <enabled>Y</enabled>
+          <name>REPLAYDATE</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>Y</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+        <field>
+          <id>EXECUTING_SERVER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_SERVER</name>
+        </field>
+        <field>
+          <id>EXECUTING_USER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_USER</name>
+        </field>
+        <field>
+          <id>CLIENT</id>
+          <enabled>N</enabled>
+          <name>CLIENT</name>
+        </field>
+      </trans-log-table>
+      <perf-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <interval/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>SEQ_NR</id>
+          <enabled>Y</enabled>
+          <name>SEQ_NR</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>INPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>INPUT_BUFFER_ROWS</name>
+        </field>
+        <field>
+          <id>OUTPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>OUTPUT_BUFFER_ROWS</name>
+        </field>
+      </perf-log-table>
+      <channel-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>LOGGING_OBJECT_TYPE</id>
+          <enabled>Y</enabled>
+          <name>LOGGING_OBJECT_TYPE</name>
+        </field>
+        <field>
+          <id>OBJECT_NAME</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_NAME</name>
+        </field>
+        <field>
+          <id>OBJECT_COPY</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_COPY</name>
+        </field>
+        <field>
+          <id>REPOSITORY_DIRECTORY</id>
+          <enabled>Y</enabled>
+          <name>REPOSITORY_DIRECTORY</name>
+        </field>
+        <field>
+          <id>FILENAME</id>
+          <enabled>Y</enabled>
+          <name>FILENAME</name>
+        </field>
+        <field>
+          <id>OBJECT_ID</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_ID</name>
+        </field>
+        <field>
+          <id>OBJECT_REVISION</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_REVISION</name>
+        </field>
+        <field>
+          <id>PARENT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>PARENT_CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>ROOT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>ROOT_CHANNEL_ID</name>
+        </field>
+      </channel-log-table>
+      <step-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>N</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+      </step-log-table>
+      <metrics-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_DATE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_CODE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_CODE</name>
+        </field>
+        <field>
+          <id>METRICS_DESCRIPTION</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DESCRIPTION</name>
+        </field>
+        <field>
+          <id>METRICS_SUBJECT</id>
+          <enabled>Y</enabled>
+          <name>METRICS_SUBJECT</name>
+        </field>
+        <field>
+          <id>METRICS_TYPE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_TYPE</name>
+        </field>
+        <field>
+          <id>METRICS_VALUE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_VALUE</name>
+        </field>
+      </metrics-log-table>
+    </log>
+    <maxdate>
+      <connection/>
+      <table/>
+      <field/>
+      <offset>0.0</offset>
+      <maxdiff>0.0</maxdiff>
+    </maxdate>
+    <size_rowset>10000</size_rowset>
+    <sleep_time_empty>50</sleep_time_empty>
+    <sleep_time_full>50</sleep_time_full>
+    <unique_connections>N</unique_connections>
+    <feedback_shown>Y</feedback_shown>
+    <feedback_size>50000</feedback_size>
+    <using_thread_priorities>Y</using_thread_priorities>
+    <shared_objects_file/>
+    <capture_step_performance>N</capture_step_performance>
+    <step_performance_capturing_delay>1000</step_performance_capturing_delay>
+    <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
+    <dependencies>
+    </dependencies>
+    <partitionschemas>
+    </partitionschemas>
+    <slaveservers>
+    </slaveservers>
+    <clusterschemas>
+    </clusterschemas>
+    <created_user>-</created_user>
+    <created_date>2021/06/11 17:15:55.132</created_date>
+    <modified_user>-</modified_user>
+    <modified_date>2021/06/11 17:15:55.132</modified_date>
+    <key_for_session_key/>
+    <is_key_private>N</is_key_private>
+  </info>
+  <notepads>
+  </notepads>
+  <order>
+    <hop>
+      <from>Coordinate system operation</from>
+      <to>Selecciona/Renombra valores 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Selecciona/Renombra valores 2</from>
+      <to>Carretera atuonómica</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Carretera atuonómica</from>
+      <to>Text file output</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Selecciona/Renombra valores</from>
+      <to>Coordinate system operation</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Valor Java Script Modificado</from>
+      <to>Selecciona/Renombra valores</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>gpkg input</from>
+      <to>Filtrar filas</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filtrar filas</from>
+      <to>Valor Java Script Modificado</to>
+      <enabled>Y</enabled>
+    </hop>
+  </order>
+  <step>
+    <name>Coordinate system operation</name>
+    <type>GisCoordinateTransformation</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <crsOperation>REPROJECT</crsOperation>
+    <geometryFieldName>the_geom</geometryFieldName>
+    <outputGeometryFieldName>the_geom_reprojected</outputGeometryFieldName>
+    <inputCRSAuthority>epsg</inputCRSAuthority>
+    <inputCRSCode>4258</inputCRSCode>
+    <outputCRSAuthority>epsg</outputCRSAuthority>
+    <outputCRSCode>4326</outputCRSCode>
+    <crsFromGeometry>N</crsFromGeometry>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>400</xloc>
+      <yloc>464</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Selecciona/Renombra valores 2</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>the_geom_reprojected</name>
+        <rename>the_geom</rename>
+      </field>
+      <field>
+        <name>ID</name>
+      </field>
+      <field>
+        <name>ID_BD</name>
+      </field>
+      <field>
+        <name>ID_CODIGO</name>
+      </field>
+      <field>
+        <name>ID_MOD</name>
+      </field>
+      <field>
+        <name>FECHA_ALTA</name>
+      </field>
+      <field>
+        <name>ESTADO</name>
+      </field>
+      <field>
+        <name>CALZADA</name>
+      </field>
+      <field>
+        <name>CATEG_0604</name>
+      </field>
+      <field>
+        <name>COMPE</name>
+      </field>
+      <field>
+        <name>INTERNA</name>
+      </field>
+      <field>
+        <name>ITIN_EUR</name>
+      </field>
+      <field>
+        <name>SITUACION</name>
+      </field>
+      <field>
+        <name>TEN_T</name>
+      </field>
+      <field>
+        <name>ETIQUETA</name>
+      </field>
+      <field>
+        <name>type</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>656</xloc>
+      <yloc>464</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>gpkg input</name>
+    <type>GisFileInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <inputFormat>GEOPACKAGE</inputFormat>
+    <params>
+      <param>
+        <key>DB_TABLE_NAME</key> <value>Table</value> </param> <param> <key>FORCE_TO_2D</key>
+        <value>TRUE</value>
+      </param>
+      <param>
+        <key>FORCE_TO_MULTIGEOMETRY</key>
+        <value>FALSE</value>
+      </param>
+    </params>
+    <inputFileName>${Internal.Entry.Current.Directory}/BTN100_0604L_CARR_AUTON.gpkg</inputFileName>
+    <geometryFieldName>the_geom</geometryFieldName>
+    <encoding>UTF-8</encoding>
+    <rowLimit>0</rowLimit>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>144</xloc>
+      <yloc>128</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Carretera atuonómica</name>
+    <type>TripleGeoKettle</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <attributename>ID</attributename>
+    <feature>CarreteraAutonomica</feature>
+    <ontologyns>https://datos.ign.es/def/btn100#</ontologyns>
+    <ontologynsprefix>btn100</ontologynsprefix>
+    <resourcens>https://datos.ign.es/recurso/btn100/carretera-autonomica/</resourcens>
+    <resourcensprefix>georec</resourcensprefix>
+    <language>null</language>
+    <pathcsv>null</pathcsv>
+    <uuidsactive>false</uuidsactive>
+    <fields>
+		</fields>
+    <columns>
+      <columns>
+        <column>the_geom</column>
+        <prefix>n/a</prefix>
+        <uri/>
+        <show>YES</show>
+        <column_shp>the_geom</column_shp>
+      </columns>
+      <columns>
+        <column>identifier</column>
+        <prefix>dc</prefix>
+        <uri>http://purl.org/dc/terms/</uri>
+        <show>YES</show>
+        <column_shp>ID</column_shp>
+      </columns>
+      <columns>
+        <column>ID_BD</column>
+        <prefix/>
+        <uri/>
+        <show>NO</show>
+        <column_shp>ID_BD</column_shp>
+      </columns>
+      <columns>
+        <column>ID_CODIGO</column>
+        <prefix/>
+        <uri/>
+        <show>NO</show>
+        <column_shp>ID_CODIGO</column_shp>
+      </columns>
+      <columns>
+        <column>replaces</column>
+        <prefix>dc</prefix>
+        <uri>http://purl.org/dc/terms/</uri>
+        <show>YES</show>
+        <column_shp>ID_MOD</column_shp>
+      </columns>
+      <columns>
+        <column>created</column>
+        <prefix>dc</prefix>
+        <uri>http://purl.org/dc/terms/</uri>
+        <show>YES</show>
+        <column_shp>FECHA_ALTA</column_shp>
+      </columns>
+      <columns>
+        <column>estadoDeUso</column>
+        <prefix>btn100</prefix>
+        <uri>https://datos.ign.es/def/btn100#</uri>
+        <show>YES</show>
+        <column_shp>ESTADO</column_shp>
+      </columns>
+      <columns>
+        <column>calzada</column>
+        <prefix>btn100</prefix>
+        <uri>https://datos.ign.es/def/btn100#</uri>
+        <show>YES</show>
+        <column_shp>CALZADA</column_shp>
+      </columns>
+      <columns>
+        <column>ordenDeImportancia</column>
+        <prefix>btn100</prefix>
+        <uri>https://datos.ign.es/def/btn100#</uri>
+        <show>YES</show>
+        <column_shp>CATEG_0604</column_shp>
+      </columns>
+      <columns>
+        <column>competencia</column>
+        <prefix>btn100</prefix>
+        <uri>https://datos.ign.es/def/btn100#</uri>
+        <show>YES</show>
+        <column_shp>COMPE</column_shp>
+      </columns>
+      <columns>
+        <column>tipoDeTramo</column>
+        <prefix>btn100</prefix>
+        <uri>https://datos.ign.es/def/btn100#</uri>
+        <show>YES</show>
+        <column_shp>INTERNA</column_shp>
+      </columns>
+      <columns>
+        <column>tipoDeItinerario</column>
+        <prefix>btn100</prefix>
+        <uri>https://datos.ign.es/def/btn100#</uri>
+        <show>YES</show>
+        <column_shp>ITIN_EUR</column_shp>
+      </columns>
+      <columns>
+        <column>situacionDeVia</column>
+        <prefix>btn100</prefix>
+        <uri>https://datos.ign.es/def/btn100#</uri>
+        <show>YES</show>
+        <column_shp>SITUACION</column_shp>
+      </columns>
+      <columns>
+        <column>rutaTEN-T</column>
+        <prefix>btn100</prefix>
+        <uri>https://datos.ign.es/def/btn100#</uri>
+        <show>YES</show>
+        <column_shp>TEN_T</column_shp>
+      </columns>
+      <columns>
+        <column>title</column>
+        <prefix>dc</prefix>
+        <uri>http://purl.org/dc/terms/</uri>
+        <show>YES</show>
+        <column_shp>ETIQUETA</column_shp>
+      </columns>
+      <columns>
+        <column>type</column>
+        <prefix>rdf</prefix>
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#</uri>
+        <show>NO</show>
+        <column_shp>type</column_shp>
+      </columns>
+    </columns>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>464</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Selecciona/Renombra valores</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>FECHA_ALTA</name>
+        <rename>FECHA_ALTA</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask>yyyy-MM-dd</conversion_mask>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>144</xloc>
+      <yloc>464</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Text file output</name>
+    <type>TextFileOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <separator>;</separator>
+    <enclosure>"</enclosure>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>Y</enclosure_fix_disabled>
+    <header>N</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding>UTF-8</encoding>
+    <endedLine/>
+    <fileNameInField>N</fileNameInField>
+    <fileNameField/>
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>${Internal.Transformation.Filename.Directory}/BTN100_0604L_CARR_AUTON2</name>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>ttl</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery>0</splitevery>
+    </file>
+    <fields>
+      <field>
+        <name>rdf_output</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1088</xloc>
+      <yloc>464</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Valor Java Script Modificado</name>
+    <type>ScriptValueMod</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <compatible>N</compatible>
+    <optimizationLevel/>
+    <jsScripts>
+      <jsScript>
+        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>
+
+var aux = FECHA_ALTA.match(/^(\d{4})(\d{2})(\d{2})/);
+
+if(!aux || aux.length &lt; 4){
+	FECHA_ALTA = "";
+}
+else{
+    FECHA_ALTA = new Date(aux[1], aux[2]-1, aux[3]);
+    FECHA_ALTA = date2str(FECHA_ALTA, "yyyy-MM-dd");
+}
+
+
+var type ="&lt;http://geo.linkeddata.es/ontology/Carretera>";
+
+//ESTADO
+if(ESTADO == "01"){
+	ESTADO = '&lt;https://datos.ign.es/kos/transportes/estado-de-uso/en-uso>';
+}
+else if(ESTADO == "02"){
+	ESTADO = '&lt;https://datos.ign.es/kos/transportes/estado-de-uso/en-construccion>';
+}
+else{
+	ESTADO = '&lt;https://datos.ign.es/kos/transportes/estado-de-uso/abandonado>';
+}
+
+//CALZADA
+if(CALZADA == "01"){
+	CALZADA = "&lt;https://datos.ign.es/kos/transportes/calzada/convencional>";
+}
+else if(CALZADA == "02"){
+	CALZADA = "&lt;https://datos.ign.es/kos/transportes/calzada/doble>";
+}
+else{
+	CALZADA = "&lt;https://datos.ign.es/kos/transportes/calzada/sentido-unico>";
+}
+
+//CATEG_0604
+if(CATEG_0604 == "01"){
+	CATEG_0604 = "&lt;https://datos.ign.es/kos/transportes/categoria-interes/primer-orden>";
+}
+else if(CATEG_0604 == "02"){
+	CATEG_0604 = "&lt;https://datos.ign.es/kos/transportes/categoria-interes/segundo-orden>";
+}
+else if(CATEG_0604 == "03"){
+	CATEG_0604 = "&lt;https://datos.ign.es/kos/transportes/categoria-interes/tercer-orden>";
+}
+else{
+	CATEG_0604 = "&lt;https://datos.ign.es/kos/transportes/categoria-interes/no-definido>";
+}
+
+//COMPE
+if(COMPE == "01"){
+	COMPE = "&lt;https://datos.ign.es/kos/transportes/competencia/estatal>";
+}
+else if(COMPE == "02"){
+	COMPE = "&lt;https://datos.ign.es/kos/transportes/competencia/autonomica>";
+}
+else if(COMPE == "03"){
+	COMPE = "&lt;https://datos.ign.es/kos/transportes/competencia/provincial>";
+}
+else{
+	COMPE = "&lt;https://datos.ign.es/kos/transportes/competencia/local>";
+}
+
+
+// INTERNA
+
+if(INTERNA == "01"){
+	INTERNA = "&lt;https://datos.ign.es/kos/transportes/tipo-tramo/no-interna>";
+}
+else {
+	INTERNA = "&lt;https://datos.ign.es/kos/transportes/tipo-tramo/interna>";
+}
+
+//ITINERARIO EUROPEO
+if(ITIN_EUR == "01"){
+	ITIN_EUR = "&lt;https://datos.ign.es/kos/transportes/tipo-itinerario/no-itinerario-europeo>";
+}
+else{
+	ITIN_EUR = "&lt;https://datos.ign.es/kos/transportes/tipo-itinerario/itinerario-europeo>";
+}
+
+//SITUACION
+if(SITUACION == "01"){
+	SITUACION = "&lt;https://datos.ign.es/kos/transportes/situacion-via/superficial>";
+}
+else if(SITUACION == "02"){
+	SITUACION = "&lt;https://datos.ign.es/kos/transportes/situacion-via/subterranea>";
+}
+else if (SITUACION == "03"){
+	SITUACION = "&lt;https://datos.ign.es/kos/transportes/situacion-via/elevada>";
+}
+else {
+	SITUACION = "";
+}
+
+//RUTA TEN-T
+if(TEN_T == "01"){
+	TEN_T  = "&lt;https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-no-transeuropea>";
+}
+else{
+	TEN_T  = "&lt;https://datos.ign.es/kos/transportes/ruta-ten-t/ruta-transeuropea>";
+}
+</jsScript_script>
+      </jsScript>
+    </jsScripts>
+    <fields>
+      <field>
+        <name>FECHA_ALTA</name>
+        <rename>FECHA_ALTA</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>
+      <field>
+        <name>CALZADA</name>
+        <rename>CALZADA</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>
+      <field>
+        <name>COMPE</name>
+        <rename>COMPE</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>
+      <field>
+        <name>INTERNA</name>
+        <rename>INTERNA</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>
+      <field>
+        <name>ITIN_EUR</name>
+        <rename>ITIN_EUR</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>
+      <field>
+        <name>SITUACION</name>
+        <rename>SITUACION</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>
+      <field>
+        <name>TEN_T</name>
+        <rename>TEN_T</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>
+      <field>
+        <name>CATEG_0604</name>
+        <rename>CATEG_0604</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>
+      <field>
+        <name>ESTADO</name>
+        <rename>ESTADO</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>Y</replace>
+      </field>
+      <field>
+        <name>type</name>
+        <rename>type</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>144</xloc>
+      <yloc>352</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filtrar filas</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Valor Java Script Modificado</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <conditions>
+          <condition>
+            <negated>N</negated>
+            <leftvalue>ID</leftvalue>
+            <function>&gt;</function>
+            <rightvalue/>
+            <value>
+              <name>constant</name>
+              <type>Integer</type>
+              <text>10000</text>
+              <length>-1</length>
+              <precision>0</precision>
+              <isnull>N</isnull>
+              <mask>#;-#</mask>
+            </value>
+          </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <leftvalue>ID</leftvalue>
+            <function>&lt;=</function>
+            <rightvalue/>
+            <value>
+              <name>constant</name>
+              <type>Integer</type>
+              <text>20000</text>
+              <length>-1</length>
+              <precision>0</precision>
+              <isnull>N</isnull>
+              <mask>#;-#</mask>
+            </value>
+          </condition>
+        </conditions>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>144</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step_error_handling>
+  </step_error_handling>
+  <slave-step-copy-partition-distribution>
+  </slave-step-copy-partition-distribution>
+  <slave_transformation>N</slave_transformation>
+  <attributes/>
+</transformation>

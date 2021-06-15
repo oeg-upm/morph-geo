@@ -1,0 +1,1368 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/sitio-historico/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+georec:12870  a                btn100:SitioHistorico ;
+        rdfs:label             "12870" ;
+        dc:created             "2012-09-04"^^xsd:date ;
+        dc:identifier          "12870" ;
+        dc:title               "Despujol" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/12870/geometry> ;
+        btn100:codigoBIC       "RI-51-0005536-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/19204/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.880885030000001 40.13972519854066)"^^geosparql:wktLiteral .
+
+georec:31262  a                btn100:SitioHistorico ;
+        rdfs:label             "31262" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31262" ;
+        dc:title               "Pou Colomer Vell" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31262/geometry> ;
+        btn100:codigoBIC       "RI-51-0002867-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/27424/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.35826 43.254114998522475)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31175/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.436 38.90642999855263)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/9826/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8470000000000002 42.520229998525174)"^^geosparql:wktLiteral .
+
+georec:12878  a                btn100:SitioHistorico ;
+        rdfs:label             "12878" ;
+        dc:created             "2012-09-04"^^xsd:date ;
+        dc:identifier          "12878" ;
+        dc:title               "El Raurell" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/12878/geometry> ;
+        btn100:codigoBIC       "RI-51-0005613-00000" .
+
+georec:30561  a                btn100:SitioHistorico ;
+        rdfs:label             "30561" ;
+        dc:created             "2013-04-15"^^xsd:date ;
+        dc:identifier          "30561" ;
+        dc:title               "Parque Nacional de Doñana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/30561/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/34987/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.429 28.334551998761814)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/19889/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.1248000000000005 40.95427999853422)"^^geosparql:wktLiteral .
+
+georec:10011  a                btn100:SitioHistorico ;
+        rdfs:label             "10011" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "10011" ;
+        dc:title               "Sitio La Bastida (Edificación fortificada)" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/10011/geometry> ;
+        btn100:codigoBIC       "RI-51-0006450-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/40939/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.8168 43.30788899852231)"^^geosparql:wktLiteral .
+
+georec:30135  a                btn100:SitioHistorico ;
+        rdfs:label             "30135" ;
+        dc:created             "2012-10-22"^^xsd:date ;
+        dc:identifier          "30135" ;
+        dc:title               "Batería de la Segunda Aguada. Cádiz" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/30135/geometry> ;
+        btn100:codigoBIC       "RI-51-0012212-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/41950/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.226800909999999 39.7970751985437)"^^geosparql:wktLiteral .
+
+georec:40950  a                btn100:SitioHistorico ;
+        rdfs:label             "40950" ;
+        dc:created             "2012-12-07"^^xsd:date ;
+        dc:identifier          "40950" ;
+        dc:title               "Ídolo de Peña Tú" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/40950/geometry> ;
+        btn100:codigoBIC       "RI-51-0000294-00000" .
+
+georec:30569  a                btn100:SitioHistorico ;
+        rdfs:label             "30569" ;
+        dc:created             "2013-05-13"^^xsd:date ;
+        dc:identifier          "30569" ;
+        dc:title               "Cantro Histórico de Palos de la Frontera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/30569/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/30140/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.299300000000001 36.53789999858314)"^^geosparql:wktLiteral .
+
+georec:33193  a                btn100:SitioHistorico ;
+        rdfs:label             "33193" ;
+        dc:created             "2012-08-06"^^xsd:date ;
+        dc:identifier          "33193" ;
+        dc:title               "Localidad de Azuaga" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/33193/geometry> ;
+        btn100:codigoBIC       "RI-53-0000482-00000" .
+
+georec:27551  a                btn100:SitioHistorico ;
+        rdfs:label             "27551" ;
+        dc:created             "2012-09-07"^^xsd:date ;
+        dc:identifier          "27551" ;
+        dc:title               "Conducción de Aguas de El Chorrillo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/27551/geometry> ;
+        btn100:codigoBIC       "RI-55-0000858-00000" .
+
+georec:31257  a                btn100:SitioHistorico ;
+        rdfs:label             "31257" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31257" ;
+        dc:title               "Na Pol" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31257/geometry> ;
+        btn100:codigoBIC       "RI-51-0002857-00000" .
+
+georec:31236  a                btn100:SitioHistorico ;
+        rdfs:label             "31236" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31236" ;
+        dc:title               "Sa Creu" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31236/geometry> ;
+        btn100:codigoBIC       "RI-51-0010420-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/9817/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8010999999999999 42.505489998525256)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/73331/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.731304447689687 36.8689569504034)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/12859/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.006858999999999 41.99187799852774)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/19175/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.72315 40.10532099854096)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/30569/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.8930300299999985 37.2297524185732)"^^geosparql:wktLiteral .
+
+georec:21059  a                btn100:SitioHistorico ;
+        rdfs:label             "21059" ;
+        dc:created             "2012-06-14"^^xsd:date ;
+        dc:identifier          "21059" ;
+        dc:title               "Paraje del Cerro de la Ermita" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/21059/geometry> ;
+        btn100:codigoBIC       "RI-55-0000384-00000" .
+
+georec:9818  a                 btn100:SitioHistorico ;
+        rdfs:label             "9818" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "9818" ;
+        dc:title               "Sitio del Entorno de protección de la Iglesia de Santa Eulalia de Erill la Vall" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/9818/geometry> ;
+        btn100:codigoBIC       "RI-51-0001299-00001" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/30135/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.276 36.51495999858347)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31198/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8598926600000003 39.48203233854671)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31251/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.1714000000000007 39.70256999854458)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/17568/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.7281948 41.16049071853279)"^^geosparql:wktLiteral .
+
+georec:21138  a                btn100:SitioHistorico ;
+        rdfs:label             "21138" ;
+        dc:created             "2012-06-14"^^xsd:date ;
+        dc:identifier          "21138" ;
+        dc:title               "Sitio de Calle de Francos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/21138/geometry> ;
+        btn100:codigoBIC       "RI-53-0000106-00000" .
+
+georec:34991  a                btn100:SitioHistorico ;
+        rdfs:label             "34991" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "34991" ;
+        dc:title               "Lomo Gordo[41]" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/34991/geometry> ;
+        btn100:codigoBIC       "RI-55-0000688-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/3368/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6930000000000005 40.41405999853835)"^^geosparql:wktLiteral .
+
+georec:41959  a                btn100:SitioHistorico ;
+        rdfs:label             "41959" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "41959" ;
+        dc:title               "Delimitación de entorno de protección de la Mezquita de las Tornerías" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/41959/geometry> ;
+        btn100:codigoBIC       "RI-51-0000947" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/12750/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.2646339999999996 41.66200999852959)"^^geosparql:wktLiteral .
+
+georec:31194  a                btn100:SitioHistorico ;
+        rdfs:label             "31194" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31194" ;
+        dc:title               "Ca l'Abat" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31194/geometry> ;
+        btn100:codigoBIC       "RI-51-0008402-00000" .
+
+georec:9826  a                 btn100:SitioHistorico ;
+        rdfs:label             "9826" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "9826" ;
+        dc:title               "Sitio del Entorno de protección de la Iglesia de Santa María de Tahull" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/9826/geometry> ;
+        btn100:codigoBIC       "RI-51-0000693-00001" .
+
+georec:3485  a                 btn100:SitioHistorico ;
+        rdfs:label             "3485" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3485" ;
+        dc:title               "Atalaya de Venturada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/3485/geometry> ;
+        btn100:codigoBIC       "RI-51-0004936-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31194/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.651855990000001 39.75842495854406)"^^geosparql:wktLiteral .
+
+georec:3443  a                 btn100:SitioHistorico ;
+        rdfs:label             "3443" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3443" ;
+        dc:title               "Frontón Beti-jai" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/3443/geometry> ;
+        btn100:codigoBIC       "RI-51-0007040-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/9898/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.1132376700000002 41.916266368528156)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/7773/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.4789999999999988 41.68821999852943)"^^geosparql:wktLiteral .
+
+georec:31210  a                btn100:SitioHistorico ;
+        rdfs:label             "31210" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31210" ;
+        dc:title               "La Calobra" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31210/geometry> ;
+        btn100:codigoBIC       "RI-51-0008416-00000" .
+
+georec:27504  a                btn100:SitioHistorico ;
+        rdfs:label             "27504" ;
+        dc:created             "2012-09-07"^^xsd:date ;
+        dc:identifier          "27504" ;
+        dc:title               "Dique de Gamazo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/27504/geometry> ;
+        btn100:codigoBIC       "RI-51-0010705-00000" .
+
+georec:1478  a                 btn100:SitioHistorico ;
+        rdfs:label             "1478" ;
+        dc:created             "2013-05-13"^^xsd:date ;
+        dc:identifier          "1478" ;
+        dc:title               "Silos de Burjasot" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/1478/geometry> ;
+        btn100:codigoBIC       "RI-51-0004619-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/34969/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-17.2768 28.10028199876847)"^^geosparql:wktLiteral .
+
+georec:22026  a                btn100:SitioHistorico ;
+        rdfs:label             "22026" ;
+        dc:created             "2012-05-03"^^xsd:date ;
+        dc:identifier          "22026" ;
+        dc:title               "El Valle de las Batuecas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/22026/geometry> ;
+        btn100:codigoBIC       "RI-54-0000045-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/30561/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.461908730000001 36.98982176857655)"^^geosparql:wktLiteral .
+
+georec:29198  a                btn100:SitioHistorico ;
+        rdfs:label             "29198" ;
+        dc:created             "2013-05-17"^^xsd:date ;
+        dc:identifier          "29198" ;
+        dc:title               "Alfar Romano de la Cartuja" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/29198/geometry> ;
+        btn100:codigoBIC       "RI-51-0003830-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31189/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.6589999999999994 39.65839999854501)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/30179/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.5568 36.19798999858961)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/22162/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.66189902 40.69711877853614)"^^geosparql:wktLiteral .
+
+georec:30551  a                btn100:SitioHistorico ;
+        rdfs:label             "30551" ;
+        dc:created             "2013-02-12"^^xsd:date ;
+        dc:identifier          "30551" ;
+        dc:title               "Sitio Histórico de los lugares vinculados con Juan Ramón Jimenez" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/30551/geometry> ;
+        btn100:codigoBIC       "RI-54-0000179-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/40764/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.09821 43.45239999852189)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/21115/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.728923000000001 41.65552899852965)"^^geosparql:wktLiteral .
+
+georec:2145  a                 btn100:SitioHistorico ;
+        rdfs:label             "2145" ;
+        dc:created             "2012-02-15"^^xsd:date ;
+        dc:identifier          "2145" ;
+        dc:title               "Pantà de Tibi" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/2145/geometry> ;
+        btn100:codigoBIC       "RI-51-0007057-00000" .
+
+georec:7827  a                 btn100:SitioHistorico ;
+        rdfs:label             "7827" ;
+        dc:created             "2012-04-24"^^xsd:date ;
+        dc:identifier          "7827" ;
+        dc:title               "Las Salinas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/7827/geometry> ;
+        btn100:codigoBIC       "RI-54-0000137-00000" .
+
+georec:34986  a                btn100:SitioHistorico ;
+        rdfs:label             "34986" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "34986" ;
+        dc:title               "La Hidro[32]" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/34986/geometry> ;
+        btn100:codigoBIC       "RI-54-0000156-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31266/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8998253899999997 39.8304358385434)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/530/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.60722222 38.76972221855413)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/41769/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6569094299999994 39.4305672885472)"^^geosparql:wktLiteral .
+
+georec:31189  a                btn100:SitioHistorico ;
+        rdfs:label             "31189" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31189" ;
+        dc:title               "Sistema hidráulico de la Fuente de Mestre Pere y la Acequia de Na Cerdana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31189/geometry> ;
+        btn100:codigoBIC       "RI-51-0012021-00000" .
+
+georec:12521  a                btn100:SitioHistorico ;
+        rdfs:label             "12521" ;
+        dc:created             "2012-09-04"^^xsd:date ;
+        dc:identifier          "12521" ;
+        dc:title               "Can Ràfols dels Caus" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/12521/geometry> ;
+        btn100:codigoBIC       "RI-51-0005188-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/40917/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.054390000000001 43.308729998522296)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/34989/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.363351609999995 28.327519508762016)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/12878/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.9652490000000002 42.06695999852735)"^^geosparql:wktLiteral .
+
+georec:10364  a                btn100:SitioHistorico ;
+        rdfs:label             "10364" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "10364" ;
+        dc:title               "Almoina a Gaüses" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/10364/geometry> ;
+        btn100:codigoBIC       "RI-51-0006198-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31262/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.25917865 39.66323942854496)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/33193/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.679000000000002 38.26075999855996)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31719/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.726577000000001 37.66636155856737)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/4471/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.98460581 42.800794858524036)"^^geosparql:wktLiteral .
+
+georec:19204  a                btn100:SitioHistorico ;
+        rdfs:label             "19204" ;
+        dc:created             "2013-03-11"^^xsd:date ;
+        dc:identifier          "19204" ;
+        dc:title               "Sitio Histórico Valle del Jerte" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/19204/geometry> ;
+        btn100:codigoBIC       "RI-54-0000046-00000" .
+
+georec:31197  a                btn100:SitioHistorico ;
+        rdfs:label             "31197" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31197" ;
+        dc:title               "Son Garcies" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31197/geometry> ;
+        btn100:codigoBIC       "RI-51-0008479-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/13523/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.9322619999999998 41.25798999853214)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/3274/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.8729999999999993 40.40657999853842)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/40755/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.235600000000001 43.29890299852234)"^^geosparql:wktLiteral .
+
+georec:19175  a                btn100:SitioHistorico ;
+        rdfs:label             "19175" ;
+        dc:created             "2012-07-31"^^xsd:date ;
+        dc:identifier          "19175" ;
+        dc:title               "Cuacos de la Vera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/19175/geometry> ;
+        btn100:codigoBIC       "RI-54-0000012-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/40950/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.68943442 43.39328641852205)"^^geosparql:wktLiteral .
+
+georec:3488  a                 btn100:SitioHistorico ;
+        rdfs:label             "3488" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3488" ;
+        dc:title               "Atalaya de El Vellón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/3488/geometry> ;
+        btn100:codigoBIC       "RI-51-0004937-00000" .
+
+georec:12842  a                btn100:SitioHistorico ;
+        rdfs:label             "12842" ;
+        dc:created             "2012-09-04"^^xsd:date ;
+        dc:identifier          "12842" ;
+        dc:title               "La Sala de Vilalleóns" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/12842/geometry> ;
+        btn100:codigoBIC       "RI-51-0005645-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/12521/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.8010743799999995 41.35858341853147)"^^geosparql:wktLiteral .
+
+georec:31276  a                btn100:SitioHistorico ;
+        rdfs:label             "31276" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31276" ;
+        dc:title               "Hipogeo de Rafalet Nou" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31276/geometry> ;
+        btn100:codigoBIC       "RI-51-0003748-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/41789/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.0439240199999995 39.85302974854318)"^^geosparql:wktLiteral .
+
+georec:11131  a                btn100:SitioHistorico ;
+        rdfs:label             "11131" ;
+        dc:created             "2012-10-19"^^xsd:date ;
+        dc:identifier          "11131" ;
+        dc:title               "Punta de los Tres Frares Cabo Gros y Montaña de Sant Pere" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/11131/geometry> ;
+        btn100:codigoBIC       "RI-54-0000042-00016" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31257/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.36696057 39.58043436854574)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/11129/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8010217399999995 41.682033748529484)"^^geosparql:wktLiteral .
+
+georec:21107  a                btn100:SitioHistorico ;
+        rdfs:label             "21107" ;
+        dc:created             "2012-06-14"^^xsd:date ;
+        dc:identifier          "21107" ;
+        dc:title               "Sitio de las Fuentes de Argales" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/21107/geometry> ;
+        btn100:codigoBIC       "RI-51-0004624-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/29198/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.59938572 37.19143787857374)"^^geosparql:wktLiteral .
+
+georec:12750  a                btn100:SitioHistorico ;
+        rdfs:label             "12750" ;
+        dc:created             "2012-09-04"^^xsd:date ;
+        dc:identifier          "12750" ;
+        dc:title               "Can Draper" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/12750/geometry> ;
+        btn100:codigoBIC       "RI-51-0005173-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/21138/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.72 41.653669998529644)"^^geosparql:wktLiteral .
+
+georec:40764  a                btn100:SitioHistorico ;
+        rdfs:label             "40764" ;
+        dc:created             "2012-12-07"^^xsd:date ;
+        dc:identifier          "40764" ;
+        dc:title               "Tablero de cancel Prerrománico" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/40764/geometry> ;
+        btn100:codigoBIC       "RI-51-0011107-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/29814/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.832339079999999 36.62976449858176)"^^geosparql:wktLiteral .
+
+georec:530  a                  btn100:SitioHistorico ;
+        rdfs:label             "530" ;
+        dc:created             "2013-05-13"^^xsd:date ;
+        dc:identifier          "530" ;
+        dc:title               "Covetes dels Moros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/530/geometry> ;
+        btn100:codigoBIC       "RI-51-0000973-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/9827/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.8489999999999999 42.516549998525214)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/12569/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.182222 41.38361099853131)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/21192/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.726547369999999 41.64819628852968)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/3488/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.5621000000000005 40.76717699853559)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/30137/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.307677850000001 36.53278882858321)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/12870/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.250159000000001 42.01259999852764)"^^geosparql:wktLiteral .
+
+georec:29814  a                btn100:SitioHistorico ;
+        rdfs:label             "29814" ;
+        dc:created             "2013-05-23"^^xsd:date ;
+        dc:identifier          "29814" ;
+        dc:title               "Paraje Pintoresco de la Villa de Monda y sus alrededores" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/29814/geometry> ;
+        btn100:codigoBIC       "RI-54-0000034-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/1363/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.5216666699999999 38.98777777855177)"^^geosparql:wktLiteral .
+
+georec:34989  a                btn100:SitioHistorico ;
+        rdfs:label             "34989" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "34989" ;
+        dc:title               "Llano de la Virgen[36]" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/34989/geometry> ;
+        btn100:codigoBIC       "RI-54-0000181-00000" .
+
+georec:21115  a                btn100:SitioHistorico ;
+        rdfs:label             "21115" ;
+        dc:created             "2012-06-14"^^xsd:date ;
+        dc:identifier          "21115" ;
+        dc:title               "Sitio de la calle San Ignacio, de la Casa de los Fernández de Muras y columnas que forman parte del patio original. Casa de los Arenzana o del Conde de Fuertenueva" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/21115/geometry> ;
+        btn100:codigoBIC       "RI-51-0010110-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/30551/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.838541080000001 37.27642633857258)"^^geosparql:wktLiteral .
+
+georec:9803  a                 btn100:SitioHistorico ;
+        rdfs:label             "9803" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "9803" ;
+        dc:title               "Sitio Alfolí de la Sal y Salinas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/9803/geometry> ;
+        btn100:codigoBIC       "RI-51-0009119-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/11397/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3327777800000002 42.3222222185261)"^^geosparql:wktLiteral .
+
+georec:23798  a                btn100:SitioHistorico ;
+        rdfs:label             "23798" ;
+        dc:created             "2012-06-05"^^xsd:date ;
+        dc:identifier          "23798" ;
+        dc:title               "Lago de Sanabria y montes que lo rodean" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/23798/geometry> ;
+        btn100:codigoBIC       "RI-54-0000009-00000" .
+
+georec:17568  a                btn100:SitioHistorico ;
+        rdfs:label             "17568" ;
+        dc:created             "2012-01-18"^^xsd:date ;
+        dc:identifier          "17568" ;
+        dc:title               "Sitio Salinas de Imón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/17568/geometry> ;
+        btn100:codigoBIC       "RI-51-0007282-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/3289/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.14429715 40.608852978536824)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/22026/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.1459768100000005 40.460714618537985)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/33239/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.344128119999999 38.91360545855255)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31256/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.36567177 39.60320351854553)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/27551/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.224190000000001 43.38234899852209)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/24610/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.2179922200000002 37.99511646856321)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/2145/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.55819299 38.50184692855715)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/7827/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.503600000000001 42.66898999852456)"^^geosparql:wktLiteral .
+
+georec:3328  a                 btn100:SitioHistorico ;
+        rdfs:label             "3328" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3328" ;
+        dc:title               "La Corrala" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/3328/geometry> ;
+        btn100:codigoBIC       "RI-51-0005021-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/9818/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.82584121 42.52521472852516)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/19168/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.974199529999998 40.26081509853963)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/11340/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7492313899999994 42.12022379852707)"^^geosparql:wktLiteral .
+
+georec:3299  a                 btn100:SitioHistorico ;
+        rdfs:label             "3299" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3299" ;
+        dc:title               "Las Salinas Espartinas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/3299/geometry> ;
+        btn100:codigoBIC       "RI-55-0000857-00000" .
+
+georec:1363  a                 btn100:SitioHistorico ;
+        rdfs:label             "1363" ;
+        dc:created             "2013-05-13"^^xsd:date ;
+        dc:identifier          "1363" ;
+        dc:title               "Almudín" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/1363/geometry> ;
+        btn100:codigoBIC       "RI-51-0001418-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/17569/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.32884709 40.90253790853459)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/23798/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.719900000000001 42.12749999852704)"^^geosparql:wktLiteral .
+
+georec:31187  a                btn100:SitioHistorico ;
+        rdfs:label             "31187" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31187" ;
+        dc:title               "Talaia de Ses Animes" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31187/geometry> ;
+        btn100:codigoBIC       "RI-51-0008353-00000" .
+
+georec:4471  a                 btn100:SitioHistorico ;
+        rdfs:label             "4471" ;
+        dc:created             "2012-04-02"^^xsd:date ;
+        dc:identifier          "4471" ;
+        dc:title               "Salinas de Añana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/4471/geometry> ;
+        btn100:codigoBIC       "RI-51-0005132-00000" .
+
+georec:11397  a                btn100:SitioHistorico ;
+        rdfs:label             "11397" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "11397" ;
+        dc:title               "Roca de Pelancá" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/11397/geometry> ;
+        btn100:codigoBIC       "RI-51-0006181-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/4485/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-2.5847674699999996 42.553557538525034)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31276/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.29372798 39.84105182854331)"^^geosparql:wktLiteral .
+
+georec:40917  a                btn100:SitioHistorico ;
+        rdfs:label             "40917" ;
+        dc:created             "2012-12-07"^^xsd:date ;
+        dc:identifier          "40917" ;
+        dc:title               "Covadonga, conjunto paisajistico" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/40917/geometry> ;
+        btn100:codigoBIC       "RI-54-0000027-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31187/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.50037298 39.68373316854476)"^^geosparql:wktLiteral .
+
+georec:31266  a                btn100:SitioHistorico ;
+        rdfs:label             "31266" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31266" ;
+        dc:title               "Menut" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31266/geometry> ;
+        btn100:codigoBIC       "RI-51-0008415-00000" .
+
+georec:41960  a                btn100:SitioHistorico ;
+        rdfs:label             "41960" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "41960" ;
+        dc:title               "Quinta Mirabel" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/41960/geometry> ;
+        btn100:codigoBIC       "ARI-51-0012197-00000" .
+
+georec:41789  a                btn100:SitioHistorico ;
+        rdfs:label             "41789" ;
+        dc:created             "2011-11-03"^^xsd:date ;
+        dc:identifier          "41789" ;
+        dc:title               "Cigarral de Menores" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/41789/geometry> ;
+        btn100:codigoBIC       "RI-51-0012037-00000" .
+
+georec:12569  a                btn100:SitioHistorico ;
+        rdfs:label             "12569" ;
+        dc:created             "2012-09-04"^^xsd:date ;
+        dc:identifier          "12569" ;
+        dc:title               "Fossar de les Moreres (Reclasificación como lugar histórico de un entorno de protección común al de la Monasterio de Santa María del Mar) .." ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/12569/geometry> ;
+        btn100:codigoBIC       "RI-54-0000061-00000" .
+
+georec:9827  a                 btn100:SitioHistorico ;
+        rdfs:label             "9827" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "9827" ;
+        dc:title               "Sitio del Entorno de protección de la Iglesia de San Clemente de Tahull" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/9827/geometry> ;
+        btn100:codigoBIC       "RI-51-0000692-00001" .
+
+georec:24610  a                btn100:SitioHistorico ;
+        rdfs:label             "24610" ;
+        dc:created             "2012-12-24"^^xsd:date ;
+        dc:identifier          "24610" ;
+        dc:title               "Presa del Rio Segura denominada Azud de la Contraparada." ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/24610/geometry> ;
+        btn100:codigoBIC       "RI-51-0004697-00000" .
+
+georec:33239  a                btn100:SitioHistorico ;
+        rdfs:label             "33239" ;
+        dc:created             "2013-01-22"^^xsd:date ;
+        dc:identifier          "33239" ;
+        dc:title               "Entorno de protección del Covento de San Andrés" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/33239/geometry> ;
+        btn100:codigoBIC       "RI-51-0005321" .
+
+georec:10078  a                btn100:SitioHistorico ;
+        rdfs:label             "10078" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "10078" ;
+        dc:title               "Alfolí de la Sal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/10078/geometry> ;
+        btn100:codigoBIC       "RI-51-0005085-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/3328/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.702499999999999 40.408031998538405)"^^geosparql:wktLiteral .
+
+georec:12498  a                btn100:SitioHistorico ;
+        rdfs:label             "12498" ;
+        dc:created             "2012-09-04"^^xsd:date ;
+        dc:identifier          "12498" ;
+        dc:title               "Can Dardena" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/12498/geometry> ;
+        btn100:codigoBIC       "RI-51-0005485-00000" .
+
+georec:31274  a                btn100:SitioHistorico ;
+        rdfs:label             "31274" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31274" ;
+        dc:title               "Talayot de Rafalet Petit" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31274/geometry> ;
+        btn100:codigoBIC       "RI-51-0003749-00000" .
+
+georec:11129  a                btn100:SitioHistorico ;
+        rdfs:label             "11129" ;
+        dc:created             "2012-10-19"^^xsd:date ;
+        dc:identifier          "11129" ;
+        dc:title               "Cala San Francisco, S'Augue, Barrio de Pescadores" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/11129/geometry> ;
+        btn100:codigoBIC       "RI-54-0000042-00001" .
+
+georec:6431  a                 btn100:SitioHistorico ;
+        rdfs:label             "6431" ;
+        dc:created             "2012-04-10"^^xsd:date ;
+        dc:identifier          "6431" ;
+        dc:title               "Camino de Santiago (En el tramo de Puente de la Reina En Navarra)" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/6431/geometry> ;
+        btn100:codigoBIC       "RI-53-0000035-00000" .
+
+georec:9898  a                 btn100:SitioHistorico ;
+        rdfs:label             "9898" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "9898" ;
+        dc:title               "Sitio Collfred" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/9898/geometry> ;
+        btn100:codigoBIC       "RI-51-0006255-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/21116/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.728889000000001 41.65583299852964)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/3300/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7209999999999996 40.17554999854034)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31214/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0519873100000003 39.33312674854819)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/19126/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-7.240700000000002 39.414299998547364)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/6431/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-1.8179725599999994 42.67147549852455)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31209/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.7400306700000003 39.81461478854356)"^^geosparql:wktLiteral .
+
+georec:34987  a                btn100:SitioHistorico ;
+        rdfs:label             "34987" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "34987" ;
+        dc:title               "Sitio Histórico de Lo de Ramos[31]" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/34987/geometry> ;
+        btn100:codigoBIC       "RI-54-0000144-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/21059/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.27463102 41.65192546852966)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/27504/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.7885103 43.46167669852186)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31210/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.794 39.842999998543284)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/34991/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.313000000000002 28.41786299875947)"^^geosparql:wktLiteral .
+
+georec:21063  a                btn100:SitioHistorico ;
+        rdfs:label             "21063" ;
+        dc:created             "2012-06-14"^^xsd:date ;
+        dc:identifier          "21063" ;
+        dc:title               "Sitio Histórico Villalar de los Comuneros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/21063/geometry> ;
+        btn100:codigoBIC       "RI-54-0000097-00000" .
+
+georec:19168  a                btn100:SitioHistorico ;
+        rdfs:label             "19168" ;
+        dc:created             "2012-07-31"^^xsd:date ;
+        dc:identifier          "19168" ;
+        dc:title               "La Abadía" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/19168/geometry> ;
+        btn100:codigoBIC       "RI-51-0000491-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/1478/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-0.41194444 39.50916666854643)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/12498/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.9602817899999996 41.29961180853186)"^^geosparql:wktLiteral .
+
+georec:73331  a                btn100:SitioHistorico ;
+        rdfs:label             "73331" ;
+        dc:created             "2015-07-01"^^xsd:date ;
+        dc:identifier          "73331" ;
+        dc:title               "Zona Arqueológica de Carissa Aurelia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/73331/geometry> ;
+        btn100:codigoBIC       "(A.R.I.) - 55 - 0000703 - 00000" .
+
+georec:19126  a                btn100:SitioHistorico ;
+        rdfs:label             "19126" ;
+        dc:created             "2012-07-31"^^xsd:date ;
+        dc:identifier          "19126" ;
+        dc:title               "Barrio Gótico de Valencia de Alcántara" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/19126/geometry> ;
+        btn100:codigoBIC       "RI-53-0000480-00000" .
+
+georec:3289  a                 btn100:SitioHistorico ;
+        rdfs:label             "3289" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3289" ;
+        dc:title               "Paraje Pintoresco El Pinar de Abantos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/3289/geometry> ;
+        btn100:codigoBIC       "RI-54-0000083-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/19129/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-6.50427496 39.42256712854728)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/21107/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.734160939999998 41.613198258529884)"^^geosparql:wktLiteral .
+
+georec:13523  a                btn100:SitioHistorico ;
+        rdfs:label             "13523" ;
+        dc:created             "2012-02-27"^^xsd:date ;
+        dc:identifier          "13523" ;
+        dc:title               "Lugar de Siurana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/13523/geometry> ;
+        btn100:codigoBIC       "RI-54-0000013-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/34986/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-16.43 28.334551998761814)"^^geosparql:wktLiteral .
+
+georec:3368  a                 btn100:SitioHistorico ;
+        rdfs:label             "3368" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3368" ;
+        dc:title               "Paseo del Prado" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/3368/geometry> ;
+        btn100:codigoBIC       "RI-51-0004725-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/21063/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-5.138751000000001 41.550101998530266)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/3299/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.62505 40.11918199854084)"^^geosparql:wktLiteral .
+
+georec:31198  a                btn100:SitioHistorico ;
+        rdfs:label             "31198" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31198" ;
+        dc:title               "Talayot de Son Noguera (Pleta Des Camí)" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31198/geometry> ;
+        btn100:codigoBIC       "RI-51-0002275-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/11131/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.2347966 42.35028669852597)"^^geosparql:wktLiteral .
+
+georec:3489  a                 btn100:SitioHistorico ;
+        rdfs:label             "3489" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3489" ;
+        dc:title               "Atalaya de Arrebatacapas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/3489/geometry> ;
+        btn100:codigoBIC       "RI-51-0004934-00000" .
+
+georec:21192  a                btn100:SitioHistorico ;
+        rdfs:label             "21192" ;
+        dc:created             "2012-12-26"^^xsd:date ;
+        dc:identifier          "21192" ;
+        dc:title               "Calle de los Francos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/21192/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:31256  a                btn100:SitioHistorico ;
+        rdfs:label             "31256" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31256" ;
+        dc:title               "Na Penyal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31256/geometry> ;
+        btn100:codigoBIC       "RI-51-0002854-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/3489/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.5683839 40.83739779853507)"^^geosparql:wktLiteral .
+
+georec:41950  a                btn100:SitioHistorico ;
+        rdfs:label             "41950" ;
+        dc:created             "2012-07-18"^^xsd:date ;
+        dc:identifier          "41950" ;
+        dc:title               "Paraje de Pozos Nuevos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/41950/geometry> ;
+        btn100:codigoBIC       "RI-54-0000148-00000" .
+
+georec:31214  a                btn100:SitioHistorico ;
+        rdfs:label             "31214" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31214" ;
+        dc:title               "Es Torrent" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31214/geometry> ;
+        btn100:codigoBIC       "RI-51-0002684-00000" .
+
+georec:7773  a                 btn100:SitioHistorico ;
+        rdfs:label             "7773" ;
+        dc:created             "2012-04-24"^^xsd:date ;
+        dc:identifier          "7773" ;
+        dc:title               "Rollo de Peñaranda de Duero" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/7773/geometry> ;
+        btn100:codigoBIC       "RI-51-0000475-00000" .
+
+georec:31719  a                btn100:SitioHistorico ;
+        rdfs:label             "31719" ;
+        dc:created             "2012-09-27"^^xsd:date ;
+        dc:identifier          "31719" ;
+        dc:title               "Santa Marina de Aguas Santas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31719/geometry> ;
+        btn100:codigoBIC       "RI-51-0011179-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/10011/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.72937431 42.40373672852571)"^^geosparql:wktLiteral .
+
+georec:9817  a                 btn100:SitioHistorico ;
+        rdfs:label             "9817" ;
+        dc:created             "2012-03-20"^^xsd:date ;
+        dc:identifier          "9817" ;
+        dc:title               "Paraje de la Parte del Valle de Bohí y de la Noguera de Tor" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/9817/geometry> ;
+        btn100:codigoBIC       "RI-54-0000082-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/12842/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.3231840000000004 41.8904299985283)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/10364/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.9641666699999996 42.10083332852718)"^^geosparql:wktLiteral .
+
+georec:22656  a                btn100:SitioHistorico ;
+        rdfs:label             "22656" ;
+        dc:created             "2012-07-13"^^xsd:date ;
+        dc:identifier          "22656" ;
+        dc:title               "Antiguas Tenerías del Arrabal de San Segundo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/22656/geometry> ;
+        btn100:codigoBIC       "RI-54-0000240-00000" .
+
+georec:34635  a                btn100:SitioHistorico ;
+        rdfs:label             "34635" ;
+        dc:created             "2013-02-22"^^xsd:date ;
+        dc:identifier          "34635" ;
+        dc:title               "Conjunto Finca los Dolores" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/34635/geometry> ;
+        btn100:codigoBIC       "RI-54-0000149-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/22656/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.708 40.65793999853643)"^^geosparql:wktLiteral .
+
+georec:21116  a                btn100:SitioHistorico ;
+        rdfs:label             "21116" ;
+        dc:created             "2012-06-14"^^xsd:date ;
+        dc:identifier          "21116" ;
+        dc:title               "Sitio del Palacio a la calle San Ignacio y calle Expósito, así como las columnas Toscanas. Palacio de los marqueses de Valverde" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/21116/geometry> ;
+        btn100:codigoBIC       "RI-51-0003787-00000" .
+
+georec:34969  a                btn100:SitioHistorico ;
+        rdfs:label             "34969" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "34969" ;
+        dc:title               "La Fortaleza, (Fortaleza de Chipude)" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/34969/geometry> ;
+        btn100:codigoBIC       "RI-55-0000842-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/3485/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.607886160000001 40.78635519853546)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31197/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.821432380000001 39.52833768854626)"^^geosparql:wktLiteral .
+
+georec:19889  a                btn100:SitioHistorico ;
+        rdfs:label             "19889" ;
+        dc:created             "2012-07-31"^^xsd:date ;
+        dc:identifier          "19889" ;
+        dc:title               "Paraje Pintoresco de Arbolado y Alamedas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/19889/geometry> ;
+        btn100:codigoBIC       "RI-54-0000004-00000" .
+
+georec:12859  a                btn100:SitioHistorico ;
+        rdfs:label             "12859" ;
+        dc:created             "2012-09-04"^^xsd:date ;
+        dc:identifier          "12859" ;
+        dc:title               "Soler de Nuc" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/12859/geometry> ;
+        btn100:codigoBIC       "RI-51-0005602-00000" .
+
+georec:3300  a                 btn100:SitioHistorico ;
+        rdfs:label             "3300" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3300" ;
+        dc:title               "Cerro de los Batallones" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/3300/geometry> ;
+        btn100:codigoBIC       "RI-55-0000649-00000" .
+
+georec:27424  a                btn100:SitioHistorico ;
+        rdfs:label             "27424" ;
+        dc:created             "2012-09-07"^^xsd:date ;
+        dc:identifier          "27424" ;
+        dc:title               "Lugar de Carmona, juntamente con el barrio de San Pedro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/27424/geometry> ;
+        btn100:codigoBIC       "RI-53-0000340-00000" .
+
+georec:19129  a                btn100:SitioHistorico ;
+        rdfs:label             "19129" ;
+        dc:created             "2012-07-31"^^xsd:date ;
+        dc:identifier          "19129" ;
+        dc:title               "Lavadero de los Barruecos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/19129/geometry> ;
+        btn100:codigoBIC       "RI-54-0000077-00000" .
+
+georec:30179  a                btn100:SitioHistorico ;
+        rdfs:label             "30179" ;
+        dc:created             "2012-10-22"^^xsd:date ;
+        dc:identifier          "30179" ;
+        dc:title               "Tajos de Bacinete" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/30179/geometry> ;
+        btn100:codigoBIC       "RI-51-0011420-00000" .
+
+georec:11340  a                btn100:SitioHistorico ;
+        rdfs:label             "11340" ;
+        dc:created             "2011-12-10"^^xsd:date ;
+        dc:identifier          "11340" ;
+        dc:title               "Lago de Bañolas y sus alrededores1" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/11340/geometry> ;
+        btn100:codigoBIC       "RI-54-0000006-00000" .
+
+georec:17569  a                btn100:SitioHistorico ;
+        rdfs:label             "17569" ;
+        dc:created             "2012-01-18"^^xsd:date ;
+        dc:identifier          "17569" ;
+        dc:title               "Salinas de Saelices" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/17569/geometry> ;
+        btn100:codigoBIC       "RI-51-0011524-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31274/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (4.28433778 39.84730589854324)"^^geosparql:wktLiteral .
+
+georec:30137  a                btn100:SitioHistorico ;
+        rdfs:label             "30137" ;
+        dc:created             "2012-10-22"^^xsd:date ;
+        dc:identifier          "30137" ;
+        dc:title               "Baluarte de Santa Catalina y Castillo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/30137/geometry> ;
+        btn100:codigoBIC       "RI-51-0007571-00000" .
+
+georec:31251  a                btn100:SitioHistorico ;
+        rdfs:label             "31251" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31251" ;
+        dc:title               "Binicaubell" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31251/geometry> ;
+        btn100:codigoBIC       "RI-51-0002715-00000" .
+
+georec:31209  a                btn100:SitioHistorico ;
+        rdfs:label             "31209" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31209" ;
+        dc:title               "Balitx D'Avall" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31209/geometry> ;
+        btn100:codigoBIC       "RI-51-0008433-00000" .
+
+georec:31735  a                btn100:SitioHistorico ;
+        rdfs:label             "31735" ;
+        dc:created             "2012-09-27"^^xsd:date ;
+        dc:identifier          "31735" ;
+        dc:title               "Conjunto de la Presa de El Salto" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31735/geometry> ;
+        btn100:codigoBIC       "RI-51-0011123-00000" .
+
+georec:4485  a                 btn100:SitioHistorico ;
+        rdfs:label             "4485" ;
+        dc:created             "2012-04-02"^^xsd:date ;
+        dc:identifier          "4485" ;
+        dc:title               "Laguardia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/4485/geometry> ;
+        btn100:codigoBIC       "RI-53-0000045-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/41959/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.02510029 39.85675073854317)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/41960/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.043745890000001 39.853170308543206)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31735/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-4.492102849999998 37.97458864856346)"^^geosparql:wktLiteral .
+
+georec:40939  a                btn100:SitioHistorico ;
+        rdfs:label             "40939" ;
+        dc:created             "2012-12-07"^^xsd:date ;
+        dc:identifier          "40939" ;
+        dc:title               "Batán de la Pisa de la Sertal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/40939/geometry> ;
+        btn100:codigoBIC       "RI-51-0005394-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31212/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (2.8776999999999995 39.41905999854731)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/13450/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (0.48954895 40.92338164853444)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/9803/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (1.064 42.323469998526086)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/31236/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.0938 39.57005999854585)"^^geosparql:wktLiteral .
+
+georec:41769  a                btn100:SitioHistorico ;
+        rdfs:label             "41769" ;
+        dc:created             "2011-11-03"^^xsd:date ;
+        dc:identifier          "41769" ;
+        dc:title               "Presa Romana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/41769/geometry> ;
+        btn100:codigoBIC       "RI-51-0007331-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/34635/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-15.567989030000001 28.109024548768218)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/3443/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (-3.6910000000000007 40.430989998538216)"^^geosparql:wktLiteral .
+
+georec:31175  a                btn100:SitioHistorico ;
+        rdfs:label             "31175" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31175" ;
+        dc:title               "Almudaina (Castillo de Ibiza)" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31175/geometry> ;
+        btn100:codigoBIC       "RI-51-0008601-00000" .
+
+georec:40755  a                btn100:SitioHistorico ;
+        rdfs:label             "40755" ;
+        dc:created             "2012-12-07"^^xsd:date ;
+        dc:identifier          "40755" ;
+        dc:title               "Fragua Romana \"El Machuco\"" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/40755/geometry> ;
+        btn100:codigoBIC       "RI-51-0004900-00000" .
+
+georec:22162  a                btn100:SitioHistorico ;
+        rdfs:label             "22162" ;
+        dc:created             "2013-03-08"^^xsd:date ;
+        dc:identifier          "22162" ;
+        dc:title               "Sitios de arte rupestre prehistórico del valle del Coa y de Siega Verde" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/22162/geometry> ;
+        btn100:codigoBIC       "NO PROCEDE" .
+
+georec:13450  a                btn100:SitioHistorico ;
+        rdfs:label             "13450" ;
+        dc:created             "2012-02-27"^^xsd:date ;
+        dc:identifier          "13450" ;
+        dc:title               "Paraje del Azud de Cherta" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/13450/geometry> ;
+        btn100:codigoBIC       "RI-51-0007269-00000" .
+
+georec:3274  a                 btn100:SitioHistorico ;
+        rdfs:label             "3274" ;
+        dc:created             "2012-07-17"^^xsd:date ;
+        dc:identifier          "3274" ;
+        dc:title               "Paraje Pintoresco que rodea al Palacio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/3274/geometry> ;
+        btn100:codigoBIC       "RI-54-0000047-00000" .
+
+georec:30140  a                btn100:SitioHistorico ;
+        rdfs:label             "30140" ;
+        dc:created             "2012-10-22"^^xsd:date ;
+        dc:identifier          "30140" ;
+        dc:title               "Baluarte de la Candelaria" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/30140/geometry> ;
+        btn100:codigoBIC       "RI-51-0007562-00000" .
+
+<https://datos.ign.es/recurso/btn100/sitio-historico/10078/geometry>
+        a                sf:Point ;
+        geosparql:asWKT  "POINT (3.05055556 42.12583332852705)"^^geosparql:wktLiteral .
+
+georec:31212  a                btn100:SitioHistorico ;
+        rdfs:label             "31212" ;
+        dc:created             "2012-12-03"^^xsd:date ;
+        dc:identifier          "31212" ;
+        dc:title               "Ses Arnaules" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/sitio-historico/31212/geometry> ;
+        btn100:codigoBIC       "RI-51-0008450-00000" .
+

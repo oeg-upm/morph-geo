@@ -1,0 +1,1236 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf:    <http://www.opengis.net/ont/sf#> .
+@prefix btn100: <https://datos.ign.es/def/btn100#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix georec: <https://datos.ign.es/recurso/btn100/ensenada/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/338/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.71315419 43.415991448522, -4.66764293 43.45364454852189)"^^geosparql:wktLiteral .
+
+georec:158  a                  btn100:Ensenada ;
+        rdfs:label             "158" ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "158" ;
+        dc:title               "Ensenada de Barbate" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/158/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:137  a                  btn100:Ensenada ;
+        rdfs:label             "137" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "137" ;
+        dc:title               "Ensenada de los Taray" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/137/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/257/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.84443308 42.16140017852688, -8.822843499999998 42.161368868526864)"^^geosparql:wktLiteral .
+
+georec:216  a                  btn100:Ensenada ;
+        rdfs:label             "216" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "216" ;
+        dc:title               "Ensenada de Toneles" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/216/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:23  a                   btn100:Ensenada ;
+        rdfs:label             "23" ;
+        dc:created             "2012-04-23"^^xsd:date ;
+        dc:identifier          "23" ;
+        dc:title               "Ensenada Murguita" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/23/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/176/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (2.9212976999999998 39.35578599854796, 2.9562392199999996 39.35587952854795)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/334/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.80708921 43.63631876852144, -5.782536839999999 43.65857043852139, -5.75561056 43.68219069852133)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/139/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.66194547 36.731690078580264, -3.62468582 36.73164764858027)"^^geosparql:wktLiteral .
+
+georec:337  a                  btn100:Ensenada ;
+        rdfs:label             "337" ;
+        dc:created             "2010-09-22"^^xsd:date ;
+        dc:identifier          "337" ;
+        dc:title               "Ensenada de Celorio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/337/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/147/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.68255228 36.48847151858385, -4.61453912 36.488780138583856)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/140/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.4034001899999997 36.70261190858069, -3.38077979 36.659527608581314)"^^geosparql:wktLiteral .
+
+georec:124  a                  btn100:Ensenada ;
+        rdfs:label             "124" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "124" ;
+        dc:title               "Ensenada de Oriñón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/124/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/305/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.46502183 43.392790968522064, -8.433181949999996 43.38748765852206, -8.41300862 43.37682616852212)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/253/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.90229056 42.1920944185267, -8.896485229999998 42.181188918526765)"^^geosparql:wktLiteral .
+
+georec:266  a                  btn100:Ensenada ;
+        rdfs:label             "266" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "266" ;
+        dc:title               "Ensenada de Campelo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/266/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:203  a                  btn100:Ensenada ;
+        rdfs:label             "203" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "203" ;
+        dc:title               "Ensenada de la Gorrina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/203/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/277/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.828562300000003 42.5874447285249, -8.814795590000001 42.58204814852491, -8.807726069999998 42.57793439852494)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/330/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-7.06830372 43.557708148521634, -7.023778460000001 43.59472870852153)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/135/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.1524703600000006 36.729743068580284, -2.1387812 36.716481598580486)"^^geosparql:wktLiteral .
+
+georec:153  a                  btn100:Ensenada ;
+        rdfs:label             "153" ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "153" ;
+        dc:title               "Ensenada de Cabo Roche" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/153/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:295  a                  btn100:Ensenada ;
+        rdfs:label             "295" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "295" ;
+        dc:title               "Ensenada de Arou" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/295/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:274  a                  btn100:Ensenada ;
+        rdfs:label             "274" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "274" ;
+        dc:title               "Ensenada de la Brava" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/274/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:253  a                  btn100:Ensenada ;
+        rdfs:label             "253" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "253" ;
+        dc:title               "Ensenada de Concela" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/253/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:211  a                  btn100:Ensenada ;
+        rdfs:label             "211" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "211" ;
+        dc:title               "Ensenada de la Herradura" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/211/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/273/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.846468170000001 42.46723502852541, -8.843806009999996 42.46213906852543, -8.842290080000001 42.457186068525466)"^^geosparql:wktLiteral .
+
+georec:332  a                  btn100:Ensenada ;
+        rdfs:label             "332" ;
+        dc:created             "2013-02-06"^^xsd:date ;
+        dc:identifier          "332" ;
+        dc:title               "Ensenada Engaramadua" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/332/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:140  a                  btn100:Ensenada ;
+        rdfs:label             "140" ;
+        dc:created             "2010-10-11"^^xsd:date ;
+        dc:identifier          "140" ;
+        dc:title               "Ensenada de Zacatín" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/140/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:311  a                  btn100:Ensenada ;
+        rdfs:label             "311" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "311" ;
+        dc:title               "Ensenada de San Andrés" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/311/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/244/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.648893180000004 42.2994402285262, -8.620795400000002 42.300389468526184)"^^geosparql:wktLiteral .
+
+georec:261  a                  btn100:Ensenada ;
+        rdfs:label             "261" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "261" ;
+        dc:title               "Ensenada de Bueu" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/261/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:240  a                  btn100:Ensenada ;
+        rdfs:label             "240" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "240" ;
+        dc:title               "Ensenada del Cobón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/240/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/215/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.909899770000003 28.262745708763852, -13.853881800000002 28.26209581876386)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/163/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.43380379 36.1141450085909, -5.36641037 36.1136935185909)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/268/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.906967329999999 42.41947087852564, -8.88417862 42.419450118525646)"^^geosparql:wktLiteral .
+
+georec:361  a                  btn100:Ensenada ;
+        rdfs:label             "361" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "361" ;
+        dc:title               "ENSENADA DE CEUTA" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/361/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:340  a                  btn100:Ensenada ;
+        rdfs:label             "340" ;
+        dc:created             "2010-09-22"^^xsd:date ;
+        dc:identifier          "340" ;
+        dc:title               "Ensenada de Novales" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/340/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:148  a                  btn100:Ensenada ;
+        rdfs:label             "148" ;
+        dc:created             "2013-01-17"^^xsd:date ;
+        dc:identifier          "148" ;
+        dc:title               "Ensenada de Málaga" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/148/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/23/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.9479598599999999 43.33391416852223, -1.9468973899999995 43.336146588522226, -1.9450877999999998 43.33977898852221)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/134/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.8276531899999995 36.699516548580725, -2.81009044 36.69949868858074)"^^geosparql:wktLiteral .
+
+georec:127  a                  btn100:Ensenada ;
+        rdfs:label             "127" ;
+        dc:created             "2010-10-01"^^xsd:date ;
+        dc:identifier          "127" ;
+        dc:title               "Ensenada de Ontón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/127/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:290  a                  btn100:Ensenada ;
+        rdfs:label             "290" ;
+        dc:created             "2013-04-24"^^xsd:date ;
+        dc:identifier          "290" ;
+        dc:title               "Ensenada de Sardiñeiro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/290/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/240/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-16.487305729999996 28.085633598768897, -16.436770000000003 28.086035488768886)"^^geosparql:wktLiteral .
+
+georec:269  a                  btn100:Ensenada ;
+        rdfs:label             "269" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "269" ;
+        dc:title               "Ensenada de Castiñeira" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/269/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/293/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.28916582 43.06941914852307, -9.25403152 43.069634038523056)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/158/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.953652959999999 36.1661244285901, -5.89366638 36.166689358590084)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/211/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-14.216991539999999 28.43617304875895, -14.150029930000004 28.437303578758915)"^^geosparql:wktLiteral .
+
+georec:13  a                   btn100:Ensenada ;
+        rdfs:label             "13" ;
+        dc:created             "2010-10-25"^^xsd:date ;
+        dc:identifier          "13" ;
+        dc:title               "Ensenada de Bakio" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/13/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/264/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.97532455 42.37024486852586, -8.94656137 42.370235068525865)"^^geosparql:wktLiteral .
+
+georec:156  a                  btn100:Ensenada ;
+        rdfs:label             "156" ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "156" ;
+        dc:title               "Ensenada de Bolonia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/156/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:327  a                  btn100:Ensenada ;
+        rdfs:label             "327" ;
+        dc:created             "2010-08-25"^^xsd:date ;
+        dc:identifier          "327" ;
+        dc:title               "Ens. de Coldo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/327/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/130/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.3355936999999996 43.39483789852207, -4.291660049999998 43.42147173852198)"^^geosparql:wktLiteral .
+
+georec:135  a                  btn100:Ensenada ;
+        rdfs:label             "135" ;
+        dc:created             "2013-06-13"^^xsd:date ;
+        dc:identifier          "135" ;
+        dc:title               "Ensenada de la Media Luna" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/135/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/235/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-17.880712299999995 27.807895468776916, -17.857527500000003 27.808309168776905)"^^geosparql:wktLiteral .
+
+georec:277  a                  btn100:Ensenada ;
+        rdfs:label             "277" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "277" ;
+        dc:title               "Ensenada de la Aduana" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/277/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:235  a                  btn100:Ensenada ;
+        rdfs:label             "235" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "235" ;
+        dc:title               "Ensenada de Juanil" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/235/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/259/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.82910312 42.34157969852599, -8.817702850000002 42.35000153852596)"^^geosparql:wktLiteral .
+
+georec:214  a                  btn100:Ensenada ;
+        rdfs:label             "214" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "214" ;
+        dc:title               "Ensenada de Valle Corto" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/214/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/260/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.85890173 42.335175598526035, -8.836359040000001 42.33514564852604)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/125/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.1907654099999996 43.367568588522126, -3.1403497099999997 43.396527918522054)"^^geosparql:wktLiteral .
+
+georec:335  a                  btn100:Ensenada ;
+        rdfs:label             "335" ;
+        dc:created             "2010-09-21"^^xsd:date ;
+        dc:identifier          "335" ;
+        dc:title               "Ensenada de España" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/335/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/178/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (2.42443743 39.52097791854632, 2.4633049199999997 39.52126802854631)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/22/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.4407737000000007 43.335187368522234, -2.412424319999999 43.35192779852217, -2.38793197 43.36709911852212)"^^geosparql:wktLiteral .
+
+georec:122  a                  btn100:Ensenada ;
+        rdfs:label             "122" ;
+        dc:created             "2010-10-01"^^xsd:date ;
+        dc:identifier          "122" ;
+        dc:title               "Ensenada de Noja" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/122/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/336/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.358477620000001 43.53640336852169, -5.310795230000001 43.57759664852155)"^^geosparql:wktLiteral .
+
+georec:285  a                  btn100:Ensenada ;
+        rdfs:label             "285" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "285" ;
+        dc:title               "Ensenada de S. Francisco" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/285/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:264  a                  btn100:Ensenada ;
+        rdfs:label             "264" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "264" ;
+        dc:title               "Ensenada de Caniveliñas" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/264/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/149/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.09526008 36.729542648580285, -4.0211330300000006 36.72893907858031)"^^geosparql:wktLiteral .
+
+georec:243  a                  btn100:Ensenada ;
+        rdfs:label             "243" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "243" ;
+        dc:title               "Ensenada de Zapata" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/243/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/292/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.1730946 42.90285312852365, -9.12848185 42.903755748523636)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/307/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.239203399999997 43.42275880852196, -8.219462320000002 43.422741738521985)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/263/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.94988723 42.35136305852596, -8.926718089999998 42.35135058852596)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/121/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.0737061699999995 43.43461345852194, -4.022515130000001 43.46642373852187)"^^geosparql:wktLiteral .
+
+georec:130  a                  btn100:Ensenada ;
+        rdfs:label             "130" ;
+        dc:created             "2012-12-15"^^xsd:date ;
+        dc:identifier          "130" ;
+        dc:title               "Ensenada de la Rabia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/130/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:293  a                  btn100:Ensenada ;
+        rdfs:label             "293" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "293" ;
+        dc:title               "Ensenada de Cuiña" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/293/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/339/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.686083799999999 43.411056528522, -4.643917620000001 43.447125888521924)"^^geosparql:wktLiteral .
+
+georec:272  a                  btn100:Ensenada ;
+        rdfs:label             "272" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "272" ;
+        dc:title               "Ensenada de Illariña" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/272/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/340/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.650357040000003 43.40490612852203, -4.6045627599999985 43.44291954852192)"^^geosparql:wktLiteral .
+
+georec:251  a                  btn100:Ensenada ;
+        rdfs:label             "251" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "251" ;
+        dc:title               "Ensenada del Lago" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/251/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/251/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.939291 42.225851198526556, -8.910864870000003 42.22583262852654)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/311/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.035688960000003 43.732075928521226, -7.9498394 43.73282805852122)"^^geosparql:wktLiteral .
+
+georec:159  a                  btn100:Ensenada ;
+        rdfs:label             "159" ;
+        dc:created             "2010-09-28"^^xsd:date ;
+        dc:identifier          "159" ;
+        dc:title               "Ensenada de Zahara" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/159/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/13/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.807107790000001 43.43511830852196, -2.7738615500000003 43.471013448521845)"^^geosparql:wktLiteral .
+
+georec:330  a                  btn100:Ensenada ;
+        rdfs:label             "330" ;
+        dc:created             "2013-01-02"^^xsd:date ;
+        dc:identifier          "330" ;
+        dc:title               "Ensenada de Loureiro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/330/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:4  a                    btn100:Ensenada ;
+        rdfs:label             "4" ;
+        dc:created             "2012-02-12"^^xsd:date ;
+        dc:identifier          "4" ;
+        dc:title               "Portonegro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/4/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/335/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.529912060000001 43.54931274852166, -5.486244139999998 43.58786869852154)"^^geosparql:wktLiteral .
+
+georec:259  a                  btn100:Ensenada ;
+        rdfs:label             "259" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "259" ;
+        dc:title               "Ensenada de Centuleira" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/259/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:238  a                  btn100:Ensenada ;
+        rdfs:label             "238" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "238" ;
+        dc:title               "Ensenada del Palo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/238/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:217  a                  btn100:Ensenada ;
+        rdfs:label             "217" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "217" ;
+        dc:title               "Ensenada de Pozo Negro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/217/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/254/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.898072380000002 42.19298666852673, -8.892066420000003 42.18237940852677)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/217/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.89136404 28.31890362876226, -13.827742979999998 28.318180448762277)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/360/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.320633429999999 35.883423018594485, -5.310956850000001 35.88370131859448)"^^geosparql:wktLiteral .
+
+georec:338  a                  btn100:Ensenada ;
+        rdfs:label             "338" ;
+        dc:created             "2010-09-22"^^xsd:date ;
+        dc:identifier          "338" ;
+        dc:title               "Ensenada del Gordo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/338/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:146  a                  btn100:Ensenada ;
+        rdfs:label             "146" ;
+        dc:created             "2013-01-17"^^xsd:date ;
+        dc:identifier          "146" ;
+        dc:title               "Ensenada de Marbella" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/146/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:125  a                  btn100:Ensenada ;
+        rdfs:label             "125" ;
+        dc:created             "2010-10-01"^^xsd:date ;
+        dc:identifier          "125" ;
+        dc:title               "Ensenada de Tejilla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/125/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/136/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.681211 37.34273201857167, -1.6201054099999999 37.342535728571676)"^^geosparql:wktLiteral .
+
+georec:267  a                  btn100:Ensenada ;
+        rdfs:label             "267" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "267" ;
+        dc:title               "Ensenada de Vilaboa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/267/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:204  a                  btn100:Ensenada ;
+        rdfs:label             "204" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "204" ;
+        dc:title               "Ensenada de los Barranquillos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/204/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/250/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.86740126 42.32438428852608, -8.833154299999999 42.32433957852608)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/213/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.916307960000001 28.249390108764228, -13.856836609999998 28.248714148764247)"^^geosparql:wktLiteral .
+
+georec:304  a                  btn100:Ensenada ;
+        rdfs:label             "304" ;
+        dc:created             "2010-08-12"^^xsd:date ;
+        dc:identifier          "304" ;
+        dc:title               "Ensenada de Becha" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/304/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/274/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.90483219 42.533357248525135, -8.8937417 42.53179151852513, -8.8834152 42.53107420852514)"^^geosparql:wktLiteral .
+
+georec:275  a                  btn100:Ensenada ;
+        rdfs:label             "275" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "275" ;
+        dc:title               "Ensenada de Espiñeiro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/275/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:254  a                  btn100:Ensenada ;
+        rdfs:label             "254" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "254" ;
+        dc:title               "Ensenada de Fornos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/254/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:19  a                   btn100:Ensenada ;
+        rdfs:label             "19" ;
+        dc:created             "2012-04-27"^^xsd:date ;
+        dc:identifier          "19" ;
+        dc:title               "Ensenada de Aitzuri" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/19/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/156/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.8129167399999995 36.05267231859183, -5.77192106 36.086068468591336)"^^geosparql:wktLiteral .
+
+georec:162  a                  btn100:Ensenada ;
+        rdfs:label             "162" ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "162" ;
+        dc:title               "Ensenada del Tolmo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/162/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/216/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.89937162 28.29790119876285, -13.84571545 28.297266618762876)"^^geosparql:wktLiteral .
+
+georec:333  a                  btn100:Ensenada ;
+        rdfs:label             "333" ;
+        dc:created             "2010-09-21"^^xsd:date ;
+        dc:identifier          "333" ;
+        dc:title               "Ensenada de Santa María del Mar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/333/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/269/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.966652870000003 42.46994494852541, -8.940381459999998 42.4699342985254)"^^geosparql:wktLiteral .
+
+georec:120  a                  btn100:Ensenada ;
+        rdfs:label             "120" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "120" ;
+        dc:title               "Ensenada de Calderón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/120/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/127/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.16202674 43.355191728522165, -3.1141829700000003 43.384713648522094)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/270/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.87028483 42.49909163852529, -8.866450869999998 42.50417956852525, -8.860511970000001 42.50983063852522)"^^geosparql:wktLiteral .
+
+georec:262  a                  btn100:Ensenada ;
+        rdfs:label             "262" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "262" ;
+        dc:title               "Ensenada de Carcamans" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/262/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:241  a                  btn100:Ensenada ;
+        rdfs:label             "241" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "241" ;
+        dc:title               "Ensenada Piedra de la Sal" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/241/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/241/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-16.45708411 28.118345588767962, -16.3932765 28.11873560876795)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/204/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.46400295 29.03640112874235, -13.387757060000004 29.03550740874237)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/294/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.20461346 43.20636788852262, -9.15310404 43.18768091852267)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/159/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.89874737 36.12361456859075, -5.840999540000001 36.123797748590746)"^^geosparql:wktLiteral .
+
+georec:149  a                  btn100:Ensenada ;
+        rdfs:label             "149" ;
+        dc:created             "2013-01-17"^^xsd:date ;
+        dc:identifier          "149" ;
+        dc:title               "Ensenada de Vélez-Málaga" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/149/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/160/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.723418170000001 35.99947044859267, -5.657166870000001 36.052022938591854)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/265/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.962276430000001 42.38957510852578, -8.937230289999997 42.38956412852577)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/19/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.29272312 43.29757775852233, -2.2424594400000006 43.32809882852225)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/123/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.3797456 43.41793705852198, -3.3410457299999994 43.44189003852192)"^^geosparql:wktLiteral .
+
+georec:270  a                  btn100:Ensenada ;
+        rdfs:label             "270" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "270" ;
+        dc:title               "Ensenada del Esteiro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/270/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:14  a                   btn100:Ensenada ;
+        rdfs:label             "14" ;
+        dc:created             "2010-10-25"^^xsd:date ;
+        dc:identifier          "14" ;
+        dc:title               "Ensenada de Zagustan" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/14/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/290/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.241312419999996 42.891644268523685, -9.22423242 42.91921262852359, -9.22269743 42.93583572852354)"^^geosparql:wktLiteral .
+
+georec:178  a                  btn100:Ensenada ;
+        rdfs:label             "178" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "178" ;
+        dc:title               "Ensenada de Santa Ponça" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/178/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:157  a                  btn100:Ensenada ;
+        rdfs:label             "157" ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "157" ;
+        dc:title               "Ensenada de Valdevaqueros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/157/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:328  a                  btn100:Ensenada ;
+        rdfs:label             "328" ;
+        dc:created             "2010-08-25"^^xsd:date ;
+        dc:identifier          "328" ;
+        dc:title               "Ens. de Sucastro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/328/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:136  a                  btn100:Ensenada ;
+        rdfs:label             "136" ;
+        dc:created             "2010-12-22"^^xsd:date ;
+        dc:identifier          "136" ;
+        dc:title               "Ensenada de Terreros" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/136/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:307  a                  btn100:Ensenada ;
+        rdfs:label             "307" ;
+        dc:created             "2010-08-12"^^xsd:date ;
+        dc:identifier          "307" ;
+        dc:title               "Ensenada de Ares" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/307/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/261/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.79480256 42.33108926852606, -8.779292589999999 42.331060468526054)"^^geosparql:wktLiteral .
+
+georec:299  a                  btn100:Ensenada ;
+        rdfs:label             "299" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "299" ;
+        dc:title               "Ensenada da Barda" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/299/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/126/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.21717057 43.38860853852207, -3.16279399 43.42004043852199)"^^geosparql:wktLiteral .
+
+georec:257  a                  btn100:Ensenada ;
+        rdfs:label             "257" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "257" ;
+        dc:title               "Ensenada de Carreira" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/257/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/337/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.79902116 43.436974878521944, -4.745151149999999 43.48298646852182)"^^geosparql:wktLiteral .
+
+georec:215  a                  btn100:Ensenada ;
+        rdfs:label             "215" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "215" ;
+        dc:title               "Ensenada de Jacomar" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/215/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/285/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.07131092 42.753232568524226, -9.032495629999998 42.75271378852423)"^^geosparql:wktLiteral .
+
+georec:22  a                   btn100:Ensenada ;
+        rdfs:label             "22" ;
+        dc:created             "2012-04-23"^^xsd:date ;
+        dc:identifier          "22" ;
+        dc:title               "Ensenada de Zagustan" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/22/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/203/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.473100140000003 29.01046311874305, -13.413842889999998 29.010925568743048)"^^geosparql:wktLiteral .
+
+georec:336  a                  btn100:Ensenada ;
+        rdfs:label             "336" ;
+        dc:created             "2010-09-22"^^xsd:date ;
+        dc:identifier          "336" ;
+        dc:title               "Ensenada de Conejera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/336/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:123  a                  btn100:Ensenada ;
+        rdfs:label             "123" ;
+        dc:created             "2010-10-01"^^xsd:date ;
+        dc:identifier          "123" ;
+        dc:title               "Ensenada Erillo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/123/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/122/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.508456669999999 43.47983086852182, -3.46166366 43.507759678521744)"^^geosparql:wktLiteral .
+
+georec:265  a                  btn100:Ensenada ;
+        rdfs:label             "265" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "265" ;
+        dc:title               "Ensenada Estripeiral" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/265/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:72  a                   btn100:Ensenada ;
+        rdfs:label             "72" ;
+        dc:created             "2010-10-27"^^xsd:date ;
+        dc:identifier          "72" ;
+        dc:title               "Ensenada de Mazarrón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/72/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:244  a                  btn100:Ensenada ;
+        rdfs:label             "244" ;
+        dc:created             "2013-02-14"^^xsd:date ;
+        dc:identifier          "244" ;
+        dc:title               "Ensenada de San Simón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/244/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/333/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.99482037 43.57976420852159, -5.949756860000002 43.621166568521474, -5.938886289999998 43.62949271852145)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/72/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.25366239 37.54357318856896, -1.18775834 37.543538318568984)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/146/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.936685370000001 36.4745153385841, -4.87572403 36.47485814858407)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/304/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.55793558 43.34402943852219, -8.500195929999995 43.345538238522195)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/252/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.936218969999999 42.198389758526666, -8.91312501 42.19837458852669)"^^geosparql:wktLiteral .
+
+georec:294  a                  btn100:Ensenada ;
+        rdfs:label             "294" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "294" ;
+        dc:title               "Ensenada do Trece" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/294/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/14/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-2.44159717 43.33499752852222, -2.38499061 43.36890585852212)"^^geosparql:wktLiteral .
+
+georec:273  a                  btn100:Ensenada ;
+        rdfs:label             "273" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "273" ;
+        dc:title               "Ensenada de Arnosa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/273/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:252  a                  btn100:Ensenada ;
+        rdfs:label             "252" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "252" ;
+        dc:title               "Ensenada dos Gabotos" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/252/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/328/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-7.5066304000000015 43.72895398852123, -7.472261459999999 43.75959977852115)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/276/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.91223826 42.57127241852497, -8.887933449999998 42.571251228524964)"^^geosparql:wktLiteral .
+
+georec:160  a                  btn100:Ensenada ;
+        rdfs:label             "160" ;
+        dc:created             "2012-11-14"^^xsd:date ;
+        dc:identifier          "160" ;
+        dc:title               "Ensenada de los Lances de Tarifa" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/160/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/300/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.93606396 43.36437485852215, -8.88615454 43.32636552852224, -8.874540210000001 43.31579489852228)"^^geosparql:wktLiteral .
+
+georec:139  a                  btn100:Ensenada ;
+        rdfs:label             "139" ;
+        dc:created             "2010-10-11"^^xsd:date ;
+        dc:identifier          "139" ;
+        dc:title               "Ensenada de Velilla" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/139/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/361/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.338108970000002 35.872636618594655, -5.32263435 35.87289114859465)"^^geosparql:wktLiteral .
+
+georec:260  a                  btn100:Ensenada ;
+        rdfs:label             "260" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "260" ;
+        dc:title               "Ensenada de Barceló" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/260/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/272/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.87132932 42.45580779852547, -8.856238400000004 42.45578986852547)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/332/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.757519620000001 43.56539292852161, -6.701521970000001 43.61349151852148)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/137/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-1.64752405 37.36499389857136, -1.60289305 37.364761208571366)"^^geosparql:wktLiteral .
+
+georec:360  a                  btn100:Ensenada ;
+        rdfs:label             "360" ;
+        dc:created             "2013-06-17"^^xsd:date ;
+        dc:identifier          "360" ;
+        dc:title               "Ensenada de la Almadraba" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/360/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/243/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-16.132943850000004 28.527978278756372, -16.08837834 28.527932728756387)"^^geosparql:wktLiteral .
+
+georec:339  a                  btn100:Ensenada ;
+        rdfs:label             "339" ;
+        dc:created             "2010-09-22"^^xsd:date ;
+        dc:identifier          "339" ;
+        dc:title               "Ensenada de Purón" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/339/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:147  a                  btn100:Ensenada ;
+        rdfs:label             "147" ;
+        dc:created             "2013-01-17"^^xsd:date ;
+        dc:identifier          "147" ;
+        dc:title               "Ensenada de Cala Moral" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/147/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:126  a                  btn100:Ensenada ;
+        rdfs:label             "126" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "126" ;
+        dc:title               "Ensenada de Urdiales" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/126/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/214/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-13.91257114 28.255297628764065, -13.852015219999997 28.254610868764082)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/162/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.495293249999998 36.04498995859196, -5.4383202499999985 36.04466087859198)"^^geosparql:wktLiteral .
+
+georec:268  a                  btn100:Ensenada ;
+        rdfs:label             "268" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "268" ;
+        dc:title               "Ensenada de Badia" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/268/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/267/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.74259992 42.4053649985257, -8.71952814 42.40531086852571)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/327/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-7.534729799999997 43.734530688521204, -7.5063661700000015 43.75861908852116)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/275/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.90462263 42.54538055852507, -8.890084030000002 42.54536753852508)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/238/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-17.75431035 28.6995461787516, -17.71731115 28.70049965875157)"^^geosparql:wktLiteral .
+
+georec:176  a                  btn100:Ensenada ;
+        rdfs:label             "176" ;
+        dc:created             "2013-03-17"^^xsd:date ;
+        dc:identifier          "176" ;
+        dc:title               "Ensenada de sa Ràpita" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/176/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:305  a                  btn100:Ensenada ;
+        rdfs:label             "305" ;
+        dc:created             "2010-08-12"^^xsd:date ;
+        dc:identifier          "305" ;
+        dc:title               "Ensenada do Orzán" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/305/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:134  a                  btn100:Ensenada ;
+        rdfs:label             "134" ;
+        dc:created             "2010-12-22"^^xsd:date ;
+        dc:identifier          "134" ;
+        dc:title               "Ensenada San Miguel" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/134/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/299/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.98168267 43.31344395852229, -8.949112419999997 43.299253378522344, -8.9292394 43.288474768522356)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/157/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-5.7392996300000005 36.020435548592346, -5.68500874 36.06582051859164)"^^geosparql:wktLiteral .
+
+georec:276  a                  btn100:Ensenada ;
+        rdfs:label             "276" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "276" ;
+        dc:title               "Ensenada de la Pambina" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/276/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:234  a                  btn100:Ensenada ;
+        rdfs:label             "234" ;
+        dc:created             "2013-02-19"^^xsd:date ;
+        dc:identifier          "234" ;
+        dc:title               "Ensenada del Barranquillo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/234/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:213  a                  btn100:Ensenada ;
+        rdfs:label             "213" ;
+        dc:created             "2013-01-11"^^xsd:date ;
+        dc:identifier          "213" ;
+        dc:title               "Ensenada de Gran Valle" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/213/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/271/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.857317729999998 42.48521374852534, -8.853506349999998 42.480540948525345, -8.84702103 42.475581578525386)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/234/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-17.889690719999997 27.79309275877734, -17.862651800000002 27.792836528777343)"^^geosparql:wktLiteral .
+
+georec:163  a                  btn100:Ensenada ;
+        rdfs:label             "163" ;
+        dc:created             "2010-09-28"^^xsd:date ;
+        dc:identifier          "163" ;
+        dc:title               "Ensenada del Cucadero" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/163/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:334  a                  btn100:Ensenada ;
+        rdfs:label             "334" ;
+        dc:created             "2010-09-21"^^xsd:date ;
+        dc:identifier          "334" ;
+        dc:title               "Ensenada de Bañuges" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/334/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp> .
+
+georec:121  a                  btn100:Ensenada ;
+        rdfs:label             "121" ;
+        dc:created             "2012-12-04"^^xsd:date ;
+        dc:identifier          "121" ;
+        dc:title               "Ensenada de Cabrera" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/121/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/295/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-9.128359979999999 43.211846738522596, -9.10429318 43.191443608522654)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/153/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-6.17805118 36.28351094858698, -6.10611445 36.28420168858698)"^^geosparql:wktLiteral .
+
+georec:263  a                  btn100:Ensenada ;
+        rdfs:label             "263" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "263" ;
+        dc:title               "Ensenada de Fedorento" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/263/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/266/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.70735307 42.41870762852563, -8.699821559999998 42.4253139185256, -8.692851939999999 42.434699748525574)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/124/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-3.31826895 43.40743679852203, -3.2659088400000007 43.438623118521946)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/148/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.42449764 36.69891012858074, -4.36490452 36.69834571858075)"^^geosparql:wktLiteral .
+
+georec:300  a                  btn100:Ensenada ;
+        rdfs:label             "300" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "300" ;
+        dc:title               "Ensenada do Porto de Barizo" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/300/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:292  a                  btn100:Ensenada ;
+        rdfs:label             "292" ;
+        dc:created             "2010-08-13"^^xsd:date ;
+        dc:identifier          "292" ;
+        dc:title               "Ensenada do Ezaro" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/292/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/mp-serie-c> .
+
+georec:271  a                  btn100:Ensenada ;
+        rdfs:label             "271" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "271" ;
+        dc:title               "Ensenada de Besada" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/271/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+georec:250  a                  btn100:Ensenada ;
+        rdfs:label             "250" ;
+        dc:created             "2013-03-05"^^xsd:date ;
+        dc:identifier          "250" ;
+        dc:title               "Ensenada de Aldán" ;
+        geosparql:hasGeometry  <https://datos.ign.es/recurso/btn100/ensenada/250/geometry> ;
+        btn100:productoFuente  <https://datos.ign.es/kos/producto-fuente/serie-c> .
+
+<https://datos.ign.es/recurso/btn100/ensenada/262/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-8.796023030000002 42.33738264852601, -8.771618249999998 42.337336638526004)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/120/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (-4.13589474 43.415721878522, -4.080486810000002 43.448125898521916)"^^geosparql:wktLiteral .
+
+<https://datos.ign.es/recurso/btn100/ensenada/4/geometry>
+        a                sf:LineString ;
+        geosparql:asWKT  "LINESTRING (0.38860913 40.34016477853897, 0.4138476800000001 40.34004490853896)"^^geosparql:wktLiteral .
+
