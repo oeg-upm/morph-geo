@@ -7,6 +7,15 @@ tradicionalmente trabajando con el Instituto Geográfico Nacional para la export
 geográficos a formato Linked Data. Un ejemplo se puede encontrar en la web del Instituto Geográfico Nacional.
 \cite{ign}
 
+\subsection{Objetivos iniciales}
+Cuando se presentó la primera propuesta del TFG, los objetivos eran los siguientes:
+\begin{itemize}
+    \item Dar soporte GeoPackage a la herramienta Map4RDF
+    \item Dar soporte GeoPackage a la herramienta GeoKettle y su plugin para transformar a RDF
+    \item Realizar un procesado completo de todos los datos del IGN para generar este tipo de formato.
+\end{itemize}
+
+\subsection{Objetivos actualizados}
 Desde que se publicó ``A sustainable process and toolbox for geographical linked data generation and publication:
 a case study with BTN100'' en 2019\cite{toolbox}, GeoKettle ha dejado de estar soportado. La pagina oficial y de documentación
 ya no están disponibles. Algunas funcionalidades de GeoKettle se integraron en PDI directamente y otras
@@ -16,14 +25,18 @@ funcionalidades más en el plugin llamado pentaho-gis-plugins\cite{gis-plugins}.
 Por otro lado, recientemente, el Open Geospatial Consortium ha publicado el formato GeoPackage, que tiene el
 objetivo de convertirse en un estándar para la representación de datos geográficos. El siguiente objetivo de este
 trabajo es el de dar soporte GeoPackage para las herramientas normalmente utilizadas para este tipo de tareas.
-Ya que el 3 de abril de 2021 pentaho-gis-plugins añadió soporte geopackage a su plugin, parte del trabajo está
-hecho.
+Ya que el 3 de abril de 2021 pentaho-gis-plugins añadió soporte geopackage a su plugin, PDI9 ya tiene soporte
+para geopackage.
 
-En resumen:
+En cuanto a Map4RDF, tras analizar su funcionamiento se concluyó que no requiere soporte para GeoPackage
+explícito, ya que tras las transformaciónes realizadas los datos son iguales, independientemente del formato de
+donde se hayan obtenido.
+
+En resumen, los objetivos actualizados son los siguientes:
 \begin{enumerate} 
     \item Replicar la funcionalidad y las transformaciones de GeoKettle + TripleGeo en la nueva suite PDI. 
-    \item Dar soporte GeoPackage a la herramienta GeoKettle y su plugin para transformar a RDF. 
-    \item Realizar un procesado completo de todos los datos del IGN para generar este tipo de formato. 
+    \item Dar soporte GeoPackage al plugin para transformar a RDF y las transformaciones existentes.
+    \item Realizar un procesado completo de todos los datos del IGN con las nuevas transformaciones.
 \end{enumerate}
 
 \section{Estado del Arte}
@@ -31,7 +44,7 @@ En resumen:
 \subsection{GIS} Los sistemas de información geográfica son herramientas que permiten almacenar y analizar datos
 geoespaciales. Los sistemas digitales actuales permiten realizar consultas interactivas, añadir entradas a las
 bases de datos y visualizarlos de manera intuitiva. La información geográfica se puede aplicar a todo tipo de
-áreas, entre las que se encuentran la ingeniería, transporte, telecomunicación, economía, sociologia... Debido a
+áreas, entre las que se encuentran la ingeniería, transporte, telecomunicación, economía, sociología... Debido a
 la gran importancia tanto en el sector público como el privado\cite{gis-standards}, los estándares abiertos
 cobran importancia por estar disponibles al público, no tener que pagar licencias y ser consensuados por
 organizaciones de estándares internacionales. Entre ellas se encuentra el Open Geospatial Consortium(OEG) que se creó
@@ -40,7 +53,7 @@ El OGC trabaja junto con las principales organizaciones de estándares de su ám
 IETF...) \cite{ogc-whitepaper}
 
 Existen diversos formatos de fichero GIS, divididos en \textbf{raster} y \textbf{vector}. La diferencia es
-equivalente a la que existe entre imágenes con resolución limitada por el número de píxeles (raster) y las 
+equivalente a la que existe entre imágenes con resolución limitada por el número de pixels (raster) y las 
 imágenes vectoriales formadas por puntos, líneas y polígonos; con resoluciones infinitas. Cada tipo de formato
 tiene sus ventajas y desventajas y la elección dependerá del caso de uso. Existen varios formatos vectoriales
 pero para este trabajo sólo se se considerarán el formato \textit{shapefile} y el \textit{GeoPackage} para cumplir
@@ -55,8 +68,8 @@ los objetivos.
 
 \subsubsection{Shapefile} El formato ESRI Shapefile (SHP) es un formato de archivo de datos espaciales vectorial
 desarrollado por la compañía ESRI a principios de la década de 1990. A pesar de ser propietario, la
-especificación es abierta, y se considera un estandar de facto. Debido a su popularidad, goza de grán
-compatibilidad con sig. Gracias al uso de un fichero índice, se obtiene una velocidad de lectura alta, y su
+especificación es abierta, y se considera un estándar de facto. Debido a su popularidad, goza de gran
+compatibilidad con SIG. Gracias al uso de un fichero índice, se obtiene una velocidad de lectura alta, y su
 eficiencia de tamaño produce archivos relativamente pequeños.
 
 Sin embargo, tiene varias desventajas, algunas derivadas del uso del estándar dBase \cite{shapefile-specs}
@@ -73,7 +86,7 @@ Sin embargo, tiene varias desventajas, algunas derivadas del uso del estándar d
     \item Los nombres de atributos están limitados a 10 caracteres ASCII 
     \item El número máximo de campos de atributo es 255.  
     \item Solo admite float, integer, date y text con un máximo de 254 caracteres.  
-    \item No se puede especificar conjunto de caracteres de la BBDD.  
+    \item No se puede especificar el conjunto de caracteres de la BBDD.  
     \item El tamaño está limitado a 4GB.  
     \item No admite valores NULL 
     \item No hay forma de describir las relaciones topológicas en el formato.  
@@ -92,7 +105,7 @@ El formato geopackage tiene las siguientes ventajas \cite{shapefile-no}:
         portable y compacto.
 
     \item Gracias a SQLite puede almacenar datos grandes (hasta 140TB)\cite{sqlite-limits} y los atributos de
-        las geometrías pueden contentener nombres muy largos.
+        las geometrías pueden contener nombres muy largos.
 
     \item Dispone de índices espaciales basados en R-trees \cite{rtree} que incrementan la velocidad de búsquedas
         espaciales y su visualización en los SIG de escritorio.
@@ -104,7 +117,7 @@ El formato geopackage tiene las siguientes ventajas \cite{shapefile-no}:
         formato intermedio.
 
     \item GeoPackage es soportado por GDAL\cite{gdal}, la librería de conversión de datos utilizada por multitud
-        de programas GIS (incluído GeoKettle), y los principales programas GIS.
+        de programas GIS, y los principales programas GIS.
 \end{itemize}
 
 
@@ -153,7 +166,7 @@ mediante facetas\cite{map4rdf-paper}. Algunos ejemplos de las facetas y sus cont
 BTN100:
 
 \begin{itemize}
-    \item Altimetria: Cerro, Cordillera, Montaña...
+    \item Altimetría: Cerro, Cordillera, Montaña...
     \item Hidrografía: Bahía, Cabo, Playa...
     \item Transporte: Aeropuerto, Calle, Faro...
     \item ...
@@ -184,14 +197,13 @@ El funcionamiento de Map4rdf es el siguiente:
 \end{figure}
 
 
-\subsection{GeoKettle}
+\subsection{GeoKettle y tripleGEO}
 
 GeoKettle es una (antigua) versión de Pentaho Data Integration (Kettle)\cite{pentaho} con capacidad de tratamiento de datos
 espaciales. Es una potente herramienta ETL: extracción, transformación y carga orientada al uso de metadatos y
 con funcionalidades espaciales dedicada a la integración de diversos orígenes de datos para la construcción y/o
 actualización de bases de datos espaciales y almacenes de datos espaciales. \cite{geokettle-osg}
-
-TripleGeo es un plugin para GeoKettle que transforma datos geoespaciales en tripletas RDF siguiendo el standar
+TripleGeo es un plugin para GeoKettle que transforma datos geoespaciales en tripletas RDF siguiendo el estándar
 GeoSPARQL \cite{triplegeo}
 
 \begin{figure}[H]
@@ -223,7 +235,7 @@ GIS que tenia GEOKettle. fig.\ref{fig:gis-plugins}
 
 \subsection{Apache Ant}
 
-Apache Ant\cite{apache-ant} es una libreria Java y herramienta de línea de comandos para construir aplicaciones java (compilar,
+Apache Ant\cite{apache-ant} es una librería Java y herramienta de línea de comandos para construir aplicaciones java (compilar,
 ensamblar y ejecutarlas). Los scripts de configuración se escriben en formato XML y son muy flexibles.
 
 \subsection{Apache Maven}

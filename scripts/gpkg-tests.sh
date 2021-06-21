@@ -4,7 +4,7 @@ shopt -s globstar
 if [ $# -ne 2 ]; then
     echo "Incorrect arguments"
     echo "  gpkg-tests.sh - run ktr transformations and/or check ttl results"
-    echo "  cat [run/check] [DIRECTORY]"
+    echo "  gpkg-tests.sh [run/check] [DIRECTORY]"
     exit
 fi
 

@@ -1,48 +1,33 @@
 \chapter{Desarrollo}
 
-\section{Map4rdf}
-\subsection{Instalacion}
-
-Se ha optado por utilizar la maquina Virtual proporcionada en la Wiki del proyecto para minimizar la posibilidad
-de incompatibilidades.
-
 \section{GeoKettle}
 
-Desde que se publico ``A sustainable process and toolbox for geographical linked data generation and
-publication: a case study with BTN100'' en 2019, GeoKettle ha dejado de estar soportado. La pagina oficial y de
-documentacion ya no estan disponibles.
-Un objetivo de este TFG es dar soporte GeoPackage a GeoKettle. No tiene sentido desarrollar soluciones de
-``modernizacion'' sobre software abandonado.
-
-Algunas funcionalidades de GeoKettle se integraron en PDI directamente y otras desaparecieron. 
-Actualmente, el soporte GIS de Pentaho esta dentro de PDI Spoon y ademas hay algunas funcionalidades mas en
- el plugin llamado pentaho-gis-plugins\cite{gis-plugins}. Se actualizara la primera fase a:
-\textbf{``replicar la funcionalidad y las transformaciones de GeoKettle + TripleGeo en la suite PDI.''}. 
-Dado que se trata de replicar la funcionalidad anterior, se analizaran las tranformaciones realizadas por el OEG
-en el repositorio de GitHub BTN100. Como se puede ver en la figura \ref{fig:spoon-missing-plugins}, partes del
-workflow fallan. Es lo que se pretende solucionar.
+Dado que se trata de replicar la funcionalidad que proporcionaba GEOKettle, se analizarán las transformaciones
+realizadas por el OEG en el repositorio de GitHub BTN100\cite{btn100}. Como se puede ver en la figura
+\ref{fig:spoon-missing-plugins}, partes de la transformación fallan. Es lo que se pretende solucionar.
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{images/spoon-missing-plugins.png}
     \centering
-    \caption{Workflow importado en la nueva suite}
+    \caption{Transformación GEOKettle importada en la nueva suite PDI9}
     \label{fig:spoon-missing-plugins}
 \end{figure}
 
 \newpage
-\subsection{Funcionamiento}
+\subsection{Funcionamiento PDI}
 
 Para poder realizar el ``port'' de GeoKettle a Spoon, primero es necesario entender el funcionamiento y
 transformaciones actuales de GeoKettle observando la entrada y salida de cada paso. Ademas esta manera se
-observara mejor el flujo de datos y sera mas facil anyadir soporte a GeoPackage en el futuro. No todas las
-transformaciones tienen los mismos pasos, pero son parecidas. Como ejemplo se utilizaran los datos de
-BTN100\_0101S\_UNI\_ADMIN y la transformacion BTN100\_0101S\_UNI\_ADMIN\_CAUTONOMA. La transformacion contiene
-los siguientes pasos:
+observara mejor el flujo de datos y sera mas fácil añadir soporte a GeoPackage en el futuro. No todas las
+transformaciones tienen los mismos pasos, pero son pero todas tienen pasos en común y una estructura parecida.
+Como ejemplo se utilizaran los datos de BTN100\_0101S\_UNI\_ADMIN y la transformación
+BTN100\_0101S\_UNI\_ADMIN \_CAUTONOMA, ambos en la ruta /transformaciones-shape/1-UnidadesAdministrativas del
+repositorio github btn100. La transformación contiene los siguientes pasos:
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{images/CCAA.png}
     \centering
-    \caption{Transformacion BTN100\_0101S\_UNI\_ADMIN\_CAUTONOMA}
+    \caption{Transformación BTN100\_0101S\_UNI\_ADMIN\_CAUTONOMA}
     \label{fig:CCAA}
 \end{figure}
 
@@ -63,12 +48,12 @@ los siguientes pasos:
 
 Lee el fichero shapefile.
 \begin{enumerate}
-    \item \textit{.shp}: Geometria fig.\ref{fig:shapefile}
+    \item \textit{.shp}: Geometría fig.\ref{fig:shapefile}
 
         \begin{figure}[H]
             \includegraphics[width=0.7\textwidth]{images/shapefile.png}
             \centering
-            \caption{Geometria contenida en el shapefile}
+            \caption{Geometría contenida en el shapefile}
             \label{fig:shapefile}
         \end{figure}
 
@@ -77,17 +62,17 @@ Lee el fichero shapefile.
         \begin{figure}[H]
             \includegraphics[width=0.7\textwidth]{images/dbf.png}
             \centering
-            \caption{Datos columnares dbf asociados a la geometria}
+            \caption{Datos columnares dbf asociados a la geometría}
             \label{fig:dbf}
         \end{figure}
 
-    \item \textit{.shx}: Índice para acelerar busquedas
+    \item \textit{.shx}: Índice para acelerar búsquedas
     \item \textit{.prj}: Sistema de coordenadas
 \end{enumerate}
 
 \subsubsection{Switch case}
-El switch case se encarga de filtrar y seleccionar las comunidades autonomas, identificadas por el valor 02 del
-Campo TIPO\_0101. Si son una CCAA, se envian al paso 4, e.o.c. se envian al paso 3. fig.\ref{fig:switch} y
+El switch case se encarga de filtrar y seleccionar las comunidades autónomas, identificadas por el valor 02 del
+Campo TIPO\_0101. Si son una CCAA, se envían al paso 4, en otro caso, se envían al paso 3. fig.\ref{fig:switch} y
 \ref{fig:tipo02}
 
 \begin{figure}[H]
@@ -105,12 +90,12 @@ Campo TIPO\_0101. Si son una CCAA, se envian al paso 4, e.o.c. se envian al paso
 \end{figure}
 
 \subsubsection{Dummy Plugin}
-No hace ninguna transformacion, su proposito es recoger los datos innecesarios del switch.
+No hace ninguna transformación, su propósito es recoger los datos innecesarios del switch.
 
-\subsubsection{Valor Java Script Modificado}
-El script cambia el formato de la fecha para facilitar la lectura: de YYYYMMDDHHMMSS a YYYY-MM-DD. Tambien
-crea un nuevo campo llamado identificador a partir del campo etiqueta, cambiando espacios por barras bajas, mayusculas
-por minusculas, quitando tildes y signos de puntuacion. fig.\ref{fig:script} y \ref{fig:fecha}
+\subsubsection{Valor JavaScript Modificado}
+El script cambia el formato de la fecha para facilitar la lectura: de YYYYMMDDHHMMSS a YYYY-MM-DD. También
+crea un nuevo campo llamado identificador a partir del campo etiqueta, cambiando espacios por barras bajas, mayúsculas
+por minúsculas, quitando tildes y signos de puntuación. fig.\ref{fig:script} y \ref{fig:fecha}
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{images/script.png}
@@ -137,18 +122,18 @@ Cambia los metadatos de la columna FECHA\_ALTA para que sea reconocida como fech
 \end{figure}
 
 \subsubsection{SRS Transformation}
-Realiza la reproyeccion del sistema de coordenadas, en este caso de ETRS89 a WGS84. fig.\ref{fig:SRS}
+Realiza la reproyección del sistema de coordenadas de ETRS89 a WGS84. fig.\ref{fig:SRS}
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{images/SRS.png}
     \centering
-    \caption{Transformacion SRS}
+    \caption{Transformación SRS}
     \label{fig:SRS}
 \end{figure}
 
 \subsubsection{TripleGeoKettle}
-Transforma el shapefile del paso anterior en RDF en formato ttl. Se pueden configurar los parametros asociados a la
-ontologia y decidir si se muestran ciertas columnas o no. fig.\ref{fig:tripleGeoKettle}
+Transforma el shapefile del paso anterior en RDF en formato .ttl (Turtle). Se pueden configurar los parámetros asociados a la
+ontología y decidir si se muestran ciertas columnas o no. fig.\ref{fig:tripleGeoKettle}
 
 
 \begin{figure}[H]
@@ -167,7 +152,7 @@ Escribe los datos RDF en un fichero de texto con formato .ttl. fig.\ref{fig:text
     \label{fig:text-file-output}
 \end{figure}
 
-\subsubsection{Resultado de la transformacion}
+\subsubsection{Resultado de la transformación}
 \footnotesize
 \begin{verbatim}
 @prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
@@ -212,8 +197,8 @@ georec:region-de-murcia
 
 \subsection{Tests con pentaho-gis-plugins}
 
-El 3 de Marzo el plugin anyadio soporte para el formato GeoPackage. Con el siguiente test se comprueba que los
-componentes que se utilizaran para reemplazar las transformaciones antiguas funcionan correctamente.
+El 3 de Marzo de 2021 el plugin añadió soporte para el formato GeoPackage. Con el siguiente test se comprueba que los
+pasos o steps que se utilizaran para reemplazar las transformaciones antiguas funcionan correctamente.
 
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{images/test-laguna-geopackage.png}
@@ -224,22 +209,22 @@ componentes que se utilizaran para reemplazar las transformaciones antiguas func
 
 \subsection{Entorno de desarrollo}
 
-\subsubsection{Dependencias e instalacion}
+\subsubsection{Dependencias e instalación}
 
-En los ultimos anyos Pentaho ha pasado de utilizar Apache Ant a utilizar Apache Maven. TripleGeoKettle tambien
-utilizaba Ant, y se ha decidido utilizar Maven por las ventajas que ofrece. El proyecto TripleGeoKettle contenia
+En los últimos años Pentaho ha pasado de utilizar Apache Ant a utilizar Apache Maven. TripleGeoKettle también
+utilizaba Ant, y se ha decidido utilizar Maven por las ventajas que ofrece. El proyecto TripleGeoKettle contenía
 una carpeta lib en la que se encontraban los .jar con las dependencias necesarias. Ahora, las dependencias se
-administran con Maven y el pom.xml. Se incluyen los repositorios de Pentaho y OSGeo y las dependencias que se
-quieren incluir. Las properties funcionan a modo de ``variable'' para poder cambiar la version de pdi fácilmente
-en un solo lugar.
+administran con Maven y el pom.xml. Para ello se incluyen los repositorios de Pentaho y OSGeo y las dependencias
+que se quieren incluir. Las properties funcionan a modo de ``variable'' para poder cambiar la versión de pdi
+fácilmente en un solo lugar. maven-assembly-plugin compila el plugin y genera el .jar.
 
 
 \lstinputlisting[language=XML]{code/pom-old.xml}
 
-A continuacion se muestran los pasos para configurar el entorno de desarrollo en Arch Linux:
+A continuación se muestran los pasos para configurar el entorno de desarrollo en Arch Linux:
 
 \begin{lstlisting}
-# Instalar PDI desde AUR (los mirrors son mas rapidos que los de SourceForge)
+# Instalar PDI desde AUR (los mirrors son mucho mas rapidos que los de SourceForge)
 yay -S pdi-ce
 # Instalar Java 8
 sudo pacman -S jdk8-openjdk
@@ -259,19 +244,20 @@ sudo cp target/tripleGeoKettle-oeg-1.jar /opt/pdi/plugins/steps/tripleGeoKettle-
 
 \subsubsection{Pentaho sdk plugins}
 
-Pentaho ofrece plugins\cite{pdi-sdk} muy sencillos de ejemplo que muestran como implementar un plugin. Para el port de
-TripleGeoKettle se ha utilizado como referencia kettle-sdk-step-plugin que simplemente escribe Hello World. Con
-el se ha probado la compilacion, el pom.xml customizado, y pruebas varias como cambiar el icono o el nombre.
+Pentaho ofrece plugins\cite{pdi-sdk} muy sencillos de ejemplo que muestran como implementar un plugin. Para el
+port de TripleGeoKettle se ha utilizado como referencia kettle-sdk-step-plugin, que simplemente escribe Hello
+World. Con él se ha probado la compilación, el pom.xml customizado, y se han realizado pruebas varias como
+cambiar el icono o el nombre del plugin.
 
 
 \section{Proceso de porteo}
 
-\subsection{Disenyo del plugin}
+\subsection{Diseño del plugin}
 
 
 
 Se comienza con el sdk de Pentaho y se realizan los cambios necesarios para integrar TripleGeoKettle en el nuevo
-entorno. Se muestran las imagenes del antes y despues de la estructura de carpetas. fig.\ref{fig:directorios-sdk}
+entorno. Se muestran las imágenes del antes y después de la estructura de carpetas. fig.\ref{fig:directorios-sdk}
 y \ref{fig:directorios-TGK}
 
 \begin{figure}[H]
@@ -292,9 +278,9 @@ y \ref{fig:directorios-TGK}
 
 \begin{enumerate}
     \item Cambiar el nombre del paquete a ``plugin''. Es importante que el de java y el de resources tengan el
-        mismo nombre para que los dialogos lean el fichero properties correctamente.
+        mismo nombre para que los diálogos lean el fichero properties correctamente.
 
-    \item Cambiar messages.properties
+    \item Actualizar el fichero messages.properties, que contiene el texto de la GUI del plugin y varios enlaces.
 \begin{lstlisting}
 #sdk properties
 tripleGEO.FieldName.Label=Output field name
@@ -352,22 +338,23 @@ tripleGEOStepDialog.RestartFields.Button=Restart Columns
 
     \item Cambiar los nombres de las clases de Demo a TripleGeoKettle.
     \item Importar las clases java auxiliares de tripleGeoKettle.
-    \item Hay un metodo deprecado en tripleGeoStepMeta.java: Valuemeta(). Se utiliza el constructor sin
-        parametros y luego se le asigna el tipo 2. Para sustituirlo, como el tipo es 2, que segun esta
-        tabla\cite{tabla-string} significa string, es necesario cambiarlo a new ValueMetaString.
+    \item Existe un método deprecado en tripleGeoStepMeta.java: Valuemeta(). Se utiliza el constructor sin
+        parámetros y luego se le asigna el tipo 2. Para sustituirlo, como el tipo es 2, que según la siguiente
+        tabla\cite{tabla-string} significa string, es necesario cambiarlo a ValueMetaString().
 
-\item Error en los metodos readRep y saveRep, hay que importar ObjectId
- y cambiar long por ObjectId en la cabecera de la funcion.
+    \item Error en los métodos readRep y saveRep. Es necesario importar ObjectId
+         y sustituir el tipo long por ObjectId en la cabecera de la función.
 
-\item Cambiar la siguiente linea para que la clase Dialog lea correctamente los contenidos del fichero properties.
+    \item Cambiar la siguiente línea para que la clase Dialog lea correctamente los contenidos del fichero
+        properties.
 
-\begin{lstlisting}
-main/java/plugin/tripleGEOStepDialog.java
-69: private static String PKG = tripleGEOStepDialog.class.getPackage().getName();
-\end{lstlisting}
+    \begin{lstlisting}
+    main/java/plugin/tripleGEOStepDialog.java:69
+    private static String PKG = tripleGEOStepDialog.class.getPackage().getName();
+    \end{lstlisting}
 
 \item PDI9 utiliza iconos .svg y proporciona una guia de diseño\cite{guia-diseno}. Por tanto se ha actualizado el
-    icono antiguo .png a .svg con los nuevos colores fig.\ref{fig:icono-TGK}
+    icono antiguo de .png a .svg con los nuevos colores fig.\ref{fig:icono-TGK}
 \end{enumerate}
 
 \begin{figure}[H]
@@ -381,10 +368,10 @@ main/java/plugin/tripleGEOStepDialog.java
 \subsection{Resultado parcial}
 
 La base del porteo se ha realizado correctamente como se puede ver en la figura \ref{fig:TGK-portado}. El dialogo
-se abre y se pueden cambiar los parametros de configuracion. Tambien es capaz de leer la salida del paso anterior
-de SRS. Sin embargo, todavia no funciona correctamente. Probablemente se debe a que el paso
-anterior (transformacion de coordenadas) pasa su informacion de manera distinta al de GeoKettle (en PDI le llegan
-9 campos y en GeoKettle 8). Sera necesario seguir los pasos de la documentacion para conectar el debugger y solucionar el
+se abre y se pueden cambiar los parámetros de configuración. También es capaz de leer la salida del paso anterior
+de SRS. Sin embargo, todavía no funciona correctamente. Probablemente se debe a que el paso
+anterior (transformación de coordenadas) pasa su información de manera distinta al de GeoKettle (en PDI le llegan
+9 campos y en GeoKettle 8). Sera necesario seguir los pasos de la documentación para conectar el debugger y solucionar el
 problema de NullPointerException.
 
 \begin{figure}[H]
@@ -397,9 +384,11 @@ problema de NullPointerException.
 
 \subsection{Debugging}
 
-Para depurar el plugin se ha creado una nueva configuracion de depuracion eclipse en localhost y el puerto 1044
-(fig.\ref{fig:debug-configurations}) y se han anyadido los parametros de ejecucion del script de inicio spoon.sh.
+Para depurar el plugin se ha creado una nueva configuración de depuración eclipse en localhost y el puerto 1044
+(fig.\ref{fig:debug-configurations}). Por otro lado se ha creado una copia del script de inicio de PDI9 spoon.sh,
+llamada debug-spoon.sh, y se le han añadido los siguientes parámetros de ejecución.
 
+\newpage
 \begin{lstlisting}
 if [ -z "\$PENTAHO_DI_JAVA_OPTIONS" ]; then
     PENTAHO_DI_JAVA_OPTIONS="-Xms1024m -Xmx2048m -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=1044"
@@ -409,11 +398,11 @@ fi
 \begin{figure}[H]
     \includegraphics[width=\textwidth]{images/debug-configurations.png}
     \centering
-    \caption{Configuracion de depuracion en Eclipse}
+    \caption{Configuración de depuración en Eclipse}
     \label{fig:debug-configurations}
 \end{figure}
 
-El error NullPointerException se debe a:
+El trazado del error NullPointerException obtenido tras ejecutar la transformación es el siguiente:
 
 \begin{lstlisting}
 1. Con la siguiente llamada se inicia el modelo RDF:
@@ -422,7 +411,7 @@ El error NullPointerException se debe a:
 2. Desde la funcion se crea el modelo con:
     Model modelAux = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
 
-3. En ese momento salta una exception que no detiene e programa y la variable modelAux se mantiene en null.
+3. En ese momento salta una exception que no detiene el programa y la variable modelAux se mantiene en null.
     Schema factory class org.apache.xerces.impl.dv.xs.SchemaDVFactoryImpl does not extend from SchemaDVFactory.
 
 4. Despues se utiliza en la funcion
@@ -431,18 +420,17 @@ El error NullPointerException se debe a:
 5. Y como modelAux se ha inicializado a null, model_rdf tambien lo es.
     ShpToRDF.java 712: public void setModel_rdf(Model model_rdf) { this.model_rdf = model_rdf; }
 
-6. Finalmente al llamar a la siguiente funcion salta NullPointerException ya que model_rdf es null:
+6. Finalmente, al llamar a la siguiente funcion salta NullPointerException ya que model_rdf es null:
 ShpToRDF.java 550:
 	private void insertResourceTypeResource(String r1, String r2) {
 		this.model_rdf.add(this.model_rdf.createResource(r1), RDF.type, this.model_rdf.createResource(r2));
 	}
 
-# Es muy posible que tenga que ver con la version de las librerias de xerces.
-
-# El problema es el siguiente:
-Apache Jena y vividsolutions.jts utilizan Xerces, pero versiones distintas. Cuendo funciona uno, el otro falla.
 
 \end{lstlisting}
+La causa es una incompatibilidad de dependencias.
+Apache Jena y vividsolutions.jts utilizan Xerces, pero versiones distintas.
+
 
 
 \subsection{Problemas de dependencias}
@@ -453,13 +441,13 @@ maven-shade-plugin que es más apropiado para proyectos grandes con muchas depen
 conflictos entre sí. Además crea un ``super jar'' que incluye todas las dependencias, tal y como se hacía antiguamente
 con el build.xml de Ant.
 
-Las versiones detalladas en el pom.xml son necesarias por compatibilidad. Por ejemplo no es posible utilizar la
-version de jts que se utilizaba anteriormente (1.11), ni la de gt-geometry ya que hay muchos problemas de compatibilidad debido a
-xerces. Xerces también se utiliza en Jena, y debido a que todas las dependencias (incluso las de pentaho) utilizan
-xerces, ha sido un verdadero rompecabezas solucionar las incompatibilidades. Es más, fue tan complicado, que
+Las versiones detalladas en el pom.xml son necesarias por compatibilidad. Por ejemplo, no es posible utilizar la
+versión de jts que se utilizaba anteriormente (1.11), ni la de gt-geometry, ya que hay muchos problemas de compatibilidad debido a
+Xerces. Xerces también se utiliza en Jena, y debido a que todas las dependencias (incluso las de pentaho) utilizan
+Xerces, ha sido un verdadero rompecabezas solucionar las incompatibilidades. Es más, fue tan complicado, que
 durante unos días se pasó todo el código de Jena del fichero ShpToRDF.java a otra librería (RDF4J) para evitar
 las incompatibilidades. Pero como llevó al detenido estudio del código fuente, ayudó a encontrar las
-incompatibilidades que tenía Jena.
+incompatibilidades que tenía Jena con Xerces y los métodos deprecados.
 
 Fue necesario realizar dos cambios: 
 
@@ -482,25 +470,25 @@ Finalmente el contenido del pom.xml es el siguiente:
 
 \section{Adaptación de las transformaciones}
 
-Con el plugin porteado, el siguiente paso es adaptar todas las transformaciones .ktr para que puedan ejecutarse
-en PDI9. La mayoría de los pasos existentes se pueden copiar y pegar directamente los pasos desde GeoKettle a
-PDI9 (switch/case, valor javascript modificado, salida de fichero de texto, selecciona/renombra valores,
-filtrar...). Es necesario sustituir el paso que lee el fichero shp y el de transformación de coordenadas por los
-respectivos de pentaho-gis-plugins. El paso de GeoKettle no hace falta modificarlo, pero hace falta precederlo
-por un paso de seleccionar/renombrar valores, ya que además de la geometría transformada, el paso de SRS también
-pasa la geometría original. Es necesario quitar la original del pipeline y sustituirla por la original en el
-mismo orden para que GeoKettle la lea sin problemas. El modo de trabajo ha sido el siguiente para los 104
-ficheros .ktr:
+Una vez el plugin ha sido porteado, el siguiente paso es adaptar todas las transformaciones .ktr para que puedan
+ejecutarse en PDI9. La mayoría de los pasos existentes se pueden copiar y pegar directamente desde
+GeoKettle a PDI9 (switch/case, valor javascript modificado, salida de fichero de texto, selecciona/renombra
+valores, filtrar...). Es necesario sustituir el paso que lee el fichero shp y el de transformación de coordenadas
+por los respectivos de pentaho-gis-plugins. El paso de GeoKettle no hace falta modificarlo, pero hace falta
+precederlo por un paso de seleccionar/renombrar valores, ya que además de la geometría transformada, el paso de
+SRS nuevo también pasa la geometría original. Es necesario quitar la original del pipeline y sustituirla por la
+original en el mismo orden para que GeoKettle la lea sin problemas. El modo de trabajo ha sido el siguiente para
+los 104 ficheros .ktr:
 
 \begin{enumerate}
-    \item Crear la nueva transformacion
+    \item Crear la nueva transformación
     \item Copiar los pasos compatibles de GeoKettle a PDI9 (Ctrl+C,V)
     \item Añadir los 3 pasos nuevos (input, transformación, renombrado)
     \item Ejecutar la transformación y comprobar que los ficheros output coinciden con los originales.
 \end{enumerate}
 
 Fue considerado realizar estos cambios mediante un script, pero las transformaciones no son homogéneas, algunas
-tienen unos pasos y otras no, y de por tanto habría sido necesario revisarlas todas manualmente. Por tanto, hacer
+tienen unos pasos y otras no, y por tanto habría sido necesario revisarlas todas manualmente. Por tanto, hacer
 las transformaciones se ha considerado más rápido y seguro.
 
 \begin{figure}[H]
@@ -513,15 +501,47 @@ las transformaciones se ha considerado más rápido y seguro.
 \section{Soporte GeoPackage}
 
 El primer paso para añadir soporte a GeoPackage es convertir todos los .shp y ficheros relacionados a .gpkg. Para
-ello se hace uso del comando ogr2ogr de GDAL\cite{ogr2ogr}.
+ello se hace uso del comando ogr2ogr de GDAL\cite{ogr2ogr}. El parámetro -nln Table es el nombre de la capa de
+geometría, que debe coincidir con el del step gpkg input.
 
-Utilizando PDI9 y sus plugins, añadir soporte a geopackage es sencillo. Mediante el script shpTogpkg.sh se
-modifica el primer paso de lectura de .shp a .gpkg:
+A continuación se modifica el primer step de la transformación, el de lectura de .shp a .gpkg, utilizando
+sustituciones sed en el en el .ktr, ya que en el fondo es un fichero .xml.
+
+Todo esto lo realiza el script shpTogpkg.sh:
 
 \lstinputlisting[language=BASH]{../scripts/shpTogpkg.sh}
 
+
+
 A continuación, es necesario volver a ejecutar todas las transformaciones y comprobar que los resultados son los
 mismos que con los .shp. Mediante el script gpkg-tests.sh es ejecutan las transformaciones con la herramienta
-pan de pentaho y se comprueban los resultados con cmp.
+pan de pentaho y se comparan los ficheros .ttl originales con los recién generados.
 
 \lstinputlisting[language=BASH]{../scripts/gpkg-tests.sh}
+
+\section{Problemas encontrados}
+
+\subsection{Out of memory}
+Al ejecutar varias transformaciones se genera el error outofmemoryerror. Para solucionarlo, es necesario añadir
+el parámetro -Xmx6g a la línea 250 de spoon.sh, como indica la gúia de pentaho \cite{outofmemory}. Simplemente
+aumenta el límite de memoria que puede utilizar el programa.
+
+\subsection{Línea eléctrica}
+El archivo de transformación original BTN100\_0702L\_LIN\_ELEC.ktr era incorrecto. En el paso switch/case no se hacía
+correctamente la división entre líneas de alta y baja tensión; en los dos case dejaba pasar el los mismos valores
+(01) que corresponden a líneas de baja tensión. Deben dividirse entre 01 y 02.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{images/linea-electrica-orig.png}
+    \centering
+    \caption{Transformación original incorrecta}
+    \label{fig:linea-electrica-orig}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{images/linea-electrica-new.png}
+    \centering
+    \caption{Transformación corregida}
+    \label{fig:linea-electrica-new}
+\end{figure}
+
