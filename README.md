@@ -1,6 +1,6 @@
 # soporte-GeoPackage-herramientas-OEG
 ### Título del TFG
-Actualizar las Herramientas de LinkedData Geográfico utilizadas por el Grupode Ingeniería Ontológica
+Actualizar las Herramientas de Linked Data Geográfico utilizadas por el Grupo de Ingeniería Ontológica
 
 ### Resumen general del trabajo
 El Ontology Engineering Group lleva más de una década trabajando con datos geográficos enlazados españoles. En 2010 se definió un caso de uso y en 2019 se refinó el proceso de generación y publicación de los datos abiertos utilizando el dataset BTN100 como caso de estudio. En los últimos años han se han popularizado nuevas herramientas y formatos que ofrecen ventajas no disponibles en las usadas hasta el momento. Entre ellas se encuentran el programa de transformaciones de datos PDI9 Kettle, que reemplaza a GEOKettle; el formato GeoPackage, más práctico que el shapefile; y Apache Maven, más extenso que Apache Ant. Por consiguiente, también será necesario actualizar tripleGeo, el plugin para GEOKettle desarrollado por el OEG, para integrarlo en el nuevo toolbox. 
