@@ -11,7 +11,7 @@ El código de este repositorio contiene Inicialmente la última versión del plu
 
 ### Lista de tareas a realizar (a ir actualizando)
 1. Analizar la compatibilidad con nuevas versiones de la suite Pentaho Data Integration, y actualizar el plugin en caso de que sea necesario
-2. Analizar los cambios realizados en la versión actual de GeoSPARQL1.1, y permitir la exportación que sea compatible con GeoSPARQL1.0 y con GeoSPARQL1.1
+2. Analizar los cambios realizados en la versión actual de GeoSPARQL1.1 (https://opengeospatial.github.io/ogc-geosparql/geosparql11/spec.html), y permitir la exportación que sea compatible con GeoSPARQL1.0 y con GeoSPARQL1.1
 3. Generar todos los datos procedentes del IGN, para actualizarlos en caso de ser necesario.
 4. Proponer nuevas formas de xplotar los datos enlazados generados
 5. Incluir en el plugin la posibilidad de enlazar con fuentes externas (DBpedia, Wikidata, Geonames)
