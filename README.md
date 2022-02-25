@@ -1,17 +1,16 @@
-# soporte-GeoPackage-herramientas-OEG
+# actualizar-herramientas-linked-data-geografico-OEG
 ### Título del TFG
-Actualizar las Herramientas de Linked Data Geográfico utilizadas por el Grupo de Ingeniería Ontológica
+Actualizar herramientas de Linked Data geográfico del Grupo de Ingeniería Ontológica (inicialmente el objetivo era el de introducir soporte al formato GeoPackage en herramientas de Linked Data Geográfico desarrolladas por el Grupo de Ingeniería Ontológica)
 
 ### Resumen general del trabajo
-El Ontology Engineering Group lleva más de una década trabajando con datos geográficos enlazados españoles. En 2010 se definió un caso de uso y en 2019 se refinó el proceso de generación y publicación de los datos abiertos utilizando el dataset BTN100 como caso de estudio. En los últimos años han se han popularizado nuevas herramientas y formatos que ofrecen ventajas no disponibles en las usadas hasta el momento. Entre ellas se encuentran el programa de transformaciones de datos PDI9 Kettle, que reemplaza a GEOKettle; el formato GeoPackage, más práctico que el shapefile; y Apache Maven, más extenso que Apache Ant. Por consiguiente, también será necesario actualizar tripleGeo, el plugin para GEOKettle desarrollado por el OEG, para integrarlo en el nuevo toolbox. 
+En el Grupo de Ingeniería Ontológica se ha venido tradicionalmente trabajando con el Instituto Geográfico Nacional para la exportación de algunos de sus datos geográficos a formato Linked Data. Un ejemplo se puede encontrar en https://datos.ign.es/
 
-### Lista de objetivos concretos
-1. Replicar la funcionalidad y las transformaciones de GeoKettle + TripleGeo en la nueva suite PDI. 
-2. Dar soporte GeoPackage al plugin para transformar a RDF y las transformaciones existentes.
-3. Realizar un procesado completo de todos los datos del IGN con las nuevas transformaciones.
+Inicialmente, se planteó la posibilidad de realizar la adaptación de herramientas como el plugin TripleGeoKettle para que usaran el formato GeoPackage. Sin embargo, tras un estudio inicial sobre este formato y sobre las actualizaciones necesarias en el plugin, se decidió actualizar este plugin para su uso en la suite Pentaho Data Integration 9 (PDI9).
 
-### Tutor
-OSCAR CORCHO GARCíA - ocorcho@fi.upm.es
+### Lista de objetivos concretos (iniciales - no cubiertos finalmente)
+1. Dar soporte GeoPackage a la herramienta Map4RDF
+2. Dar soporte GeoPackage a la herramienta GeoKettle y su plugin para transformar a RDF
+3. Realizar un procesado completo de todos los datos del IGN para generar este tipo de formato.
 
 ### Materiales para el desarrollo
 1. Map4RDF
