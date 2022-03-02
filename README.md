@@ -3,7 +3,9 @@ Este repositorio es el resultado de varios TFGs de la ETSI Informáticos de la U
 
 ### TFGs realizados y en progreso (a completar el listado, llegando hasta antes del 2010)
 Javier Martínez Cuadrado (2022)
+
 Daniel Jiménez Teomiro (2022)
+
 Beñat Agirre Arruabarrena (2021) Actualizar herramientas de Linked Data geográfico del Grupo de Ingeniería Ontológica. https://oa.upm.es/68125/
 
 ### Resumen general (a mejorar)
